@@ -9,6 +9,24 @@ No equivale necesariamente a una media de observaciones horarias. Se conservan
 \caption{Medias mensuales de Tmin, Tmax y temperatura media estimada de la cuenca.}
 \end{figure}
 
+
+\section{Temperatura media mensual directa: ERA5-Land}
+Se incorporó la variable temperatura del aire a 2 m (	exttt{t2m}) del producto
+ERA5-Land monthly averaged data. Es un reanálisis y no una medición puntual de
+estación. La variable se descargó en kelvin y se convirtió como
+$T~(^{\circ}\mathrm{C})=T~(\mathrm{K})-273,15$.
+
+Se usa enero de 1981--diciembre de 2022: 504 meses completos, sin faltantes.
+La descarga tiene malla regular de $0,1^\circ$; se intersectaron 36 celdas con
+el polígono de la cuenca y se aplicó un promedio ponderado por área de
+intersección. La cobertura del polígono fue 100.0\,\%. Esta serie se conserva
+separada de Tmin/Tmax MSWX y de la Tmedia estimada; en adelante se usa ERA5-Land
+para la temperatura media mensual.
+\begin{figure}[H]\centering
+\includegraphics[width=\linewidth]{figuras/era5_land_t2m_mensual.pdf}
+\caption{Temperatura media mensual del aire a 2 m de ERA5-Land, promedio ponderado sobre la cuenca de La Vieja, 1981--2022.}
+\end{figure}
+
 \section{Diagramas de dispersión y disponibilidad}
 Con los datos disponibles se compara CHIRPS con caudal, usando meses simultáneos
 y colores por mes calendario. \textbf{CHIRPS no es una estación de lluvia terrestre.}
