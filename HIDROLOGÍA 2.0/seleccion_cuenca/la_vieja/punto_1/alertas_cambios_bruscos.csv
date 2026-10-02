@@ -1,0 +1,3 @@
+variable,mes,valor,cociente_mes_previo,decision
+P_mm,1982-09-01,168.272,6.760083560983448,Conservar; contrastar con estacionalidad y metadatos
+P_mm,2001-09-01,181.975,6.040864427034922,Conservar; contrastar con estacionalidad y metadatos

@@ -1,0 +1,26 @@
+{
+  "IMERG vs lluvia local": {
+    "n": 22,
+    "pearson": 0.642,
+    "spearman": 0.593,
+    "sesgo_mm": 106.42,
+    "mae_mm": 106.42,
+    "rmse_mm": 120.17
+  },
+  "Lluvia local vs caudal": {
+    "n": 22,
+    "pearson": 0.194,
+    "spearman": 0.174,
+    "sesgo_mm": null,
+    "mae_mm": null,
+    "rmse_mm": null
+  },
+  "IMERG vs caudal": {
+    "n": 285,
+    "pearson": 0.627,
+    "spearman": 0.637,
+    "sesgo_mm": null,
+    "mae_mm": null,
+    "rmse_mm": null
+  }
+}

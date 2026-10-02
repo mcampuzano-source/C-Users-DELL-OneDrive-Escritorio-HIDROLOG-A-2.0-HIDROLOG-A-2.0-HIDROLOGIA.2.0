@@ -1,0 +1,14 @@
+{
+  "producto": "ERA5-Land monthly averaged data from 1950 to present",
+  "variable": "2m temperature (t2m)",
+  "unidad_original": "K",
+  "conversion": "T(°C) = T(K) - 273.15",
+  "resolucion_descargada": "0.1° x 0.1°",
+  "cobertura_descargada": "1981-01 a 2026-08",
+  "periodo_usado": "1981-01 a 2022-12",
+  "metodo_espacial": "promedio ponderado por área de intersección celda-polígono",
+  "celdas_intersectadas": 36,
+  "cobertura_poligono_pct": 100.0,
+  "meses_validos": 504,
+  "faltantes": 0
+}

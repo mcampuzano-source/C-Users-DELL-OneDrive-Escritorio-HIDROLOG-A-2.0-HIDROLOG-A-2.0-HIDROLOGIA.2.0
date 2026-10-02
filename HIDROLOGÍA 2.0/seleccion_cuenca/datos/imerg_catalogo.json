@@ -1,0 +1,2148 @@
+{
+  "feed": {
+    "updated": "2026-09-21T13:39:55.082Z",
+    "id": "https://cmr.earthdata.nasa.gov:443/search/collections.json?short_name=GPM_3IMERGM&version=07",
+    "title": "ECHO dataset metadata",
+    "entry": [
+      {
+        "processing_level_id": "3",
+        "cloud_hosted": true,
+        "boxes": [
+          "-90 -180 90 180"
+        ],
+        "has_combine": false,
+        "time_start": "1998-01-01T00:00:00.000Z",
+        "version_id": "07",
+        "updated": "2023-07-01T00:00:00.000Z",
+        "dataset_id": "GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 (GPM_3IMERGM)",
+        "entry_id": "GPM_3IMERGM_07",
+        "has_spatial_subsetting": true,
+        "has_transforms": false,
+        "associations": {
+          "variables": [
+            "V3171500681-GES_DISC",
+            "V3171500816-GES_DISC",
+            "V3171500555-GES_DISC",
+            "V3171500691-GES_DISC",
+            "V3171500685-GES_DISC",
+            "V3171500775-GES_DISC",
+            "V3171500734-GES_DISC",
+            "V3171500573-GES_DISC",
+            "V3171500613-GES_DISC",
+            "V3171500677-GES_DISC",
+            "V3171500647-GES_DISC"
+          ],
+          "services": [
+            "S3385907677-GES_DISC",
+            "S2874702816-XYZ_PROV",
+            "S2164732315-XYZ_PROV",
+            "S4057306097-XYZ_PROV",
+            "S2739607260-GES_DISC"
+          ],
+          "citations": [
+            "CIT4181377632-ESDIS",
+            "CIT3804290920-ESDIS",
+            "CIT3804280497-ESDIS",
+            "CIT3963290253-ESDIS",
+            "CIT4106691356-ESDIS",
+            "CIT3804283760-ESDIS",
+            "CIT3804280261-ESDIS",
+            "CIT4181369647-ESDIS",
+            "CIT3857571474-ESDIS",
+            "CIT3804328921-ESDIS",
+            "CIT3804169046-ESDIS",
+            "CIT4181371775-ESDIS",
+            "CIT3804284482-ESDIS",
+            "CIT3804124572-ESDIS",
+            "CIT4181379836-ESDIS",
+            "CIT4181329739-ESDIS",
+            "CIT3804159692-ESDIS",
+            "CIT3963295381-ESDIS",
+            "CIT4106713545-ESDIS",
+            "CIT3804073457-ESDIS",
+            "CIT4181347706-ESDIS",
+            "CIT3804142190-ESDIS",
+            "CIT3804022456-ESDIS",
+            "CIT3804124220-ESDIS",
+            "CIT4181334310-ESDIS",
+            "CIT3803944443-ESDIS",
+            "CIT4181317213-ESDIS",
+            "CIT3804289466-ESDIS",
+            "CIT4181373705-ESDIS",
+            "CIT3804305258-ESDIS",
+            "CIT3804222463-ESDIS",
+            "CIT4181339741-ESDIS",
+            "CIT4181363863-ESDIS",
+            "CIT3804169583-ESDIS",
+            "CIT4181324475-ESDIS",
+            "CIT3804288942-ESDIS",
+            "CIT3804100761-ESDIS",
+            "CIT3804142105-ESDIS",
+            "CIT4181369745-ESDIS",
+            "CIT3804101956-ESDIS",
+            "CIT3804190910-ESDIS",
+            "CIT3804280402-ESDIS",
+            "CIT3804178888-ESDIS",
+            "CIT3804281880-ESDIS",
+            "CIT3963295627-ESDIS",
+            "CIT3803961897-ESDIS",
+            "CIT3857569105-ESDIS",
+            "CIT3803953794-ESDIS",
+            "CIT3804114385-ESDIS",
+            "CIT4181320814-ESDIS",
+            "CIT3803957940-ESDIS",
+            "CIT4181375064-ESDIS",
+            "CIT3804213292-ESDIS",
+            "CIT3803955766-ESDIS",
+            "CIT3804284199-ESDIS",
+            "CIT3803948392-ESDIS",
+            "CIT3804133830-ESDIS",
+            "CIT3804304417-ESDIS",
+            "CIT3804115507-ESDIS",
+            "CIT3804116263-ESDIS",
+            "CIT3804328903-ESDIS",
+            "CIT3804308585-ESDIS",
+            "CIT4181363870-ESDIS",
+            "CIT3804148510-ESDIS",
+            "CIT4181371809-ESDIS",
+            "CIT3804056322-ESDIS",
+            "CIT3804327889-ESDIS",
+            "CIT3804289402-ESDIS",
+            "CIT3804176214-ESDIS",
+            "CIT3804284276-ESDIS",
+            "CIT3804328702-ESDIS",
+            "CIT4181368373-ESDIS",
+            "CIT3804172660-ESDIS",
+            "CIT3804126156-ESDIS",
+            "CIT3804147026-ESDIS",
+            "CIT3804039352-ESDIS",
+            "CIT3804171578-ESDIS",
+            "CIT3857557822-ESDIS",
+            "CIT4181361607-ESDIS",
+            "CIT3804317145-ESDIS",
+            "CIT3804200646-ESDIS",
+            "CIT4181371033-ESDIS",
+            "CIT4181362208-ESDIS",
+            "CIT3804357027-ESDIS",
+            "CIT3804025569-ESDIS",
+            "CIT3804167357-ESDIS",
+            "CIT3804277326-ESDIS",
+            "CIT3804128484-ESDIS",
+            "CIT4181365971-ESDIS",
+            "CIT3804107069-ESDIS",
+            "CIT4181375790-ESDIS",
+            "CIT4181371544-ESDIS",
+            "CIT3804284259-ESDIS",
+            "CIT3857568569-ESDIS",
+            "CIT3804289523-ESDIS",
+            "CIT3804296434-ESDIS",
+            "CIT3804206648-ESDIS",
+            "CIT4181337934-ESDIS",
+            "CIT3857569307-ESDIS",
+            "CIT3804097714-ESDIS",
+            "CIT3804289385-ESDIS",
+            "CIT3804089333-ESDIS",
+            "CIT4181316231-ESDIS",
+            "CIT3804382246-ESDIS",
+            "CIT3804204575-ESDIS",
+            "CIT3804288584-ESDIS",
+            "CIT4106693486-ESDIS",
+            "CIT4181375069-ESDIS",
+            "CIT3804249017-ESDIS",
+            "CIT4181324149-ESDIS",
+            "CIT3804227374-ESDIS",
+            "CIT3857569325-ESDIS",
+            "CIT3804288975-ESDIS",
+            "CIT3804165235-ESDIS",
+            "CIT3963295146-ESDIS",
+            "CIT3804153154-ESDIS",
+            "CIT4106692544-ESDIS",
+            "CIT4181372916-ESDIS",
+            "CIT3804284203-ESDIS",
+            "CIT3804328321-ESDIS",
+            "CIT3963295063-ESDIS",
+            "CIT3804233832-ESDIS",
+            "CIT3804288951-ESDIS",
+            "CIT3804265064-ESDIS",
+            "CIT3804282987-ESDIS",
+            "CIT3804009333-ESDIS",
+            "CIT4181377046-ESDIS",
+            "CIT3804250162-ESDIS",
+            "CIT3804093570-ESDIS",
+            "CIT3804125618-ESDIS",
+            "CIT3804323855-ESDIS",
+            "CIT4181360642-ESDIS",
+            "CIT4181317752-ESDIS",
+            "CIT3804283372-ESDIS",
+            "CIT4181378222-ESDIS",
+            "CIT3804203434-ESDIS",
+            "CIT4181382981-ESDIS",
+            "CIT4248447094-ESDIS",
+            "CIT4181333063-ESDIS",
+            "CIT3857566546-ESDIS",
+            "CIT4181367760-ESDIS",
+            "CIT3804284160-ESDIS",
+            "CIT3804289380-ESDIS",
+            "CIT3803951652-ESDIS",
+            "CIT3857568720-ESDIS",
+            "CIT4181337809-ESDIS",
+            "CIT3803960614-ESDIS",
+            "CIT4181335529-ESDIS",
+            "CIT4106693566-ESDIS",
+            "CIT3804259231-ESDIS",
+            "CIT3803978755-ESDIS",
+            "CIT3804101306-ESDIS",
+            "CIT3804289465-ESDIS",
+            "CIT4181378904-ESDIS",
+            "CIT3804123880-ESDIS",
+            "CIT4181337855-ESDIS",
+            "CIT3804284563-ESDIS",
+            "CIT3804014488-ESDIS",
+            "CIT3804141052-ESDIS",
+            "CIT3804315676-ESDIS",
+            "CIT3804284799-ESDIS",
+            "CIT3804289605-ESDIS",
+            "CIT3804329036-ESDIS",
+            "CIT3963292574-ESDIS",
+            "CIT3804220859-ESDIS",
+            "CIT3804289360-ESDIS",
+            "CIT3804270950-ESDIS",
+            "CIT3804095506-ESDIS",
+            "CIT3857569232-ESDIS",
+            "CIT4181315108-ESDIS",
+            "CIT3804327599-ESDIS",
+            "CIT3803994159-ESDIS",
+            "CIT3804116790-ESDIS",
+            "CIT4181359304-ESDIS",
+            "CIT3803991801-ESDIS",
+            "CIT3804283916-ESDIS",
+            "CIT3804206447-ESDIS",
+            "CIT3857574089-ESDIS",
+            "CIT3804232393-ESDIS",
+            "CIT3804355901-ESDIS",
+            "CIT3804284200-ESDIS",
+            "CIT3804128239-ESDIS",
+            "CIT3804128186-ESDIS",
+            "CIT3804219214-ESDIS",
+            "CIT3804265631-ESDIS",
+            "CIT4181361969-ESDIS",
+            "CIT3804214956-ESDIS",
+            "CIT4181364957-ESDIS",
+            "CIT4181370103-ESDIS",
+            "CIT3804125647-ESDIS",
+            "CIT4181354961-ESDIS",
+            "CIT4181314753-ESDIS",
+            "CIT3804141002-ESDIS",
+            "CIT3804192574-ESDIS",
+            "CIT3804348393-ESDIS",
+            "CIT4181381351-ESDIS",
+            "CIT3804289444-ESDIS",
+            "CIT4181372121-ESDIS",
+            "CIT4181378068-ESDIS",
+            "CIT4181314346-ESDIS",
+            "CIT3804133007-ESDIS",
+            "CIT4106687310-ESDIS",
+            "CIT3804290619-ESDIS",
+            "CIT3804129560-ESDIS",
+            "CIT3804289325-ESDIS",
+            "CIT3804262982-ESDIS",
+            "CIT3804016716-ESDIS",
+            "CIT3804143086-ESDIS",
+            "CIT3804122071-ESDIS",
+            "CIT3804175914-ESDIS",
+            "CIT3804283859-ESDIS",
+            "CIT3804283324-ESDIS",
+            "CIT3804186285-ESDIS",
+            "CIT3857554702-ESDIS",
+            "CIT3857569007-ESDIS",
+            "CIT3804178848-ESDIS",
+            "CIT3804145001-ESDIS",
+            "CIT3804283863-ESDIS",
+            "CIT3804170343-ESDIS",
+            "CIT3804113916-ESDIS",
+            "CIT3963294767-ESDIS",
+            "CIT3963291050-ESDIS",
+            "CIT3804243129-ESDIS",
+            "CIT3804283499-ESDIS",
+            "CIT4181363587-ESDIS",
+            "CIT3804284226-ESDIS",
+            "CIT3804289258-ESDIS",
+            "CIT3804230775-ESDIS",
+            "CIT4181332726-ESDIS",
+            "CIT3804233817-ESDIS",
+            "CIT3804315868-ESDIS",
+            "CIT3804293744-ESDIS",
+            "CIT3803994803-ESDIS",
+            "CIT4181376271-ESDIS",
+            "CIT3804280486-ESDIS",
+            "CIT3857564530-ESDIS",
+            "CIT4181367144-ESDIS",
+            "CIT3804046190-ESDIS",
+            "CIT3804171831-ESDIS",
+            "CIT3857568672-ESDIS",
+            "CIT4181340356-ESDIS",
+            "CIT3804329066-ESDIS",
+            "CIT3804025440-ESDIS",
+            "CIT3804312148-ESDIS",
+            "CIT4201251748-ESDIS",
+            "CIT4181354280-ESDIS",
+            "CIT3804176332-ESDIS",
+            "CIT3804078566-ESDIS",
+            "CIT3804289351-ESDIS",
+            "CIT3804327791-ESDIS",
+            "CIT3804281170-ESDIS",
+            "CIT3857558838-ESDIS",
+            "CIT4181314735-ESDIS",
+            "CIT3804195759-ESDIS",
+            "CIT3857568700-ESDIS",
+            "CIT4181378303-ESDIS",
+            "CIT3804134304-ESDIS",
+            "CIT3804290560-ESDIS",
+            "CIT3804282673-ESDIS",
+            "CIT3804284215-ESDIS",
+            "CIT4181332094-ESDIS",
+            "CIT3804054980-ESDIS",
+            "CIT3804288599-ESDIS",
+            "CIT3804284201-ESDIS",
+            "CIT3804314912-ESDIS",
+            "CIT4181376325-ESDIS",
+            "CIT3804307319-ESDIS",
+            "CIT4106693574-ESDIS",
+            "CIT4181319034-ESDIS",
+            "CIT3804283501-ESDIS",
+            "CIT4106707392-ESDIS",
+            "CIT4201245243-ESDIS",
+            "CIT3963287071-ESDIS",
+            "CIT3804283506-ESDIS",
+            "CIT3804060853-ESDIS",
+            "CIT3804305640-ESDIS",
+            "CIT3804172926-ESDIS",
+            "CIT3857569050-ESDIS",
+            "CIT3804233054-ESDIS",
+            "CIT4181369081-ESDIS",
+            "CIT3804288276-ESDIS",
+            "CIT4181377467-ESDIS",
+            "CIT3804284043-ESDIS",
+            "CIT3804284406-ESDIS",
+            "CIT3804354790-ESDIS",
+            "CIT4181324602-ESDIS",
+            "CIT3804212923-ESDIS",
+            "CIT3804289680-ESDIS",
+            "CIT3804249558-ESDIS",
+            "CIT3804204643-ESDIS",
+            "CIT4181374733-ESDIS",
+            "CIT3804173084-ESDIS",
+            "CIT3804329055-ESDIS",
+            "CIT3804303750-ESDIS",
+            "CIT3804190789-ESDIS",
+            "CIT3803972021-ESDIS",
+            "CIT3804094936-ESDIS",
+            "CIT4181366989-ESDIS",
+            "CIT4181375951-ESDIS",
+            "CIT3857571486-ESDIS",
+            "CIT4181321953-ESDIS",
+            "CIT3804290667-ESDIS",
+            "CIT3804302222-ESDIS",
+            "CIT4181372682-ESDIS",
+            "CIT3804229762-ESDIS",
+            "CIT3804354712-ESDIS",
+            "CIT3803974032-ESDIS",
+            "CIT3804283996-ESDIS",
+            "CIT4076061544-ESDIS",
+            "CIT3804173325-ESDIS",
+            "CIT3804151458-ESDIS",
+            "CIT3804157000-ESDIS",
+            "CIT3804290701-ESDIS",
+            "CIT3804111998-ESDIS",
+            "CIT3804327505-ESDIS",
+            "CIT4248450292-ESDIS",
+            "CIT4106695194-ESDIS",
+            "CIT3804328332-ESDIS",
+            "CIT3804099412-ESDIS",
+            "CIT4181365213-ESDIS",
+            "CIT4181330065-ESDIS",
+            "CIT3804172095-ESDIS",
+            "CIT4106684467-ESDIS",
+            "CIT3804088034-ESDIS",
+            "CIT3804093562-ESDIS",
+            "CIT3804277351-ESDIS",
+            "CIT3804376682-ESDIS",
+            "CIT3804125773-ESDIS",
+            "CIT3804320082-ESDIS",
+            "CIT3804289474-ESDIS",
+            "CIT3804288948-ESDIS",
+            "CIT3804233241-ESDIS",
+            "CIT3804115423-ESDIS",
+            "CIT4181375819-ESDIS",
+            "CIT3804128218-ESDIS",
+            "CIT3804192759-ESDIS",
+            "CIT4181320803-ESDIS",
+            "CIT3804265076-ESDIS",
+            "CIT3804031498-ESDIS",
+            "CIT3857564039-ESDIS",
+            "CIT3804289462-ESDIS",
+            "CIT3804062215-ESDIS",
+            "CIT3804269705-ESDIS",
+            "CIT3857568988-ESDIS",
+            "CIT3804122558-ESDIS",
+            "CIT3963294757-ESDIS",
+            "CIT3857566490-ESDIS",
+            "CIT3804219181-ESDIS",
+            "CIT3857568947-ESDIS",
+            "CIT3803979388-ESDIS",
+            "CIT3804281659-ESDIS",
+            "CIT4181349728-ESDIS",
+            "CIT3804277232-ESDIS",
+            "CIT3804017673-ESDIS",
+            "CIT3804064656-ESDIS",
+            "CIT3803975839-ESDIS",
+            "CIT4181316627-ESDIS",
+            "CIT3857566437-ESDIS",
+            "CIT4181379638-ESDIS",
+            "CIT3804128296-ESDIS",
+            "CIT3804153874-ESDIS",
+            "CIT3804354765-ESDIS",
+            "CIT3804163158-ESDIS",
+            "CIT3804284485-ESDIS",
+            "CIT3804288223-ESDIS",
+            "CIT3804284437-ESDIS",
+            "CIT3804289434-ESDIS",
+            "CIT3804088578-ESDIS",
+            "CIT4181361901-ESDIS",
+            "CIT4181366392-ESDIS",
+            "CIT4181359952-ESDIS",
+            "CIT4181350285-ESDIS",
+            "CIT3804201514-ESDIS",
+            "CIT3804140866-ESDIS",
+            "CIT3804211585-ESDIS",
+            "CIT3857568952-ESDIS",
+            "CIT3804284204-ESDIS",
+            "CIT4076017089-ESDIS",
+            "CIT3804108854-ESDIS",
+            "CIT3804290535-ESDIS",
+            "CIT3804076735-ESDIS",
+            "CIT3804150266-ESDIS",
+            "CIT3804119333-ESDIS",
+            "CIT3804214735-ESDIS",
+            "CIT3804166057-ESDIS",
+            "CIT3857568014-ESDIS",
+            "CIT3804162484-ESDIS",
+            "CIT3804354723-ESDIS",
+            "CIT3804293514-ESDIS",
+            "CIT3804063902-ESDIS",
+            "CIT3804327743-ESDIS",
+            "CIT3804354841-ESDIS",
+            "CIT4181379884-ESDIS",
+            "CIT3804289634-ESDIS",
+            "CIT4181325657-ESDIS",
+            "CIT3804284468-ESDIS",
+            "CIT3804131297-ESDIS",
+            "CIT3804022112-ESDIS",
+            "CIT3857569009-ESDIS",
+            "CIT3804200502-ESDIS",
+            "CIT3804328720-ESDIS",
+            "CIT3804289230-ESDIS",
+            "CIT3804277397-ESDIS",
+            "CIT3803940346-ESDIS",
+            "CIT3804283458-ESDIS",
+            "CIT4181374887-ESDIS",
+            "CIT3804284915-ESDIS",
+            "CIT3804163845-ESDIS",
+            "CIT3804141555-ESDIS",
+            "CIT3804096369-ESDIS",
+            "CIT3804159334-ESDIS",
+            "CIT3804231459-ESDIS",
+            "CIT3963290262-ESDIS",
+            "CIT3804145383-ESDIS",
+            "CIT3804289568-ESDIS",
+            "CIT3804143096-ESDIS",
+            "CIT3804290200-ESDIS",
+            "CIT3804195072-ESDIS",
+            "CIT4181352085-ESDIS",
+            "CIT3963295321-ESDIS",
+            "CIT4181361699-ESDIS",
+            "CIT3804054684-ESDIS",
+            "CIT3804284473-ESDIS",
+            "CIT4181368294-ESDIS",
+            "CIT3804328810-ESDIS",
+            "CIT4181380808-ESDIS",
+            "CIT3804280510-ESDIS",
+            "CIT3804289373-ESDIS",
+            "CIT4181361382-ESDIS",
+            "CIT3804002733-ESDIS",
+            "CIT4106691246-ESDIS",
+            "CIT3857568420-ESDIS",
+            "CIT3804146760-ESDIS",
+            "CIT3804120753-ESDIS",
+            "CIT3804306746-ESDIS",
+            "CIT3857556869-ESDIS",
+            "CIT3804046951-ESDIS",
+            "CIT3804134432-ESDIS",
+            "CIT3804133944-ESDIS",
+            "CIT3804327844-ESDIS",
+            "CIT3804197293-ESDIS",
+            "CIT4181350772-ESDIS",
+            "CIT3804152169-ESDIS",
+            "CIT3804064723-ESDIS",
+            "CIT3804329011-ESDIS",
+            "CIT3804282986-ESDIS",
+            "CIT4181314767-ESDIS",
+            "CIT4181322590-ESDIS",
+            "CIT3804288950-ESDIS",
+            "CIT3804122130-ESDIS",
+            "CIT4201245895-ESDIS",
+            "CIT3804328882-ESDIS",
+            "CIT4181367044-ESDIS",
+            "CIT3804126890-ESDIS",
+            "CIT4201248105-ESDIS",
+            "CIT3857568976-ESDIS",
+            "CIT4181355230-ESDIS",
+            "CIT3804269820-ESDIS",
+            "CIT3804198905-ESDIS",
+            "CIT3857569322-ESDIS",
+            "CIT3804305356-ESDIS",
+            "CIT3804329062-ESDIS",
+            "CIT3804289472-ESDIS",
+            "CIT4181352274-ESDIS",
+            "CIT3804285695-ESDIS",
+            "CIT3804265079-ESDIS",
+            "CIT3804133183-ESDIS",
+            "CIT4181374253-ESDIS",
+            "CIT3804179483-ESDIS",
+            "CIT3804206370-ESDIS",
+            "CIT4181316046-ESDIS",
+            "CIT4181363969-ESDIS",
+            "CIT3804160647-ESDIS",
+            "CIT3803957175-ESDIS",
+            "CIT3804060903-ESDIS",
+            "CIT3804327879-ESDIS",
+            "CIT3803966144-ESDIS",
+            "CIT3804285706-ESDIS",
+            "CIT3804284355-ESDIS",
+            "CIT4181317595-ESDIS"
+          ]
+        },
+        "has_variables": true,
+        "data_center": "GES_DISC",
+        "short_name": "GPM_3IMERGM",
+        "organizations": [
+          "NASA/GSFC/SED/ESD/TISL/GESDISC"
+        ],
+        "title": "GPM IMERG Final Precipitation L3 1 month 0.1 degree x 0.1 degree V07 (GPM_3IMERGM)",
+        "coordinate_system": "CARTESIAN",
+        "summary": "Version 07B is the current version of the IMERG data sets. Older versions will no longer be available and have been superseded by Version 07.\n\nThe Integrated Multi-satellitE Retrievals for GPM (IMERG) is the unified U.S. algorithm that provides the multi-satellite precipitation product for the U.S. GPM team.\n\nThe precipitation estimates from the various precipitation-relevant satellite passive microwave (PMW) sensors comprising the GPM constellation are computed using the 2021 version of the Goddard Profiling Algorithm (GPROF2021), then gridded, intercalibrated to the GPM Combined Ku Radar-Radiometer Algorithm (CORRA) product, and merged into half-hourly 0.1\u00b0x0.1\u00b0 (roughly 10x10 km) fields. Note that CORRA is adjusted to the monthly Global Precipitation Climatology Project (GPCP) Satellite-Gauge (SG) product over high-latitude ocean to correct known biases.\n\nThe half-hourly intercalibrated merged PMW estimates are then input to both a Morphing-Kalman Filter (KF) Lagrangian time interpolation scheme based on work by the Climate Prediction Center (CPC) and the Precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks (PERSIANN) Dynamic Infrared\u2013Rain Rate (PDIR) re-calibration scheme. In parallel, CPC assembles the zenith-angle-corrected, intercalibrated merged geo-IR fields and forwards them to PPS for input to the PERSIANN-CCS algorithm (supported by an asynchronous re-calibration cycle) which are then input to the KF morphing (quasi-Lagrangian time interpolation) scheme.\n\nThe KF morphing (supported by an asynchronous KF weights updating cycle) uses the PMW and IR estimates to create half-hourly estimates. Motion vectors for the morphing are computed by maximizing the pattern correlation of successive hours within each of the precipitation (PRECTOT), total precipitable liquid water (TQL), and vertically integrated vapor (TQV) data fields provided by the Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2) and Goddard Earth Observing System model Version 5 (GEOS-5) Forward Processing (FP) for the post-real-time (Final) Run and the near-real-time (Early and Late) Runs, respectively. The vectors from PRECTOT are chosen if available, else from TQL, if available, else from TQV. The KF uses the morphed data as the \u201cforecast\u201d and the IR estimates as the \u201cobservations\u201d, with weighting that depends on the time interval(s) away from the microwave overpass time. The IR becomes important after about \u00b190 minutes away from the overpass time. Variable averaging in the KF is accounted for in a routine (Scheme for Histogram Adjustment with Ranked Precipitation Estimates in the Neighborhood, or SHARPEN) that compares the local histogram of KF morphed precipitation to the local histogram of forward- and backward-morphed microwave data and the IR.\n\nThe IMERG system is run twice in near-real time:\n\n\"Early\" multi-satellite product ~4 hr after observation time using only forward morphing and\n\"Late\" multi-satellite product ~14 hr after observation time, using both forward and backward morphing\nand once after the monthly gauge analysis is received:\n\n\"Final\", satellite-gauge product ~4 months after the observation month, using both forward and backward morphing and including monthly gauge analyses.\n\nIn V07, the near-real-time Early and Late half-hourly estimates have a monthly climatological concluding calibration based on averaging the concluding calibrations computed in the Final, while in the post-real-time Final Run the multi-satellite half-hourly estimates are adjusted so that they sum to the Final Run monthly satellite-gauge combination. In all cases the output contains multiple fields that provide information on the input data, selected intermediate fields, and estimation quality. In general, the complete calibrated precipitation, precipitation, is the data field of choice for most users.\n\nBriefly describing the Final Run, the input precipitation estimates computed from the various satellite passive microwave sensors are intercalibrated to the CORRA product (because it is presumed to be the best snapshot TRMM/GPM estimate after adjustment to the monthly GPCP SG), then \"forward/backward morphed\" and combined with microwave precipitation-calibrated geo-IR fields, and adjusted with seasonal GPCP SG surface precipitation data to provide half-hourly and monthly precipitation estimates on a 0.1\u00b0x0.1\u00b0 (roughly 10x10 km) grid over the globe. Precipitation phase is a diagnostic variable computed using analyses of surface temperature, humidity, and pressure. The current period of record is June 2000 to the present (delayed by about 4 months).",
+        "time_end": "2025-09-30T23:59:59.999Z",
+        "service_features": {
+          "harmony": {
+            "has_formats": true,
+            "has_variables": true,
+            "has_transforms": false,
+            "has_combine": false,
+            "has_spatial_subsetting": true,
+            "has_temporal_subsetting": true
+          },
+          "opendap": {
+            "has_formats": false,
+            "has_variables": false,
+            "has_transforms": false,
+            "has_combine": false,
+            "has_spatial_subsetting": false,
+            "has_temporal_subsetting": false
+          },
+          "esi": {
+            "has_formats": false,
+            "has_variables": false,
+            "has_transforms": false,
+            "has_combine": false,
+            "has_spatial_subsetting": false,
+            "has_temporal_subsetting": false
+          }
+        },
+        "orbit_parameters": {},
+        "id": "C2723754851-GES_DISC",
+        "has_formats": true,
+        "consortiums": [
+          "EOSDIS",
+          "GEOSS"
+        ],
+        "original_format": "UMM_JSON",
+        "collection_data_type": "SCIENCE_QUALITY",
+        "archive_center": "NASA/GSFC/SED/ESD/TISL/GESDISC",
+        "has_temporal_subsetting": true,
+        "browse_flag": true,
+        "platforms": [
+          "IMERG"
+        ],
+        "association_details": {
+          "variables": [
+            {
+              "concept_id": "V3171500681-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500816-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500555-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500691-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500685-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500775-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500734-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500573-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500613-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500677-GES_DISC"
+            },
+            {
+              "concept_id": "V3171500647-GES_DISC"
+            }
+          ],
+          "services": [
+            {
+              "concept_id": "S3385907677-GES_DISC"
+            },
+            {
+              "concept_id": "S2874702816-XYZ_PROV"
+            },
+            {
+              "concept_id": "S2164732315-XYZ_PROV"
+            },
+            {
+              "concept_id": "S4057306097-XYZ_PROV"
+            },
+            {
+              "concept_id": "S2739607260-GES_DISC"
+            }
+          ],
+          "citations": [
+            {
+              "concept_id": "CIT4181377632-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804290920-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804280497-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963290253-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106691356-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283760-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804280261-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181369647-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857571474-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804328921-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804169046-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181371775-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284482-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804124572-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181379836-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181329739-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804159692-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963295381-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106713545-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804073457-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181347706-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804142190-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804022456-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804124220-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181334310-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803944443-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181317213-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289466-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181373705-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804305258-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804222463-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181339741-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181363863-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804169583-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181324475-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288942-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804100761-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804142105-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181369745-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804101956-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804190910-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804280402-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804178888-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804281880-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963295627-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803961897-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857569105-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803953794-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804114385-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181320814-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803957940-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181375064-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804213292-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803955766-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284199-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803948392-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804133830-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804304417-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804115507-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804116263-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804328903-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804308585-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181363870-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804148510-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181371809-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804056322-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804327889-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289402-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804176214-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284276-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804328702-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181368373-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804172660-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804126156-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804147026-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804039352-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804171578-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857557822-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181361607-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804317145-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804200646-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181371033-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181362208-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804357027-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804025569-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804167357-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804277326-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804128484-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181365971-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804107069-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181375790-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181371544-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284259-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568569-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289523-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804296434-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804206648-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181337934-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857569307-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804097714-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289385-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804089333-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181316231-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804382246-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804204575-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288584-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106693486-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181375069-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804249017-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181324149-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804227374-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857569325-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288975-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804165235-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963295146-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804153154-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106692544-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181372916-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284203-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804328321-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963295063-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804233832-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288951-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804265064-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804282987-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804009333-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181377046-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804250162-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804093570-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804125618-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804323855-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181360642-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181317752-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283372-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181378222-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804203434-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181382981-ESDIS"
+            },
+            {
+              "concept_id": "CIT4248447094-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181333063-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857566546-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181367760-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284160-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289380-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803951652-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568720-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181337809-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803960614-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181335529-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106693566-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804259231-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803978755-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804101306-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289465-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181378904-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804123880-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181337855-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284563-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804014488-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804141052-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804315676-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284799-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289605-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804329036-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963292574-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804220859-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289360-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804270950-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804095506-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857569232-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181315108-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804327599-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803994159-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804116790-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181359304-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803991801-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283916-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804206447-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857574089-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804232393-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804355901-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284200-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804128239-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804128186-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804219214-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804265631-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181361969-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804214956-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181364957-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181370103-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804125647-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181354961-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181314753-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804141002-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804192574-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804348393-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181381351-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289444-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181372121-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181378068-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181314346-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804133007-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106687310-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804290619-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804129560-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289325-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804262982-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804016716-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804143086-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804122071-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804175914-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283859-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283324-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804186285-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857554702-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857569007-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804178848-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804145001-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283863-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804170343-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804113916-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963294767-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963291050-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804243129-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283499-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181363587-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284226-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289258-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804230775-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181332726-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804233817-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804315868-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804293744-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803994803-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181376271-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804280486-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857564530-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181367144-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804046190-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804171831-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568672-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181340356-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804329066-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804025440-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804312148-ESDIS"
+            },
+            {
+              "concept_id": "CIT4201251748-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181354280-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804176332-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804078566-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289351-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804327791-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804281170-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857558838-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181314735-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804195759-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568700-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181378303-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804134304-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804290560-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804282673-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284215-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181332094-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804054980-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288599-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284201-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804314912-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181376325-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804307319-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106693574-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181319034-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283501-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106707392-ESDIS"
+            },
+            {
+              "concept_id": "CIT4201245243-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963287071-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283506-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804060853-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804305640-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804172926-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857569050-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804233054-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181369081-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288276-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181377467-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284043-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284406-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804354790-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181324602-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804212923-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289680-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804249558-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804204643-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181374733-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804173084-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804329055-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804303750-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804190789-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803972021-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804094936-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181366989-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181375951-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857571486-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181321953-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804290667-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804302222-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181372682-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804229762-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804354712-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803974032-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283996-ESDIS"
+            },
+            {
+              "concept_id": "CIT4076061544-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804173325-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804151458-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804157000-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804290701-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804111998-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804327505-ESDIS"
+            },
+            {
+              "concept_id": "CIT4248450292-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106695194-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804328332-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804099412-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181365213-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181330065-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804172095-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106684467-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804088034-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804093562-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804277351-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804376682-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804125773-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804320082-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289474-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288948-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804233241-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804115423-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181375819-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804128218-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804192759-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181320803-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804265076-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804031498-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857564039-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289462-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804062215-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804269705-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568988-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804122558-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963294757-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857566490-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804219181-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568947-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803979388-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804281659-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181349728-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804277232-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804017673-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804064656-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803975839-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181316627-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857566437-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181379638-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804128296-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804153874-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804354765-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804163158-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284485-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288223-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284437-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289434-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804088578-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181361901-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181366392-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181359952-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181350285-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804201514-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804140866-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804211585-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568952-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284204-ESDIS"
+            },
+            {
+              "concept_id": "CIT4076017089-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804108854-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804290535-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804076735-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804150266-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804119333-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804214735-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804166057-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568014-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804162484-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804354723-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804293514-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804063902-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804327743-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804354841-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181379884-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289634-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181325657-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284468-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804131297-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804022112-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857569009-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804200502-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804328720-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289230-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804277397-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803940346-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804283458-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181374887-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284915-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804163845-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804141555-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804096369-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804159334-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804231459-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963290262-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804145383-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289568-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804143096-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804290200-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804195072-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181352085-ESDIS"
+            },
+            {
+              "concept_id": "CIT3963295321-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181361699-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804054684-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284473-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181368294-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804328810-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181380808-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804280510-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289373-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181361382-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804002733-ESDIS"
+            },
+            {
+              "concept_id": "CIT4106691246-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568420-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804146760-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804120753-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804306746-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857556869-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804046951-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804134432-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804133944-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804327844-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804197293-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181350772-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804152169-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804064723-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804329011-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804282986-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181314767-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181322590-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804288950-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804122130-ESDIS"
+            },
+            {
+              "concept_id": "CIT4201245895-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804328882-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181367044-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804126890-ESDIS"
+            },
+            {
+              "concept_id": "CIT4201248105-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857568976-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181355230-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804269820-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804198905-ESDIS"
+            },
+            {
+              "concept_id": "CIT3857569322-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804305356-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804329062-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804289472-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181352274-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804285695-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804265079-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804133183-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181374253-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804179483-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804206370-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181316046-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181363969-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804160647-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803957175-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804060903-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804327879-ESDIS"
+            },
+            {
+              "concept_id": "CIT3803966144-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804285706-ESDIS"
+            },
+            {
+              "concept_id": "CIT3804284355-ESDIS"
+            },
+            {
+              "concept_id": "CIT4181317595-ESDIS"
+            }
+          ]
+        },
+        "online_access_flag": true,
+        "links": [
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/browse#",
+            "hreflang": "en-US",
+            "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/browse/GPM_3IMERGM_07.png"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+            "hreflang": "en-US",
+            "href": "https://disc.gsfc.nasa.gov/datacollection/GPM_3IMERGM_07.html"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+            "hreflang": "en-US",
+            "href": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2723754851-GES_DISC/temporal"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/browse#",
+            "hreflang": "en-US",
+            "href": "https://giovanni.gsfc.nasa.gov/#dataKeyword=IMERGM"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/data#",
+            "hreflang": "en-US",
+            "href": "https://search.earthdata.nasa.gov/search/granules?p=C2723754851-GES_DISC"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/service#",
+            "hreflang": "en-US",
+            "href": "https://cmr.earthdata.nasa.gov/virtual-directory/collections/C2723754851-GES_DISC/temporal"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+            "hreflang": "en-US",
+            "href": "https://arthurhou.pps.eosdis.nasa.gov/Documents/IMERG_V07_ATBD_final.pdf"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+            "hreflang": "en-US",
+            "href": "https://arthurhou.pps.eosdis.nasa.gov/Documents/IMERG_TechnicalDocumentation_final.pdf"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+            "hreflang": "en-US",
+            "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/IMERGV06_QI.pdf"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+            "hreflang": "en-US",
+            "href": "https://docserver.gesdisc.eosdis.nasa.gov/public/project/GPM/IMERGV06_TRMMera-caveats.pdf"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+            "hreflang": "en-US",
+            "href": "https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/doc/README.GPM.pdf"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+            "hreflang": "en-US",
+            "href": "https://gpm.nasa.gov/resources/documents/imerg-v07-release-notes"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/documentation#",
+            "hreflang": "en-US",
+            "href": "https://gpmweb2https.pps.eosdis.nasa.gov/tsdis/AB/docs/gpm_anomalous.html"
+          },
+          {
+            "rel": "http://esipfed.org/ns/fedsearch/1.1/metadata#",
+            "hreflang": "en-US",
+            "href": "https://gpm.nasa.gov"
+          }
+        ]
+      }
+    ]
+  }
+}

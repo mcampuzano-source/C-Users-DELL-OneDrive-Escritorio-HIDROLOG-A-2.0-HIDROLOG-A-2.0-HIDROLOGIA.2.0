@@ -1,0 +1,22 @@
+{
+  "offline": true,
+  "trazas": [
+    {
+      "n": 504,
+      "nulls": 19,
+      "connectgaps": false
+    },
+    {
+      "n": 504,
+      "nulls": 19,
+      "connectgaps": false
+    }
+  ],
+  "zoom_sincronizado": true,
+  "restablecimiento": [
+    "1981-01-01",
+    "2023-01-01"
+  ],
+  "errores_js": [],
+  "peticiones_http": []
+}

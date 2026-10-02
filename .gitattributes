@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+seleccion_cuenca/datos/04_CAMELS_COL_Hydrometeorological_data.zip filter=lfs diff=lfs merge=lfs -text
+HIDROLOGÍA[[:space:]]2.0/seleccion_cuenca/datos/04_CAMELS_COL_Hydrometeorological_data.zip filter=lfs diff=lfs merge=lfs -text

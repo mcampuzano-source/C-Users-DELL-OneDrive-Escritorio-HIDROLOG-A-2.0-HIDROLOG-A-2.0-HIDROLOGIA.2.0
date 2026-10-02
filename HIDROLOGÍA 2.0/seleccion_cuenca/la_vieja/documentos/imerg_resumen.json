@@ -1,0 +1,9 @@
+{
+  "n_periodo_comun": 285,
+  "inicio": "1998-01",
+  "fin": "2022-12",
+  "pearson_imerg_chirps": 0.886,
+  "cobertura_imerg_meses": 300,
+  "media_imerg": 206.02,
+  "media_chirps": 170.5
+}

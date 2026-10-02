@@ -1,0 +1,260 @@
+{
+  "created": "2026-02-28T15:17:16.125411+00:00",
+  "modified": "2026-02-28T15:17:17.022620+00:00",
+  "id": 18794895,
+  "conceptrecid": "14947146",
+  "doi": "10.5281/zenodo.18794895",
+  "conceptdoi": "10.5281/zenodo.14947146",
+  "doi_url": "https://doi.org/10.5281/zenodo.18794895",
+  "metadata": {
+    "title": "CAMELS-COL: A Large-Sample Hydrometeorological Dataset for Colombia",
+    "doi": "10.5281/zenodo.18794895",
+    "publication_date": "2026-02-26",
+    "description": "<p>This is the CAMELS-COL dataset (Catchment Attributes and MEteorology for Large-sample Studies - Colombia) presented in the paper by Jimenez et al., CAMELS-COL: A Large-Sample Hydrometeorological Dataset for Colombia.</p>\n<p><br>This dataset provides daily observed streamflow and meteorological time series, along with more than 71 catchment attributes, for 346 river basins across Colombia.&nbsp;</p>\n<p><br>The available hydrometeorological time series include:<br>(i) observed streamflow with quality control metadata,<br>(ii) potential evapotranspiration, and<br>(iii) minimum, average, and maximum temperature.</p>\n<p><br>The catchment attributes encompass:<br>(i) Catchment information,<br>(ii) Physiographic characteristics,<br>(iii) Hydrometeorological data,<br>(iv) Climatic indices,<br>(v) Hydrological signatures.<br>(vi) Land cover characteristics<br>(vii) Geologic characteristics.<br>(viii) Soil characteristics.<br>(ix) Land Use Capability</p>\n<p>This dataset follows the same standards as other CAMELS datasets, including those for the United States (https://doi.org/10.5194/hess-21-5293-2017), Chile (https://doi.org/10.5194/hess-22-5817-2018), Great Britain (https://doi.org/10.5194/essd-2020-49), and Brazil (https://doi.org/10.5194/essd-12-2075-2020).</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Jimenez, David A.",
+        "affiliation": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "name": "Meneses, Julian E.",
+        "affiliation": "Universidad del Rosario"
+      },
+      {
+        "name": "Solha, Pedro H. Bernardes",
+        "affiliation": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "name": "Avila Diaz, Alvaro",
+        "affiliation": "Universidad del Rosario"
+      },
+      {
+        "name": "Quesada, Benjamin",
+        "affiliation": "Universidad del Rosario"
+      },
+      {
+        "name": "Brentan, Bruno Melo",
+        "affiliation": "Universidade Federal de Minas Gerais"
+      },
+      {
+        "name": "Rodrigues, Andr\u00e9 Ferreira",
+        "affiliation": "Universidade Federal de Minas Gerais"
+      }
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 2,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "14947146"
+          }
+        }
+      ]
+    }
+  },
+  "title": "CAMELS-COL: A Large-Sample Hydrometeorological Dataset for Colombia",
+  "links": {
+    "self": "https://zenodo.org/api/records/18794895",
+    "self_html": "https://zenodo.org/records/18794895",
+    "preview_html": "https://zenodo.org/records/18794895?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.18794895",
+    "self_doi": "https://doi.org/10.5281/zenodo.18794895",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.18794895",
+    "reserve_doi": "https://zenodo.org/api/records/18794895/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/14947146",
+    "parent_html": "https://zenodo.org/records/14947146",
+    "parent_doi": "https://doi.org/10.5281/zenodo.14947146",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.14947146",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:18794895/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:18794895/sequence/default",
+    "files": "https://zenodo.org/api/records/18794895/files",
+    "media_files": "https://zenodo.org/api/records/18794895/media-files",
+    "archive": "https://zenodo.org/api/records/18794895/files-archive",
+    "archive_media": "https://zenodo.org/api/records/18794895/media-files-archive",
+    "latest": "https://zenodo.org/api/records/18794895/versions/latest",
+    "latest_html": "https://zenodo.org/records/18794895/latest",
+    "versions": "https://zenodo.org/api/records/18794895/versions",
+    "draft": "https://zenodo.org/api/records/18794895/draft",
+    "access_links": "https://zenodo.org/api/records/18794895/access/links",
+    "access_grants": "https://zenodo.org/api/records/18794895/access/grants",
+    "access_users": "https://zenodo.org/api/records/18794895/access/users",
+    "access_request": "https://zenodo.org/api/records/18794895/access/request",
+    "access": "https://zenodo.org/api/records/18794895/access",
+    "communities": "https://zenodo.org/api/records/18794895/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/18794895/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/18794895/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/18794895/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/18794895/quota-increase",
+    "requests": "https://zenodo.org/api/records/18794895/requests"
+  },
+  "updated": "2026-02-28T15:17:17.022620+00:00",
+  "recid": "18794895",
+  "revision": 3,
+  "files": [
+    {
+      "id": "8566714e-7a2f-4ec1-976a-ebc16dd5827c",
+      "key": "13_CAMELS_COL_AUX_topographic_wetness_index.zip",
+      "size": 3183922625,
+      "checksum": "md5:ed4847393968b6339dec3ef0ba9945a7",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/13_CAMELS_COL_AUX_topographic_wetness_index.zip/content"
+      }
+    },
+    {
+      "id": "5e88de09-0ec8-42c5-8e11-eb1afefcd526",
+      "key": "12_CAMELS_COL_Drainage_network.zip",
+      "size": 37795938,
+      "checksum": "md5:16ea2ad92b0da368b4d5365a158acfed",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/12_CAMELS_COL_Drainage_network.zip/content"
+      }
+    },
+    {
+      "id": "7ba67e23-ca24-404e-aadb-10a6d3bec630",
+      "key": "08_CAMELS_COL_Climatic_indices.csv",
+      "size": 13333,
+      "checksum": "md5:83a9037a08612e905db96ebb16596196",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/08_CAMELS_COL_Climatic_indices.csv/content"
+      }
+    },
+    {
+      "id": "3998c7ce-835b-4f30-b427-743467929f1a",
+      "key": "04_CAMELS_COL_Hydrometeorological_data.zip",
+      "size": 184567201,
+      "checksum": "md5:2101d7cac0f87b2a8d871f7a622bf440",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/04_CAMELS_COL_Hydrometeorological_data.zip/content"
+      }
+    },
+    {
+      "id": "a2d692f1-9b11-4498-a732-8c1e6e2545ba",
+      "key": "01_CAMELS_COL_Attributes.zip",
+      "size": 17920,
+      "checksum": "md5:21945e75d1b0e4b04a854da79c8be218",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/01_CAMELS_COL_Attributes.zip/content"
+      }
+    },
+    {
+      "id": "1171c761-56a2-46b8-b0bb-39eec115de2e",
+      "key": "03_CAMELS_COL_Basin_boundary.zip",
+      "size": 13888313,
+      "checksum": "md5:f42c7291315f0373a031ecc45250280d",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/03_CAMELS_COL_Basin_boundary.zip/content"
+      }
+    },
+    {
+      "id": "c5152da7-a319-4ce0-97b7-ad38bca1acfe",
+      "key": "00_CAMELS-COL  Description.docx",
+      "size": 63552,
+      "checksum": "md5:cfb0e6e384f6ddcf20fa13ec94ae2cb0",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/00_CAMELS-COL%20%20Description.docx/content"
+      }
+    },
+    {
+      "id": "48ab707b-7eda-41e7-b247-7cdc6708752e",
+      "key": "02_CAMELS_COL_Catchment_information.csv",
+      "size": 27028,
+      "checksum": "md5:0d50edc9dc1fb59ae5e7c045fbddeca9",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/02_CAMELS_COL_Catchment_information.csv/content"
+      }
+    },
+    {
+      "id": "6b481df9-ef9e-4b7d-900a-3f9ca6b9f100",
+      "key": "05_CAMELS_COL_Geologic_characteristics.csv",
+      "size": 12956,
+      "checksum": "md5:ee1d3b3974dcf4ff82b5289b2fbe6b37",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/05_CAMELS_COL_Geologic_characteristics.csv/content"
+      }
+    },
+    {
+      "id": "f46c314f-5d17-4040-b10a-bb30f74ec6d2",
+      "key": "06_CAMELS_COL_Land_cover_characteristics.csv",
+      "size": 13390,
+      "checksum": "md5:e81e5583ff0bb67754feee5a0a157abd",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/06_CAMELS_COL_Land_cover_characteristics.csv/content"
+      }
+    },
+    {
+      "id": "9b1c2a40-1b80-44a3-8481-0828f3cc9e9c",
+      "key": "07_CAMELS_COL_Soil_characteristics.csv",
+      "size": 22783,
+      "checksum": "md5:2c0a5a68f722b1dd8ecd87c632f0cbdd",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/07_CAMELS_COL_Soil_characteristics.csv/content"
+      }
+    },
+    {
+      "id": "41fa9a4c-e98f-4ff9-9b9d-62aa14a455c0",
+      "key": "09_CAMELS_COL_Hydrological_signatures.csv",
+      "size": 19179,
+      "checksum": "md5:ef22677856c2b103af6bffaca981c407",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/09_CAMELS_COL_Hydrological_signatures.csv/content"
+      }
+    },
+    {
+      "id": "d08cc386-3601-4ace-9637-d33ae6cf75ba",
+      "key": "11_CAMELS_COL_Land_use_capability.csv",
+      "size": 215300,
+      "checksum": "md5:bcc218c38b605e9068ed47a31920d7fb",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/11_CAMELS_COL_Land_use_capability.csv/content"
+      }
+    },
+    {
+      "id": "1f5d56d0-68c7-415b-8c51-80f251fc7df7",
+      "key": "10_CAMELS_COL_Physiograpic_characteristics.csv",
+      "size": 36140,
+      "checksum": "md5:5193a248d7ea2675675ed249d2b692c2",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/10_CAMELS_COL_Physiograpic_characteristics.csv/content"
+      }
+    },
+    {
+      "id": "bbcc2976-ed65-46bd-b938-09ea0674791f",
+      "key": "14_CAMELS_COL_AUX_Figures.zip",
+      "size": 63810991,
+      "checksum": "md5:d23ef41b11078a4859941d3014e9abed",
+      "links": {
+        "self": "https://zenodo.org/api/records/18794895/files/14_CAMELS_COL_AUX_Figures.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1274596"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 2562,
+    "unique_downloads": 2177,
+    "views": 1298,
+    "unique_views": 1097,
+    "version_downloads": 1385,
+    "version_unique_downloads": 1141,
+    "version_unique_views": 325,
+    "version_views": 382
+  },
+  "state": "done",
+  "submitted": true
+}

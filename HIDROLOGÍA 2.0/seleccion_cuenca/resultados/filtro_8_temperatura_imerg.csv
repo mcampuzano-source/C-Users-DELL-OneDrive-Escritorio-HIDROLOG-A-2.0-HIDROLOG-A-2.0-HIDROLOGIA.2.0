@@ -1,0 +1,9 @@
+﻿codigo,estacion,area_camels_km2,lat_estacion,lon_estacion,periodo,faltantes_T_pct,dias_Tmin_mayor_Tmax,temperatura,meses_PQ_completos,meses_IMERG_catalogados,cobertura_IMERG_catalogo_completa,celdas_nominales_intersectadas,area_geodesica_poligono_km2,precipitacion_IMERG_extraida,cumple_preseleccion
+12027050,PUEBLO NUEVO [12027050],1031.21,8.415055556,-76.62938889,1998-2022,0.9966049720731562,0,"Tmin/Tmax MSWX, promedio de cuenca; no Tmedia observada",268,300,True,20,1010.1538597126446,False,True
+21197010,EL PROFUNDO [21197010],946.43,4.011694,-74.504444,1998-2022,3.2417040849852197,0,"Tmin/Tmax MSWX, promedio de cuenca; no Tmedia observada",260,300,True,17,941.9502403038339,False,True
+22027020,GAITANIA [22027020],919.26,3.126055556,-75.65569444,1998-2022,2.825539371372243,0,"Tmin/Tmax MSWX, promedio de cuenca; no Tmedia observada",277,300,True,20,916.7162712114086,False,True
+23107020,LA BODEGA - AUT [23107020],2448.55,6.732194444,-74.40694444,1998-2022,0.7885226152666736,0,"Tmin/Tmax MSWX, promedio de cuenca; no Tmedia observada",272,300,True,35,2415.317166896547,False,True
+23147020,PUENTE FERROCARRIL OPÓN - AUT [23147020],1785.57,6.773611111,-73.935,1998-2022,2.7160223414741003,0,"Tmin/Tmax MSWX, promedio de cuenca; no Tmedia observada",203,300,True,33,1763.4001386057541,False,True
+24037290,PUENTE CHAMEZA  - AUT [24037290],2360.35,5.759888889,-72.90652778,1998-2022,1.7413207753805726,0,"Tmin/Tmax MSWX, promedio de cuenca; no Tmedia observada",274,300,True,32,2337.584096386045,False,True
+26127040,CARTAGO AUT [26127040],2797.19,4.757611111,-75.89925,1998-2022,1.7851275873398298,0,"Tmin/Tmax MSWX, promedio de cuenca; no Tmedia observada",285,300,True,42,2780.1825070765303,False,True
+44037050,VENECIA [44037050],1559.75,1.563111111,-75.52930556,1998-2022,4.380681195925962,0,"Tmin/Tmax MSWX, promedio de cuenca; no Tmedia observada",280,300,True,27,1558.1297167736313,False,True

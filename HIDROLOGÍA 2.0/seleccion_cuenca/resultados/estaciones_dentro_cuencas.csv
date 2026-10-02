@@ -1,0 +1,406 @@
+﻿cuenca_codigo,codigo,nombre,categoria,estado,tecnologia,departamento,municipio,latitud_num,longitud_num,fecha_instalacion,activa,pluvial_exclusiva,meteorologica_multivariable,lluvia_por_categoria,hidrometrica,en_borde
+12027050,0012027010,PUEBLO BELLO [12027010],Limnigráfica,Suspendida,Automática con Telemetría,Antioquia,Turbo,8.203781111,-76.524944444,15/08/1977,False,False,False,False,True,False
+12027050,0012020010,PUEBLO BELLO [12020010],Pluviométrica,Activa,Convencional,Antioquia,Turbo,8.199997222,-76.52,15/04/1972,True,True,False,True,False,False
+21197010,0021195110,PEÑAS BLANCAS [21195110],Climatológica Ordinaria,Activa,Convencional,Cundinamarca,Cabrera,3.964722222,-74.44375,15/11/1986,True,False,True,True,False,False
+21197010,0021195170,PAQUILO [21195170],Climatológica Principal,Activa,Automática con Telemetría,Cundinamarca,Cabrera,3.993611,-74.398056,23/07/2005,True,False,True,True,False,False
+21197010,0021197010,EL PROFUNDO [21197010],Limnigráfica,Activa,"Automática con Telemetría, Convencional",Cundinamarca,Cabrera,4.011694,-74.504444,15/04/1954,True,False,False,False,True,False
+21197010,0021197160,ESPERANZA LA  [21197160],Limnigráfica,Suspendida,Convencional,Cundinamarca,Cabrera,3.966666667,-74.38333333,01/01/2001,False,False,False,False,True,False
+21197010,0021197200,UNION LA  [21197200],Limnigráfica,Suspendida,Convencional,Cundinamarca,Cabrera,3.966666667,-74.4,28/02/1974,False,False,False,False,True,False
+21197010,0021197090,DOS MIL [21197090],Limnimétrica,Suspendida,Convencional,Cundinamarca,Cabrera,3.966666667,-74.45,15/05/1969,False,False,False,False,True,False
+21197010,0021197070,PLAYA LA ESPERANZA  [21197070],Limnimétrica,Suspendida,Convencional,Bogotá,"Bogotá, D.C",3.966666667,-74.38333333,15/03/1966,False,False,False,False,True,False
+21197010,0021197300,PTE LA PANELA  [21197300],Limnimétrica,Activa,Convencional,Cundinamarca,Cabrera,4.016666667,-74.43333333,15/07/1998,True,False,False,False,True,False
+21197010,0021197060,PTE PAQUILO  [21197060],Limnimétrica,Suspendida,Convencional,Bogotá,"Bogotá, D.C",4.0,-74.36666667,15/03/1966,False,False,False,False,True,False
+21197010,0021197050,RINCON SANTO  [21197050],Limnimétrica,Suspendida,Convencional,Bogotá,"Bogotá, D.C",3.983333333,-74.33333333,15/03/1966,False,False,False,False,True,False
+21197010,0021190090,CABRERA [21190090],Pluviométrica,Activa,Convencional,Cundinamarca,Cabrera,3.986972222,-74.48355556,15/09/1958,True,True,False,True,False,False
+21197010,0021190130,DIAMANTE  [21190130],Pluviométrica,Suspendida,Convencional,Bogotá,"Bogotá, D.C",4.016666667,-74.26666667,31/12/1987,False,True,False,True,False,False
+21197010,0021190120,ESPERANZA 1  [21190120],Pluviométrica,Suspendida,Convencional,Bogotá,"Bogotá, D.C",3.983333333,-74.36666667,30/04/1982,False,True,False,True,False,False
+21197010,0021190140,GUAMO EL  [21190140],Pluviométrica,Suspendida,Convencional,Bogotá,"Bogotá, D.C",3.966666667,-74.28333333,01/01/2001,False,True,False,True,False,False
+21197010,0021190330,NUÑEZ [21190330],Pluviométrica,Activa,Convencional,Cundinamarca,Cabrera,3.905861111,-74.50969444,15/08/1980,True,True,False,True,False,False
+21197010,0021190320,PENAS BLANCAS [21190320],Pluviométrica,Suspendida,Convencional,Cundinamarca,Cabrera,3.983333333,-74.4,15/08/1980,False,True,False,True,False,False
+21197010,0021190260,PLAYA LA  [21190260],Pluviométrica,Suspendida,Convencional,Cundinamarca,Cabrera,3.983333333,-74.36666667,15/03/1966,False,True,False,True,False,False
+21197010,0021190340,QUEBRADA NEGRA [21190340],Pluviométrica,Suspendida,Convencional,Cundinamarca,Cabrera,3.95,-74.48333333,15/08/1980,False,True,False,True,False,False
+21197010,0021190280,SAN ANTONIO  [21190280],Pluviométrica,Suspendida,Convencional,Bogotá,"Bogotá, D.C",4.1,-74.33333333,01/01/2001,False,True,False,True,False,False
+21197010,0021190270,SAN JUAN [21190270],Pluviométrica,Activa,Convencional,Bogotá,"Bogotá, D.C",4.031027778,-74.31116667,15/06/1972,True,True,False,True,False,False
+21197010,0035020480,STA ROSA  [35020480],Pluviométrica,Suspendida,Convencional,Cundinamarca,San Bernardo,4.183333333,-74.25,09/12/2006,False,True,False,True,False,False
+22027020,0022027020,GAITANIA [22027020],Limnimétrica,Activa,Convencional,Tolima,Planadas,3.126055556,-75.65569444,15/03/1972,True,False,False,False,True,False
+22027020,2202500720,EL RUBÍ [2202500720],Pluviométrica,Activa,Convencional,Tolima,Planadas,3.112361111,-75.669175,15/09/2008,True,True,False,True,False,False
+22027020,0022020030,GAITANIA [22020030],Pluviométrica,Activa,Convencional,Tolima,Planadas,3.09478,-75.6685,15/12/1973,True,True,False,True,False,False
+22027020,0022020020,PENA RICA [22020020],Pluviométrica,Activa,"Automática con Telemetría, Convencional",Tolima,Planadas,3.045055556,-75.76177778,15/12/1973,True,True,False,True,False,False
+23107020,0023105060,VEGACHI - AUT [23105060],Agrometeorológica,Suspendida,Automática con Telemetría,Antioquia,Vegachí,6.774111111,-74.79652778,20/11/2004,False,False,True,True,False,False
+23107020,0023105010,MACEO  [23105010],Climatológica Ordinaria,Suspendida,Convencional,Antioquia,Maceo,6.55,-74.78333333,15/05/1951,False,False,True,True,False,False
+23107020,0023105030,VEGACHI [23105030],Climatológica Ordinaria,En Mantenimiento,"Automática con Telemetría, Convencional",Antioquia,Vegachí,6.774111111,-74.79652778,15/04/1975,False,False,True,True,False,False
+23107020,0023105040,GUAIRA LA  [23105040],Climatológica Principal,Activa,Convencional,Antioquia,Yalí,6.65,-74.75,15/10/1983,True,False,True,True,False,False
+23107020,0023175030,HATILLO EL  [23175030],Climatológica Principal,Suspendida,Convencional,Antioquia,Remedios,6.7,-74.6,15/10/1982,False,False,True,True,False,False
+23107020,0023105050,HONDA LA  [23105050],Climatológica Principal,Activa,Convencional,Antioquia,Yolombó,6.7,-74.56666667,15/08/1982,True,False,True,True,False,False
+23107020,0023107050,GUAIRA LA PSB-1  [23107050],Limnigráfica,Activa,Convencional,Antioquia,Yalí,6.65,-74.76666667,15/08/1981,True,False,False,False,True,False
+23107020,0023107060,GUARQUINA LA PSB-2  [23107060],Limnigráfica,Activa,Convencional,Antioquia,Yolombó,6.7,-74.6,15/08/1981,True,False,False,False,True,False
+23107020,0023177030,HATILLO EL PSB-4  [23177030],Limnigráfica,Suspendida,Convencional,Antioquia,Remedios,6.933333333,-74.66666667,15/08/1983,False,False,False,False,True,False
+23107020,0023107070,HONDA LA PSB-3  [23107070],Limnigráfica,Activa,Convencional,Antioquia,Yolombó,6.7,-74.58333333,15/08/1981,True,False,False,False,True,False
+23107020,2310700037,VEGACHI - LA CRUZ - AUT  [2310700037],Limnigráfica,En Mantenimiento,Automática con Telemetría,Antioquia,Vegachí,6.769919444,-74.800469444,23/06/2013,False,False,False,False,True,False
+23107020,0023107030,LA MASCOTA [23107030],Limnimétrica,Activa,Convencional,Antioquia,Yalí,6.639638889,-74.87544444,15/05/1975,True,False,False,False,True,False
+23107020,0023107040,VEGACHI [23107040],Limnimétrica,Activa,Convencional,Antioquia,Vegachí,6.772361111,-74.79758333,15/04/1975,True,False,False,False,True,False
+23107020,0023085070,DELIRIO EL HDA  [23085070],Meteorológica Especial,Suspendida,Convencional,Antioquia,Yolombó,6.6,-75.05,15/01/1956,False,False,True,False,False,False
+23107020,0023100090,CEIBA LA FLORESTA  [23100090],Pluviográfica,Activa,Convencional,Antioquia,Yolombó,6.616666667,-74.88333333,15/04/1985,True,True,False,True,False,False
+23107020,2310000072,MACEO - AUT  [2310000072],Pluviográfica,Activa,Automática con Telemetría,Antioquia,Maceo,6.553638889,-74.7875,18/03/2013,True,True,False,True,False,False
+23107020,0023100100,TERESA LA  [23100100],Pluviográfica,Activa,Convencional,Antioquia,Vegachí,6.8,-74.66666667,15/04/1985,True,True,False,True,False,False
+23107020,2310000007,VEGACHI - AUT  [2310000007],Pluviográfica,Activa,Automática con Telemetría,Antioquia,Yalí,6.771555556,-74.798388889,15/03/2013,True,True,False,True,False,False
+23107020,0023100110,VERSALLES  [23100110],Pluviográfica,Activa,Convencional,Antioquia,Yolombó,6.7,-74.95,15/05/1985,True,True,False,True,False,False
+23107020,2310000010,YOLOMBO - AUT  [2310000010],Pluviográfica,Activa,Automática con Telemetría,Antioquia,Yolombó,6.599388889,-75.013861111,13/03/2013,True,True,False,True,False,False
+23107020,0023100030,EL TIGRE [23100030],Pluviométrica,Activa,Convencional,Antioquia,Vegachí,6.840472222,-74.78566667,15/06/1970,True,True,False,True,False,False
+23107020,0023080770,GUACHARACAS  [23080770],Pluviométrica,Activa,Convencional,Antioquia,Yolombó,6.55,-74.95,15/04/1986,True,True,False,True,False,False
+23107020,0023100010,YOLOMBO  [23100010],Pluviométrica,Activa,Convencional,Antioquia,Yolombó,6.6,-75.05,15/01/1953,True,True,False,True,False,False
+23107020,0023100020,YOLOMBO  [23100020],Pluviométrica,Suspendida,Convencional,Antioquia,Yolombó,6.6,-75.0,15/01/1947,False,True,False,True,False,False
+23107020,0023100040,YOLOMBÓ [23100040],Pluviométrica,Activa,Convencional,Antioquia,Yolombó,6.594277778,-75.010916667,15/04/1975,True,True,False,True,False,False
+23147020,0023140060,MELITOSA LA [23140060],Pluviométrica,Suspendida,Convencional,Santander,Simacota,6.633333333,-73.8,15/08/1984,False,True,False,True,False,False
+24037290,0024035120,SURBATA BONZA [24035120],Agrometeorológica,Activa,Convencional,Boyacá,Duitama,5.802444444,-73.07447222,15/03/1944,True,False,True,True,False,False
+24037290,0024035430,TUNGUAVITA - AUT [24035430],Agrometeorológica,Activa,"Automática con Telemetría, Convencional",Boyacá,Paipa,5.74583,-73.11636,15/12/2004,True,False,True,True,False,False
+24037290,0035095010,AQUITANIA [35095010],Climatológica Ordinaria,Suspendida,Convencional,Boyacá,Aquitania,5.533333333,-72.88333333,15/12/1970,False,False,True,True,False,False
+24037290,0024035060,COL PRESENTACION  [24035060],Climatológica Ordinaria,Suspendida,Convencional,Boyacá,Duitama,5.833333333,-73.05,15/06/1931,False,False,True,True,False,False
+24037290,0024035100,DUITAMA VIVERO  [24035100],Climatológica Ordinaria,Suspendida,Convencional,Boyacá,Duitama,5.833333333,-73.05,15/11/1941,False,False,True,True,False,False
+24037290,0035165000,EL TUNEL [35165000],Climatológica Ordinaria,En Mantenimiento,Automática con Telemetría,Boyacá,Cuítiva,5.574972222,-72.941,31/12/2016,False,False,True,True,False,False
+24037290,2403500360,ESTACIÓN ARBOLEDA - AUT [2403500360],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Tunja,5.572088056,-73.331689167,09/10/2016,True,False,True,True,False,False
+24037290,2403500368,ESTACIÓN COMPUERTA LAGO SOCHAGOTA - AUT [2403500368],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Paipa,5.768530556,-73.114734722,31/03/2017,True,False,True,True,False,False
+24037290,2403500364,ESTACIÓN CONFLUENCIA TUTA - CHICAMOCHA  - AUT [2403500364],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Tuta,5.708022222,-73.222407222,09/10/2016,True,False,True,True,False,False
+24037290,2403500366,ESTACIÓN DESCARGA GENSA - AUT [2403500366],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Paipa,5.772254444,-73.126775,09/10/2016,True,False,True,True,False,False
+24037290,2403500365,ESTACIÓN ELECTROSOCHAGOTA - AUT [2403500365],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Paipa,5.7590625,-73.160743056,09/10/2016,True,False,True,True,False,False
+24037290,2403500367,ESTACIÓN ENTRADA LAGO SOCHAGOTA - AUT [2403500367],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Paipa,5.758106389,-73.118630833,09/10/2016,True,False,True,True,False,False
+24037290,2403500362,ESTACIÓN PLAYA ABAJO - AUT [2403500362],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Tuta,5.699410833,-73.245829167,09/10/2016,True,False,True,True,False,False
+24037290,2403500361,ESTACIÓN PTAR -AUT [2403500361],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Oicatá,5.583747778,-73.320511944,09/10/2016,True,False,True,True,False,False
+24037290,2403500363,ESTACIÓN VEREDA AGUA BLANCA - AUT [2403500363],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Tuta,5.670377222,-73.222186389,09/10/2016,True,False,True,True,False,False
+24037290,2403500370,ESTACIÓN VEREDA AGUATENDIDA - AUT [2403500370],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Duitama,5.784761389,-73.022045556,09/10/2016,True,False,True,True,False,False
+24037290,2403500369,ESTACIÓN VIA PANTANO DE VARGAS - AUT [2403500369],Climatológica Ordinaria,Activa,Automática con Telemetría,Boyacá,Paipa,5.773326667,-73.071833056,09/10/2016,True,False,True,True,False,False
+24037290,0024035230,JESUITAS  [24035230],Climatológica Ordinaria,Suspendida,Convencional,Boyacá,Santa Rosa De Viterbo,5.883333333,-72.98333333,15/07/1962,False,False,True,True,False,False
+24037290,0024035040,LA COPA [24035040],Climatológica Ordinaria,Activa,Convencional,Boyacá,Toca,5.579194444,-73.208777778,15/12/1991,True,False,True,True,False,False
+24037290,0024035050,MOLINO EL  [24035050],Climatológica Ordinaria,Suspendida,Convencional,Boyacá,Siachoque,5.516666667,-73.23333333,15/05/1931,False,False,True,True,False,False
+24037290,0024035190,SAN JOSE  [24035190],Climatológica Ordinaria,Activa,Convencional,Boyacá,Siachoque,5.466666667,-73.2,15/11/1997,True,False,True,True,False,False
+24037290,0024035180,SAN RAFAEL [24035180],Climatológica Ordinaria,Suspendida,Convencional,Boyacá,Nobsa,5.783333333,-72.983333333,15/08/2003,False,False,True,True,False,False
+24037290,0024035030,SOGAMOSO  [24035030],Climatológica Ordinaria,Suspendida,Convencional,Boyacá,Sogamoso,5.716666667,-72.93333333,15/05/1926,False,False,True,True,False,False
+24037290,0035235050,TAMARA - AUT [35235050],Climatológica Ordinaria,Activa,"Automática con Telemetría, Convencional",Boyacá,Cuítiva,5.574838056,-72.941086111,23/08/2017,True,False,True,True,False,False
+24037290,0035095030,TUNEL EL [35095030],Climatológica Ordinaria,Activa,Convencional,Boyacá,Cuítiva,5.574913889,-72.94769444,15/02/1971,True,False,True,True,False,False
+24037290,0024035340,AEROPUERTO ALBERTO LLERAS CAMARGO - AUT [24035340],Climatológica Principal,Activa,"Automática con Telemetría, Convencional",Boyacá,Sogamoso,5.676944444,-72.96791667,15/01/1974,True,False,True,True,False,False
+24037290,0024035350,ANDALUCIA [24035350],Climatológica Principal,Activa,Convencional,Boyacá,Duitama,5.901138889,-73.05833333,15/09/1996,True,False,True,True,False,False
+24037290,0035095120,AQUITANIA - AUT [35095120],Climatológica Principal,Activa,Automática con Telemetría,Boyacá,Aquitania,5.55663,-72.88175,06/12/2004,True,False,True,True,False,False
+24037290,2403500041,DUITAMA - AUT  [2403500041],Climatológica Principal,Activa,"Automática con Telemetría, Convencional",Boyacá,Paipa,5.78755,-73.05155,16/10/2017,True,False,True,True,False,False
+24037290,0024035090,HIMAT R 4 [24035090],Climatológica Principal,Suspendida,Convencional,Boyacá,Duitama,5.783333333,-73.05,15/07/1994,False,False,True,True,False,False
+24037290,2401500080,PANELAS - AUT [2401500080],Climatológica Principal,Suspendida,Automática con Telemetría,Boyacá,Motavita,5.634380556,-73.386469444,12/10/2017,False,False,True,True,False,False
+24037290,2403500083,PESCA - AUT [2403500083],Climatológica Principal,Suspendida,Automática con Telemetría,Boyacá,Pesca,5.524,-73.07655,13/10/2017,False,False,True,True,False,False
+24037290,2403500082,SIACHOQUE - AUT [2403500082],Climatológica Principal,Suspendida,Automática con Telemetría,Boyacá,Siachoque,5.5135,-73.243883333,10/10/2017,False,False,True,True,False,False
+24037290,0024030140,SIACHOQUE [24030140],Climatológica Principal,Activa,"Automática con Telemetría, Convencional",Boyacá,Siachoque,5.5135,-73.243883333,01/07/1957,True,False,True,True,False,False
+24037290,2403500081,SOTAQUIRÁ - AUT [2403500081],Climatológica Principal,Suspendida,Automática con Telemetría,Boyacá,Sotaquirá,5.749661111,-73.234922222,25/10/2017,False,False,True,True,False,False
+24037290,0024035130,U P T C [24035130],Climatológica Principal,Activa,Convencional,Boyacá,Tunja,5.5430775,-73.36081306,15/02/1962,True,False,True,True,False,False
+24037290,2401500086,UNIVERSIDAD PEDAGÓGICA Y TECNOLÓGICA DE COLOMBIA TUNJA - AUT [2401500086],Climatológica Principal,Activa,Automática con Telemetría,Boyacá,Tunja,5.553611111,-73.355277778,06/04/2018,True,False,True,True,False,False
+24037290,0035167000,CORPOBOYACA - SANTA INES -AUT [35167000],Limnigráfica,Activa,"Automática con Telemetría, Convencional",Boyacá,Aquitania,5.545,-72.88411111,31/12/2016,True,False,False,False,True,False
+24037290,0035167020,CRIADERO -AUT [35167020],Limnigráfica,Suspendida,Automática con Telemetría,Boyacá,Aquitania,5.557,-72.88047222,31/12/2016,False,False,False,False,True,False
+24037290,0024037030,EL PALO - AUT [24037030],Limnigráfica,Activa,"Automática con Telemetría, Convencional",Boyacá,Tuta,5.681722222,-73.23113889,15/05/1955,True,False,False,False,True,False
+24037290,3516700232,EL TOBAL [3516700232],Limnigráfica,Activa,Automática con Telemetría,Boyacá,Aquitania,5.512222222,-72.865555556,25/01/2021,True,False,False,False,True,False
+24037290,0035167010,HATO LAGUNA - AUT [35167010],Limnigráfica,Activa,Automática con Telemetría,Boyacá,Aquitania,5.584444444,-72.90008333,31/12/2016,True,False,False,False,True,False
+24037290,0024037130,LA REFORMA [24037130],Limnigráfica,Activa,Convencional,Boyacá,Sotaquirá,5.748833333,-73.18988889,15/06/1966,True,False,False,False,True,False
+24037290,0024037320,LA SIBERIA [24037320],Limnigráfica,Activa,Convencional,Boyacá,Paipa,5.766733333,-73.10872222,15/04/1971,True,False,False,False,True,False
+24037290,0024037190,SAN RAFAEL  - AUT [24037190],Limnigráfica,Activa,"Automática con Telemetría, Convencional",Boyacá,Tibasosa,5.807611111,-73.01380556,15/02/1972,True,False,False,False,True,False
+24037290,0024037200,ACAPULCO  [24037200],Limnimétrica,Suspendida,Convencional,Boyacá,Tibasosa,5.733333333,-73.0,15/11/1969,False,False,False,False,True,False
+24037290,0035097120,ACEQUIA CORDONCILLO  [35097120],Limnimétrica,Activa,Convencional,Boyacá,Tota,5.566666667,-72.93333333,15/12/1977,True,False,False,False,True,False
+24037290,0035097130,ACEQUIA CUITIVA  [35097130],Limnimétrica,Activa,Convencional,Boyacá,Tota,5.566666667,-72.93333333,15/12/1977,True,False,False,False,True,False
+24037290,0035097110,ACEQUIA LA COMPAÑÍA  [35097110],Limnimétrica,Activa,Convencional,Boyacá,Tota,5.566666667,-72.93333333,15/12/1977,True,False,False,False,True,False
+24037290,0035097140,ACEQUIA TOTA  [35097140],Limnimétrica,Activa,Convencional,Boyacá,Tota,5.566666667,-72.93333333,15/12/1977,True,False,False,False,True,False
+24037290,0035097220,AQUITANIA [35097220],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.516666667,-72.88333333,15/09/1989,True,False,False,False,True,False
+24037290,0024037340,AY LA REPRESA  [24037340],Limnimétrica,Suspendida,Convencional,Boyacá,Tuta,5.683333333,-73.25,15/05/1972,False,False,False,False,True,False
+24037290,0024037460,CAMBULOS LOS [24037460],Limnimétrica,Suspendida,Convencional,Boyacá,Sogamoso,5.75,-72.93333333,15/10/1969,False,False,False,False,True,False
+24037290,0035097020,CANAL DESVIACION [35097020],Limnimétrica,Suspendida,Convencional,Boyacá,Aquitania,5.516666667,-72.93333333,15/02/1964,False,False,False,False,True,False
+24037290,0024037140,CAÑO 1  [24037140],Limnimétrica,Suspendida,Convencional,Boyacá,Paipa,5.766666667,-73.11666667,15/11/1968,False,False,False,False,True,False
+24037290,0024037050,CENTRAL TERMOPAIPA  [24037050],Limnimétrica,Suspendida,Convencional,Boyacá,Paipa,5.766666667,-73.13333333,15/01/1955,False,False,False,False,True,False
+24037290,0024037270,CHITICUY [24037270],Limnimétrica,Activa,Convencional,Boyacá,Duitama,5.845444444,-73.01361111,15/12/1991,True,False,False,False,True,False
+24037290,0024037590,CHORRERA LA [24037590],Limnimétrica,Suspendida,Convencional,Boyacá,Toca,5.623027778,-73.16638889,15/03/1991,False,False,False,False,True,False
+24037290,0035097250,CINTAS LAS  [35097250],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.616666667,-72.86666667,15/09/1989,True,False,False,False,True,False
+24037290,0024037020,COPA LA [24037020],Limnimétrica,Activa,Convencional,Boyacá,Toca,5.579194444,-73.20877778,15/04/1990,True,False,False,False,True,False
+24037290,0035097270,CRIADERO CAR  [35097270],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.566666667,-72.88333333,15/09/1989,True,False,False,False,True,False
+24037290,0035097050,CRIADERO [35097050],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.55775,-72.87988889,15/02/1971,True,False,False,False,True,False
+24037290,0035097200,DAYTO  [35097200],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.5,-72.91666667,15/09/1989,True,False,False,False,True,False
+24037290,0035097040,DESAGUADERO [35097040],Limnimétrica,Suspendida,Convencional,Boyacá,Aquitania,5.55,-72.91666667,15/02/1971,False,False,False,False,True,False
+24037290,0024037170,DESPUES CUCHE  [24037170],Limnimétrica,Suspendida,Convencional,Boyacá,Tibasosa,5.766666667,-72.98333333,15/11/1969,False,False,False,False,True,False
+24037290,0024037180,DESPUES DEL SIFON [24037180],Limnimétrica,Suspendida,Convencional,Boyacá,Tibasosa,5.783333333,-72.98333333,15/11/1969,False,False,False,False,True,False
+24037290,0035097190,DONSIQUIRA  [35097190],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.516666667,-72.96666667,15/09/1989,True,False,False,False,True,False
+24037290,0024037160,ENTRADA SOCHAGOTA  [24037160],Limnimétrica,Suspendida,Convencional,Boyacá,Paipa,5.766666667,-73.11666667,15/11/1968,False,False,False,False,True,False
+24037290,0035097070,ESCALERAS [35097070],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.491944444,-72.9385,15/09/1971,True,False,False,False,True,False
+24037290,0024037560,GUATICHA  [24037560],Limnimétrica,Activa,Convencional,Boyacá,Siachoque,5.55,-73.23333333,15/11/1997,True,False,False,False,True,False
+24037290,0035097280,HATO LAGUNA CAR  [35097280],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.583333333,-72.9,15/09/1989,True,False,False,False,True,False
+24037290,0035097030,HATO LAGUNA [35097030],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.585833333,-72.8985,15/10/1970,True,False,False,False,True,False
+24037290,0024037080,LA GRUTA  - AUT [24037080],Limnimétrica,Activa,"Automática con Telemetría, Convencional",Boyacá,Pesca,5.566972222,-73.04672222,15/03/1979,True,False,False,False,True,False
+24037290,0024037110,LA RESACA [24037110],Limnimétrica,Suspendida,Convencional,Boyacá,Firavitoba,5.680333333,-72.98961111,15/03/1964,False,False,False,False,True,False
+24037290,0024037120,LA VEGA [24037120],Limnimétrica,Suspendida,Convencional,Boyacá,Cuítiva,5.588694444,-72.98305556,15/01/1964,False,False,False,False,True,False
+24037290,0035097180,LAGO TOTA  [35097180],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.5,-72.88333333,15/09/1989,True,False,False,False,True,False
+24037290,0035097210,LLANO ALARCON  [35097210],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.583333333,-72.91666667,15/09/1989,True,False,False,False,True,False
+24037290,0024037070,MAGUNCIA [24037070],Limnimétrica,Activa,Convencional,Boyacá,Sotaquirá,5.741888889,-73.19955556,15/01/1964,True,False,False,False,True,False
+24037290,0024037470,MARLEN [24037470],Limnimétrica,Suspendida,Convencional,Boyacá,Toca,5.616666667,-73.2,15/03/1974,False,False,False,False,True,False
+24037290,0024037450,MOLINO EL [24037450],Limnimétrica,Suspendida,Convencional,Boyacá,Paipa,5.722638889,-73.120805556,15/06/1964,False,False,False,False,True,False
+24037290,0024017510,NARINO [24017510],Limnimétrica,Suspendida,Convencional,Boyacá,Chiquinquirá,5.583333333,-73.35,15/11/1964,False,False,False,False,True,False
+24037290,0024037440,PAIPA  [24037440],Limnimétrica,Suspendida,Convencional,Boyacá,Paipa,5.766666667,-73.1,15/11/1963,False,False,False,False,True,False
+24037290,0035097150,PEREZ  [35097150],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.516666667,-72.9,15/09/1989,True,False,False,False,True,False
+24037290,0024037250,PILAS LAS [24037250],Limnimétrica,Suspendida,Convencional,Boyacá,Tuta,5.666666667,-73.26666667,15/10/1970,False,False,False,False,True,False
+24037290,0035097060,PLAYA LA  [35097060],Limnimétrica,Suspendida,Convencional,Boyacá,Aquitania,5.533333333,-72.88333333,15/02/1971,False,False,False,False,True,False
+24037290,0035097240,PLAYA LA  [35097240],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.533333333,-72.88333333,15/12/1977,True,False,False,False,True,False
+24037290,0024037420,PLAYA LA [24037420],Limnimétrica,Suspendida,Convencional,Boyacá,Tuta,5.683333333,-73.23333333,15/05/1972,False,False,False,False,True,False
+24037290,0024037220,PTA LARGA  [24037220],Limnimétrica,Suspendida,Convencional,Boyacá,Tibasosa,5.75,-72.95,15/11/1969,False,False,False,False,True,False
+24037290,0024037570,PTE CARRETERA  [24037570],Limnimétrica,Activa,Convencional,Boyacá,Siachoque,5.516666667,-73.23333333,15/11/1997,True,False,False,False,True,False
+24037290,0035077300,PTE CARRETERA  [35077300],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.533333333,-72.86666667,15/11/1997,True,False,False,False,True,False
+24037290,0024037210,PTE GERMANIA  [24037210],Limnimétrica,Suspendida,Convencional,Boyacá,Sogamoso,5.733333333,-72.95,15/11/1969,False,False,False,False,True,False
+24037290,0024037260,PTE LA BARRA  [24037260],Limnimétrica,Suspendida,Convencional,Boyacá,Sogamoso,5.766666667,-72.95,15/04/1970,False,False,False,False,True,False
+24037290,0024037230,PTE SAN ROQUE  [24037230],Limnimétrica,Suspendida,Convencional,Boyacá,Sogamoso,5.75,-72.93333333,15/11/1969,False,False,False,False,True,False
+24037290,0035097230,PUERTA LA  [35097230],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.5,-72.96666667,15/09/1989,True,False,False,False,True,False
+24037290,0024037580,SAN FRANCISCO [24037580],Limnimétrica,Suspendida,Convencional,Boyacá,Toca,5.579638889,-73.21322222,15/03/1991,False,False,False,False,True,False
+24037290,0024037090,SAN RAFAEL [24037090],Limnimétrica,Suspendida,Convencional,Boyacá,Tuta,5.708388889,-73.24216667,15/01/1964,False,False,False,False,True,False
+24037290,0024037430,SAN RAFAEL [24037430],Limnimétrica,Suspendida,Convencional,Boyacá,Tibasosa,5.783333333,-73.0,15/01/1972,False,False,False,False,True,False
+24037290,0024037550,SIACHOQUE [24037550],Limnimétrica,Suspendida,Convencional,Boyacá,Siachoque,5.506096389,-73.25105306,15/11/1997,False,False,False,False,True,False
+24037290,0035097260,STA INES  [35097260],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.533333333,-72.88333333,15/10/1989,True,False,False,False,True,False
+24037290,0024037520,SUANOGA  [24037520],Limnimétrica,Suspendida,Convencional,Boyacá,Pesca,5.583333333,-73.05,15/02/1964,False,False,False,False,True,False
+24037290,0035097290,SUSACA CAR  [35097290],Limnimétrica,Activa,Convencional,Boyacá,Aquitania,5.566666667,-72.88333333,15/09/1989,True,False,False,False,True,False
+24037290,0024037150,TERMALES PAIPA CN.  [24037150],Limnimétrica,Suspendida,Convencional,Boyacá,Paipa,5.766666667,-73.11666667,15/11/1968,False,False,False,False,True,False
+24037290,0024037060,TERMOPAIPA  [24037060],Limnimétrica,Suspendida,Convencional,Boyacá,Paipa,5.766666667,-73.13333333,15/01/1955,False,False,False,False,True,False
+24037290,0024037480,TRINIDAD LA [24037480],Limnimétrica,Activa,Convencional,Boyacá,Duitama,5.840027778,-73.08225,15/08/1978,True,False,False,False,True,False
+24037290,0024037100,VEGAS LAS [24037100],Limnimétrica,En Mantenimiento,Convencional,Boyacá,Duitama,5.862777778,-73.07577778,15/11/1990,False,False,False,False,True,False
+24037290,0024037330,VERTEDERO PAIPA [24037330],Limnimétrica,Suspendida,Convencional,Boyacá,Paipa,5.766666667,-73.11666667,15/05/1971,False,False,False,False,True,False
+24037290,0035097160,YE LA  [35097160],Limnimétrica,Activa,Convencional,Boyacá,Tota,5.516666667,-72.98333333,15/09/1989,True,False,False,False,True,False
+24037290,3516500199,BOYA CLIMATOLOGICA LAGO CHICO LAGO TOTA [3516500199],Meteorológica Especial,Activa,Automática con Telemetría,Boyacá,Aquitania,5.551775,-72.893877778,14/12/2020,True,False,True,False,False,False
+24037290,3516500204,BOYA CLIMATOLÓGICA LAGO GRANDE LAGO TOTA [3516500204],Meteorológica Especial,Activa,Automática con Telemetría,Boyacá,Tota,5.52342,-72.947311111,07/04/2020,True,False,True,False,False,False
+24037290,0035095090,CINTAS LAS  [35095090],Meteorológica Especial,Activa,Convencional,Boyacá,Aquitania,5.616666667,-72.86666667,15/10/1977,True,False,True,False,False,False
+24037290,0035095070,COLORADOS LOS  [35095070],Meteorológica Especial,Activa,Convencional,Boyacá,Aquitania,5.516666667,-72.86666667,15/11/1989,True,False,True,False,False,False
+24037290,0035095050,POTRERITO  [35095050],Meteorológica Especial,Activa,Convencional,Boyacá,Aquitania,5.483333333,-72.95,15/12/1964,True,False,True,False,False,False
+24037290,0024035300,SAN CRISTOBAL [24035300],Meteorológica Especial,Suspendida,Convencional,Boyacá,Toca,5.596916667,-73.18772222,15/07/1971,False,False,True,False,False,False
+24037290,0024035210,SAN LORENZO [24035210],Meteorológica Especial,Suspendida,Convencional,Boyacá,Duitama,5.783333333,-73.08333333,15/10/1967,False,False,True,False,False,False
+24037290,0024035200,SENA [24035200],Meteorológica Especial,Suspendida,Convencional,Boyacá,Sogamoso,5.766666667,-72.91666667,15/10/1967,False,False,True,False,False,False
+24037290,0024035410,SOGAMOSO - AUT [24035410],Meteorológica Especial,Activa,Automática con Telemetría,Boyacá,Sogamoso,5.72647,-72.92067,06/12/2007,True,False,True,False,False,False
+24037290,0035095060,TOTA  [35095060],Meteorológica Especial,Activa,Convencional,Boyacá,Tota,5.566666667,-72.98333333,15/12/1977,True,False,True,False,False,False
+24037290,0024035140,VENECIA HACIENDA [24035140],Meteorológica Especial,Suspendida,Convencional,Boyacá,Sogamoso,5.683333333,-72.96666667,15/03/1968,False,False,True,False,False,False
+24037290,0035095080,VILLITAS LAS  [35095080],Meteorológica Especial,Activa,Convencional,Boyacá,Aquitania,5.616666667,-72.91666667,15/12/1977,True,False,True,False,False,False
+24037290,0024030880,AMARILLA LA [24030880],Pluviográfica,Suspendida,Convencional,Boyacá,Duitama,5.8,-73.06666667,15/07/1978,False,True,False,True,False,False
+24037290,0024030820,AZULEJOS LOS [24030820],Pluviográfica,Activa,Convencional,Boyacá,Tuta,5.664273889,-73.208703056,15/06/1976,True,True,False,True,False,False
+24037290,0035190010,CINTAS LAS [35190010],Pluviográfica,Activa,Convencional,Boyacá,Sogamoso,5.614138889,-72.86766667,15/02/1971,True,True,False,True,False,False
+24037290,0024030350,DUITAMA [24030350],Pluviográfica,Activa,Convencional,Boyacá,Duitama,5.830083333,-73.04461111,15/01/1959,True,True,False,True,False,False
+24037290,0024030460,GUACHATA  [24030460],Pluviográfica,Suspendida,Convencional,Boyacá,Tota,5.55,-73.0,15/10/1964,False,True,False,True,False,False
+24037290,0024030120,PESCA [24030120],Pluviográfica,Activa,Convencional,Boyacá,Pesca,5.523033056,-73.07684778,15/02/1957,True,True,False,True,False,False
+24037290,0024030440,PESCA [24030440],Pluviográfica,Suspendida,Convencional,Boyacá,Pesca,5.566666667,-73.05,15/10/1964,False,True,False,True,False,False
+24037290,0024030870,PINOS LOS [24030870],Pluviográfica,Suspendida,Convencional,Boyacá,Duitama,5.816666667,-73.06666667,15/05/1978,False,True,False,True,False,False
+24037290,0024030940,SENA [24030940],Pluviográfica,Activa,Convencional,Boyacá,Sogamoso,5.756055556,-72.90788889,15/04/1981,True,True,False,True,False,False
+24037290,0024030470,TOTA  [24030470],Pluviográfica,Suspendida,Convencional,Boyacá,Tota,5.566666667,-72.98333333,15/10/1964,False,True,False,True,False,False
+24037290,0035090080,ALTO LA PUERTA  [35090080],Pluviométrica,Activa,Convencional,Boyacá,Aquitania,5.483333333,-72.98333333,15/09/1989,True,True,False,True,False,False
+24037290,0024030800,CASA AMARILLA [24030800],Pluviométrica,Activa,Convencional,Boyacá,Toca,5.533805556,-73.1635,15/03/1974,True,True,False,True,False,False
+24037290,0024030510,CEREZO EL [24030510],Pluviométrica,Activa,Convencional,Boyacá,Paipa,5.699305556,-73.07175,15/01/1970,True,True,False,True,False,False
+24037290,0024030900,COL ORTIZ  [24030900],Pluviométrica,Suspendida,Convencional,Boyacá,Tunja,5.55,-73.33333333,15/11/1946,False,True,False,True,False,False
+24037290,0024030500,COLEGIO DEPARTAMENTAL AGROPECUARIO [24030500],Pluviométrica,Activa,Convencional,Boyacá,Chivatá,5.558833333,-73.28166667,15/05/1992,True,True,False,True,False,False
+24037290,0024030310,COMBITA [24030310],Pluviométrica,Activa,Convencional,Boyacá,Cómbita,5.628916667,-73.324,15/08/1958,True,True,False,True,False,False
+24037290,0024031040,CRECIENTE LA [24031040],Pluviométrica,Suspendida,Convencional,Boyacá,Santa Rosa De Viterbo,5.816666667,-72.98333333,15/07/1981,False,True,False,True,False,False
+24037290,0024030760,CRUCERO EL VILLITA [24030760],Pluviométrica,Suspendida,Convencional,Boyacá,Sogamoso,5.633333333,-72.91666667,15/10/1969,False,True,False,True,False,False
+24037290,0024010730,CUEVA LA HACIENDA [24010730],Pluviométrica,Suspendida,Convencional,Boyacá,Motavita,5.633333333,-73.36666667,15/04/1987,False,True,False,True,False,False
+24037290,0024030450,EL ENCANTO [24030450],Pluviométrica,Activa,Convencional,Boyacá,Oicatá,5.606333333,-73.32336111,15/05/1992,True,True,False,True,False,False
+24037290,0024030610,EMPODUITAMA [24030610],Pluviométrica,Suspendida,Convencional,Boyacá,Duitama,5.85,-73.05,15/06/1972,False,True,False,True,False,False
+24037290,0024030540,FIRAVITOBA [24030540],Pluviométrica,Activa,Convencional,Boyacá,Firavitoba,5.664527778,-72.97827778,15/04/1971,True,True,False,True,False,False
+24037290,0024030770,GARROCHO EL [24030770],Pluviométrica,Suspendida,Convencional,Boyacá,Toca,5.623472222,-73.12630556,15/03/1974,False,True,False,True,False,False
+24037290,0035090090,HATO VIEJO  [35090090],Pluviométrica,Activa,Convencional,Boyacá,Aquitania,5.516666667,-72.85,15/09/1989,True,True,False,True,False,False
+24037290,0024030780,HOTEL EL [24030780],Pluviométrica,Suspendida,Convencional,Boyacá,Toca,5.6,-73.21666667,15/03/1974,False,True,False,True,False,False
+24037290,0024030230,IZA [24030230],Pluviométrica,Activa,Convencional,Boyacá,Iza,5.6157,-72.976055,15/02/1958,True,True,False,True,False,False
+24037290,0024031030,IZA [24031030],Pluviométrica,Suspendida,Convencional,Boyacá,Iza,5.6155,-72.97627778,15/06/1928,False,True,False,True,False,False
+24037290,0024035506,LA REFORMA-24035506  - AUT  [24035506],Pluviométrica,Suspendida,Automática con Telemetría,Boyacá,Sotaquirá,5.748722222,-73.18980556,,False,True,False,True,False,False
+24037290,0024030840,LA RUSIA ANTENA TV [24030840],Pluviométrica,Activa,Convencional,Boyacá,Duitama,5.891638889,-73.08238889,15/08/1980,True,True,False,True,False,False
+24037290,0035160000,LAS CINTAS [35160000],Pluviométrica,Suspendida,Automática con Telemetría,Boyacá,Sogamoso,5.614277778,-72.86747222,31/12/2016,False,True,False,True,False,False
+24037290,0035160020,LLANO ALARCON [35160020],Pluviométrica,Activa,Automática con Telemetría,Boyacá,Cuítiva,5.599722222,-72.91347222,31/12/2016,True,True,False,True,False,False
+24037290,0024030790,NOBSA [24030790],Pluviométrica,Activa,Convencional,Boyacá,Nobsa,5.773416667,-72.94025,15/02/1964,True,True,False,True,False,False
+24037290,0024010840,PANELAS [24010840],Pluviométrica,Activa,Convencional,Boyacá,Motavita,5.634381111,-73.38647056,15/08/1980,True,True,False,True,False,False
+24037290,0024030420,PILA LA FINCA [24030420],Pluviométrica,Activa,Convencional,Boyacá,Soracá,5.518916667,-73.31072222,15/05/1992,True,True,False,True,False,False
+24037290,0035090020,PUEBLO VIEJO  [35090020],Pluviométrica,Suspendida,Convencional,Boyacá,Aquitania,5.516666667,-72.88333333,15/06/1928,False,True,False,True,False,False
+24037290,0024030530,SAN ANTONIO [24030530],Pluviométrica,Activa,Convencional,Boyacá,Tuta,5.698722222,-73.23422222,15/04/1971,True,True,False,True,False,False
+24037290,0024035508,SAN ANTONIO-24035508  - AUT  [24035508],Pluviométrica,Activa,Automática con Telemetría,Boyacá,Tuta,5.698361111,-73.23536111,,True,True,False,True,False,False
+24037290,0024030550,SAN PEDRO [24030550],Pluviométrica,Suspendida,Convencional,Boyacá,Toca,5.566666667,-73.2,15/04/1971,False,True,False,True,False,False
+24037290,0024030400,SANTA ROSA D VITERBO [24030400],Pluviométrica,Activa,Convencional,Boyacá,Santa Rosa De Viterbo,5.868722222,-72.98577778,15/02/1964,True,True,False,True,False,False
+24037290,0024030480,SANTUARIO HDA  [24030480],Pluviométrica,Suspendida,Convencional,Boyacá,Santa Rosa De Viterbo,5.833333333,-73.0,15/01/1968,False,True,False,True,False,False
+24037290,0024030910,SEMINARIO  [24030910],Pluviométrica,Suspendida,Convencional,Boyacá,Tunja,5.55,-73.33333333,15/01/1923,False,True,False,True,False,False
+24037290,0024030380,SOTAQUIRA [24030380],Pluviométrica,Activa,Convencional,Boyacá,Sotaquirá,5.765953889,-73.24739,15/09/1960,True,True,False,True,False,False
+24037290,0024030100,TERMOPAIPA  [24030100],Pluviométrica,Suspendida,Convencional,Boyacá,Paipa,5.766666667,-73.15,15/11/1955,False,True,False,True,False,False
+24037290,0024030410,TIBASOSA [24030410],Pluviométrica,Activa,Convencional,Boyacá,Tibasosa,5.743833333,-73.00491667,15/01/1964,True,True,False,True,False,False
+24037290,0024031020,TOCA  [24031020],Pluviométrica,Suspendida,Convencional,Boyacá,Toca,5.566666667,-73.16666667,15/06/1938,False,True,False,True,False,False
+24037290,0024030130,TOCA [24030130],Pluviométrica,Suspendida,Convencional,Boyacá,Toca,5.566666667,-73.18333333,15/07/1957,False,True,False,True,False,False
+24037290,0024030920,TUNJA  [24030920],Pluviométrica,Suspendida,Convencional,Boyacá,Tunja,5.55,-73.4,15/04/1962,False,True,False,True,False,False
+26127040,0026125510,SOLMAFORO PEREIRA [26125510],Ambiental,Suspendida,Automática sin Telemetría,Risaralda,Pereira,4.81,-75.69,10/10/2013,False,False,False,False,False,False
+26127040,0026125170,ANDES LOS  [26125170],Climatológica Ordinaria,Activa,Convencional,Quindío,Salento,4.683333333,-75.56666667,15/09/1981,True,False,True,True,False,False
+26127040,0026125100,ARTURO GOMEZ  [26125100],Climatológica Ordinaria,Activa,Convencional,Valle Del Cauca,Alcalá,4.516666667,-75.55,15/07/1966,True,False,True,True,False,False
+26127040,0026125070,BELLA LA  [26125070],Climatológica Ordinaria,Activa,Convencional,Quindío,Calarcá,4.516666667,-75.66666667,15/06/1950,True,False,True,True,False,False
+26127040,0026125260,CENTRO DE GUADUA  [26125260],Climatológica Ordinaria,Activa,Convencional,Quindío,Córdoba,4.4,-75.71666667,15/01/1999,True,False,True,True,False,False
+26127040,0026125210,COCORA  [26125210],Climatológica Ordinaria,Suspendida,Convencional,Quindío,Salento,4.633333333,-75.5,15/05/1971,False,False,True,True,False,False
+26127040,0026125130,CUMBARCO [26125130],Climatológica Ordinaria,Activa,Convencional,Valle Del Cauca,Sevilla,4.185055556,-75.83236111,15/10/1973,True,False,True,True,False,False
+26127040,0026125230,EL AGRADO [26125230],Climatológica Ordinaria,Activa,Convencional,Quindío,Montenegro,4.516666667,-75.78333333,15/01/1980,True,False,True,True,False,False
+26127040,0026125200,ESPAÑOLA LA  [26125200],Climatológica Ordinaria,Activa,Convencional,Quindío,Quimbaya,4.583333333,-75.86666667,15/01/1972,True,False,True,True,False,False
+26127040,0026125030,FILANDIA  [26125030],Climatológica Ordinaria,Suspendida,Convencional,Quindío,Filandia,4.683333333,-75.65,15/08/1941,False,False,True,True,False,False
+26127040,0026125280,GENOVA  [26125280],Climatológica Ordinaria,Activa,Convencional,Quindío,Génova,4.216666667,-75.76666667,15/02/1999,True,False,True,True,False,False
+26127040,0026125050,GRANJA AGRICOLA [26125050],Climatológica Ordinaria,Suspendida,Convencional,Quindío,Armenia,4.533333333,-75.68333333,15/06/1943,False,False,True,True,False,False
+26127040,0026105090,HERACLIO URIBE  [26105090],Climatológica Ordinaria,Suspendida,Convencional,Valle Del Cauca,Sevilla,4.266666667,-75.91666667,15/04/1952,False,False,True,True,False,False
+26127040,0026125180,JAMAICA  [26125180],Climatológica Ordinaria,Activa,Convencional,Quindío,Calarcá,4.533333333,-75.76666667,15/10/1981,True,False,True,True,False,False
+26127040,0026125150,JOYA LA  [26125150],Climatológica Ordinaria,Suspendida,Convencional,Risaralda,Pereira,4.766666667,-75.78333333,15/01/1976,False,False,True,True,False,False
+26127040,0026125740,LA MONTAÑA - AUT [26125740],Climatológica Ordinaria,Activa,Automática con Telemetría,Quindío,Salento,4.632777778,-75.459444444,15/02/2018,True,False,True,True,False,False
+26127040,0026125190,MARAVILLAS LAS  [26125190],Climatológica Ordinaria,Activa,Convencional,Quindío,Pijao,4.3,-75.66666667,15/10/1981,True,False,True,True,False,False
+26127040,0026125760,PEÑAS BLANCAS - AUT [26125760],Climatológica Ordinaria,Activa,Automática con Telemetría,Quindío,Calarcá,4.481666667,-75.635277778,15/02/2018,True,False,True,True,False,False
+26127040,0026125160,PISAMAL  [26125160],Climatológica Ordinaria,Suspendida,Convencional,Quindío,La Tebaida,4.433333333,-75.8,15/02/1976,False,False,True,True,False,False
+26127040,0026125110,PLAYA LA [26125110],Climatológica Ordinaria,Suspendida,Convencional,Quindío,Génova,4.216666667,-75.76666667,15/03/1972,False,False,True,True,False,False
+26127040,0026125020,TEBAIDA  [26125020],Climatológica Ordinaria,Suspendida,Convencional,Quindío,La Tebaida,4.45,-75.78333333,15/01/1937,False,False,True,True,False,False
+26127040,0026135080,UNIV PEREIRA-UTP [26135080],Climatológica Ordinaria,Suspendida,Convencional,Risaralda,Pereira,4.8,-75.7,15/03/1963,False,False,True,True,False,False
+26127040,0026125220,UNIV QUINDIO  [26125220],Climatológica Ordinaria,Suspendida,Convencional,Quindío,Armenia,4.533333333,-75.7,15/04/1971,False,False,True,True,False,False
+26127040,0026125290,ARMENIA - AUT [26125290],Climatológica Principal,Suspendida,"Automática con Telemetría, Convencional",Quindío,Armenia,4.531583333,-75.69069444,29/09/2004,False,False,True,True,False,False
+26127040,0026125507,ARTURO GOMEZ  - AUT  [26125507],Climatológica Principal,Activa,Automática con Telemetría,Valle Del Cauca,Alcalá,4.671388889,-75.77721944,11/09/2013,True,False,True,True,False,False
+26127040,0026125270,BREMEN  [26125270],Climatológica Principal,Activa,Convencional,Quindío,Filandia,4.666666667,-75.6,15/01/1999,True,False,True,True,False,False
+26127040,2612500212,BREMEN [2612500212],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Filandia,4.669166667,-75.615833333,07/02/2022,True,False,True,True,False,False
+26127040,2612500214,BUENAVISTA [2612500214],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Buenavista,4.3575,-75.736666667,07/02/2022,True,False,True,True,False,False
+26127040,0026125502,CAICEDONIA  - AUT  [26125502],Climatológica Principal,Activa,Automática con Telemetría,Valle Del Cauca,Caicedonia,4.297558333,-75.86396111,10/09/2013,True,False,True,True,False,False
+26127040,0026125300,CALARCA - AUT [26125300],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Calarcá,4.528305556,-75.59638889,04/10/2004,True,False,True,True,False,False
+26127040,0026125240,CATALINA LA  [26125240],Climatológica Principal,Activa,Convencional,Risaralda,Pereira,4.75,-75.75,15/06/1986,True,False,True,True,False,False
+26127040,2612500038,CRQ ARMENIA - AUT    [2612500038],Climatológica Principal,En Mantenimiento,"Automática con Telemetría, Convencional",Quindío,Circasia,4.556333333,-75.669555556,05/07/2017,False,False,True,True,False,False
+26127040,0026125506,EL AGRADO  - AUT  [26125506],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Montenegro,4.518333333,-75.7925,25/04/2013,True,False,True,True,False,False
+26127040,2613500239,EL LAGO [2613500239],Climatológica Principal,Activa,Automática con Telemetría,Risaralda,Pereira,4.81477,-75.6995,01/09/2006,True,False,True,True,False,False
+26127040,2612500211,EL OCASO [2612500211],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Quimbaya,4.580833333,-75.864166667,07/02/2022,True,False,True,True,False,False
+26127040,2612500213,EL VIGILANTE [2612500213],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Filandia,4.625,-75.688055556,07/02/2022,True,False,True,True,False,False
+26127040,0026125509,ESPERANZA LA  - AUT  [26125509],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Pijao,4.299444444,-75.72508056,11/10/2013,True,False,True,True,False,False
+26127040,0026125501,GENOVA  - AUT  [26125501],Climatológica Principal,Suspendida,Automática con Telemetría,Quindío,Génova,4.204416667,-75.76866667,06/12/2013,False,False,True,True,False,False
+26127040,0026125505,LA BELLA  - AUT  [26125505],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Calarcá,4.501111111,-75.67138889,11/07/2013,True,False,True,True,False,False
+26127040,2612500210,LA PICOTA [2612500210],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Salento,4.653611111,-75.466944444,07/02/2022,True,False,True,True,False,False
+26127040,0026125503,LA SIRENA  - AUT  [26125503],Climatológica Principal,Activa,Automática con Telemetría,Valle Del Cauca,Sevilla,4.285,-75.9025,24/08/2013,True,False,True,True,False,False
+26127040,0026125508,LACATALINA  - AUT  [26125508],Climatológica Principal,Activa,Automática con Telemetría,Risaralda,Pereira,4.7475,-75.73805556,06/03/2013,True,False,True,True,False,False
+26127040,0026125250,MARACAY  [26125250],Climatológica Principal,Activa,Convencional,Quindío,Quimbaya,4.6,-75.76666667,15/01/1977,True,False,True,True,False,False
+26127040,0026125504,PARAGUAICITO  - AUT  [26125504],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Buenavista,4.395555556,-75.73416667,10/04/2013,True,False,True,True,False,False
+26127040,0026125080,PARAGUAYCITO  [26125080],Climatológica Principal,Activa,Convencional,Quindío,Buenavista,4.383333333,-75.73333333,15/09/1962,True,False,True,True,False,False
+26127040,2612500215,PARQUE ECOLÓGICO [2612500215],Climatológica Principal,Activa,Automática con Telemetría,Quindío,Calarcá,4.507777778,-75.660277778,07/02/2022,True,False,True,True,False,False
+26127040,2612500124,PIJAO - AUT   [2612500124],Climatológica Principal,En Mantenimiento,Automática con Telemetría,Quindío,Pijao,4.3314,-75.68414,06/07/2017,False,False,True,True,False,False
+26127040,2612500130,SALENTO - AUT   [2612500130],Climatológica Principal,En Mantenimiento,Automática con Telemetría,Quindío,Salento,4.633475,-75.568858333,04/07/2017,False,False,True,True,False,False
+26127040,0026125140,VENECIA  [26125140],Climatológica Principal,Activa,Convencional,Valle Del Cauca,Caicedonia,4.333333333,-75.83333333,15/01/1984,True,False,True,True,False,False
+26127040,0026127220,BALÍ - AUT [26127220],Limnigráfica,Activa,Automática con Telemetría,Quindío,Córdoba,4.420122222,-75.699408333,15/02/2018,True,False,False,False,True,False
+26127040,0026127230,BOCATOMA EPA - AUT [26127230],Limnigráfica,Activa,Automática con Telemetría,Quindío,Salento,4.627777778,-75.595,15/02/2018,True,False,False,False,True,False
+26127040,0026127210,CENTRO DE LA GUADUA HIDROLÓGICA - AUT [26127210],Limnigráfica,Suspendida,Automática con Telemetría,Quindío,Córdoba,4.404266667,-75.715269444,15/02/2018,False,False,False,False,True,False
+26127040,0026127010,EL ALAMBRADO AUT [26127010],Limnigráfica,En Mantenimiento,"Automática con Telemetría, Convencional",Quindío,La Tebaida,4.41025,-75.875388889,15/01/1953,False,False,False,False,True,False
+26127040,0026127020,GENOVA  [26127020],Limnigráfica,Activa,Convencional,Quindío,Génova,4.2,-75.73333333,15/02/1999,True,False,False,False,True,False
+26127040,0026127250,PALESTINA BAJA - AUT [26127250],Limnigráfica,Activa,Automática con Telemetría,Quindío,Salento,4.617880556,-75.603830556,15/02/2018,True,False,False,False,True,False
+26127040,0026127240,PCH LA UNION - AUT [26127240],Limnigráfica,En Mantenimiento,Automática con Telemetría,Quindío,Calarcá,4.521711111,-75.681213889,15/02/2018,False,False,False,False,True,False
+26127040,0026127170,PTO ALEJANDRIA - AUT [26127170],Limnigráfica,Activa,Automática con Telemetría,Quindío,Quimbaya,4.601308333,-75.860925,01/07/2017,True,False,False,False,True,False
+26127040,0026127100,ARABIA [26127100],Limnimétrica,Activa,Convencional,Risaralda,Pereira,4.714194444,-75.71375,15/05/1978,True,False,False,False,True,False
+26127040,0026127030,BARRAGAN [26127030],Limnimétrica,Activa,Convencional,Quindío,Calarcá,4.337444444,-75.792055556,15/02/1999,True,False,False,False,True,False
+26127040,2612700216,BOCATOMA ROBLE CIRCASIA [2612700216],Limnimétrica,Activa,Automática con Telemetría,Quindío,Circasia,4.631388889,-75.634722222,07/02/2022,True,False,False,False,True,False
+26127040,2612700042,CCONSOTA DESEMBOCADURA - AUT  [2612700042],Limnimétrica,Activa,Automática con Telemetría,Risaralda,Pereira,4.7641,-75.844413889,30/07/2018,True,False,False,False,True,False
+26127040,2612700043,CESTILLAL NACIMIENTO - AUT  [2612700043],Limnimétrica,Activa,Automática con Telemetría,Risaralda,Pereira,4.713836111,-75.616491667,30/07/2018,True,False,False,False,True,False
+26127040,0026127050,CONSOTA  [26127050],Limnimétrica,Suspendida,Convencional,Risaralda,Pereira,4.783333333,-75.7,15/01/1950,False,False,False,False,True,False
+26127040,2612700044,EL TIGRE - AUT  [2612700044],Limnimétrica,Activa,Automática con Telemetría,Risaralda,Pereira,4.806844444,-75.785,30/07/2018,True,False,False,False,True,False
+26127040,2612700045,FINCA ALEGRÍAS -AUT  [2612700045],Limnimétrica,Activa,Automática con Telemetría,Risaralda,Pereira,4.727361111,-75.682366667,30/07/2018,True,False,False,False,True,False
+26127040,0026137010,FRAILES  [26137010],Limnimétrica,Suspendida,Convencional,Risaralda,Pereira,4.8,-75.7,15/04/1949,False,False,False,False,True,False
+26127040,0026127130,HIDROELECTRICA  [26127130],Limnimétrica,Suspendida,Convencional,Valle Del Cauca,Sevilla,4.316666667,-75.88333333,15/02/1978,False,False,False,False,True,False
+26127040,2612700041,LA CURVA - AUT  [2612700041],Limnimétrica,Activa,Automática con Telemetría,Risaralda,Pereira,4.783088889,-75.687988889,30/07/2018,True,False,False,False,True,False
+26127040,2612700217,LA ESPAÑOLA [2612700217],Limnimétrica,Activa,Automática con Telemetría,Quindío,Quimbaya,4.576666667,-75.850555556,07/02/2022,True,False,False,False,True,False
+26127040,2612700130,LA PLAYA - AUT   [2612700130],Limnimétrica,Activa,Automática con Telemetría,Quindío,Salento,4.642580556,-75.558155556,23/05/2018,True,False,False,False,True,False
+26127040,2612700215,LA SORPRESA [2612700215],Limnimétrica,Activa,Automática con Telemetría,Quindío,Calarcá,4.421111111,-75.710277778,07/02/2022,True,False,False,False,True,False
+26127040,0026127110,MARIA LA  [26127110],Limnimétrica,Activa,Convencional,Risaralda,Santa Rosa De Cabal,4.583333333,-75.56666667,15/02/1961,True,False,False,False,True,False
+26127040,0026127120,MONTANA LA [26127120],Limnimétrica,Suspendida,Convencional,Risaralda,Pereira,4.733333333,-75.83333333,15/05/1980,False,False,False,False,True,False
+26127040,2612700214,PASO DE LOS AGUADEÑOS [2612700214],Limnimétrica,Activa,Automática con Telemetría,Quindío,Circasia,4.62705,-75.675075,07/02/2022,True,False,False,False,True,False
+26127040,0026127150,PIJAO [26127150],Limnimétrica,Activa,Convencional,Quindío,Pijao,4.333916667,-75.70297222,15/02/1999,True,False,False,False,True,False
+26127040,2612700266,QUEBRADA CUCUTA [2612700266],Limnimétrica,Activa,Convencional,Quindío,Montenegro,4.47075,-75.847833333,19/05/2012,True,False,False,False,True,False
+26127040,2612700270,QUEBRADA LA CABRA CUENCA ALTA [2612700270],Limnimétrica,Activa,Convencional,Quindío,La Tebaida,4.419611111,-75.863055556,26/04/2012,True,False,False,False,True,False
+26127040,2612700131,QUEBRADA LACHA - AUT   [2612700131],Limnimétrica,En Mantenimiento,Automática con Telemetría,Quindío,Filandia,4.692602778,-75.604197222,23/05/2018,False,False,False,False,True,False
+26127040,2612700198,RECIO PAJONALES [2612700198],Limnimétrica,Activa,Automática con Telemetría,Valle Del Cauca,Cartago,4.77326,-75.863038889,29/06/2019,True,False,False,False,True,False
+26127040,2612700376,RIO BARBAS [2612700376],Limnimétrica,Activa,Convencional,Risaralda,Pereira,4.719311111,-75.793647222,29/05/2024,True,False,False,False,True,False
+26127040,0026127200,SANTO DOMINGO - AUT [26127200],Limnimétrica,Activa,Automática con Telemetría,Quindío,Calarcá,4.421094444,-75.710277778,15/02/2018,True,False,False,False,True,False
+26127040,0026127090,SUCRE [26127090],Limnimétrica,Activa,Convencional,Risaralda,Pereira,4.710833333,-75.75769444,15/05/1978,True,False,False,False,True,False
+26127040,0026127080,TIGRE EL [26127080],Limnimétrica,Suspendida,Convencional,Risaralda,Pereira,4.8,-75.8,15/08/1978,False,False,False,False,True,False
+26127040,0026127140,VESUBIO EL [26127140],Limnimétrica,Suspendida,Convencional,Risaralda,Pereira,4.774166667,-75.86088889,15/09/1984,False,False,False,False,True,False
+26127040,0026127060,VILLEGAS  [26127060],Limnimétrica,Suspendida,Convencional,Risaralda,Pereira,4.783333333,-75.76666667,15/03/1956,False,False,False,False,True,False
+26127040,0026125720,CENTRO DE LA GUADUA - AUT [26125720],Meteorológica Especial,Activa,Automática con Telemetría,Quindío,Córdoba,4.402047222,-75.716025,15/02/2018,True,False,True,False,False,False
+26127040,0056125730,ESTRELLA DE AGUA - AUT [56125730],Meteorológica Especial,Activa,Automática con Telemetría,Quindío,Salento,4.62325,-75.430961111,15/02/2018,True,False,True,False,False,False
+26127040,0026125750,NAVARCO - AUT [26125750],Meteorológica Especial,Activa,Automática con Telemetría,Quindío,Salento,4.483055556,-75.553888889,15/02/2018,True,False,True,False,False,False
+26127040,0026125090,SENA EL  [26125090],Meteorológica Especial,Activa,Convencional,Quindío,Armenia,4.533333333,-75.66666667,15/12/1961,True,False,True,False,False,False
+26127040,0026120090,ALTAMIRA  [26120090],Pluviográfica,Suspendida,Convencional,Quindío,Filandia,4.683333333,-75.65,15/04/1960,False,True,False,True,False,False
+26127040,0026120670,BERRIO EL  [26120670],Pluviográfica,Activa,Convencional,Valle Del Cauca,Cartago,4.683333333,-75.85,15/11/1987,True,True,False,True,False,False
+26127040,0026120100,BREMEN  [26120100],Pluviográfica,Activa,Convencional,Quindío,Circasia,4.666666667,-75.61666667,15/11/1969,True,True,False,True,False,False
+26127040,0026120310,BREMEN  [26120310],Pluviográfica,Suspendida,Convencional,Quindío,Filandia,4.683333333,-75.53333333,15/01/1977,False,True,False,True,False,False
+26127040,0026120380,GIBRALTAR  [26120380],Pluviográfica,Suspendida,Convencional,Quindío,Génova,4.183333333,-75.73333333,15/01/1972,False,True,False,True,False,False
+26127040,0026120740,HERACLIO URIBE - AUT [26120740],Pluviográfica,Activa,Automática con Telemetría,Valle Del Cauca,Sevilla,4.285033333,-75.902869444,01/07/2017,True,True,False,True,False,False
+26127040,0026120250,PIJAO  [26120250],Pluviográfica,Activa,Convencional,Quindío,Pijao,4.35,-75.7,15/11/1951,True,True,False,True,False,False
+26127040,0026120680,RECREO EL  [26120680],Pluviográfica,Activa,Convencional,Valle Del Cauca,Ulloa,4.7,-75.73333333,15/08/1986,True,True,False,True,False,False
+26127040,0026120180,ALAMBRADO EL-ALERT [26120180],Pluviométrica,Activa,Convencional,Valle Del Cauca,Zarzal,4.409305556,-75.875333333,15/04/1977,True,True,False,True,False,False
+26127040,0026120360,ALBANIA LA  [26120360],Pluviométrica,Suspendida,Convencional,Quindío,Calarcá,4.466666667,-75.71666667,15/04/1971,False,True,False,True,False,False
+26127040,0026120030,ALCALÁ [26120030],Pluviométrica,Suspendida,Convencional,Valle Del Cauca,Alcalá,4.683333333,-75.78333333,15/03/1934,False,True,False,True,False,False
+26127040,0026120150,ALCALÁ [26120150],Pluviométrica,Activa,Convencional,Valle Del Cauca,Alcalá,4.676472222,-75.78630556,15/03/1972,True,True,False,True,False,False
+26127040,2612500706,ALMACAFÉ [2612500706],Pluviométrica,Activa,Convencional,Quindío,Quimbaya,4.619755556,-75.770886111,15/11/1951,True,True,False,True,False,False
+26127040,0026120200,AMAZONAS  [26120200],Pluviométrica,Activa,Convencional,Quindío,Filandia,4.633333333,-75.65,15/01/1982,True,True,False,True,False,False
+26127040,0026120470,AMERICA LA  [26120470],Pluviométrica,Activa,Convencional,Quindío,Calarcá,4.5,-75.58333333,15/10/1981,True,True,False,True,False,False
+26127040,0026120260,ARABIA  [26120260],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.8,-75.71666667,15/01/1981,True,True,False,True,False,False
+26127040,0026120440,ARGENTINA LA  [26120440],Pluviométrica,Activa,Convencional,Quindío,La Tebaida,4.433333333,-75.76666667,15/10/1981,True,True,False,True,False,False
+26127040,0026120270,BAMBA LA  [26120270],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.766666667,-75.73333333,15/01/1981,True,True,False,True,False,False
+26127040,0026120430,BARRAGAN  [26120430],Pluviométrica,En Mantenimiento,Convencional,Quindío,Pijao,4.333333333,-75.78333333,15/01/1972,False,True,False,True,False,False
+26127040,0026130240,BELMONTE  [26130240],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.8,-75.76666667,15/09/1968,True,True,False,True,False,False
+26127040,0026120700,BOSQUE EL  [26120700],Pluviométrica,Suspendida,Convencional,Quindío,Salento,4.65,-75.43333333,15/01/1999,False,True,False,True,False,False
+26127040,0026120400,BUENOS AIRES  [26120400],Pluviométrica,Suspendida,Convencional,Quindío,Salento,4.533333333,-75.6,15/04/1971,False,True,False,True,False,False
+26127040,0026120070,CAICEDONIA  [26120070],Pluviométrica,Suspendida,Convencional,Valle Del Cauca,Caicedonia,4.316666667,-75.83333333,15/06/1946,False,True,False,True,False,False
+26127040,0026120120,CAMELIA LA [26120120],Pluviométrica,Activa,Convencional,Valle Del Cauca,Caicedonia,4.331555556,-75.834833333,15/07/1971,True,True,False,True,False,False
+26127040,0026120230,COL LA SALLE  [26120230],Pluviométrica,Suspendida,Convencional,Quindío,Armenia,4.516666667,-75.65,15/01/1929,False,True,False,True,False,False
+26127040,0026120010,COL SAN JOSE ARMEN  [26120010],Pluviométrica,Suspendida,Convencional,Quindío,Armenia,4.533333333,-75.68333333,15/09/1929,False,True,False,True,False,False
+26127040,0026120350,CORDOBA LA  [26120350],Pluviométrica,Activa,Convencional,Quindío,Córdoba,4.4,-75.68333333,15/05/1971,True,True,False,True,False,False
+26127040,0026120130,COROZAL [26120130],Pluviométrica,Activa,Convencional,Valle Del Cauca,Zarzal,4.402777778,-75.91541667,15/08/1971,True,True,False,True,False,False
+26127040,0026120450,CRIOLINDA  [26120450],Pluviométrica,Activa,Convencional,Quindío,Salento,4.683333333,-75.58333333,15/10/1981,True,True,False,True,False,False
+26127040,0026120220,EL AGRADO [26120220],Pluviométrica,Activa,Convencional,Quindío,Montenegro,4.466666667,-75.81666667,15/01/1980,True,True,False,True,False,False
+26127040,0026120590,ESPERANZA LA  [26120590],Pluviométrica,Activa,Convencional,Quindío,Buenavista,4.35,-75.75,15/07/1982,True,True,False,True,False,False
+26127040,0026120650,ESPERANZA LA  [26120650],Pluviométrica,Activa,Convencional,Quindío,Filandia,4.633333333,-75.7,15/01/1991,True,True,False,True,False,False
+26127040,0026120710,ESTRELLA DE AGUA  [26120710],Pluviométrica,Activa,Convencional,Quindío,Salento,4.616666667,-75.43333333,15/01/1999,True,True,False,True,False,False
+26127040,0026120490,FLORIDA LA  [26120490],Pluviométrica,Activa,Convencional,Quindío,Pijao,4.466666667,-75.81666667,15/10/1981,True,True,False,True,False,False
+26127040,0026120320,GOBERNACION  [26120320],Pluviométrica,Suspendida,Convencional,Quindío,Armenia,4.533333333,-75.68333333,15/03/1972,False,True,False,True,False,False
+26127040,0026120620,HIROSHIMA  [26120620],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.766666667,-75.73333333,15/01/1991,True,True,False,True,False,False
+26127040,0026120210,ILUSION LA  [26120210],Pluviométrica,Activa,Convencional,Quindío,Circasia,4.6,-75.65,15/08/1981,True,True,False,True,False,False
+26127040,0026120410,INDIA LA  [26120410],Pluviométrica,Suspendida,Convencional,Quindío,Filandia,4.683333333,-75.66666667,15/04/1971,False,True,False,True,False,False
+26127040,0026120580,JARDIN EL  [26120580],Pluviométrica,Activa,Convencional,Quindío,Calarcá,4.466666667,-75.7,15/01/1991,True,True,False,True,False,False
+26127040,0026120660,JULIA LA  [26120660],Pluviométrica,Activa,Convencional,Quindío,Montenegro,4.55,-75.75,15/01/1991,True,True,False,True,False,False
+26127040,0026120630,LA ABUELITA [26120630],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.733333333,-75.78333333,15/01/1991,True,True,False,True,False,False
+26127040,0026120640,LA ALEJANDRÍA [26120640],Pluviométrica,Activa,Convencional,Quindío,Génova,4.183333333,-75.78333333,15/01/1991,True,True,False,True,False,False
+26127040,2612500703,LA ESPERANZA [2612500703],Pluviométrica,Activa,Convencional,Quindío,Génova,4.229925,-75.787475,15/04/2000,True,True,False,True,False,False
+26127040,2612500705,LA HUNGRÍA [2612500705],Pluviométrica,Activa,Convencional,Quindío,Salento,4.654083333,-75.602188889,15/03/2008,True,True,False,True,False,False
+26127040,2612500723,LAS ORQUIDEAS [2612500723],Pluviométrica,Activa,Convencional,Valle Del Cauca,Caicedonia,4.323541667,-75.841172222,15/10/2022,True,True,False,True,False,False
+26127040,0026120140,MARACAY  [26120140],Pluviométrica,Suspendida,Convencional,Quindío,Quimbaya,4.6,-75.76666667,15/11/1961,False,True,False,True,False,False
+26127040,0026130600,MARINA LA  [26130600],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.8,-75.71666667,15/09/1984,True,True,False,True,False,False
+26127040,0026120550,MIRANDA LA  [26120550],Pluviométrica,Activa,Convencional,Quindío,La Tebaida,4.433333333,-75.83333333,15/01/1982,True,True,False,True,False,False
+26127040,0026120560,MONACO  [26120560],Pluviométrica,Activa,Convencional,Quindío,Córdoba,4.4,-75.66666667,15/01/1982,True,True,False,True,False,False
+26127040,0026120690,MONTAÑA LA  [26120690],Pluviométrica,Activa,Convencional,Quindío,Salento,4.616666667,-75.45,15/01/1999,True,True,False,True,False,False
+26127040,0026120020,MONTENEGRO  [26120020],Pluviométrica,Suspendida,Convencional,Quindío,Montenegro,4.566666667,-75.75,15/02/1934,False,True,False,True,False,False
+26127040,0026120300,NAVARCO  [26120300],Pluviométrica,Activa,Convencional,Quindío,Salento,4.483333333,-75.55,15/01/1971,True,True,False,True,False,False
+26127040,2612500704,NORMANDÍA [2612500704],Pluviométrica,Activa,Convencional,Quindío,Salento,4.600891667,-75.620330556,15/07/2003,True,True,False,True,False,False
+26127040,0026120530,PARAISO EL  [26120530],Pluviométrica,Activa,Convencional,Quindío,Calarcá,4.5,-75.7,15/01/1982,True,True,False,True,False,False
+26127040,0026130010,PEREIRA  [26130010],Pluviométrica,Suspendida,Convencional,Risaralda,Pereira,4.8,-75.75,15/09/1947,False,True,False,True,False,False
+26127040,0026120330,PICOTA LA  [26120330],Pluviométrica,Activa,Convencional,Quindío,Salento,4.633333333,-75.65,15/05/1971,True,True,False,True,False,False
+26127040,0026120170,PIJAO [26120170],Pluviométrica,Activa,Convencional,Quindío,Pijao,4.33275,-75.70627778,15/11/1974,True,True,False,True,False,False
+26127040,0026120480,PIZARRAS  [26120480],Pluviométrica,Activa,Convencional,Quindío,Pijao,4.616666667,-75.78333333,15/10/1981,True,True,False,True,False,False
+26127040,0026120370,PLANADAS  [26120370],Pluviométrica,Suspendida,Convencional,Quindío,Calarcá,4.5,-75.63333333,15/04/1971,False,True,False,True,False,False
+26127040,0026120570,PORVENIR EL  [26120570],Pluviométrica,Activa,Convencional,Quindío,Pijao,4.316666667,-75.75,15/01/1982,True,True,False,True,False,False
+26127040,0026120500,PRADERA LA  [26120500],Pluviométrica,Activa,Convencional,Quindío,Armenia,4.466666667,-75.71666667,15/01/1982,True,True,False,True,False,False
+26127040,0026120110,PUEBLO TAPADO  [26120110],Pluviométrica,Activa,Convencional,Quindío,Montenegro,4.566666667,-75.78333333,15/09/1975,True,True,False,True,False,False
+26127040,0026120540,QUEBRADANEGRA  [26120540],Pluviométrica,Activa,Convencional,Quindío,Calarcá,4.516666667,-75.63333333,15/01/1982,True,True,False,True,False,False
+26127040,0026120610,RENTA LA  [26120610],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.783333333,-75.7,15/01/1988,True,True,False,True,False,False
+26127040,0026120080,ROCIO EL  [26120080],Pluviométrica,Activa,Convencional,Quindío,Quimbaya,4.566666667,-75.76666667,15/04/1980,True,True,False,True,False,False
+26127040,0026120160,SALENTO [26120160],Pluviométrica,Activa,Convencional,Quindío,Salento,4.636277778,-75.569166667,15/11/1974,True,True,False,True,False,False
+26127040,0026120290,SAMARIA LA  [26120290],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.716666667,-75.6,15/10/1981,True,True,False,True,False,False
+26127040,0026120420,SAN RAFAEL  [26120420],Pluviométrica,Suspendida,Convencional,Quindío,Calarcá,4.533333333,-75.65,15/04/1971,False,True,False,True,False,False
+26127040,0026120280,SIBERIA  [26120280],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.766666667,-75.68333333,15/01/1981,True,True,False,True,False,False
+26127040,0026120240,SORRENTO  [26120240],Pluviométrica,Activa,Convencional,Quindío,Montenegro,4.533333333,-75.85,15/05/1982,True,True,False,True,False,False
+26127040,0026120050,TALLERES CALARCA  [26120050],Pluviométrica,Suspendida,Convencional,Quindío,Calarcá,4.533333333,-75.63333333,15/01/1966,False,True,False,True,False,False
+26127040,0026120340,TEBAIDA LA  [26120340],Pluviométrica,Suspendida,Convencional,Quindío,La Tebaida,4.45,-75.78333333,15/04/1971,False,True,False,True,False,False
+26127040,0026130430,TIERRICA LA  [26130430],Pluviométrica,Activa,Convencional,Risaralda,Pereira,4.783333333,-75.8,15/01/1981,True,True,False,True,False,False
+26127040,0026120520,TUCUMAN  [26120520],Pluviométrica,Activa,Convencional,Quindío,Armenia,4.533333333,-75.73333333,15/08/1981,True,True,False,True,False,False
+26127040,0026120390,TUNEL EL  [26120390],Pluviométrica,Suspendida,Convencional,Quindío,Calarcá,4.5,-75.58333333,15/01/1971,False,True,False,True,False,False
+26127040,0026120510,VILLA DORA  [26120510],Pluviométrica,Suspendida,Convencional,Quindío,Circasia,4.616666667,-75.61666667,15/04/1971,False,True,False,True,False,False
+26127040,0026120040,VILLA HORIZABA  [26120040],Pluviométrica,Activa,Convencional,Quindío,Génova,4.2,-75.73333333,15/01/1982,True,True,False,True,False,False
+26127040,0026120060,VIVERO  [26120060],Pluviométrica,Activa,Convencional,Quindío,Quimbaya,4.616666667,-75.76666667,15/11/1951,True,True,False,True,False,False
+26127040,0026120190,YOLANDA  [26120190],Pluviométrica,Activa,Convencional,Quindío,Quimbaya,4.616666667,-75.78333333,15/05/1962,True,True,False,True,False,False
+26127040,0026125061,AEROPUERTO EL EDÉN - AUT [26125061],Sinóptica Principal,Activa,"Automática con Telemetría, Convencional",Quindío,Armenia,4.454722222,-75.76638889,15/07/2016,True,False,True,True,False,False
+26127040,0026125710,AEROPUERTO MATECAÑA - AUT [26125710],Sinóptica Principal,En Mantenimiento,"Automática con Telemetría, Convencional",Risaralda,Pereira,4.812675,-75.739519444,12/09/2014,False,False,True,True,False,False
+26127040,0026135040,AEROPUERTO MATECAÑA [26135040],Sinóptica Principal,Activa,Convencional,Risaralda,Pereira,4.815861111,-75.737222222,15/09/1947,True,False,True,True,False,False
+26127040,0021215050,PASO EL [21215050],Sinóptica Principal,Suspendida,Convencional,Tolima,Cajamarca,4.5,-75.56666667,15/03/1945,False,False,True,True,False,False
+44037050,0044035010,FLORENCIA C A [44035010],Agrometeorológica,Suspendida,Convencional,Caqueta,Florencia,1.616666667,-75.6,15/10/1969,False,False,True,True,False,False
+44037050,0044035020,AEROPUERTO G ARTUNDUAGA [44035020],Climatológica Ordinaria,Suspendida,Convencional,Caqueta,Florencia,1.589055556,-75.55955556,15/10/1969,False,False,True,True,False,False
+44037050,0044035040,FLORENCIA - AUT [44035040],Climatológica Principal,En Mantenimiento,Automática con Telemetría,Caqueta,Florencia,1.733,-75.64502778,04/02/2006,False,False,True,True,False,False
+44037050,0044037130,BOCATOMA 2 [44037130],Limnigráfica,Suspendida,Convencional,Caqueta,Florencia,1.6,-75.63333333,15/02/1974,False,False,False,False,True,False
+44037050,0044037040,EL ROSARIO - AUT [44037040],Limnigráfica,En Mantenimiento,"Automática con Telemetría, Convencional",Caqueta,Florencia,1.72525,-75.66638889,15/08/1964,False,False,False,False,True,False
+44037050,4403700097,SUCRE - AUT   [4403700097],Limnigráfica,En Mantenimiento,"Automática con Telemetría, Convencional",Caqueta,Florencia,1.784472222,-75.682527778,19/12/2017,False,False,False,False,True,False
+44037050,0044037120,BOCATOMA 1 [44037120],Limnimétrica,Suspendida,Convencional,Caqueta,Florencia,1.649638889,-75.64258333,15/08/1970,False,False,False,False,True,False
+44037050,0044037030,DIAMANTE EL [44037030],Limnimétrica,Suspendida,Convencional,Caqueta,Florencia,1.683333333,-75.66666667,15/06/1963,False,False,False,False,True,False
+44037050,0044037060,FLORENCIA-HACHA [44037060],Limnimétrica,Activa,Convencional,Caqueta,Florencia,1.621166667,-75.61922222,15/02/1971,True,False,False,False,True,False
+44037050,0021030100,CONC DESARROLLO  [21030100],Pluviométrica,Activa,Convencional,Huila,Timaná,1.966666667,-75.6,15/01/1991,True,True,False,True,False,False
+44037050,0044030040,DIAMANTE EL  [44030040],Pluviométrica,Suspendida,Convencional,Caqueta,Florencia,1.733333333,-75.66666667,15/06/1963,False,True,False,True,False,False
+44037050,0044030010,PLANTAS FLORENCIA [44030010],Pluviométrica,Suspendida,Convencional,Caqueta,Florencia,1.633333333,-75.61666667,15/11/1958,False,True,False,True,False,False
+44037050,0044030050,ROSARIO EL  [44030050],Pluviométrica,Suspendida,Convencional,Caqueta,Florencia,1.766666667,-75.7,15/09/1968,False,True,False,True,False,False
+44037050,0044030030,SUCRE  [44030030],Pluviométrica,Suspendida,Convencional,Caqueta,Florencia,1.633333333,-75.63333333,15/11/1958,False,True,False,True,False,False

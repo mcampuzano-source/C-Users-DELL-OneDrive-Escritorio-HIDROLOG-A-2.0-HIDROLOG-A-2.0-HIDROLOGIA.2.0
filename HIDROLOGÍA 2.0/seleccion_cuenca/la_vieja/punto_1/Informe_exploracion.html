@@ -1,0 +1,457 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>La Vieja — exploración mensual</title><style>
+body{font:17px/1.6 system-ui;max-width:1250px;margin:32px auto;padding:0 24px;color:#19384a;background:#f7f9fa}h1,h2{line-height:1.2}img{width:100%;background:white;border:1px solid #dbe4e8}a{color:#096d87}section{margin:45px 0}.tarjetas{display:flex;gap:18px;flex-wrap:wrap}.tarjetas p{background:#e1eff1;padding:18px;border-radius:8px}.nota{background:#fff0d6;padding:20px;border-left:4px solid #c28826}table{display:block;overflow:auto;border-collapse:collapse;font-size:14px}td,th{padding:9px;border:1px solid #d2dfe4;white-space:nowrap}pre{overflow:auto;background:#142b38;color:#e8f1f4;padding:20px;font:13px/1.55 Consolas,monospace}.texto{white-space:pre-wrap;background:white;color:#19384a;font:16px/1.6 system-ui}nav{display:flex;gap:24px;flex-wrap:wrap}</style>
+<h1>La Vieja–Cartago: primera exploración mensual</h1><p>Estación 26127040 · 1981–2022 · Precipitación CHIRPS y caudal observado reportado por CAMELS</p>
+<nav><a href="Exploracion_mensual_La_Vieja.xlsx">Excel de resultados</a><a href="Interpretacion_inicial.md">Interpretación editable</a><a href="#codigo">Código de este paso</a><a href="../../Codigo_desde_el_inicio.html">Código desde el inicio</a></nav>
+<div class="tarjetas"><p><b>485 / 504</b><br>meses completos</p><p><b>255 días</b><br>ausentes (1,66 %)</p><p><b>19 meses</b><br>excluidos, sin relleno</p></div>
+<p class="nota">Exploración inicial: IMERG y temperatura media siguen pendientes. Las estaciones de lluvia del catálogo no se han usado como registros observados en estas figuras. Los extremos y secuencias constantes son alertas que se conservan hasta comprobarlas.</p>
+<h2>Primeros resultados</h2><p>La lluvia media mensual es 168,20 mm y el caudal medio de los meses válidos, 98,70 m³/s. Los dos máximos del ciclo de lluvia anteceden un mes a los máximos del caudal. Es una hipótesis inicial de régimen bimodal con respuesta retardada, no una atribución causal.</p>
+<p>Se verificaron de manera independiente enero de 1981 y febrero bisiesto de 1992. Se encontraron ocho secuencias de caudal constante de al menos siete días; permanecen en el análisis y requieren metadatos.</p><section><h2>1. Series cronológicas</h2><p>Las franjas grises son meses excluidos; no se unen los valores a través de vacíos.</p><a href="figuras/01_series_cronologicas.png"><img src="figuras/01_series_cronologicas.png" alt="1. Series cronológicas"></a><p><a href="figuras/01_series_cronologicas.pdf">Descargar figura en PDF</a></p></section><section><h2>2. Disponibilidad</h2><p>Los faltantes diarios se concentran en 19 meses; el hueco continuo más largo es de 62 días.</p><a href="figuras/02_disponibilidad.png"><img src="figuras/02_disponibilidad.png" alt="2. Disponibilidad"></a><p><a href="figuras/02_disponibilidad.pdf">Descargar figura en PDF</a></p></section><section><h2>3. Distribuciones y extremos</h2><p>Q tiene una cola superior marcada. Los puntos fuera de los bigotes se conservan.</p><a href="figuras/03_distribuciones.png"><img src="figuras/03_distribuciones.png" alt="3. Distribuciones y extremos"></a><p><a href="figuras/03_distribuciones.pdf">Descargar figura en PDF</a></p></section><section><h2>4. Ciclo anual exploratorio</h2><p>P tiene máximos locales en abril y octubre; Q en mayo y noviembre. Las bandas muestran variabilidad entre años, no incertidumbre de la media.</p><a href="figuras/04_ciclo_anual_exploratorio.png"><img src="figuras/04_ciclo_anual_exploratorio.png" alt="4. Ciclo anual exploratorio"></a><p><a href="figuras/04_ciclo_anual_exploratorio.pdf">Descargar figura en PDF</a></p></section><section><h2>5. Variabilidad entre años</h2><p>Esta figura conserva los años individuales; la climatología por sí sola los ocultaría.</p><a href="figuras/05_mapa_ano_mes.png"><img src="figuras/05_mapa_ano_mes.png" alt="5. Variabilidad entre años"></a><p><a href="figuras/05_mapa_ano_mes.pdf">Descargar figura en PDF</a></p></section><section><h2>6. Inspección de extremos</h2><p>Ventanas temporales de los mínimos y máximos de P y Q. Las franjas naranjas señalan el mes extremo.</p><a href="figuras/06_revision_extremos.png"><img src="figuras/06_revision_extremos.png" alt="6. Inspección de extremos"></a><p><a href="figuras/06_revision_extremos.pdf">Descargar figura en PDF</a></p></section><h2>Tabla descriptiva completa</h2><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>variable</th>
+      <th>unidad</th>
+      <th>meses_validos</th>
+      <th>media</th>
+      <th>mediana</th>
+      <th>desviacion_estandar</th>
+      <th>minimo</th>
+      <th>maximo</th>
+      <th>rango</th>
+      <th>q25</th>
+      <th>q75</th>
+      <th>IQR</th>
+      <th>p05</th>
+      <th>p10</th>
+      <th>p90</th>
+      <th>p95</th>
+      <th>asimetria</th>
+      <th>meses_cero</th>
+      <th>min_fecha</th>
+      <th>max_fecha</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>P_mm</td>
+      <td>mm/mes</td>
+      <td>485</td>
+      <td>168.198</td>
+      <td>168.469</td>
+      <td>74.538</td>
+      <td>24.892</td>
+      <td>407.574</td>
+      <td>382.682</td>
+      <td>107.294</td>
+      <td>216.547</td>
+      <td>109.253</td>
+      <td>60.319</td>
+      <td>74.953</td>
+      <td>270.771</td>
+      <td>296.483</td>
+      <td>0.380</td>
+      <td>0</td>
+      <td>1982-08-01</td>
+      <td>2022-10-01</td>
+    </tr>
+    <tr>
+      <td>Q_m3_s</td>
+      <td>m³/s</td>
+      <td>485</td>
+      <td>98.701</td>
+      <td>85.545</td>
+      <td>64.348</td>
+      <td>18.368</td>
+      <td>508.767</td>
+      <td>490.399</td>
+      <td>49.157</td>
+      <td>127.042</td>
+      <td>77.885</td>
+      <td>29.185</td>
+      <td>34.131</td>
+      <td>181.192</td>
+      <td>221.008</td>
+      <td>1.698</td>
+      <td>0</td>
+      <td>1992-07-01</td>
+      <td>2010-11-01</td>
+    </tr>
+    <tr>
+      <td>R_mm</td>
+      <td>mm/mes</td>
+      <td>485</td>
+      <td>92.817</td>
+      <td>81.399</td>
+      <td>60.628</td>
+      <td>17.588</td>
+      <td>471.446</td>
+      <td>453.858</td>
+      <td>46.552</td>
+      <td>118.833</td>
+      <td>72.282</td>
+      <td>27.558</td>
+      <td>32.070</td>
+      <td>172.685</td>
+      <td>206.707</td>
+      <td>1.697</td>
+      <td>0</td>
+      <td>1992-07-01</td>
+      <td>2010-11-01</td>
+    </tr>
+  </tbody>
+</table><h2>Interpretación, decisiones y limitaciones</h2><pre class="texto"># La Vieja–Cartago: primera interpretación mensual
+
+Estación IDEAM 26127040. Periodo: enero de 1981 a diciembre de 2022. Área utilizada: 2797,19 km², reportada por CAMELS. Esta es la exploración inicial de precipitación y caudal; no es todavía el punto 1 completo, porque faltan IMERG y la temperatura media.
+
+## 1. Fuentes y procedimiento
+
+Se leyó directamente el archivo `Hydromet_data_26127040.txt` del depósito [CAMELS-COL](https://doi.org/10.5281/zenodo.18794895). La precipitación corresponde a CHIRPS v2 promediado sobre la cuenca, no a una estación pluviométrica local. El caudal se reporta como observado en la estación de salida. El archivo no incluye banderas diarias que permitan certificar la ausencia de reconstrucciones previas. La existencia de numerosas estaciones terrestres en el catálogo no significa que sus registros se hayan incorporado a esta exploración.
+
+Primero se reconstruyó el calendario de 15.340 días, incluidos los bisiestos. Los días omitidos permanecen como valores ausentes. Se conservó un mes únicamente cuando todos sus días eran válidos para la variable correspondiente: precipitación mensual = suma diaria; caudal mensual = media diaria. No se rellenaron ni prorratearon meses y se conservaron los ceros.
+
+La lámina mensual de escorrentía se obtuvo mediante `R = 86.4 / 2797.19 × suma(Q_diario)`, en mm/mes. Se comprobó también su equivalencia con `Q_medio × días_del_mes × 86.4 / área`. R es una transformación de Q, no una medición independiente.
+
+## 2. Disponibilidad y problemas detectados
+
+- El archivo contiene **15.085 filas y omite 255 días**, equivalentes al **1,6623 %** del calendario completo. En P y Q faltan exactamente las mismas fechas. Esto describe el archivo ensamblado CAMELS; no demuestra que CHIRPS original carezca de esas fechas.
+- Quedan **485 meses completos de 504 (96,23 %)**. Los **19 meses excluidos** siguen apareciendo como vacíos en la serie; las franjas grises de la figura 1 los identifican.
+- Los vacíos más largos son **diciembre de 2007–enero de 2008 (62 días)**, **agosto–septiembre de 1992 (61 días)** y **8 de noviembre–31 de diciembre de 2011 (54 días)**. El resto está documentado en `intervalos_faltantes.csv` y `disponibilidad_mensual.csv`.
+- No se encontraron fechas duplicadas o desordenadas, P/Q negativos o no finitos, ni Tmin mayor que Tmax. Esto es control básico, no certificación de homogeneidad o exactitud.
+- Se detectaron **ocho secuencias de caudal exactamente constante de siete o más días**. La más larga es de **11 días, 16–26 de julio de 2004, con 28,6 m³/s**. Se conservan: pueden relacionarse con redondeo, persistencia real o procesamiento previo. Se necesitan metadatos para distinguir esas posibilidades.
+- Los diagramas de caja señalan **3 meses extremos de P, 15 de Q y 17 de R**, mediante bigotes de 1,5 IQR. Son alertas exploratorias que mezclan meses de distintas estaciones del año; ninguno se eliminó por ese criterio.
+- El cribado de cambios mensuales por un factor de al menos cinco detectó dos aumentos de P: septiembre de 1982 y septiembre de 2001. Coinciden con una transición hacia meses más lluviosos, pero esto no demuestra su exactitud. No detectó cambios de ese tamaño en Q. Este cribado no es una prueba de rupturas de homogeneidad.
+
+La disponibilidad no es uniforme entre meses calendario: el ciclo anual usa entre **39 y 42 años por mes**. El hecho de que varios vacíos afecten temporadas lluviosas puede sesgar la caracterización de extremos; por ello se reporta el número de años y no se asume que los faltantes sean aleatorios.
+
+## 3. Estadística descriptiva
+
+Las cifras siguientes utilizan los mismos 485 meses válidos de P y Q. La media de Q es la media aritmética de los promedios mensuales, no el promedio de todos los días ponderado por duración del mes.
+
+| Estadístico | P (mm/mes) | Q (m³/s) | R (mm/mes) |
+|---|---:|---:|---:|
+| Media | 168,20 | 98,70 | 92,82 |
+| Mediana | 168,47 | 85,55 | 81,40 |
+| Desviación estándar muestral | 74,54 | 64,35 | 60,63 |
+| Mínimo | 24,89 | 18,37 | 17,59 |
+| Máximo | 407,57 | 508,77 | 471,45 |
+| Cuartil 25 | 107,29 | 49,16 | 46,55 |
+| Cuartil 75 | 216,55 | 127,04 | 118,83 |
+
+El Excel incluye rango, IQR y percentiles 5, 10, 90 y 95. Se empleó desviación muestral (`ddof=1`) y percentiles con interpolación lineal. Los histogramas usan intervalos Freedman–Diaconis y porcentaje de meses. No hay meses completos con P o Q iguales a cero, aunque sí hay días sin lluvia.
+
+En P, media y mediana son cercanas. En Q la media supera la mediana en unos **13,16 m³/s**, y la asimetría es **1,70**: los meses de caudal alto elevan el promedio. La mediana describe mejor el centro resistente a esos extremos, aunque una condición típica depende también del mes calendario. La dispersión de estas tablas no es un intervalo de confianza ni una cuantificación de errores de medición.
+
+## 4. Lectura cronológica y revisión de extremos
+
+Las figuras 1 y 5 muestran alternancia estacional y diferencias apreciables entre años. El periodo de finales de 2010 destaca por caudales persistentemente altos: **508,77 m³/s en noviembre y 439,72 m³/s en diciembre**. No corresponde a un único día alto: los 30 caudales diarios de noviembre van de **262,0 a 880,2 m³/s**, con mediana **514,75 m³/s**. Ese mes registra además **396,03 mm** de lluvia. Su coherencia interna respalda conservarlo, pero no verifica de forma independiente la medición ni permite atribuir el episodio a ENSO.
+
+El máximo mensual de P es **octubre de 2022, 407,57 mm**, y su mínimo es **agosto de 1982, 24,89 mm**. El mínimo de Q es **julio de 1992, 18,37 m³/s**. Los mínimos de precipitación y caudal de todo el registro no coinciden; no debe calcularse un desfase usando esos extremos de años diferentes.
+
+La figura 6 muestra ventanas de aproximadamente un año alrededor de los extremos de ambas variables. El periodo posterior al caudal mínimo de julio de 1992 presenta dos meses totalmente ausentes, por lo que no se puede describir su recuperación inmediata. Se observan agrupaciones de meses de Q bajo, por ejemplo en 2015–2016, pero no se ha aplicado una definición formal de sequía ni una prueba de tendencia.
+
+No hay fundamento en estas gráficas para afirmar un aumento o disminución sostenido del caudal a largo plazo. Eso requiere los análisis de tendencias, dependencia temporal y homogeneidad del punto 3.
+
+## 5. Hipótesis inicial del régimen
+
+La climatología exploratoria (figura 4) muestra **dos máximos locales de lluvia**, en **abril (240,16 mm)** y **octubre (255,03 mm)**, separados por un mínimo en **julio (89,99 mm)**. Por máximo local se entiende un valor mayor que el de sus dos meses vecinos en el ciclo anual. El máximo de octubre equivale a unas **2,83 veces** la media de julio. Esta evidencia sugiere inicialmente un **régimen pluvial bimodal**, pendiente de comprobar su estabilidad entre años y subperiodos.
+
+El caudal presenta máximos locales en **mayo (131,62 m³/s)** y **noviembre (157,01 m³/s)**, un mes después de cada pico de P; el mínimo ocurre en **agosto (46,85 m³/s)**. Este es un desfase de picos climatológicos a resolución mensual, no una estimación del tiempo de viaje del agua ni un resultado de correlación con rezagos.
+
+El [POMCA del río La Vieja, capítulo 3, Clima](https://www.cvc.gov.co/sites/default/files/Planes_y_Programas/Planes_de_Ordenacion_y_Manejo_de_Cuencas_Hidrografica/La%20Vieja%20-%20POMCA%20en%20Ajuste/Fase%20Diagnostico/3_CapituloI_Diagnostico_Clima.pdf), estudio 2017 alojado por CVC, sección 3.3 (p. impresa 20; PDF 24) relaciona las dos temporadas lluviosas regionales con la migración de la ZCIT. Su tabla 3.8 (p. impresa 36; PDF 40) también muestra dos máximos de precipitación media en abril y octubre. Es evidencia regional compatible con nuestro ciclo; no valida directamente CHIRPS, pues las fuentes, periodos y delimitación pueden diferir.
+
+**Hipótesis a contrastar:** el ciclo de lluvia regional aporta dos temporadas de recarga y la respuesta de la cuenca prolonga la salida por el río hacia los meses siguientes. El almacenamiento en suelo/subsuelo es un mecanismo posible, no demostrado. La agregación mensual, el reparto espacial de lluvia, las extracciones y la regulación son explicaciones alternativas o adicionales. Para distinguirlas se necesitan antecedentes locales, comparación de productos y análisis de rezagos con series originales y anomalías.
+
+En **44 meses** R supera P. No se etiquetan como errores: pueden intervenir agua almacenada, intercambios, sesgos de precipitación/caudal o incertidumbre del área. La razón entre sumas de R y P en los 485 meses pareados es **0,552**, pero no es un balance cerrado de los 42 años, pues omite meses. Tampoco se interpreta P−R como evapotranspiración.
+
+## 6. Comprobaciones y sensibilidad
+
+La agregación se verificó con sumas independientes de Python, además de pandas:
+
+- **Enero de 1981:** 31 días; P = **50,945 mm**; suma de Q diario = **1829,3**; Q medio = **59,0097 m³/s**; volumen = **158.051.520 m³**; R = **56,5037 mm**.
+- **Febrero de 1992:** 29 días; P = **111,351 mm**; Q medio = **42,8724 m³/s**; R = **38,4032 mm**. Se verificó explícitamente el año bisiesto.
+
+Los cálculos coinciden con las series exportadas. El uso de una suma de caudales diarios se entiende como un paso intermedio: para obtener volumen se multiplica por 86.400 segundos por día.
+
+Como sensibilidad, permitir meses de Q con al menos 90 % de días elevaría la muestra a **494 meses** y la media a **100,91 m³/s**, frente a 98,70 con el criterio estricto (cambio de alrededor del **2,24 %**). Esto no valida los días faltantes ni justifica completar P. Se conserva el criterio del 100 % como análisis principal.
+
+## 7. Alcance y próximos datos necesarios
+
+Se completó la primera exploración de P/Q y la conversión a R, con figuras, estadísticas, auditoría y una hipótesis inicial. Quedan pendientes la precipitación IMERG real (el intento de acceso requirió autenticación Earthdata), la temperatura media mensual, la comparación de fuentes y el desarrollo completo de la climatología del apartado 1.5. No se sustituyeron descargas fallidas por datos simulados.
+
+La lámina R depende del área elegida. El cálculo geodésico previo del polígono produjo aproximadamente 2780,18 km², frente a 2797,19 en los atributos CAMELS: diferencia cercana al 0,61 %. Se mantiene por consistencia el área CAMELS y se deja pendiente el contraste cartográfico; usar el área geodésica elevaría R aproximadamente 0,61 %.
+
+El grupo debe revisar las alertas con información de estación, leer las fuentes originales y decidir si conserva el criterio de completitud. El código permite regenerar los resultados sin alterar los datos originales.
+
+## Reproducción y uso de IA
+
+Ejecutar `python seleccion_cuenca/scripts/08_exploracion_mensual_la_vieja.py`. Requiere el ZIP original guardado en `seleccion_cuenca/datos/`, Python, pandas, numpy, matplotlib y openpyxl. El informe visual se genera con `scripts/09_informe_exploracion.py`. Las figuras se guardan en PNG y PDF, y las tablas en CSV y Excel.
+
+La IA apoyó la programación, el control aritmético, la lectura del capítulo regional y la redacción de esta interpretación preliminar. Se verificaron fechas, completitud, conservación de vacíos, conversiones de dos meses, coherencia entre R y Q y legibilidad de figuras. No se verificaron externamente los aforos ni los registros individuales de estaciones meteorológicas. Las hipótesis físicas permanecen sujetas a revisión del grupo.
+</pre><details id="codigo"><summary>Ver código completo de esta exploración</summary><pre><code>&quot;&quot;&quot;Punto 1, primera exploracion P/Q: originales, auditoria, agregacion y figuras.
+Ejecutar desde cualquier carpeta. Sin rellenos, sin eliminacion por ser extremo.
+&quot;&quot;&quot;
+from pathlib import Path
+import io, json, math, zipfile, hashlib
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use(&#x27;Agg&#x27;)
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+from openpyxl.styles import Font, PatternFill
+
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/&#x27;la_vieja&#x27;/&#x27;punto_1&#x27;
+OUT.mkdir(parents=True,exist_ok=True)
+FIG=OUT/&#x27;figuras&#x27;
+FIG.mkdir(exist_ok=True)
+AREA=2797.19
+CODE=26127040
+plt.rcParams.update({&#x27;font.size&#x27;:10,&#x27;axes.spines.top&#x27;:False,&#x27;axes.spines.right&#x27;:False,&#x27;figure.dpi&#x27;:110})
+LABELS={&#x27;P_mm&#x27;:&#x27;Precipitación CHIRPS (mm/mes)&#x27;,&#x27;Q_m3_s&#x27;:&#x27;Caudal observado (m³/s)&#x27;,&#x27;R_mm&#x27;:&#x27;Escorrentía (mm/mes)&#x27;}
+COLORS={&#x27;P_mm&#x27;:&#x27;#257da4&#x27;,&#x27;Q_m3_s&#x27;:&#x27;#a35720&#x27;,&#x27;R_mm&#x27;:&#x27;#368269&#x27;}
+NAMES=[&#x27;Ene&#x27;,&#x27;Feb&#x27;,&#x27;Mar&#x27;,&#x27;Abr&#x27;,&#x27;May&#x27;,&#x27;Jun&#x27;,&#x27;Jul&#x27;,&#x27;Ago&#x27;,&#x27;Sep&#x27;,&#x27;Oct&#x27;,&#x27;Nov&#x27;,&#x27;Dic&#x27;]
+
+# 1. Lectura directa del original y auditoria de fechas y valores.
+archive=ROOT/&#x27;datos&#x27;/&#x27;04_CAMELS_COL_Hydrometeorological_data.zip&#x27;
+with zipfile.ZipFile(archive) as z:
+    member=next(n for n in z.namelist() if str(CODE) in n)
+    data=z.read(member)
+raw=pd.read_csv(io.BytesIO(data),sep=&#x27;\t&#x27;)
+dates=pd.to_datetime(raw.pop(&#x27;Fecha&#x27;),format=&#x27;%d/%m/%Y&#x27;,errors=&#x27;raise&#x27;)
+duplicates=int(dates.duplicated().sum())
+if duplicates:
+    raise ValueError(&#x27;Fechas duplicadas; resolver antes de agregar&#x27;)
+ordered=bool(dates.is_monotonic_increasing)
+raw.index=pd.DatetimeIndex(dates,name=&#x27;fecha&#x27;)
+raw=raw.apply(pd.to_numeric,errors=&#x27;raise&#x27;).sort_index()
+calendar=pd.date_range(&#x27;1981-01-01&#x27;,&#x27;2022-12-31&#x27;,freq=&#x27;D&#x27;,name=&#x27;fecha&#x27;)
+if not raw.index.isin(calendar).all():
+    raise ValueError(&#x27;Fechas fuera del periodo declarado&#x27;)
+daily=raw.reindex(calendar)
+issues=[]
+for col in raw:
+    finite=np.isfinite(daily[col])
+    invalid=(daily[col].notna() &amp; ~finite)
+    if col in [&#x27;Precipitacion&#x27;,&#x27;Caudal&#x27;]:
+        invalid |= daily[col].lt(0)
+    for date,value in daily.loc[invalid,col].items():
+        issues.append({&#x27;fecha&#x27;:date,&#x27;variable&#x27;:col,&#x27;valor&#x27;:value,&#x27;decision&#x27;:&#x27;No valido; se conserva en original y se excluye de la agregacion&#x27;})
+    daily.loc[invalid,col]=np.nan
+inverted=int((daily.Temperatura_minima&gt;daily.Temperatura_maxima).sum())
+pd.DataFrame(issues,columns=[&#x27;fecha&#x27;,&#x27;variable&#x27;,&#x27;valor&#x27;,&#x27;decision&#x27;]).to_csv(OUT/&#x27;valores_invalidos.csv&#x27;,index=False)
+daily.to_csv(OUT/&#x27;diario_calendario_completo.csv&#x27;,index_label=&#x27;fecha&#x27;)
+
+def intervals(mask):
+    &quot;&quot;&quot;Intervalos consecutivos en calendario real; no concatenar dias ausentes.&quot;&quot;&quot;
+    groups=mask.ne(mask.shift()).cumsum()
+    return [{&#x27;inicio&#x27;:x.index[0], &#x27;fin&#x27;:x.index[-1], &#x27;dias&#x27;:len(x)} for _,x in mask[mask].groupby(groups[mask])]
+
+gap_rows=[]
+for col in [&#x27;Precipitacion&#x27;,&#x27;Caudal&#x27;]:
+    gap_rows.extend(dict(variable=col,**v) for v in intervals(daily[col].isna()))
+gaps=pd.DataFrame(gap_rows)
+gaps.to_csv(OUT/&#x27;intervalos_faltantes.csv&#x27;,index=False)
+
+# 2. Agregacion mensual estricta, con 100 % de dias validos por variable.
+counts=daily.resample(&#x27;MS&#x27;).count()
+expected=pd.Series(counts.index.days_in_month,index=counts.index,name=&#x27;dias_esperados&#x27;)
+complete=counts.eq(expected,axis=0)
+monthly=pd.DataFrame(index=counts.index)
+monthly[&#x27;P_mm&#x27;]=daily.Precipitacion.resample(&#x27;MS&#x27;).sum(min_count=1).where(complete.Precipitacion)
+monthly[&#x27;Q_m3_s&#x27;]=daily.Caudal.resample(&#x27;MS&#x27;).mean().where(complete.Caudal)
+monthly[&#x27;R_mm&#x27;]=(86.4/AREA*daily.Caudal.resample(&#x27;MS&#x27;).sum(min_count=1)).where(complete.Caudal)
+monthly[&#x27;Tmin_media_C&#x27;]=daily.Temperatura_minima.resample(&#x27;MS&#x27;).mean().where(complete.Temperatura_minima)
+monthly[&#x27;Tmax_media_C&#x27;]=daily.Temperatura_maxima.resample(&#x27;MS&#x27;).mean().where(complete.Temperatura_maxima)
+monthly.index.name=&#x27;mes&#x27;
+availability=pd.DataFrame({&#x27;dias_esperados&#x27;:expected})
+for col,short in [(&#x27;Precipitacion&#x27;,&#x27;P&#x27;),(&#x27;Caudal&#x27;,&#x27;Q&#x27;),(&#x27;Temperatura_minima&#x27;,&#x27;Tmin&#x27;),(&#x27;Temperatura_maxima&#x27;,&#x27;Tmax&#x27;)]:
+    availability[f&#x27;dias_validos_{short}&#x27;]=counts[col]
+    availability[f&#x27;dias_faltantes_{short}&#x27;]=expected-counts[col]
+    availability[f&#x27;mes_retenido_{short}&#x27;]=complete[col]
+availability[&#x27;P_Q_pareados&#x27;]=monthly[[&#x27;P_mm&#x27;,&#x27;Q_m3_s&#x27;]].notna().all(axis=1)
+monthly.to_csv(OUT/&#x27;series_mensuales.csv&#x27;)
+availability.to_csv(OUT/&#x27;disponibilidad_mensual.csv&#x27;,index_label=&#x27;mes&#x27;)
+availability[~availability.P_Q_pareados].to_csv(OUT/&#x27;meses_excluidos.csv&#x27;,index_label=&#x27;mes&#x27;)
+yearly=availability.groupby(availability.index.year).sum()
+yearly.to_csv(OUT/&#x27;disponibilidad_anual.csv&#x27;,index_label=&#x27;ano&#x27;)
+
+# 3. Comprobacion independiente con sumas de Python (incluye febrero bisiesto).
+checks=[]
+for period in [&#x27;1981-01&#x27;,&#x27;1992-02&#x27;]:
+    block=daily.loc[period]
+    if block[[&#x27;Precipitacion&#x27;,&#x27;Caudal&#x27;]].isna().any().any():
+        raise ValueError(f&#x27;Mes de comprobacion incompleto: {period}&#x27;)
+    p=math.fsum(block.Precipitacion.tolist())
+    qsum=math.fsum(block.Caudal.tolist())
+    q=qsum/len(block)
+    volume=qsum*86400
+    r=volume/(AREA*1e6)*1000
+    measured=monthly.loc[pd.Timestamp(period+&#x27;-01&#x27;)]
+    for variable,a,b in [(&#x27;P&#x27;,p,measured.P_mm),(&#x27;Q&#x27;,q,measured.Q_m3_s),(&#x27;R&#x27;,r,measured.R_mm)]:
+        assert math.isclose(a,b,rel_tol=1e-12,abs_tol=1e-10),(period,variable,a,b)
+    checks.append({&#x27;mes&#x27;:period,&#x27;dias&#x27;:len(block),&#x27;suma_P_diaria_mm&#x27;:p,&#x27;suma_Q_diaria&#x27;:qsum,&#x27;Q_media_m3_s&#x27;:q,&#x27;volumen_m3&#x27;:volume,&#x27;area_km2&#x27;:AREA,&#x27;R_mm&#x27;:r,&#x27;coincide&#x27;:True})
+manual=pd.DataFrame(checks)
+manual.to_csv(OUT/&#x27;comprobacion_manual.csv&#x27;,index=False)
+assert np.allclose(monthly.R_mm,monthly.Q_m3_s*expected*86.4/AREA,equal_nan=True)
+
+# 4. Estadistica descriptiva. Percentiles lineales, desviacion muestral ddof=1.
+stats=[]
+extremes=[]
+box_flags=[]
+for var in LABELS:
+    s=monthly[var].dropna()
+    quant=s.quantile([.05,.10,.25,.5,.75,.90,.95],interpolation=&#x27;linear&#x27;)
+    q1,q3=quant.loc[.25],quant.loc[.75]
+    iqr=q3-q1
+    stats.append({&#x27;variable&#x27;:var,&#x27;unidad&#x27;:LABELS[var].split(&#x27;(&#x27;)[-1].rstrip(&#x27;)&#x27;), &#x27;meses_validos&#x27;:len(s),&#x27;media&#x27;:s.mean(),&#x27;mediana&#x27;:s.median(),&#x27;desviacion_estandar&#x27;:s.std(ddof=1),&#x27;minimo&#x27;:s.min(),&#x27;maximo&#x27;:s.max(),&#x27;rango&#x27;:s.max()-s.min(),&#x27;q25&#x27;:q1,&#x27;q75&#x27;:q3,&#x27;IQR&#x27;:iqr,&#x27;p05&#x27;:quant.loc[.05],&#x27;p10&#x27;:quant.loc[.10],&#x27;p90&#x27;:quant.loc[.90],&#x27;p95&#x27;:quant.loc[.95],&#x27;asimetria&#x27;:s.skew(),&#x27;meses_cero&#x27;:int(s.eq(0).sum()),&#x27;min_fecha&#x27;:str(s.idxmin().date()),&#x27;max_fecha&#x27;:str(s.idxmax().date())})
+    for direction,values in [(&#x27;minimo&#x27;,s.nsmallest(5)),(&#x27;maximo&#x27;,s.nlargest(5))]:
+        for date,value in values.items():
+            extremes.append({&#x27;variable&#x27;:var,&#x27;tipo&#x27;:direction,&#x27;mes&#x27;:date,&#x27;valor&#x27;:value,&#x27;P_mm&#x27;:monthly.loc[date,&#x27;P_mm&#x27;],&#x27;Q_m3_s&#x27;:monthly.loc[date,&#x27;Q_m3_s&#x27;],&#x27;R_mm&#x27;:monthly.loc[date,&#x27;R_mm&#x27;]})
+    for date,value in s[(s&lt;q1-1.5*iqr)|(s&gt;q3+1.5*iqr)].items():
+        box_flags.append({&#x27;variable&#x27;:var,&#x27;mes&#x27;:date,&#x27;valor&#x27;:value,&#x27;criterio&#x27;:&#x27;Fuera de Q1-1.5 IQR o Q3+1.5 IQR global&#x27;,&#x27;decision&#x27;:&#x27;Conservar; alerta exploratoria, no error demostrado&#x27;})
+statistics=pd.DataFrame(stats).set_index(&#x27;variable&#x27;)
+statistics.to_csv(OUT/&#x27;estadistica_descriptiva.csv&#x27;)
+extremes=pd.DataFrame(extremes)
+extremes.to_csv(OUT/&#x27;meses_extremos.csv&#x27;,index=False)
+box_flags=pd.DataFrame(box_flags)
+box_flags.to_csv(OUT/&#x27;alertas_diagramas_caja.csv&#x27;,index=False)
+
+# Secuencias constantes de al menos 7 dias: ceros de lluvia se separan de alertas.
+runs=[]
+for col in [&#x27;Precipitacion&#x27;,&#x27;Caudal&#x27;]:
+    s=daily[col]
+    group=(s.ne(s.shift())|s.isna()).cumsum()
+    for _,x in s.dropna().groupby(group[s.notna()]):
+        if len(x)&gt;=7:
+            runs.append({&#x27;variable&#x27;:col,&#x27;inicio&#x27;:x.index[0],&#x27;fin&#x27;:x.index[-1],&#x27;dias&#x27;:len(x),&#x27;valor&#x27;:x.iloc[0],&#x27;tipo&#x27;:&#x27;Racha seca, no error por si sola&#x27; if col==&#x27;Precipitacion&#x27; and x.iloc[0]==0 else &#x27;Constancia para revisar con metadatos&#x27;})
+run_table=pd.DataFrame(runs,columns=[&#x27;variable&#x27;,&#x27;inicio&#x27;,&#x27;fin&#x27;,&#x27;dias&#x27;,&#x27;valor&#x27;,&#x27;tipo&#x27;])
+run_table.to_csv(OUT/&#x27;secuencias_constantes.csv&#x27;,index=False)
+
+# Cambios bruscos: solo pares consecutivos, cociente &gt;=5 o &lt;=1/5; no prueba de ruptura.
+jumps=[]
+for var in [&#x27;P_mm&#x27;,&#x27;Q_m3_s&#x27;]:
+    ratio=monthly[var]/monthly[var].shift(1)
+    for date,value in ratio[(ratio&gt;=5)|(ratio&lt;=.2)].items():
+        jumps.append({&#x27;variable&#x27;:var,&#x27;mes&#x27;:date,&#x27;valor&#x27;:monthly.loc[date,var],&#x27;cociente_mes_previo&#x27;:value,&#x27;decision&#x27;:&#x27;Conservar; contrastar con estacionalidad y metadatos&#x27;})
+jump_table=pd.DataFrame(jumps,columns=[&#x27;variable&#x27;,&#x27;mes&#x27;,&#x27;valor&#x27;,&#x27;cociente_mes_previo&#x27;,&#x27;decision&#x27;])
+jump_table.to_csv(OUT/&#x27;alertas_cambios_bruscos.csv&#x27;,index=False)
+
+# Sensibilidad de Q a retener meses con &gt;=90 % de dias; no modificar serie principal.
+q90=daily.Caudal.resample(&#x27;MS&#x27;).mean().where(counts.Caudal/expected&gt;=.9)
+sensitivity=pd.DataFrame({&#x27;Q_estricto&#x27;:monthly.Q_m3_s,&#x27;Q_90pct_exploratorio&#x27;:q90,&#x27;dias_validos&#x27;:counts.Caudal,&#x27;dias_esperados&#x27;:expected})
+sensitivity.to_csv(OUT/&#x27;sensibilidad_completitud_Q.csv&#x27;)
+
+# 5. Ciclo anual exploratorio, con los mismos meses validos para P y Q.
+paired=monthly.loc[availability.P_Q_pareados,list(LABELS)]
+clim=[]
+for var in LABELS:
+    for month,s in paired[var].groupby(paired.index.month):
+        clim.append({&#x27;variable&#x27;:var,&#x27;mes_calendario&#x27;:month,&#x27;n_anos&#x27;:len(s),&#x27;media&#x27;:s.mean(),&#x27;mediana&#x27;:s.median(),&#x27;sd&#x27;:s.std(),&#x27;p10&#x27;:s.quantile(.1),&#x27;q25&#x27;:s.quantile(.25),&#x27;q75&#x27;:s.quantile(.75),&#x27;p90&#x27;:s.quantile(.9)})
+climatology=pd.DataFrame(clim)
+climatology.to_csv(OUT/&#x27;climatologia_exploratoria.csv&#x27;,index=False)
+
+# 6. Graficas exportables PNG y PDF.
+def save(fig,name):
+    fig.savefig(FIG/(name+&#x27;.png&#x27;),dpi=180,bbox_inches=&#x27;tight&#x27;)
+    fig.savefig(FIG/(name+&#x27;.pdf&#x27;),bbox_inches=&#x27;tight&#x27;)
+    plt.close(fig)
+
+fig,axes=plt.subplots(3,1,figsize=(15,9),sharex=True,layout=&#x27;constrained&#x27;)
+for ax,var in zip(axes,LABELS):
+    ax.plot(monthly.index,monthly[var],color=COLORS[var],lw=.8,marker=&#x27;.&#x27;,ms=2)
+    for month in monthly.index[monthly[var].isna()]:
+        ax.axvspan(month,month+pd.offsets.MonthBegin(1),color=&#x27;#d9d9d9&#x27;,alpha=.75,lw=0)
+    ax.set_ylabel(LABELS[var]); ax.set_ylim(bottom=0); ax.grid(alpha=.2)
+axes[-1].xaxis.set_major_locator(mdates.YearLocator(5))
+axes[-1].xaxis.set_major_formatter(mdates.DateFormatter(&#x27;%Y&#x27;))
+axes[-1].set_xlabel(&#x27;Fecha&#x27;)
+fig.suptitle(&#x27;La Vieja–Cartago · 26127040 · 1981–2022\nMeses completos; gris = mes excluido por días faltantes. Sin relleno.&#x27;)
+save(fig,&#x27;01_series_cronologicas&#x27;)
+
+fig,ax=plt.subplots(figsize=(15,4),layout=&#x27;constrained&#x27;)
+matrix=(counts.Caudal/expected*100).to_frame(&#x27;pct&#x27;)
+matrix[&#x27;ano&#x27;]=matrix.index.year; matrix[&#x27;mes&#x27;]=matrix.index.month
+im=ax.imshow(matrix.pivot(index=&#x27;mes&#x27;,columns=&#x27;ano&#x27;,values=&#x27;pct&#x27;),origin=&#x27;lower&#x27;,aspect=&#x27;auto&#x27;,vmin=0,vmax=100,cmap=&#x27;YlGn&#x27;,extent=[1980.5,2022.5,.5,12.5])
+ax.set_yticks(range(1,13),NAMES); ax.set_xlabel(&#x27;Año&#x27;)
+ax.set_title(&#x27;Porcentaje de días válidos por mes · P y Q tienen la misma disponibilidad&#x27;)
+fig.colorbar(im,ax=ax,label=&#x27;Días válidos (%)&#x27;)
+save(fig,&#x27;02_disponibilidad&#x27;)
+
+fig,axes=plt.subplots(2,3,figsize=(14,7),layout=&#x27;constrained&#x27;)
+bins_info=[]
+for j,var in enumerate(LABELS):
+    values=monthly[var].dropna().to_numpy()
+    edges=np.histogram_bin_edges(values,bins=&#x27;fd&#x27;)
+    bins_info.append({&#x27;variable&#x27;:var,&#x27;metodo&#x27;:&#x27;Freedman–Diaconis&#x27;,&#x27;n_clases&#x27;:len(edges)-1,&#x27;bordes&#x27;:edges.tolist()})
+    axes[0,j].hist(values,bins=edges,weights=np.ones(len(values))/len(values)*100,color=COLORS[var],edgecolor=&#x27;white&#x27;)
+    axes[0,j].axvline(values.mean(),color=&#x27;#333&#x27;,ls=&#x27;--&#x27;,label=&#x27;Media&#x27;)
+    axes[0,j].axvline(np.median(values),color=&#x27;#b32945&#x27;,ls=&#x27;:&#x27;,label=&#x27;Mediana&#x27;)
+    axes[0,j].set_xlabel(LABELS[var]); axes[0,j].set_ylabel(&#x27;Meses (%)&#x27;); axes[0,j].legend(fontsize=8)
+    axes[1,j].boxplot(values,orientation=&#x27;horizontal&#x27;,whis=1.5,showfliers=True)
+    axes[1,j].set_xlabel(LABELS[var]); axes[1,j].set_yticks([])
+fig.suptitle(&#x27;Distribución de meses de todas las estaciones del año · 1981–2022\nPuntos fuera de bigotes se conservan: no son errores demostrados&#x27;)
+save(fig,&#x27;03_distribuciones&#x27;)
+(OUT/&#x27;criterio_histogramas.json&#x27;).write_text(json.dumps(bins_info,indent=2),encoding=&#x27;utf-8&#x27;)
+
+fig,axes=plt.subplots(2,1,figsize=(11,8),sharex=True,layout=&#x27;constrained&#x27;)
+for ax,var in zip(axes,[&#x27;P_mm&#x27;,&#x27;Q_m3_s&#x27;]):
+    c=climatology[climatology.variable==var]
+    ax.fill_between(c.mes_calendario,c.p10,c.p90,color=COLORS[var],alpha=.12,label=&#x27;Percentiles 10–90&#x27;)
+    ax.fill_between(c.mes_calendario,c.q25,c.q75,color=COLORS[var],alpha=.25,label=&#x27;Cuartiles 25–75&#x27;)
+    ax.plot(c.mes_calendario,c.media,&#x27;o-&#x27;,color=COLORS[var],label=&#x27;Media&#x27;)
+    ax.plot(c.mes_calendario,c.mediana,&#x27;--&#x27;,color=COLORS[var],label=&#x27;Mediana&#x27;)
+    ax.set_ylabel(LABELS[var]); ax.legend(ncol=2,fontsize=8); ax.grid(alpha=.2)
+axes[-1].set_xticks(range(1,13),NAMES)
+fig.suptitle(&#x27;Ciclo anual exploratorio · meses válidos pareados 1981–2022\nBandas = dispersión entre años, no intervalos de confianza&#x27;)
+save(fig,&#x27;04_ciclo_anual_exploratorio&#x27;)
+
+fig,axes=plt.subplots(2,1,figsize=(15,7),sharex=True,layout=&#x27;constrained&#x27;)
+for ax,var in zip(axes,[&#x27;P_mm&#x27;,&#x27;Q_m3_s&#x27;]):
+    frame=monthly[[var]].copy(); frame[&#x27;ano&#x27;]=frame.index.year; frame[&#x27;mes&#x27;]=frame.index.month
+    mat=frame.pivot(index=&#x27;mes&#x27;,columns=&#x27;ano&#x27;,values=var)
+    cmap=plt.get_cmap(&#x27;Blues&#x27; if var==&#x27;P_mm&#x27; else &#x27;YlOrBr&#x27;).copy(); cmap.set_bad(&#x27;#bbbbbb&#x27;)
+    im=ax.imshow(mat,origin=&#x27;lower&#x27;,aspect=&#x27;auto&#x27;,cmap=cmap,extent=[1980.5,2022.5,.5,12.5])
+    ax.set_yticks([1,3,6,9,12],[NAMES[i-1] for i in [1,3,6,9,12]])
+    fig.colorbar(im,ax=ax,label=LABELS[var])
+axes[-1].set_xlabel(&#x27;Año&#x27;); fig.suptitle(&#x27;Meses individuales: variabilidad y vacíos (gris)&#x27;)
+save(fig,&#x27;05_mapa_ano_mes&#x27;)
+
+# Ventanas alrededor de los extremos mensuales de P y Q, con fechas reales.
+targets=sorted(set([monthly.P_mm.idxmax(),monthly.P_mm.idxmin(),monthly.Q_m3_s.idxmax(),monthly.Q_m3_s.idxmin()]))
+fig,axes=plt.subplots(len(targets),2,figsize=(14,3*len(targets)),layout=&#x27;constrained&#x27;,squeeze=False)
+for i,target in enumerate(targets):
+    begin=target-pd.DateOffset(months=6); end=target+pd.DateOffset(months=7)
+    for j,var in enumerate([&#x27;P_mm&#x27;,&#x27;Q_m3_s&#x27;]):
+        part=monthly.loc[begin:end,var]
+        axes[i,j].plot(part.index,part,&#x27;o-&#x27;,color=COLORS[var],ms=3)
+        axes[i,j].axvspan(target,target+pd.offsets.MonthBegin(1),color=&#x27;#ebbe74&#x27;,alpha=.25)
+        axes[i,j].set_title(f&#x27;Entorno de {target:%Y-%m}&#x27;); axes[i,j].set_ylabel(LABELS[var])
+        axes[i,j].xaxis.set_major_locator(mdates.MonthLocator(interval=3)); axes[i,j].xaxis.set_major_formatter(mdates.DateFormatter(&#x27;%Y-%m&#x27;))
+save(fig,&#x27;06_revision_extremos&#x27;)
+
+# 7. Resumen verificable; el informe interpretativo se redacta despues de leerlo.
+summary={&#x27;estacion&#x27;:CODE,&#x27;area_km2&#x27;:AREA,&#x27;fuente&#x27;:&#x27;https://doi.org/10.5281/zenodo.18794895&#x27;,&#x27;archivo_interno&#x27;:member,&#x27;sha256_serie_original&#x27;:hashlib.sha256(data).hexdigest(),&#x27;inicio&#x27;:str(calendar[0].date()),&#x27;fin&#x27;:str(calendar[-1].date()),&#x27;dias_esperados&#x27;:len(calendar),&#x27;filas_originales&#x27;:len(raw),&#x27;fechas_omitidas&#x27;:len(calendar.difference(raw.index)),&#x27;duplicados&#x27;:duplicates,&#x27;orden_original_correcto&#x27;:ordered,&#x27;valores_invalidos_PQ_no_finitos&#x27;:len(issues),&#x27;Tmin_mayor_Tmax&#x27;:inverted,&#x27;dias_faltantes_P&#x27;:int(daily.Precipitacion.isna().sum()),&#x27;dias_faltantes_Q&#x27;:int(daily.Caudal.isna().sum()),&#x27;meses_esperados&#x27;:len(monthly),&#x27;meses_pareados_completos&#x27;:len(paired),&#x27;meses_excluidos&#x27;:int((~availability.P_Q_pareados).sum()),&#x27;max_hueco_dias&#x27;:int(gaps.dias.max()),&#x27;meses_R_mayor_P&#x27;:int((paired.R_mm&gt;paired.P_mm).sum()),&#x27;R_sobre_P_acumulados_meses_pareados&#x27;:float(paired.R_mm.sum()/paired.P_mm.sum()),&#x27;meses_Q_90pct&#x27;:int(q90.notna().sum()),&#x27;media_Q_100pct&#x27;:float(monthly.Q_m3_s.mean()),&#x27;media_Q_90pct&#x27;:float(q90.mean()),&#x27;IMERG&#x27;:&#x27;Pendiente de descarga; ninguna serie IMERG sintetica o sustitutiva&#x27;,&#x27;temperatura&#x27;:&#x27;Tmin y Tmax de MSWX; no se calcula Tmedia sin justificar&#x27;,&#x27;metodo&#x27;:&#x27;100% dias validos por mes; sin relleno; percentiles lineales; sd ddof=1&#x27;}
+(OUT/&#x27;resumen_control.json&#x27;).write_text(json.dumps(summary,indent=2,ensure_ascii=False),encoding=&#x27;utf-8&#x27;)
+notes=pd.DataFrame([
+    (&#x27;Datos&#x27;,&#x27;P CHIRPS v2 en mm/día; Q observado CAMELS en m³/s; 1981–2022.&#x27;),
+    (&#x27;Completitud&#x27;,&#x27;Mes válido solo si tiene 100 % de días válidos. Sin relleno. Los ceros se conservan.&#x27;),
+    (&#x27;Agregación&#x27;,&#x27;P=sum(Pd); Q=mean(Qd); R=86.4/2797.19*sum(Qd). R y P en mm/mes.&#x27;),
+    (&#x27;Estadística&#x27;,&#x27;Desviación muestral ddof=1; percentiles interpolación lineal. Histogramas Freedman–Diaconis, frecuencia relativa.&#x27;),
+    (&#x27;Alertas&#x27;,&#x27;Bigotes 1.5 IQR, cambios factor 5 y constancia &gt;=7 días son exploratorios; no motivan eliminaciones automáticas.&#x27;),
+    (&#x27;Incertidumbre&#x27;,&#x27;Dispersión entre meses/años no equivale a incertidumbre de medición ni a intervalo de confianza.&#x27;),
+    (&#x27;Ciclo anual&#x27;,&#x27;Exploratorio; no se completa aún el punto 1.5 ni se demuestra una tendencia.&#x27;),
+    (&#x27;Pendientes&#x27;,&#x27;IMERG, temperatura media, antecedentes de estación, regulación/extracciones y validación de delimitación.&#x27;),
+],columns=[&#x27;Tema&#x27;,&#x27;Criterio&#x27;])
+with pd.ExcelWriter(OUT/&#x27;Exploracion_mensual_La_Vieja.xlsx&#x27;,engine=&#x27;openpyxl&#x27;) as writer:
+    tables={&#x27;Leer primero&#x27;:notes,&#x27;Series mensuales&#x27;:monthly.reset_index(),&#x27;Estadística&#x27;:statistics.reset_index(),&#x27;Disponibilidad mensual&#x27;:availability.reset_index(),&#x27;Disponibilidad anual&#x27;:yearly.reset_index(),&#x27;Meses excluidos&#x27;:availability[~availability.P_Q_pareados].reset_index(),&#x27;Huecos diarios&#x27;:gaps,&#x27;Extremos&#x27;:extremes,&#x27;Alertas caja&#x27;:box_flags,&#x27;Constancias&#x27;:run_table,&#x27;Cambios bruscos&#x27;:jump_table,&#x27;Comprobación manual&#x27;:manual,&#x27;Ciclo anual exploratorio&#x27;:climatology,&#x27;Sensibilidad Q&#x27;:sensitivity.reset_index()}
+    for name,frame in tables.items():
+        frame.to_excel(writer,sheet_name=name,index=False)
+    for ws in writer.book:
+        ws.freeze_panes=&#x27;A2&#x27;; ws.auto_filter.ref=ws.dimensions
+        for cell in ws[1]:
+            cell.font=Font(bold=True,color=&#x27;FFFFFF&#x27;); cell.fill=PatternFill(&#x27;solid&#x27;,fgColor=&#x27;176B87&#x27;)
+            ws.column_dimensions[cell.column_letter].width=min(45,max(18,len(str(cell.value))+2))
+print(json.dumps(summary,indent=2,ensure_ascii=False))
+print(statistics.to_string())
+print(&#x27;Climatologia:&#x27;); print(climatology[climatology.variable.isin([&#x27;P_mm&#x27;,&#x27;Q_m3_s&#x27;])].to_string(index=False))
+</code></pre></details></html>

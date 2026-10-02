@@ -1,0 +1,10 @@
+{
+  "n": 485,
+  "periodo": "1981-2022",
+  "Pearson": 0.5753100412054909,
+  "Spearman": 0.606792910885382,
+  "rezago_meses": 0,
+  "precipitacion": "CHIRPS, no estaci\u00f3n en tierra",
+  "IMERG": "no descargado; acceso NASA sin autenticar: HTTP 401",
+  "lluvia_estaciones": "sin series descargadas; inventario no es registro"
+}
