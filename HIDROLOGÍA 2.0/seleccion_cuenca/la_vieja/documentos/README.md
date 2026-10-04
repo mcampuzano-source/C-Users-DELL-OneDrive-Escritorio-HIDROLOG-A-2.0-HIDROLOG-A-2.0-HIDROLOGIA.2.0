@@ -1,5 +1,13 @@
 # Documentos que se construirán paso a paso
 
+## Orden de la guía (4 de octubre de 2026)
+
+`informe_interactivo.html` y `informe_actualizado.pdf` están organizados por los puntos 1–5, con los apartados 1.1–1.5 y el contexto geográfico al inicio. Los apartados sin desarrollo se identifican como pendientes. La reorganización conserva datos, resultados, figuras y textos de las versiones anteriores, incluidas sus inconsistencias de actualización.
+
+La fuente del PDF ordenado es `latex/informe_ordenado.tex`. Para reproducir la organización después de regenerar los documentos, ejecutar `python seleccion_cuenca/scripts/21_ordenar_informes.py` desde la carpeta Hidrología. Este script utiliza las secciones originales, compila el PDF ordenado y actualiza `informe_actualizado.pdf`; no recalcula series ni figuras. El script de compilación anterior y `latex/informe.tex` conservan la estructura histórica.
+
+Se verificó que los datos de las ocho gráficas Plotly originales permanecen idénticos y que el inventario de figuras LaTeX se conserva, incluidas las repeticiones existentes. Después de la reorganización se corrigieron dos errores de visualización preexistentes: la inserción de la lectura IMERG usa la propia gráfica si no encuentra una sección contenedora, y los títulos de ejes IMERG se actualizan como objetos completos. La lectura temporal y la gráfica IMERG–R–temperatura vuelven a aparecer. Se comprobó la apertura sin errores JavaScript y la igualdad de los datos de las ocho gráficas anteriores; no se recalcularon series ni resultados.
+
 ## Ampliación: temperatura, dispersión y mapas
 
 Se añadieron Tmin/Tmax mensuales de MSWX y **Tmedia estimada** mediante el promedio diario `(Tmin+Tmax)/2` seguido de la media mensual. No es una media horaria observada. Se usa el criterio de meses completos.

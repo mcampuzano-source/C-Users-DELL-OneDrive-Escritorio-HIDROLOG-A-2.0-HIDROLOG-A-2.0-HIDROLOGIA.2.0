@@ -4787,7 +4787,7 @@ return Plotly;
       const lectura = document.createElement('section');
       lectura.id = 'lectura-temporal-imerg'; lectura.className = 'panel';
       lectura.innerHTML = '<h2>Lectura temporal con IMERG (1998--2022)</h2><p><b>Periodos húmedos y secos.</b> IMERG muestra dos máximos estacionales: abril--mayo (media abril 273,27 mm/mes y mayo 257,47) y octubre--noviembre (276,25 y 276,03). Los valores medios más bajos ocurren en enero (144,68), julio (153,95) y agosto (154,74 mm/mes). Esto describe el ciclo observado por el producto, no prueba por sí solo una causa climática.</p><p><b>Máximos, mínimos y persistencia.</b> El máximo mensual es noviembre de 2008 (431,15 mm/mes), pero Q no está disponible ese mes: se conserva como dato de lluvia y no se inventa el caudal. El mínimo es diciembre de 2015 (56,10 mm/mes; Q=29,70 m³/s). Con P25=152,59 y P75=262,82 mm/mes, el episodio seco más persistente fue mayo--septiembre de 2015 (cinco meses, media 98,86); el húmedo más persistente fue febrero--junio de 2022 (cinco meses, media 293,36).</p><p><b>Cambios aparentes y desfases.</b> Los años más húmedos en IMERG son 2008, 2011 y 2022, mientras 2015 es el más seco. Son contrastes entre años, no una tendencia demostrada. En los 285 meses con Q, la correlación simultánea IMERG--Q es 0,63; al usar IMERG del mes anterior es 0,61, y cae a 0,32 con dos meses. La respuesta parece principalmente mensual o más corta que un mes, pero esta comparación no identifica causalidad ni separa almacenamiento, regulación y ciclo anual compartido.</p>';
-      g.closest('section').insertAdjacentElement('afterend', lectura);
+      (g.closest('section') || g).insertAdjacentElement('afterend', lectura);
     }
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', configurarImerg); else configurarImerg();
@@ -4832,8 +4832,8 @@ return Plotly;
       'xaxis.tickformat': '%Y',
       'xaxis2.showticklabels': true,
       'xaxis2.tickformat': '%Y',
-      'xaxis.title.text': 'Año',
-      'xaxis2.title.text': 'Año'
+      'xaxis.title': {text: 'Año'},
+      'xaxis2.title': {text: 'Año'}
     });
     if (document.getElementById('control-faltantes-series')) return;
     const control = document.createElement('div');
@@ -5153,4 +5153,64 @@ Plotly.newPlot('imerg-caudal-interactivo',[{x:x,y:imerg,type:'scatter',mode:'lin
 <h3>Reproducibilidad y apoyo de IA</h3>
 <p>Los scripts numerados se conservan en <code>seleccion_cuenca/scripts/</code>. La tabla común a las gráficas es <code>datos_graficados.csv</code>; <code>proveniencia.json</code> registra su huella SHA-256 y las versiones de las bibliotecas. Las comprobaciones y datos intermedios están en <code>la_vieja/punto_1/</code>. La IA apoyó la programación, la revisión aritmética y la redacción preliminar; el grupo debe revisar fuentes, decisiones e interpretación.</p>
 <p>El PDF y el HTML representan los mismos datos. El HTML incluye Plotly y las series, por lo que puede abrirse sin servidor ni Internet; consultar los enlaces externos de fuentes sí requiere conexión.</p>
-</section><!-- PROCEDENCIA_FIN --><footer>HTML autocontenido: datos y biblioteca Plotly incluidos. Se abre directamente, sin servidor ni conexión a Internet. Documento ampliable por pasos.</footer></main></body></html>
+</section><!-- PROCEDENCIA_FIN --><footer>HTML autocontenido: datos y biblioteca Plotly incluidos. Se abre directamente, sin servidor ni conexión a Internet. Documento ampliable por pasos.</footer></main>
+
+
+<!-- ORDEN_GUIA_INICIO -->
+<script>
+/* Solo mueve nodos existentes: no altera los datos ni el diseño de las gráficas. */
+(function(){
+function ordenar(){
+ const main=document.querySelector('main'), footer=main.querySelector('footer');
+ if(document.getElementById('orden-guia'))return;
+ const root=document.createElement('div');root.id='orden-guia';main.insertBefore(root,footer);
+ const nav=document.createElement('nav');nav.className='panel';
+ nav.innerHTML='<b>Orden de la guía</b><p><a href="#guia-contexto">Cuenca y mapas</a> · <a href="#guia-punto-1">Punto 1</a> · <a href="#guia-punto-2">Punto 2</a> · <a href="#guia-punto-3">Punto 3</a> · <a href="#guia-punto-4">Punto 4</a> · <a href="#guia-punto-5">Punto 5</a></p>';
+ root.appendChild(nav);
+ function grupo(id,title){const el=document.createElement('div');el.id=id;const h=document.createElement('h2');h.textContent=title;el.appendChild(h);root.appendChild(el);return el;}
+ function sub(parent,id,title){const el=document.createElement('div');el.id=id;const h=document.createElement('h3');h.textContent=title;el.appendChild(h);parent.appendChild(el);return el;}
+ function mover(parent,el,title){if(!el)return;parent.appendChild(el);if(title){const h=el.querySelector('h2');if(h)h.textContent=title;}}
+ function pendiente(parent,text){const p=document.createElement('p');p.textContent=text||'Pendiente de completar e integrar.';parent.appendChild(p);}
+ pendiente(grupo('guia-introduccion','Introducción'),'Pendiente de redacción final.');
+ pendiente(grupo('guia-metodologia','Metodología'),'Los procedimientos existentes se conservan junto a cada análisis; la metodología integrada está pendiente de redacción final.');
+ grupo('guia-resultados','Resultados y discusión física');
+ const contexto=grupo('guia-contexto','Contexto geográfico de la cuenca');
+ mover(contexto,document.getElementById('mapas-geograficos'));
+ const p1=grupo('guia-punto-1','Punto 1. Series mensuales: exploración y validación');
+ const s11=sub(p1,'guia-1-1','1.1. Graficar las series de caudal y precipitación');
+ const series=document.getElementById('series-mensuales').closest('section');
+ mover(s11,series,'Series cronológicas interactivas: CHIRPS y caudal Q');
+ for(const section of Array.from(main.querySelectorAll('section.panel'))){const h=section.querySelector('h2');if(h&&['Cómo se construyeron las series','Meses extremos y contraste cronológico'].includes(h.textContent))mover(s11,section);}
+ mover(s11,document.getElementById('agregacion-mensual-imerg'));
+ mover(s11,document.getElementById('temperatura-era5'));
+ const s12=sub(p1,'guia-1-2','1.2. Incorporar precipitación IMERG para la misma cuenca');
+ mover(s12,document.getElementById('imerg-caudal-interactivo'));
+ mover(s12,document.getElementById('lectura-temporal-imerg'));
+ const s13=sub(p1,'guia-1-3','1.3. Describir la distribución de los datos mensuales');
+ mover(s13,document.getElementById('estadisticas-anuales'),'Periodo de datos y estadística descriptiva');
+ mover(s13,document.getElementById('histogramas'),'Histogramas y estadísticos completos');
+ const s14=sub(p1,'guia-1-4','1.4. Usar la exploración como control de calidad');
+ mover(s14,document.getElementById('faltantes'),'Control de datos faltantes');
+ const s15=sub(p1,'guia-1-5','1.5. Climatología, variabilidad y explicación física');
+ const pending=document.createElement('p');pending.textContent='Apartado pendiente de completar según la guía; esta reorganización no incorpora resultados nuevos.';s15.appendChild(pending);
+ for(const [id,title] of [['guia-1-5-a','1.5.a. Construir la climatología de doce meses'],['guia-1-5-b','1.5.b. Describir y contrastar el ciclo anual'],['guia-1-5-c','1.5.c. Explicar los procesos regionales y de la cuenca']])pendiente(sub(s15,id,title));
+ const p2=grupo('guia-punto-2','Punto 2. Relaciones entre series y modelos estadísticos');
+ const s21=sub(p2,'guia-2-1','2.1. Diagramas de dispersión e interpretación');
+ mover(s21,document.getElementById('dispersiones-imerg'));
+ mover(s21,document.getElementById('analisis-dispersion'),'Análisis paralelo: CHIRPS–Q');
+ pendiente(sub(p2,'guia-2-2','2.2. ¿Se pueden construir modelos útiles?'));
+ pendiente(sub(p2,'guia-2-3','2.3. Evaluar fuera del periodo de ajuste'));
+ const p3=grupo('guia-punto-3','Punto 3. Tendencias hidroclimáticas y sus posibles causas');
+ ['Temperatura y periodos de análisis','Series originales, anomalías y anomalías estandarizadas','Dos escalas de evaluación temporal','Métodos y comparación de resultados','Incertidumbre, robustez y presentación','¿A qué podrían deberse los cambios?'].forEach((title,i)=>{const el=sub(p3,'guia-3-'+(i+1),'3.'+(i+1)+'. '+title);if(i===3)mover(el,document.getElementById('tendencias'),'Tendencias temporales');else pendiente(el,'Pendiente de completar e integrar; los resultados existentes se conservan en el apartado 3.4 y las series en el punto 1.');});
+ for(const [n,title,titles] of [[4,'Análisis de frecuencias mediante Fourier',['Preparar las series y documentar el cálculo','Construir e interpretar los espectros']],[5,'Mapas de correlación con el clima global',['Seleccionar los campos climáticos','Definir y calcular los mapas mensuales','Robustez y presentación de los patrones','Interpretación física e integración']]]){const el=grupo('guia-punto-'+n,'Punto '+n+'. '+title);titles.forEach((t,i)=>pendiente(sub(el,'guia-'+n+'-'+(i+1),n+'.'+(i+1)+'. '+t),'Pendiente de desarrollar.'));}
+ pendiente(grupo('guia-conclusiones','Conclusiones'),'Pendiente de síntesis final.');
+ const fin=grupo('guia-procedencia','Procedencia, alcance y reproducibilidad');mover(fin,document.getElementById('procedencia-alcance'));
+ pendiente(grupo('guia-ia','Uso de IA'),'La declaración existente se conserva en el apartado anterior; falta completar la declaración final del grupo.');
+ pendiente(grupo('guia-referencias','Referencias y anexos'),'Las referencias y fuentes existentes se conservan junto a sus análisis; falta consolidar el listado final.');
+ if(window.Plotly)document.querySelectorAll('.js-plotly-plot').forEach(g=>Plotly.Plots.resize(g));
+}
+if(document.readyState==='complete')setTimeout(ordenar,800);else window.addEventListener('load',()=>setTimeout(ordenar,800));
+})();
+</script>
+<!-- ORDEN_GUIA_FIN -->
+</body></html>
