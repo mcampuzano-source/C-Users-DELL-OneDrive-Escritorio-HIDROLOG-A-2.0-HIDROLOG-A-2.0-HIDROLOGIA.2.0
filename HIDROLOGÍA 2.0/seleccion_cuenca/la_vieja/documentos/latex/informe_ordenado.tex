@@ -11,6 +11,7 @@
 \usepackage[colorlinks=true,urlcolor=blue,linkcolor=blue]{hyperref}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{5pt}
+\usepackage{booktabs}
 \begin{document}
 \begin{center}
 {\Large\bfseries Cuenca del río La Vieja}\\[3pt]
@@ -157,7 +158,14 @@ La fuente original disponible contiene Tmin y Tmax diarios de MSWX, pero no una 
 
 
 \subsection{Incorporar precipitación IMERG para la misma cuenca}
+\subsubsection*{IMERG: promedio exacto de cuenca y validación (V07B)}
+Actualización del 4 de octubre de 2026. IMERG Final Run V07B (GPM\_3IMERGM), variable Grid/precipitation, malla de 0,1$^\circ$. Se verificaron 300 archivos mensuales de enero de 1998 a diciembre de 2022. El promedio se calcula sobre el polígono CAMELS de La Vieja con 42 celdas intersectadas, 31 de borde, ponderadas por el área geodésica WGS84 de su intersección. Cobertura espacial 100.000000\%. Área geodésica del polígono 2780.18 km²; el área CAMELS de 2797,19 km² usada para R permanece sin cambios. Las tasas originales están en mm/h y se multiplican por las horas de cada mes, incluidos los bisiestos. No se rellenan celdas ni se renormalizan pesos cuando faltan valores. Hay 300/300 meses válidos y 285 meses completos comunes con CHIRPS y Q. Enero de 1998: 0.10202291 mm/h $\times$ 744 h = 75.905043 mm/mes; se comprobó también la suma independiente celda por celda. El promedio Giovanni de caja y sus resultados previos se conservan como antecedentes y no se mezclan con esta nueva serie. Los bordes se segmentizan a máximo 0,001$^\circ$ para las áreas geodésicas. Se reconstruyen límites contiguos de la malla nominal 0,1$^\circ$ para evitar los solapes del redondeo float32 de los límites originales; ambos límites quedan registrados. No se modifica ni remuestrea la precipitación. La suma de intersecciones coincide con el área del polígono dentro de una tolerancia relativa de una parte por millón. La malla es de unos 11 km por lado en esta región: aporta representación espacial de la cuenca, pero no resuelve toda la variabilidad orográfica interna.
 
+Acceso: GES DISC mediante el script de descarga conservado y sesión Earthdata. Reproducción: \path{scripts/22_imerg_poligono_estadisticas.py}; huellas, pesos y metadatos en \path{documentos/imerg_poligono}.
+
+DOI: \url{https://doi.org/10.5067/GPM/IMERG/3B-MONTH/07}.
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/imerg_poligono_series.pdf}\caption{Fuentes identificadas y alineadas, 1998--2022; los vacíos se conservan.}\end{figure}
+\subsubsection*{Antecedentes conservados: IMERG promedio de caja}
 
 El máximo mensual de IMERG es noviembre de 2008 (431,15~mm/mes), pero Q no está disponible ese mes; se conserva la lluvia y no se inventa caudal. El mínimo es diciembre de 2015 (56,10~mm/mes; Q=29,70~m$^3$/s). Con P25=152,59 y P75=262,82~mm/mes, el episodio seco más persistente es mayo--septiembre de 2015 (cinco meses, media 98,86~mm/mes), mientras el húmedo más persistente es febrero--junio de 2022 (cinco meses, media 293,36~mm/mes).
 
@@ -166,7 +174,179 @@ Los años con mayor precipitación media IMERG son 2008, 2011 y 2022, y 2015 es 
 
 
 \subsection{Describir la distribución de los datos mensuales}
-\subsubsection*{Periodo de datos y estadística descriptiva}
+\subsubsection*{Distribuciones actualizadas: IMERG de cuenca y ERA5-Land}
+Desviación estándar muestral (n-1); percentiles lineales tipo 7. Histogramas Freedman--Diaconis; CHIRPS e IMERG usan los mismos 285 meses y exactamente los mismos bordes. Barras en porcentaje de meses, cuya suma es 100\%. Las estadísticas del registro disponible por fuente conservan sus distintas coberturas y se presentan separadas de la muestra común. ERA5-Land es temperatura a 2 m de reanálisis, no estación terrestre ni estimación MSWX.
+\subsubsection*{Registros disponibles por fuente}
+{\scriptsize
+\begin{longtable}{llrrrrrrr}
+\toprule
+variable & unidad & n & media & mediana & sd & minimo & maximo & rango \\
+\midrule
+\endfirsthead
+\toprule
+variable & unidad & n & media & mediana & sd & minimo & maximo & rango \\
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+CHIRPS & mm/mes & 485 & 168.20 & 168.47 & 74.54 & 24.89 & 407.57 & 382.68 \\
+IMERG polígono & mm/mes & 300 & 219.50 & 216.76 & 74.36 & 60.83 & 447.12 & 386.29 \\
+Caudal Q & m³/s & 485 & 98.70 & 85.55 & 64.35 & 18.37 & 508.77 & 490.40 \\
+Escorrentía R & mm/mes & 485 & 92.82 & 81.40 & 60.63 & 17.59 & 471.45 & 453.86 \\
+ERA5-Land Tmedia & °C & 504 & 16.17 & 16.14 & 0.48 & 14.84 & 17.72 & 2.88 \\
+\end{longtable}
+}
+{\scriptsize
+\begin{longtable}{llrrrrrrrr}
+\toprule
+variable & unidad & Q1 & Q2 & Q3 & IQR & P5 & P10 & P90 & P95 \\
+\midrule
+\endfirsthead
+\toprule
+variable & unidad & Q1 & Q2 & Q3 & IQR & P5 & P10 & P90 & P95 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{10}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+CHIRPS & mm/mes & 107.29 & 168.47 & 216.55 & 109.25 & 60.32 & 74.95 & 270.77 & 296.48 \\
+IMERG polígono & mm/mes & 165.80 & 216.76 & 269.66 & 103.86 & 101.88 & 120.67 & 317.18 & 339.32 \\
+Caudal Q & m³/s & 49.16 & 85.55 & 127.04 & 77.89 & 29.19 & 34.13 & 181.19 & 221.01 \\
+Escorrentía R & mm/mes & 46.55 & 81.40 & 118.83 & 72.28 & 27.56 & 32.07 & 172.69 & 206.71 \\
+ERA5-Land Tmedia & °C & 15.83 & 16.14 & 16.46 & 0.63 & 15.43 & 15.58 & 16.76 & 17.01 \\
+\end{longtable}
+}
+{\scriptsize
+\begin{longtable}{llrll}
+\toprule
+variable & unidad & ceros & mes\_minimo & mes\_maximo \\
+\midrule
+\endfirsthead
+\toprule
+variable & unidad & ceros & mes\_minimo & mes\_maximo \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+CHIRPS & mm/mes & 0 & 1982-08 & 2022-10 \\
+IMERG polígono & mm/mes & 0 & 2015-12 & 2008-11 \\
+Caudal Q & m³/s & 0 & 1992-07 & 2010-11 \\
+Escorrentía R & mm/mes & 0 & 1992-07 & 2010-11 \\
+ERA5-Land Tmedia & °C & 0 & 1984-01 & 1998-01 \\
+\end{longtable}
+}
+{\scriptsize
+\begin{tabular}{lll}
+\toprule
+variable & inicio & fin \\
+\midrule
+CHIRPS & 1981-01 & 2022-12 \\
+IMERG polígono & 1998-01 & 2022-12 \\
+Caudal Q & 1981-01 & 2022-12 \\
+Escorrentía R & 1981-01 & 2022-12 \\
+ERA5-Land Tmedia & 1981-01 & 2022-12 \\
+\bottomrule
+\end{tabular}
+}
+\subsubsection*{Mismos 285 meses completos}
+{\scriptsize
+\begin{longtable}{llrrrrrrr}
+\toprule
+variable & unidad & n & media & mediana & sd & minimo & maximo & rango \\
+\midrule
+\endfirsthead
+\toprule
+variable & unidad & n & media & mediana & sd & minimo & maximo & rango \\
+\midrule
+\endhead
+\midrule
+\multicolumn{9}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+CHIRPS & mm/mes & 285 & 170.50 & 169.50 & 76.43 & 30.12 & 407.57 & 377.45 \\
+IMERG polígono & mm/mes & 285 & 216.55 & 216.25 & 71.79 & 60.83 & 440.52 & 379.69 \\
+Caudal Q & m³/s & 285 & 109.83 & 90.97 & 72.50 & 20.33 & 508.77 & 488.44 \\
+Escorrentía R & mm/mes & 285 & 103.27 & 84.80 & 68.31 & 18.45 & 471.45 & 452.99 \\
+ERA5-Land Tmedia & °C & 285 & 16.27 & 16.27 & 0.48 & 15.10 & 17.72 & 2.62 \\
+\end{longtable}
+}
+{\scriptsize
+\begin{longtable}{llrrrrrrrr}
+\toprule
+variable & unidad & Q1 & Q2 & Q3 & IQR & P5 & P10 & P90 & P95 \\
+\midrule
+\endfirsthead
+\toprule
+variable & unidad & Q1 & Q2 & Q3 & IQR & P5 & P10 & P90 & P95 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{10}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+CHIRPS & mm/mes & 109.45 & 169.50 & 224.19 & 114.74 & 61.14 & 74.57 & 274.72 & 303.26 \\
+IMERG polígono & mm/mes & 165.26 & 216.25 & 267.24 & 101.98 & 100.44 & 119.58 & 313.75 & 327.38 \\
+Caudal Q & m³/s & 54.44 & 90.97 & 148.99 & 94.55 & 32.21 & 36.11 & 206.01 & 231.68 \\
+Escorrentía R & mm/mes & 51.86 & 84.80 & 141.08 & 89.22 & 28.64 & 34.58 & 195.68 & 216.21 \\
+ERA5-Land Tmedia & °C & 15.90 & 16.27 & 16.54 & 0.63 & 15.53 & 15.68 & 16.91 & 17.16 \\
+\end{longtable}
+}
+{\scriptsize
+\begin{longtable}{llrll}
+\toprule
+variable & unidad & ceros & mes\_minimo & mes\_maximo \\
+\midrule
+\endfirsthead
+\toprule
+variable & unidad & ceros & mes\_minimo & mes\_maximo \\
+\midrule
+\endhead
+\midrule
+\multicolumn{5}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+CHIRPS & mm/mes & 0 & 2001-08 & 2022-10 \\
+IMERG polígono & mm/mes & 0 & 2015-12 & 2010-11 \\
+Caudal Q & m³/s & 0 & 2019-09 & 2010-11 \\
+Escorrentía R & mm/mes & 0 & 1998-02 & 2010-11 \\
+ERA5-Land Tmedia & °C & 0 & 2000-01 & 1998-01 \\
+\end{longtable}
+}
+{\scriptsize
+\begin{tabular}{lll}
+\toprule
+variable & inicio & fin \\
+\midrule
+CHIRPS & 1998-01 & 2022-12 \\
+IMERG polígono & 1998-01 & 2022-12 \\
+Caudal Q & 1998-01 & 2022-12 \\
+Escorrentía R & 1998-01 & 2022-12 \\
+ERA5-Land Tmedia & 1998-01 & 2022-12 \\
+\bottomrule
+\end{tabular}
+}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/imerg_poligono_histogramas.pdf}\caption{Histogramas sobre los mismos meses; las lluvias usan límites de clase compartidos.}\end{figure}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/imerg_poligono_cajas.pdf}\caption{Cajas sobre los mismos 285 meses, con unidades propias de cada variable.}\end{figure}
+\subsubsection*{Interpretación inicial}
+En los mismos 285 meses, IMERG de polígono tiene media 216.55 y mediana 216.25 mm/mes; CHIRPS tiene media 170.50 y mediana 169.50 mm/mes. La diferencia de medias es +46.05 mm/mes. Es una diferencia entre productos, no un error frente a una verdad observada. Q tiene media 109.83 y mediana 90.97 m$^3$/s; los meses de caudal alto elevan su promedio. Las cajas muestran mediana, P25--P75 y extremos fuera de 1,5 IQR: no se elimina ningún dato por ese criterio. Los ceros y las fechas de los mínimos/máximos se registran en las tablas. Las distribuciones reúnen todos los meses calendario y no sustituyen la climatología del 1.5. R se deriva de Q, y P-R no equivale automáticamente a evapotranspiración. Los extremos se deben contrastar con las cronologías; su plausibilidad no certifica la exactitud del dato.
+\subsubsection*{Antecedentes conservados: fuentes y muestras anteriores}\subsubsection*{Periodo de datos y estadística descriptiva}
 Los registros originales son diarios y se agregaron a escala mensual. El periodo
 comprende enero de 1981 a diciembre de 2022 (42 años). Se describen los valores
 mensuales válidos de precipitación acumulada y caudal medio, no los registros

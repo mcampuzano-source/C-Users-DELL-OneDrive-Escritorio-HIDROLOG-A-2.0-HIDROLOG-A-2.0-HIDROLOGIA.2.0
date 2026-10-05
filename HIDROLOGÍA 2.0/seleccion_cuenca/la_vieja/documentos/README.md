@@ -2,6 +2,8 @@
 
 ## Orden de la guía (4 de octubre de 2026)
 
+Actualización posterior: el 1.2 incorpora IMERG Final V07B ponderado sobre el polígono exacto (300 meses válidos; 42 celdas, 31 de borde). El 1.3 incorpora ERA5-Land y ese IMERG en tablas, histogramas y cajas de los mismos 285 meses completos. Los antecedentes de caja y MSWX permanecen separados. Datos, Excel, pesos, huellas, requisitos y reproducción: [imerg_poligono/README.md](imerg_poligono/README.md). Reproducir primero con el script 22 y después con el 21.
+
 `informe_interactivo.html` y `informe_actualizado.pdf` están organizados por los puntos 1–5, con los apartados 1.1–1.5 y el contexto geográfico al inicio. Los apartados sin desarrollo se identifican como pendientes. La reorganización conserva datos, resultados, figuras y textos de las versiones anteriores, incluidas sus inconsistencias de actualización.
 
 La fuente del PDF ordenado es `latex/informe_ordenado.tex`. Para reproducir la organización después de regenerar los documentos, ejecutar `python seleccion_cuenca/scripts/21_ordenar_informes.py` desde la carpeta Hidrología. Este script utiliza las secciones originales, compila el PDF ordenado y actualiza `informe_actualizado.pdf`; no recalcula series ni figuras. El script de compilación anterior y `latex/informe.tex` conservan la estructura histórica.

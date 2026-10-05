@@ -31,6 +31,11 @@ def organize_pdf():
     cycle_end = parts[0].index('\n\n')
     imerg_cycle, imerg_reading = parts[0][:cycle_end], parts[0][cycle_end:]
     preamble = (LATEX / 'informe.tex').read_text(encoding='utf-8').split(r'\begin{document}')[0]
+    if r'\usepackage{booktabs}' not in preamble:
+        preamble += '\\usepackage{booktabs}\n'
+    new_folder = DOC / 'imerg_poligono'
+    new12 = (new_folder / 'apartado_1_2.tex').read_text(encoding='utf-8') if (new_folder / 'apartado_1_2.tex').exists() else ''
+    new13 = (new_folder / 'apartado_1_3.tex').read_text(encoding='utf-8') if (new_folder / 'apartado_1_3.tex').exists() else ''
     def block(title, content):
         return '\n' + title + '\n' + lower_headings(content) + '\n'
     content = preamble + r'''\begin{document}
@@ -51,8 +56,8 @@ Los procedimientos existentes se conservan junto a cada análisis; la metodolog�
     content += block(r'\section*{Contexto geográfico de la cuenca}', maps)
     content += '\\clearpage\n\\section{Series mensuales: exploración y validación}\n'
     content += block(r'\subsection{Graficar las series de caudal y precipitación}', sources['01_series_mensuales'] + temp + parts[1])
-    content += block(r'\subsection{Incorporar precipitación IMERG para la misma cuenca}', imerg_reading)
-    content += block(r'\subsection{Describir la distribución de los datos mensuales}', sources['03_estadistica_por_ano'] + sources['06_histogramas_estadisticos'] + parts[2])
+    content += block(r'\subsection{Incorporar precipitación IMERG para la misma cuenca}', new12 + (r'\subsubsection*{Antecedentes conservados: IMERG promedio de caja}' if new12 else '') + imerg_reading)
+    content += block(r'\subsection{Describir la distribución de los datos mensuales}', new13 + (r'\subsubsection*{Antecedentes conservados: fuentes y muestras anteriores}' if new13 else '') + sources['03_estadistica_por_ano'] + sources['06_histogramas_estadisticos'] + parts[2])
     content += block(r'\subsection{Usar la exploración como control de calidad}', sources['02_control_faltantes'])
     content += block(r'\subsection{Climatología, variabilidad y explicación física}', imerg_cycle)
     content += 'Apartado pendiente de completar según la guía; esta reorganización no incorpora resultados nuevos.\n'
@@ -80,7 +85,7 @@ Los procedimientos existentes se conservan junto a cada análisis; la metodolog�
     content += '\\end{document}\n'
     original_used = ''.join(sources[name] for name in ['01_series_mensuales', '02_control_faltantes', '03_estadistica_por_ano', '05_temperatura_dispersion_mapas', '06_histogramas_estadisticos', '09_dispersiones_analisis', '08_tendencias', '04_procedencia_alcance'])
     figures = lambda t: sorted(re.findall(r'\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}', t))
-    assert figures(content) == figures(original_used), 'Se modificó el inventario de figuras'
+    assert figures(content) == figures(original_used + new12 + new13), 'Se modificó el inventario de figuras'
     def bodies(text):
         text = re.sub(r'\\(?:subsubsection|subsection|section)\*?\{[^\n]*?\}', '', text)
         return re.sub(r'\s+', '', text)
@@ -121,9 +126,13 @@ function ordenar(){
  mover(s11,document.getElementById('agregacion-mensual-imerg'));
  mover(s11,document.getElementById('temperatura-era5'));
  const s12=sub(p1,'guia-1-2','1.2. Incorporar precipitación IMERG para la misma cuenca');
+ mover(s12,document.getElementById('imerg-poligono-metodo'));
+ if(document.getElementById('imerg-poligono-metodo'))pendiente(s12,'Antecedentes conservados: las gráficas y explicaciones siguientes de IMERG corresponden al promedio Giovanni de caja anterior. Sus resultados no se sustituyen ni se mezclan con el promedio de polígono presentado arriba.');
  mover(s12,document.getElementById('imerg-caudal-interactivo'));
  mover(s12,document.getElementById('lectura-temporal-imerg'));
  const s13=sub(p1,'guia-1-3','1.3. Describir la distribución de los datos mensuales');
+ mover(s13,document.getElementById('imerg-poligono-estadisticos'));
+ if(document.getElementById('imerg-poligono-estadisticos'))pendiente(s13,'Antecedentes conservados: los cuadros siguientes mantienen los productos y periodos de las versiones anteriores, incluida IMERG de caja y temperatura estimada MSWX. La comparación actual de polígono y ERA5-Land se presenta arriba.');
  mover(s13,document.getElementById('estadisticas-anuales'),'Periodo de datos y estadística descriptiva');
  mover(s13,document.getElementById('histogramas'),'Histogramas y estadísticos completos');
  const s14=sub(p1,'guia-1-4','1.4. Usar la exploración como control de calidad');
