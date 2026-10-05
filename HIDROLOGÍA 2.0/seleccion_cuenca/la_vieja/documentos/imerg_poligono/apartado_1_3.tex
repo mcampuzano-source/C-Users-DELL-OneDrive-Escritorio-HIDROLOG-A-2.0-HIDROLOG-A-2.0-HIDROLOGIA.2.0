@@ -170,3 +170,53 @@ ERA5-Land Tmedia & 1998-01 & 2022-12 \\
 \begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/imerg_poligono_cajas.pdf}\caption{Cajas sobre los mismos 285 meses, con unidades propias de cada variable.}\end{figure}
 \subsubsection*{Interpretación inicial}
 En los mismos 285 meses, IMERG de polígono tiene media 216.55 y mediana 216.25 mm/mes; CHIRPS tiene media 170.50 y mediana 169.50 mm/mes. La diferencia de medias es +46.05 mm/mes. Es una diferencia entre productos, no un error frente a una verdad observada. Q tiene media 109.83 y mediana 90.97 m$^3$/s; los meses de caudal alto elevan su promedio. Las cajas muestran mediana, P25--P75 y extremos fuera de 1,5 IQR: no se elimina ningún dato por ese criterio. Los ceros y las fechas de los mínimos/máximos se registran en las tablas. Las distribuciones reúnen todos los meses calendario y no sustituyen la climatología del 1.5. R se deriva de Q, y P-R no equivale automáticamente a evapotranspiración. Los extremos se deben contrastar con las cronologías; su plausibilidad no certifica la exactitud del dato.
+
+
+
+
+
+% DISTRIBUCIONES_AMPLIADAS_INICIO
+\subsubsection*{Descripción ampliada: asimetría, dispersión, colas y ceros}
+En los 285 meses comunes de 1998--2022, CHIRPS, IMERG y temperatura presentan poca asimetría hacia valores altos, mientras que caudal y escorrentía muestran colas superiores más marcadas: sus meses extremos elevan la media por encima de la mediana. IMERG tiene mayor precipitación media que CHIRPS (216,55 frente a 170,50 mm/mes), pero menor dispersión (desviación estándar 71,79 frente a 76,43 mm/mes; IQR 101,98 frente a 114,74 mm/mes). Para caudal y escorrentía, la mediana representa mejor una condición típica resistente a extremos; las diferencias entre productos no demuestran cuál es más exacto.
+
+Con percentiles lineales tipo 7 y límites Q1 - 1,5 IQR y Q3 + 1,5 IQR, las cajas señalan 1 mes en CHIRPS, 1 en IMERG, 6 en caudal, 5 en escorrentía y 3 en temperatura fuera de esos límites; todos se conservan, pues ese criterio no demuestra errores. La asimetría ajustada de Fisher--Pearson y los conteos se presentan en las tablas. No hay ceros ni faltantes en la muestra común: los meses sin información se excluyeron, sin reemplazarlos por cero; 0 $^\circ$C sería una temperatura válida. Las coberturas originales y sus faltantes se distinguen en la tabla por fuente. Estas distribuciones reúnen distintas estaciones del año y no sustituyen la climatología del punto 1.5; la coherencia temporal y plausibilidad de los extremos se revisará en el tercer inciso.
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lrrrr}
+\toprule
+variable & asimetria & fuera\_inferior & fuera\_superior & porcentaje\_fuera \\
+\midrule
+CHIRPS & 0.393 & 0 & 1 & 0.351 \\
+IMERG polígono & 0.132 & 0 & 1 & 0.351 \\
+Caudal Q & 1.538 & 0 & 6 & 2.105 \\
+Escorrentía R & 1.537 & 0 & 5 & 1.754 \\
+ERA5-Land Tmedia & 0.349 & 0 & 3 & 1.053 \\
+\bottomrule
+\end{tabular}
+}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lrr}
+\toprule
+variable & limite\_inferior & limite\_superior \\
+\midrule
+CHIRPS & -62.663 & 396.308 \\
+IMERG polígono & 12.289 & 420.210 \\
+Caudal Q & -87.379 & 290.804 \\
+Escorrentía R & -81.963 & 274.910 \\
+ERA5-Land Tmedia & 14.955 & 17.486 \\
+\bottomrule
+\end{tabular}
+}
+\resizebox{\linewidth}{!}{
+\begin{tabular}{lrrrr}
+\toprule
+variable & meses\_periodo & validos & faltantes & ceros\_validos \\
+\midrule
+CHIRPS & 504 & 485 & 19 & 0 \\
+IMERG polígono & 300 & 300 & 0 & 0 \\
+Caudal Q & 504 & 485 & 19 & 0 \\
+Escorrentía R & 504 & 485 & 19 & 0 \\
+ERA5-Land Tmedia & 504 & 504 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+}
+% DISTRIBUCIONES_AMPLIADAS_FIN

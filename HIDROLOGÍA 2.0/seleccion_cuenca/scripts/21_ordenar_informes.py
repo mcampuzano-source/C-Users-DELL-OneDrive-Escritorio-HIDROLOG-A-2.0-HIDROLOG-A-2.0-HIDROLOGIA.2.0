@@ -93,6 +93,10 @@ Los procedimientos existentes se conservan junto a cada análisis; la metodolog�
     for chunk in re.split(r'\\(?:section|subsection)\*?\{[^\n]*?\}|\n\s*\n', original_used):
         if chunk.strip():
             assert bodies(chunk) in final_body, 'Se omitió un bloque de contenido original'
+    # Centrar el bloque completo, incluidas las tablas pequeñas de cobertura.
+    # longtable ya se centra por defecto y conserva sus saltos de página.
+    tables = r'\\resizebox\{\\linewidth\}\{!\}\{\s*\\begin\{tabular\}.*?\\end\{tabular\}\s*\}|\\begin\{tabular\}.*?\\end\{tabular\}'
+    content = re.sub(tables, lambda m: '\\begin{center}\n' + m.group(0) + '\n\\end{center}', content, flags=re.S)
     (LATEX / 'informe_ordenado.tex').write_text(content, encoding='utf-8')
     subprocess.run([str(ROOT / 'herramientas' / 'tectonic' / 'tectonic.exe'), 'informe_ordenado.tex', '--keep-logs'], cwd=LATEX, check=True)
     shutil.copyfile(LATEX / 'informe_ordenado.pdf', DOC / 'informe_actualizado.pdf')
