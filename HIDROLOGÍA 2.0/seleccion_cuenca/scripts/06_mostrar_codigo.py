@@ -38,4 +38,6 @@ html='''<!doctype html><html lang="es"><meta charset="utf-8"><title>CAMELS — c
 <h2>Resultado del filtro</h2><p>Las ocho candidatas pasan la preselección por área, temperatura Tmin/Tmax y cobertura mensual catalogada de IMERG para 1998–2022.</p>
 <p class="nota">IMERG es precipitación, no temperatura del aire. Tmin/Tmax provienen de MSWX mediante CAMELS. Hay 300 meses catalogados por cuenca; todavía no se han extraído valores IMERG. La prueba de descarga directa respondió HTTP 401: requiere autenticación de Earthdata. Los pesos espaciales son preliminares, pendientes de comprobar con la malla del archivo descargado.</p>'''+summary.to_html(index=False,border=0)+''.join(sections)+'</html>'
 (root/'Codigo_desde_el_inicio.html').write_text(html,encoding='utf-8')
+import runpy
+runpy.run_path(str(root/'scripts'/'24_actualizar_codigo_completo.py'), run_name='__main__')
 print(root/'Codigo_desde_el_inicio.html')

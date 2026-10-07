@@ -36,6 +36,10 @@ def organize_pdf():
     new_folder = DOC / 'imerg_poligono'
     new12 = (new_folder / 'apartado_1_2.tex').read_text(encoding='utf-8') if (new_folder / 'apartado_1_2.tex').exists() else ''
     new13 = (new_folder / 'apartado_1_3.tex').read_text(encoding='utf-8') if (new_folder / 'apartado_1_3.tex').exists() else ''
+    if (new_folder / 'contraste_extremos.tex').exists():
+        new13 += '\n' + (new_folder / 'contraste_extremos.tex').read_text(encoding='utf-8')
+    if (new_folder / 'interpretacion_graficas.tex').exists():
+        new13 += '\n' + (new_folder / 'interpretacion_graficas.tex').read_text(encoding='utf-8')
     def block(title, content):
         return '\n' + title + '\n' + lower_headings(content) + '\n'
     content = preamble + r'''\begin{document}

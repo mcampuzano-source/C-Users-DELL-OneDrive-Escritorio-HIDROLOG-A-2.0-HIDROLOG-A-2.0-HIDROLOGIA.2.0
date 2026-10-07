@@ -1,0 +1,16 @@
+\subsubsection*{Interpretación visual: condición típica, extremos y fuentes}
+La primera figura compara media y mediana con sus valores reales y unidades propias, en paneles separados: Q y R presentan mayor separación, mientras lluvia y temperatura tienen centros próximos. La segunda compara los mismos percentiles de ambas precipitaciones; permite localizar las diferencias en el centro y las colas, sin confundir percentiles con fechas. La tercera muestra un diagnóstico hipotético: se limita cada valor superior a P95 a ese umbral y se mide cuánto bajaría la media en las unidades de cada variable. Los valores y las diferencias se indican explícitamente; cada panel usa su propia escala, por lo que no deben compararse alturas entre variables. La comparación evidencia sensibilidad a la cola alta, no errores ni una corrección recomendada. Los datos, gráficos y estadísticos oficiales conservan todos los valores originales. La proximidad de media y mediana no demuestra normalidad. Las distribuciones mezclan meses calendario; no representan la climatología del punto 1.5.
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/interpretacion_centro.pdf}\caption{Centro: media frente a mediana. Mismos 285 meses comunes; paneles con unidades propias.}\end{figure}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/interpretacion_percentiles.pdf}\caption{Lluvia: percentiles compartidos. Mismos 285 meses comunes; paneles con unidades propias.}\end{figure}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/interpretacion_cola_alta.pdf}\caption{Sensibilidad de la media a la cola alta. Mismos 285 meses comunes; paneles con unidades propias. El tope en P95 es solo un escenario hipotético, no una corrección de datos.}\end{figure}
+
+% RESPUESTAS_INTERPRETACION_INICIO
+\subsubsection*{Interpretación de las cifras}
+\textbf{¿Qué valores describen mejor un mes típico?} En lluvia y temperatura, el promedio y la mediana son casi iguales, por lo que ambos sirven. Para caudal y escorrentía, conviene la mediana (el valor central al ordenar los meses), porque unos pocos meses muy altos hacen subir el promedio.
+
+\textbf{¿Cuánto influyen los meses extremos?} Influyen más en caudal y escorrentía. Como prueba, si limitamos los valores superiores al percentil 95 a ese umbral, sin cambiar los datos originales, el promedio del caudal baja de 109,83 a 106,25 m$^3$/s y el de escorrentía de 103,27 a 99,76 mm/mes. Esto muestra que esos meses elevan el promedio, pero no significa que sean errores.
+
+\textbf{¿En qué se diferencian CHIRPS e IMERG?} Al comparar los mismos 285 meses, IMERG registra 46,05 mm/mes más de lluvia en promedio. CHIRPS muestra valores más dispersos, mientras los de IMERG están más agrupados. Esa diferencia no permite decir cuál mide mejor: necesitamos compararlos con una referencia independiente.
+
+Esta condición típica reúne meses de todas las estaciones del año; no describe un mes calendario específico.
+% RESPUESTAS_INTERPRETACION_FIN
