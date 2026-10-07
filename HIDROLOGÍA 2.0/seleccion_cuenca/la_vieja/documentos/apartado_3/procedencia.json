@@ -1,0 +1,8 @@
+{
+  "commit": "2d2740213c3323fa7d814cacecbad1b4f06fd459",
+  "source_pdf_pages": [
+    31,
+    41
+  ],
+  "integration": "Se conserva el contenido vectorial del punto 3 publicado; se sustituye ?nicamente la numeraci?n de p?gina. HTML: se integra el renderizador del punto 3 conservando punto 2 y portada locales."
+}

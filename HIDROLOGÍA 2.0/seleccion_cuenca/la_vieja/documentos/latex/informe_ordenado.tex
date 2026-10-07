@@ -4,6 +4,7 @@
 \usepackage[spanish,es-nodecimaldot]{babel}
 \usepackage[margin=2cm]{geometry}
 \usepackage{graphicx}
+\usepackage{pdfpages}
 \usepackage{amsmath}
 \usepackage{float}
 \usepackage{longtable}
@@ -13,12 +14,39 @@
 \setlength{\parskip}{5pt}
 \usepackage{booktabs}
 \begin{document}
-\begin{center}
-{\Large\bfseries Cuenca del río La Vieja}\\[3pt]
-{\large Exploración hidroclimática mensual}\\[5pt]
-Curso de Hidrología -- Tarea 1\\
-{\small Documento en construcción -- Orden de la guía}
-\end{center}
+% PORTADA_INSTITUCIONAL_INICIO
+\begin{titlepage}
+\centering
+\vspace*{0.5cm}
+\vspace{0.8cm}
+{\huge\bfseries Cuenca del río La Vieja\par}
+\vspace{0.4cm}
+{\Large Exploración hidroclimática mensual\par}
+\vspace{0.5cm}
+{\large Curso: Hidrología\par}
+\vspace{0.6cm}
+{\large\bfseries Profesor\par}
+{\large Carlos David Hoyos Ortiz\par}
+\vspace{0.9cm}
+{\large\bfseries Integrantes\par}
+\vspace{0.4cm}
+{\large Marcos Correal Suarez\par
+Andrea Carolina Vergara Tenorio\par
+Mariana Campuzano Tobón\par}
+\vspace{0.3cm}
+{\large Ingeniería Civil\par}
+\vspace{0.9cm}
+\includegraphics[width=3.7cm,trim=850bp 230bp 820bp 150bp,clip]{figuras/escudos_unal_oficial.jpg}\par
+\vspace{0.5cm}
+{\Large\bfseries Universidad Nacional de Colombia\par}
+\vspace{0.2cm}
+{\large Sede Medellín\par Facultad de Minas\par}
+\vfill
+{\large Medellín, Colombia\par 2026\par}
+\vspace*{0.6cm}
+\end{titlepage}
+% PORTADA_INSTITUCIONAL_FIN
+
 \tableofcontents
 \clearpage
 \section*{Introducción}
@@ -1173,66 +1201,17 @@ La separación temporal evita usar el caudal de prueba para ajustar la regresió
 \subsubsection*{Conclusión del 2.3}
 Existe una relación aprovechable para estimar caudal mensual a partir de lluvia contemporánea y antecedente: ambas fuentes mejoran la climatología en la prueba reservada. CHIRPS tiene el menor RMSE y MAE globales y un sesgo más cercano a cero en 2017--2022; la ventaja es pequeña y debe contrastarse con años, meses y condiciones de caudal, sin declarar un ganador general. Los modelos siguen siendo herramientas estadísticas retrospectivas de la misma cuenca, con limitaciones en extremos, estabilidad y causalidad. No se recomienda usarlos como pronósticos de crecidas ni extrapolarlos a otras cuencas. Para lluvia local, la utilidad continúa siendo exploratoria: no hay una prueba independiente adicional disponible.
 \clearpage
-\section{Tendencias hidroclimáticas y sus posibles causas}
-\subsection{Temperatura y periodos de análisis}
-Pendiente de completar e integrar; los resultados existentes se conservan en el apartado 3.4 y las series en el punto 1.
-\subsection{Series originales, anomalías y anomalías estandarizadas}
-Pendiente de completar e integrar; los resultados existentes se conservan en el apartado 3.4 y las series en el punto 1.
-\subsection{Dos escalas de evaluación temporal}
-Pendiente de completar e integrar; los resultados existentes se conservan en el apartado 3.4 y las series en el punto 1.
-\subsection{Métodos y comparación de resultados}
-\subsubsection*{Tendencias temporales}
-Se analizaron los 485 meses completos de enero de 1981 a diciembre de 2022.
-Para separar la estacionalidad del cambio de largo plazo se usaron anomalías
-mensuales: a cada valor se le resta la media histórica de su mes calendario.
-Por eso una anomalía positiva significa que el mes estuvo por encima de lo
-habitual para ese mes, no que el valor absoluto sea necesariamente alto.
-
-La línea de la figura es una regresión OLS sobre las anomalías. Como resumen
-robusto se calculó la pendiente de Sen estacional, comparando únicamente meses
-del mismo calendario (eneros entre sí, febreros entre sí, etc.). Mann--Kendall
-estacional contrasta una tendencia monotónica; se reporta p bilateral y se toma
-$p<0.05$ como evidencia al nivel 5\%. Estos análisis no prueban causalidad ni
-resuelven autocorrelación, cambios de estación, regulación, uso del suelo o
-falta de homogeneidad del registro.
-
-\begin{figure}[H]\centering
-\includegraphics[width=\linewidth]{figuras/tendencias_mensuales.pdf}
-\caption{Anomalías mensuales y recta OLS, 1981--2022. Los títulos presentan la pendiente de Sen estacional por década y el valor p de Mann--Kendall estacional.}
-\end{figure}
-
-\begin{center}\small
-\begin{center}
-\begin{tabular}{lrrrr}\hline
-Variable & OLS/década & Sen/década & p & Significativa 5\% \\ \hline
-Precipitación CHIRPS & 2,50 & 1,21 & 0,519 & no \\
-Caudal observado & 9,59 & 5,64 & 0,000 & sí \\
-Escorrentía & 9,02 & 5,30 & 0,000 & sí \\
-Tmin media & 0,32 & 0,32 & 0,000 & sí \\
-Tmax media & 0,40 & 0,40 & 0,000 & sí \\
-Tmedia estimada & 0,36 & 0,36 & 0,000 & sí \\
-\hline\end{tabular}
-\end{center}
-\end{center}
-
-\subsubsection*{Lectura de los resultados}
-\begin{itemize}
-\item Precipitación CHIRPS: Sen estacional 1,21 mm/mes/década; p=0,519. no hay evidencia estadística de una tendencia monotónica al 5 \% (aumento).
-\item Caudal observado: Sen estacional 5,64 m$^3$/s/década; p=0,000. hay evidencia estadística de una tendencia monotónica al 5 \% (aumento).
-\item Escorrentía: Sen estacional 5,30 mm/mes/década; p=0,000. hay evidencia estadística de una tendencia monotónica al 5 \% (aumento).
-\item Tmin media: Sen estacional 0,32 $^\circ$C/década; p=0,000. hay evidencia estadística de una tendencia monotónica al 5 \% (aumento).
-\item Tmax media: Sen estacional 0,40 $^\circ$C/década; p=0,000. hay evidencia estadística de una tendencia monotónica al 5 \% (aumento).
-\item Tmedia estimada: Sen estacional 0,36 $^\circ$C/década; p=0,000. hay evidencia estadística de una tendencia monotónica al 5 \% (aumento).
-\end{itemize}
-R se deriva directamente de Q, por lo que sus resultados no son evidencias
-independientes. Tmedia se estima como $(Tmin+Tmax)/2$ y tampoco es una
-observación independiente. IMERG no entra al análisis: aún no se cuenta con
-valores mensuales descargados y verificados.
-\subsection{Incertidumbre, robustez y presentación}
-Pendiente de completar e integrar; los resultados existentes se conservan en el apartado 3.4 y las series en el punto 1.
-\subsection{¿A qué podrían deberse los cambios?}
-Pendiente de completar e integrar; los resultados existentes se conservan en el apartado 3.4 y las series en el punto 1.
-\clearpage
+% PUNTO_3_COMMIT_2D27402_INICIO
+\includepdf[pages=-,pagecommand={\thispagestyle{plain}},addtotoc={
+1,section,1,Tendencias hidroclimáticas y sus posibles causas,punto3,
+1,subsection,2,Temperatura y periodos de análisis,punto31,
+2,subsection,2,{Series originales, anomalías y anomalías estandarizadas},punto32,
+4,subsection,2,Dos escalas de evaluación temporal,punto33,
+6,subsection,2,Métodos y comparación de resultados,punto34,
+9,subsection,2,{Incertidumbre, robustez y presentación},punto35,
+10,subsection,2,¿A qué podrían deberse los cambios?,punto36
+}]{../apartado_3/punto_3_commit_2d27402.pdf}
+% PUNTO_3_COMMIT_2D27402_FIN
 \section{Análisis de frecuencias mediante Fourier}
 \subsection{Preparar las series y documentar el cálculo}
 Pendiente de desarrollar.
