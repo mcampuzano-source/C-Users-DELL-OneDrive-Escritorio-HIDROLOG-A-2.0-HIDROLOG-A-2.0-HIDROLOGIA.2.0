@@ -45,3 +45,8 @@ Se verificó el HTML con Edge en modo sin conexión: sin peticiones HTTP, sin er
 Se descargó Tectonic 0.17.0 desde su publicación oficial de GitHub a `seleccion_cuenca/herramientas/tectonic/tectonic.exe`. La primera compilación puede descargar paquetes tipográficos. El PDF y el HTML resultantes funcionan sin conexión; esta condición no implica que la primera instalación del compilador sea sin conexión.
 
 Paso actual: series mensuales de P CHIRPS y Q observado reportado por CAMELS, 1981–2022. 485 meses completos, 19 excluidos. IMERG y temperatura media no están incorporados. No hay datos sintéticos ni interpolaciones. Los nombres y criterios se mantienen iguales en ambos documentos.
+
+
+## Actualizacion del 6 de octubre: puntos 2.1 y 2.2
+
+Se incorporan diagramas CHIRPS debajo de IMERG, comparacion de fuentes con muestras comunes y modelos para lluvia local y caudal. Zaragoza tiene 14 meses completos, no 22. Los modelos de caudal se eligen con bloques temporales de desarrollo; 68 meses de 2017-2022 quedan reservados, sin evaluar, para el 2.3. Detalles, rangos, ecuaciones y reproduccion: [apartado_2_2/README.md](apartado_2_2/README.md). Ejecutar el script 35 al final para regenerar ambos informes y conservar los puntos 2.1 y 2.2.

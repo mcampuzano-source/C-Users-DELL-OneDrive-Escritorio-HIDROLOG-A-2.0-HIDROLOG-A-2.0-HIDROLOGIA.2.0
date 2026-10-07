@@ -1,0 +1,104 @@
+{
+  "ecuaciones": [
+    [
+      "Lluvia local · IMERG",
+      "L_est(t) = max(0, -30,7549 + 0,596818 P_IMERG(t)) [mm/mes]"
+    ],
+    [
+      "Caudal · IMERG",
+      "Q_est(t) = max(0, -87,2692 + 0,465439 P_IMERG(t) + 0,433065 P_IMERG(t−1)) [m³/s]"
+    ],
+    [
+      "Lluvia local · CHIRPS",
+      "L_est(t) = max(0, -0,9713 + 0,504221 P_CHIRPS(t)) [mm/mes]"
+    ],
+    [
+      "Caudal · CHIRPS",
+      "Q_est(t) = max(0, -35,8526 + 0,422155 P_CHIRPS(t) + 0,434939 P_CHIRPS(t−1)) [m³/s]"
+    ],
+    [
+      "Caudal · lluvia local (solo exploratorio)",
+      "Q_est(t) = max(0, 55,3322 + 0,654768 L(t)) [m³/s]"
+    ]
+  ],
+  "diagnosticos": [
+    {
+      "fuente": "IMERG",
+      "corr_residuo_mes_anterior": 0.5270865176681881,
+      "RMSE_Q_alto": 98.2879144473503,
+      "sesgo_Q_alto": -76.29111897640766,
+      "negativos_truncados": 7
+    },
+    {
+      "fuente": "CHIRPS",
+      "corr_residuo_mes_anterior": 0.6748975472848416,
+      "RMSE_Q_alto": 89.12520726429706,
+      "sesgo_Q_alto": -63.58773256113247,
+      "negativos_truncados": 3
+    }
+  ],
+  "seleccion": {
+    "IMERG": {
+      "modelo": "lineal_rezago",
+      "modelo_coef": {
+        "kind": "lineal_rezago",
+        "coef": [
+          -87.26919821101201,
+          0.46543884351007614,
+          0.43306546998561474
+        ],
+        "p": 3,
+        "condition": 1185.5520089689896
+      },
+      "CV_RMSE": 56.42722297854848,
+      "baseline": "climatologia",
+      "baseline_RMSE": 77.36665378739232,
+      "ganancia_vs_baseline_pct": 27.065188661754085,
+      "candidato_util": true,
+      "n_ajuste": 206,
+      "periodo_ajuste": [
+        "1998-01",
+        "2016-12"
+      ],
+      "rango_P": [
+        60.82799282844521,
+        440.5209094163651
+      ],
+      "rango_Q": [
+        21.335714285714285,
+        508.76666666666665
+      ]
+    },
+    "CHIRPS": {
+      "modelo": "lineal_rezago",
+      "modelo_coef": {
+        "kind": "lineal_rezago",
+        "coef": [
+          -35.85262537381069,
+          0.42215476803181085,
+          0.43493925863135935
+        ],
+        "p": 3,
+        "condition": 732.7409882651425
+      },
+      "CV_RMSE": 63.86636293347134,
+      "baseline": "climatologia",
+      "baseline_RMSE": 77.36665378739232,
+      "ganancia_vs_baseline_pct": 17.449754116315408,
+      "candidato_util": true,
+      "n_ajuste": 206,
+      "periodo_ajuste": [
+        "1998-01",
+        "2016-12"
+      ],
+      "rango_P": [
+        30.124,
+        396.033
+      ],
+      "rango_Q": [
+        21.335714285714285,
+        508.76666666666665
+      ]
+    }
+  }
+}

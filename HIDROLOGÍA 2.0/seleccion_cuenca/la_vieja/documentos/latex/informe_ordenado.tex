@@ -831,60 +831,218 @@ Pendiente de completar e integrar.
 \section{Relaciones entre series y modelos estadísticos}
 
 \subsection{Diagramas de dispersión e interpretación}
-\subsubsection*{Diagramas requeridos con IMERG y lluvia local}
-Se construyeron los tres diagramas solicitados: IMERG frente a lluvia local, lluvia local frente a caudal Q e IMERG frente a caudal Q. Los puntos se colorean por mes calendario. La estación Zaragoza-AUT ofrece solo 22 meses simultáneos completos en esta descarga; por eso las dos relaciones que incluyen lluvia local son exploratorias y no representan toda la serie 1998--2022.
+\subsubsection*{Datos, ejes y control de completitud}
+Se usa IMERG Final V07B promediado por área sobre el polígono exacto de La Vieja, no el promedio histórico de caja. Eje horizontal: precipitación acumulada mensual (mm/mes); eje vertical: lluvia local (mm/mes), caudal medio mensual Q (m$^3$/s) o escorrentía R (mm/mes), según el panel. Los colores identifican los doce meses calendario. IMERG--Q usa 285 meses completos entre enero de 1998 y diciembre de 2022. Zaragoza-AUT solo aporta 14 meses completos entre enero de 2018 y agosto de 2019. El archivo tiene 22 acumulados no vacíos, pero ocho son parciales: se excluyen porque sus intervalos registrados no alcanzan los esperados. No se rellenan ni prorratean datos. Estos conteos y la serie poligonal sustituyen las cifras históricas de este apartado.
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_1/dispersiones_21.pdf}\caption{Tres diagramas requeridos con IMERG de polígono y lluvia local completa.}\end{figure}
+\subsubsection*{Los mismos diagramas para CHIRPS}\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_1/dispersiones_CHIRPS_21.pdf}\caption{CHIRPS--lluvia local, lluvia local--Q y CHIRPS--Q; muestras comunes.}\end{figure}
 
-\begin{figure}[H]\centering
-\includegraphics[width=\linewidth]{figuras/dispersiones_requeridas.pdf}
-\caption{Diagramas de dispersión requeridos. La línea discontinua en IMERG--lluvia local es 1:1.}
-\end{figure}
-
-Para IMERG--lluvia local, Pearson es 0,64 y Spearman 0,59; el sesgo IMERG menos local es +106,42 mm/mes, MAE 106,42 mm/mes y RMSE 120,17 mm/mes. Lluvia local--Q tiene Pearson 0,19 y Spearman 0,17 (n=22); IMERG--Q tiene Pearson 0,63 y Spearman 0,64 (n=285). Son estadísticas descriptivas; falta comparar anomalías mensuales y evaluar rezagos sin usar precipitación futura.
-
-\subsubsection*{Diagramas de dispersión y disponibilidad}
-Con los datos disponibles se compara CHIRPS con caudal, usando meses simultáneos
-y colores por mes calendario. \textbf{CHIRPS no es una estación de lluvia terrestre.}
-\begin{figure}[H]\centering
-\includegraphics[width=.85\linewidth]{figuras/dispersion_CHIRPS_caudal.pdf}
-\caption{Relación descriptiva entre precipitación CHIRPS y caudal, sin rezago.}
-\end{figure}
-La correlación contiene el ciclo anual compartido y no demuestra causalidad ni
-capacidad predictiva. No se evaluó significancia considerando dependencia temporal.
-Las comparaciones IMERG--estaciones, estaciones--caudal e IMERG--caudal siguen
-pendientes: no se dispone de valores descargados de IMERG ni series terrestres
-verificadas. El acceso NASA devolvió HTTP 401 y el grupo indicó que no dispone
-de acceso. No se crean puntos ficticios ni se sustituye IMERG por CHIRPS.
-
-\subsubsection*{CHIRPS--Q: análisis paralelo}
-Se conservan P CHIRPS acumulada y Q observado de 485 meses completos,
-entre enero de 1981 y diciembre de 2022. CHIRPS es una estimación espacial, no
-una estación terrestre. Se interpreta en paralelo con IMERG: ninguna de las dos fuentes
-sustituye a la otra. Los pares IMERG--lluvia local, IMERG--Q y lluvia local--Q
-se presentan arriba; para IMERG aún faltan las comparaciones con anomalías mensuales
-y el análisis de rezagos.
-
-\begin{figure}[H]\centering
-\includegraphics[width=.85\linewidth]{figuras/dispersion_CHIRPS_caudal.pdf}
-\caption{Dispersión de P CHIRPS y Q observado. El color identifica el mes calendario.}
-\end{figure}
-
-Con valores mensuales Pearson es 0,58 y Spearman es 0,61. Parte de la asociación puede provenir del ciclo anual común. Al quitar el promedio histórico de cada mes calendario, Pearson es 0,56 y Spearman es 0,58. Las anomalías responden mejor a si un mes más lluvioso de lo habitual coincide con caudal mayor de lo habitual.
-
-\begin{center}\small\begin{center}
-\begin{tabular}{rrrr}\hline
-Rezago P (meses) & Meses emparejados & Pearson & Spearman \\ \hline
-0 & 485 & 0,58 & 0,61 \\
-1 & 484 & 0,61 & 0,68 \\
-2 & 483 & 0,27 & 0,33 \\
-3 & 482 & -0,06 & -0,07 \\
-\hline\end{tabular}
-\end{center}\end{center}
-El mayor Pearson a escala mensual se observa con P rezagada 1 mes(es) (0,61). Esto no demuestra un tiempo físico de respuesta: los promedios mensuales pueden ocultar respuestas de días/semanas y Q depende además de humedad antecedente, almacenamiento y operación.
-
-No se reportan p-valores simples porque los meses consecutivos son dependientes. Estas correlaciones no prueban causalidad ni son un modelo de pronóstico; se requieren rezagos diarios, validación temporal y otras variables.
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_1/laminas_21.pdf}\caption{Comparación de precipitación y escorrentía en láminas mensuales.}\end{figure}
+\subsubsection*{Dirección, forma, dispersión y agrupamientos}
+Las tres nubes muestran asociación positiva; IMERG--lluvia local es la más fuerte en la muestra pequeña, mientras lluvia local--Q e IMERG--Q son moderadas. La nube IMERG--Q es alargada y dispersa, sin una función única: una misma lluvia puede acompañarse de caudales diferentes. Los meses calendario se solapan; el color ayuda a detectar agrupamientos estacionales, pero no establece regímenes separados. No hay soporte para ajustar curvaturas con solo 14 puntos locales. Se observan puntos de Q alto fuera del núcleo de la nube; una mayor amplitud a magnitudes altas puede sugerir variabilidad dependiente de la magnitud, pero no constituye una prueba de heterocedasticidad.
+\subsubsection*{Sesgo, MAE y RMSE frente a la referencia local}
+La línea 1:1 usa límites y escalas iguales. Con lluvia local como referencia y error e = IMERG - local, el sesgo medio es +109,80 mm/mes, MAE 109,80 mm/mes y RMSE 119,61 mm/mes (n=14). El sesgo indica la diferencia media con signo; MAE mide la diferencia absoluta típica; RMSE da más peso a errores grandes. Todos los errores de esta muestra son positivos, por eso sesgo y MAE coinciden. IMERG es un promedio de cuenca y Zaragoza una medición puntual: la diferencia combina representatividad espacial, cobertura y errores de ambas fuentes; no es una validación contra la lluvia verdadera de toda la cuenca. Una correlación alta no garantiza concordancia con 1:1.
+\subsubsection*{Pearson, Spearman y valores influyentes}
+Pearson resume asociación lineal y es sensible a magnitudes extremas; Spearman correlaciona rangos y resume asociación monótona. Sus diferencias no prueban por sí solas no linealidad. Se comprueba influencia retirando un mes cada vez: la tabla de sensibilidad muestra el mes que más cambia Pearson y el intervalo obtenido. No se eliminan extremos del análisis. Noviembre y diciembre de 2010 destacan por caudales altos en IMERG--Q; diciembre de 2018 combina poca lluvia local y caudal alto, compatible con lluvia antecedente o aportes de otras zonas. Son hipótesis de interpretación que requieren datos adicionales, no causas demostradas.
+\begin{center}\small\begin{tabular}{lrrr}\hline
+Relación & n & Pearson & Spearman \\ \hline
+IMERG--lluvia local & 14 & 0,79 & 0,71 \\
+Lluvia local--caudal & 14 & 0,60 & 0,52 \\
+IMERG--caudal & 285 & 0,62 & 0,63 \\
+IMERG--escorrentía & 285 & 0,62 & 0,63 \\
+\hline\end{tabular}\end{center}
+\begin{center}\small\begin{tabular}{lrrrr}\hline
+Relación & Mes influyente & r sin mes & r mínimo & r máximo \\ \hline
+IMERG--lluvia local & 2018-09 & 0,87 & 0,75 & 0,87 \\
+Lluvia local--caudal & 2018-12 & 0,84 & 0,53 & 0,84 \\
+IMERG--caudal & 2010-11 & 0,60 & 0,60 & 0,63 \\
+IMERG--escorrentía & 2010-11 & 0,60 & 0,60 & 0,63 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{Rezagos mensuales y apoyo con láminas}
+Se define k$\geq$0 como correlación entre P del mes t-k y Q del mes t; k=1 significa lluvia del mes anterior. Se preserva el calendario mensual antes de desplazar, para no saltar faltantes. Se exploran 0--3 meses por posible humedad antecedente y almacenamiento; no se invocan nieve ni regulación documentada para explicar esta cuenca. Nunca se usa lluvia futura para explicar caudal pasado. Las muestras cambian por disponibilidad: los máximos de correlación son descriptivos y no estiman automáticamente un tiempo físico de respuesta. La comparación en láminas usa R = 86,4 $\times$ días del mes $\times$ Q / 2797,19, en mm/mes. R deriva de Q y no aporta evidencia independiente; sus diferencias mensuales incluyen la duración del mes. Los diagramas P--R ayudan a comparar unidades, pero no cierran un balance hídrico sin evapotranspiración y almacenamiento. En IMERG--Q, Pearson original es mayor sin rezago (0,62), mientras Spearman es ligeramente mayor a un mes (0,65 frente a 0,63): no hay un único rezago óptimo independiente del indicador. Con anomalías, el mayor valor de ambas correlaciones ocurre sin rezago (Pearson 0,64; Spearman 0,60). Para lluvia local--Q el máximo explorado es un mes (Pearson 0,65; Spearman 0,64), pero solo hay 14 pares y las muestras cambian. La correlación negativa a tres meses puede mezclar estacionalidad y tamaño muestral; no demuestra una respuesta física inversa.
+\textbf{Rezagos: original.} $P(t-k)$ frente a $Q(t)$ o $R(t)$.
+\begin{center}\small\begin{tabular}{lrrrr}\hline
+Relación & k & n & Pearson & Spearman \\ \hline
+Lluvia local--caudal & 0 & 14 & 0,60 & 0,52 \\
+Lluvia local--caudal & 1 & 14 & 0,65 & 0,64 \\
+Lluvia local--caudal & 2 & 14 & 0,14 & 0,09 \\
+Lluvia local--caudal & 3 & 14 & -0,43 & -0,43 \\
+IMERG--caudal & 0 & 285 & 0,62 & 0,63 \\
+IMERG--caudal & 1 & 284 & 0,60 & 0,65 \\
+IMERG--caudal & 2 & 283 & 0,32 & 0,36 \\
+IMERG--caudal & 3 & 282 & 0,08 & 0,06 \\
+IMERG--escorrentía & 0 & 285 & 0,62 & 0,63 \\
+IMERG--escorrentía & 1 & 284 & 0,60 & 0,66 \\
+IMERG--escorrentía & 2 & 283 & 0,32 & 0,36 \\
+IMERG--escorrentía & 3 & 282 & 0,07 & 0,06 \\
+\hline\end{tabular}\end{center}
+\textbf{Rezagos: anomalia.} $P(t-k)$ frente a $Q(t)$ o $R(t)$.
+\begin{center}\small\begin{tabular}{lrrrr}\hline
+Relación & k & n & Pearson & Spearman \\ \hline
+IMERG--caudal & 0 & 285 & 0,64 & 0,60 \\
+IMERG--caudal & 1 & 284 & 0,50 & 0,50 \\
+IMERG--caudal & 2 & 283 & 0,41 & 0,44 \\
+IMERG--caudal & 3 & 282 & 0,43 & 0,46 \\
+IMERG--escorrentía & 0 & 285 & 0,63 & 0,60 \\
+IMERG--escorrentía & 1 & 284 & 0,50 & 0,50 \\
+IMERG--escorrentía & 2 & 283 & 0,41 & 0,44 \\
+IMERG--escorrentía & 3 & 282 & 0,42 & 0,45 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{Anomalías y persistencia al retirar el ciclo anual}
+Se define X'(t)=X(t)-promedio de X para el mes calendario de t. Para I, Q y R se calcula una climatología común de enero de 1998--diciembre de 2022 usando exclusivamente los 285 meses simultáneos completos; el archivo de climatología conserva el conteo por mes. La misma definición deberá utilizarse al integrar los apartados 1.5 y 3.2. La asociación IMERG--Q persiste después de retirar el ciclo anual: se reportan Pearson y Spearman de las anomalías y sus rezagos. Esto indica asociación entre desviaciones respecto de lo habitual, sin demostrar causalidad ni capacidad predictiva. No se presenta una climatología local como confiable: Zaragoza tiene solo 14 meses válidos, marzo no tiene ninguno y varios meses tienen un solo año. No es defendible completar la comparación de anomalías de las dos parejas locales con esa cobertura; se necesitan más años de lluvia local verificada. Sin rezago, las anomalías IMERG--Q dan Pearson 0,64 y Spearman 0,60.
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_1/anomalias_21.pdf}\caption{Anomalías con climatología común 1998--2022.}\end{figure}
+\subsubsection*{Alcance del apartado}
+Quedan desarrollados los tres diagramas, sus ejes y colores, los errores frente a lluvia local, ambas correlaciones, la sensibilidad a puntos influyentes, los rezagos y la comparación de anomalías IMERG--Q con apoyo P--R. La comparación de anomalías que incluye lluvia local queda condicionada a obtener una climatología adecuada. No se calculan p-valores simples suponiendo meses independientes, ni se atribuye causalidad. Una evaluación predictiva necesita separación temporal de ajuste y validación, prevista en 2.2 y 2.3.
+\subsubsection*{CHIRPS e IMERG: comparación del apartado 2.1}
+\subsubsection*{CHIRPS: los mismos diagramas y criterios}
+Debajo de IMERG se presentan CHIRPS--lluvia local, lluvia local--caudal y CHIRPS--caudal, con idénticas unidades y colores por mes calendario. La gráfica lluvia local--caudal se repite para conservar la estructura de tres paneles: sus datos son exactamente los mismos y no constituyen un resultado independiente. CHIRPS es precipitación espacial promediada sobre la cuenca, no una estación terrestre. La comparación CHIRPS--IMERG usa exclusivamente los mismos 14 meses completos frente a Zaragoza y los mismos 285 meses completos frente a Q/R (1998--2022). No se compara el registro CHIRPS de 485 meses con el registro IMERG de 285 para decidir qué producto se ajusta mejor.
+\subsubsection*{Dirección, forma, dispersión y puntos influyentes en CHIRPS}
+CHIRPS--lluvia local y CHIRPS--Q muestran asociación positiva. La primera nube es relativamente alineada en esta muestra pequeña, aunque todos los acumulados CHIRPS están por encima de la lluvia local (debajo de 1:1 con la orientación elegida). CHIRPS--Q tiene una nube amplia; a lluvias similares corresponden caudales diferentes y no hay una relación determinista. Los colores se solapan, sin agrupamientos separados que permitan identificar regímenes por sí solos. En ambas fuentes, los caudales altos amplían la dispersión y noviembre de 2010 debe examinarse como valor influyente. La tabla de retirar-un-mes cuantifica la sensibilidad para cada relación; se conservan todos los valores originales.
+\subsubsection*{¿Cuál tiene menor error frente a Zaragoza?}
+En los mismos 14 meses, CHIRPS tiene sesgo +86,74, MAE 86,74 y RMSE 104,14 mm/mes; IMERG tiene sesgo +109,80, MAE 109,80 y RMSE 119,61 mm/mes. CHIRPS muestra menor discrepancia con la referencia puntual en esta muestra: su RMSE es aproximadamente 12,9 \% menor y su MAE 21,0 \% menor. Ambos sobreestiman todos los acumulados locales seleccionados. La relación CHIRPS--local es algo más fuerte (Pearson 0,82; Spearman 0,75) que IMERG--local (0,79; 0,71), pero la correlación no mide concordancia ni demuestra mayor exactitud en toda la cuenca. Zaragoza es una referencia puntual de cobertura corta; no basta para declarar un producto superior en general.
+\begin{center}\small\begin{tabular}{lrrrrr}\hline
+Fuente & n & Sesgo & MAE & RMSE & SD error \\ \hline
+IMERG & 14 & 109,80 & 109,80 & 119,61 & 49,22 \\
+CHIRPS & 14 & 86,74 & 86,74 & 104,14 & 59,80 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{¿Cuál es más disperso? Depende de la comparación}
+La dispersión se cuantifica con unidades y muestras iguales. Frente a la recta 1:1 con Zaragoza, la desviación estándar muestral del error P-local es 59,80 mm/mes para CHIRPS y 49,22 para IMERG: los errores CHIRPS son más variables aunque su sesgo y RMSE totales son menores. Alrededor de la recta lineal ajustada a lluvia local, el RMSE residual es 33,59 mm/mes para CHIRPS y 35,87 para IMERG: la nube CHIRPS es algo más estrecha alrededor de su propia recta. Frente a caudal, el RMSE residual en los mismos 285 meses es 58,89 m$^3$/s para CHIRPS y 56,85 para IMERG: IMERG tiene aproximadamente 3,5 \% menos dispersión residual y una asociación algo mayor. Estas rectas son resúmenes descriptivos calculados con todos los pares, no modelos validados ni errores de pronóstico.
+\begin{center}\small\begin{tabular}{lrrrr}\hline
+Fuente & Referencia & n & RMSE residual & Mediana abs. \\ \hline
+IMERG & lluvia local & 14 & 35,87 & 14,86 \\
+IMERG & caudal Q & 285 & 56,85 & 35,49 \\
+IMERG & escorrentía R & 285 & 53,58 & 32,64 \\
+CHIRPS & lluvia local & 14 & 33,59 & 25,80 \\
+CHIRPS & caudal Q & 285 & 58,89 & 33,70 \\
+CHIRPS & escorrentía R & 285 & 55,60 & 31,76 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{Anomalías, rezagos y apoyo con escorrentía para CHIRPS}
+Se resta la climatología de cada mes calendario construida con los mismos 285 meses de 1998--2022 para CHIRPS, IMERG, Q y R. CHIRPS--Q pasa de Pearson 0,58 y Spearman 0,60 en valores originales a 0,54 y 0,54 en anomalías. IMERG--Q pasa de 0,62 y 0,63 a 0,64 y 0,60. La asociación persiste para ambas fuentes; IMERG es más fuerte en anomalías dentro de este periodo común. Se exploran P(t-k) frente a Q(t)/R(t), con k=0--3 meses, preservando el calendario y excluyendo cada par inválido. La tabla permite contrastar los rezagos sin introducir lluvia futura. R se expresa en mm/mes y deriva de Q, por lo que no constituye evidencia independiente. Para las dos parejas con lluvia local permanece la limitación: los 14 meses no sustentan una climatología local de doce meses adecuada. Para CHIRPS, en original, el mayor Pearson explorado está en k=1 (0,60; n=274). No es una estimación causal del tiempo de respuesta. Para IMERG, en original, el mayor Pearson explorado está en k=0 (0,62; n=285). No es una estimación causal del tiempo de respuesta. Para CHIRPS, en anomalía, el mayor Pearson explorado está en k=0 (0,54; n=285). No es una estimación causal del tiempo de respuesta. Para IMERG, en anomalía, el mayor Pearson explorado está en k=0 (0,64; n=285). No es una estimación causal del tiempo de respuesta.
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_1/anomalias_CHIRPS_21.pdf}\caption{Anomalías CHIRPS con climatología común 1998--2022.}\end{figure}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_1/laminas_CHIRPS_21.pdf}\caption{Apoyo con escorrentía mensual en láminas.}\end{figure}
+\subsubsection*{Conclusión comparativa del 2.1}
+CHIRPS se acerca más a Zaragoza en error medio y RMSE durante los 14 meses completos disponibles; IMERG se asocia algo más con el caudal y presenta menos dispersión alrededor de la recta P--Q en los 285 meses comunes, incluso después de retirar el ciclo anual. No hay un único ganador para todas las preguntas: error frente a lluvia local, variabilidad del error y asociación con caudal son criterios distintos. Ninguno de estos resultados demuestra causalidad ni una ventaja predictiva fuera de muestra. La comparación de anomalías locales requiere ampliar los registros completos de estaciones.
+\subsubsection*{Correlaciones originales y anomalías: muestras comunes}
+\begin{center}\small\begin{tabular}{lrrrrr}\hline
+Fuente & Referencia & Serie & n & Pearson & Spearman \\ \hline
+IMERG & lluvia local & original & 14 & 0,79 & 0,71 \\
+IMERG & caudal Q & original & 285 & 0,62 & 0,63 \\
+IMERG & caudal Q & anomalía & 285 & 0,64 & 0,60 \\
+IMERG & escorrentía R & original & 285 & 0,62 & 0,63 \\
+IMERG & escorrentía R & anomalía & 285 & 0,63 & 0,60 \\
+CHIRPS & lluvia local & original & 14 & 0,82 & 0,75 \\
+CHIRPS & caudal Q & original & 285 & 0,58 & 0,60 \\
+CHIRPS & caudal Q & anomalía & 285 & 0,54 & 0,54 \\
+CHIRPS & escorrentía R & original & 285 & 0,58 & 0,60 \\
+CHIRPS & escorrentía R & anomalía & 285 & 0,54 & 0,54 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{Sensibilidad CHIRPS: retirar un mes}
+\begin{center}\small\begin{tabular}{lrrrr}\hline
+Relación & Mes & r sin mes & r mínimo & r máximo \\ \hline
+CHIRPS--lluvia local & 2018-09 & 0,87 & 0,78 & 0,87 \\
+CHIRPS--caudal Q & 2010-11 & 0,56 & 0,56 & 0,59 \\
+CHIRPS--escorrentía R & 2010-11 & 0,56 & 0,56 & 0,59 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{Rezagos CHIRPS: calendario continuo}
+\textbf{original.}\begin{center}\small\begin{tabular}{lrrrr}\hline
+Referencia & k & n & Pearson & Spearman \\ \hline
+caudal Q & 0,00 & 285 & 0,58 & 0,60 \\
+caudal Q & 1,00 & 274 & 0,60 & 0,66 \\
+caudal Q & 2,00 & 270 & 0,26 & 0,32 \\
+caudal Q & 3,00 & 267 & -0,06 & -0,06 \\
+escorrentía R & 0,00 & 285 & 0,58 & 0,60 \\
+escorrentía R & 1,00 & 274 & 0,60 & 0,66 \\
+escorrentía R & 2,00 & 270 & 0,27 & 0,32 \\
+escorrentía R & 3,00 & 267 & -0,06 & -0,07 \\
+\hline\end{tabular}\end{center}
+\textbf{anomalía.}\begin{center}\small\begin{tabular}{lrrrr}\hline
+Referencia & k & n & Pearson & Spearman \\ \hline
+caudal Q & 0,00 & 285 & 0,54 & 0,54 \\
+caudal Q & 1,00 & 274 & 0,41 & 0,42 \\
+caudal Q & 2,00 & 270 & 0,30 & 0,36 \\
+caudal Q & 3,00 & 267 & 0,30 & 0,35 \\
+escorrentía R & 0,00 & 285 & 0,54 & 0,54 \\
+escorrentía R & 1,00 & 274 & 0,41 & 0,42 \\
+escorrentía R & 2,00 & 270 & 0,30 & 0,36 \\
+escorrentía R & 3,00 & 267 & 0,30 & 0,35 \\
+\hline\end{tabular}\end{center}
 
 \subsection{¿Se pueden construir modelos útiles?}
-Pendiente de desarrollar.
+\subsubsection*{Objetivos, variables y muestras comunes}
+Se evalúa (i) estimar lluvia mensual local de Zaragoza-AUT a partir de IMERG o CHIRPS y (ii) estimar el caudal medio mensual Q a partir de cada producto de precipitación; se añade la relación local--Q como ejercicio exploratorio. P(t) es precipitación de cuenca en mm/mes, L(t) lluvia local en mm/mes y Q(t) caudal en m$^3$/s. IMERG es el promedio del polígono exacto. Las dos fuentes usan las mismas fechas para cada comparación. Para modelos con rezago se exige Q, P\_IMERG(t), P\_CHIRPS(t) y ambas lluvias en t-1 válidas: quedan 274 meses de 1998--2022, once menos que los 285 pares contemporáneos de 2.1. No se rellenan faltantes. Hay 206 meses para desarrollo hasta diciembre de 2016 y 68 meses de 2017--2022 reservados para el 2.3, sin evaluar sus resultados.
+\subsubsection*{Relaciones candidatas y criterio de selección}
+La nube positiva de 2.1 justifica probar una recta como referencia, sin suponer que determine una respuesta única. Se comparan media constante, climatología mensual, Q=a+bP(t), Q=a+bP(t-1), Q=a+bP(t)+cP(t-1) y Q=a+b$\sqrt{\vphantom{P}}$P(t). La raíz cuadrada es una alternativa no lineal sencilla para una posible respuesta sublineal y no transforma el caudal. Se ajusta por mínimos cuadrados con intercepto, sin forzar paso por el origen. La selección usa RMSE agregado de tres validaciones temporales dentro del desarrollo: ajuste hasta 2006$\rightarrow$2007--2009, hasta 2009$\rightarrow$2010--2012 y hasta 2012$\rightarrow$2013--2016 (29, 30 y 46 meses, total 105). Cada coeficiente, media y climatología se estima solo con el pasado de su bloque. Se prefieren dos parámetros si el tercero mejora menos del 5 \%; se considera candidato útil si reduce al menos 5 \% el RMSE frente al mejor referente sin lluvia. Este umbral es una regla práctica explícita, no una prueba de significancia. La evaluación final independiente de 2017--2022 se realizará en 2.3.
+\begin{center}\small\begin{tabular}{rrrrrrr}\hline
+Fuente & Modelo & n & RMSE & MAE & Sesgo & $R^2$ \\ \hline
+IMERG & Media constante & 105 & 83,17 & 60,06 & -2,25 & -0,04 \\
+IMERG & Climatología mensual & 105 & 77,37 & 56,24 & -4,92 & 0,10 \\
+IMERG & Lineal P(t) & 105 & 63,45 & 43,08 & -16,02 & 0,39 \\
+IMERG & Lineal P(t-1) & 105 & 67,38 & 42,75 & -15,84 & 0,32 \\
+IMERG & P(t) + P(t-1) & 105 & 56,43 & 38,97 & -22,66 & 0,52 \\
+IMERG & Raíz de P(t) & 105 & 65,14 & 44,82 & -17,16 & 0,36 \\
+CHIRPS & Media constante & 105 & 83,17 & 60,06 & -2,25 & -0,04 \\
+CHIRPS & Climatología mensual & 105 & 77,37 & 56,24 & -4,92 & 0,10 \\
+CHIRPS & Lineal P(t) & 105 & 69,42 & 48,58 & -2,19 & 0,27 \\
+CHIRPS & Lineal P(t-1) & 105 & 71,36 & 50,57 & -3,21 & 0,23 \\
+CHIRPS & P(t) + P(t-1) & 105 & 63,87 & 45,99 & -2,81 & 0,38 \\
+CHIRPS & Raíz de P(t) & 105 & 70,19 & 49,80 & -3,91 & 0,26 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{Resultado para caudal: modelos con lluvia actual y antecedente}
+El modelo con P(t) y P(t-1) es el candidato seleccionado para ambas fuentes: mejora la recta contemporánea y los referentes de media y climatología. IMERG obtiene RMSE 56,43 m$^3$/s, MAE 38,97 y R$^2$ 0,52 en los 105 meses de validación de desarrollo; CHIRPS obtiene RMSE 63,87, MAE 45,99 y R$^2$ 0,38. La climatología tiene RMSE 77,37; la reducción es 27,1 \% para IMERG y 17,4 \% para CHIRPS. La raíz de P no supera al modelo con rezago. Esta evidencia respalda utilidad preliminar, no certifica predicción operativa. Las ecuaciones siguientes corresponden al reajuste final con los 206 meses de desarrollo; las métricas anteriores proceden de coeficientes ajustados por separado en cada bloque.
+\[\widehat{Q}_t=\max\left(0,-87.2692+0.465439P_{IMERG,t}+0.433065P_{IMERG,t-1}\right).\]
+\[\widehat{Q}_t=\max\left(0,-35.8526+0.422155P_{CHIRPS,t}+0.434939P_{CHIRPS,t-1}\right).\]
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_2/modelos_Q_comparados.pdf}\caption{Modelos de caudal: validación temporal dentro del desarrollo.}\end{figure}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_2/residuos_Q.pdf}\caption{Errores de estimación de caudal durante la validación de desarrollo.}\end{figure}
+\begin{center}\small\begin{tabular}{rrrrr}\hline
+Fuente & Modelo & a & b & c \\ \hline
+IMERG & Lineal P(t) & -26,10 & 0,61 & 0,00 \\
+IMERG & Lineal P(t-1) & -22,11 & 0,60 & 0,00 \\
+IMERG & P(t) + P(t-1) & -87,27 & 0,47 & 0,43 \\
+IMERG & Raíz de P(t) & -138,95 & 16,97 & 0,00 \\
+CHIRPS & Lineal P(t) & 10,97 & 0,57 & 0,00 \\
+CHIRPS & Lineal P(t-1) & 9,20 & 0,59 & 0,00 \\
+CHIRPS & P(t) + P(t-1) & -35,85 & 0,42 & 0,43 \\
+CHIRPS & Raíz de P(t) & -70,49 & 14,11 & 0,00 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{Lluvia local: calibración sencilla y evidencia limitada}
+Se conserva solo la cobertura 100 \%: 14 meses completos. Para cada producto se comparan media, recta y raíz de P. La recta es la referencia elegida por parsimonia: la raíz no muestra una mejora convincente con tan pocos datos. En ajuste sobre los 14 meses, RMSE es 35,87 mm/mes para IMERG y 33,59 para CHIRPS. En un diagnóstico temporal muy corto (siete meses de 2018 para ajustar y siete de 2019 para comprobar), las rectas dan RMSE 41,85 para IMERG y 30,50 para CHIRPS; el referente constante da 58,03. Para IMERG, la raíz apenas mejora ese diagnóstico un 0,9 \%, insuficiente para preferirla; para CHIRPS empeora. No se selecciona por correlación ni se presenta el ajuste como validación. Estas ecuaciones calibran un promedio de cuenca hacia una estación puntual; no reconstruyen automáticamente la lluvia verdadera de toda la cuenca ni autorizan extrapolar a otras estaciones. Las ecuaciones mostradas usan los 14 meses, mientras la comprobación temporal usó únicamente coeficientes de 2018.
+\[\widehat{L}_t=\max\left(0,-30.7549+0.596818P_{IMERG,t}\right).\]
+\[\widehat{L}_t=\max\left(0,-0.9713+0.504221P_{CHIRPS,t}\right).\]
+\begin{center}\small\begin{tabular}{rrrrrr}\hline
+Fuente & Modelo & RMSE ajuste & RMSE temporal & MAE temporal & $R^2$ temporal \\ \hline
+IMERG & Media constante & 58,28 & 58,03 & 48,58 & -0,04 \\
+IMERG & Lineal P(t) & 35,87 & 41,85 & 36,76 & 0,46 \\
+IMERG & Raíz de P(t) & 36,25 & 41,47 & 36,76 & 0,47 \\
+CHIRPS & Media constante & 58,28 & 58,03 & 48,58 & -0,04 \\
+CHIRPS & Lineal P(t) & 33,59 & 30,50 & 25,58 & 0,71 \\
+CHIRPS & Raíz de P(t) & 34,26 & 33,09 & 30,23 & 0,66 \\
+\hline\end{tabular}\end{center}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_2_2/modelos_lluvia_local.pdf}\caption{Calibraciones locales exploratorias, catorce meses de ajuste.}\end{figure}
+\subsubsection*{Caudal a partir de lluvia local: no recomendar todavía}
+La recta local--Q con 14 pares da RMSE de ajuste 51,13 m$^3$/s. En el diagnóstico temporal de siete meses de 2019, RMSE es 54,31 y R$^2$ solo 0,03, con sesgo +39,05 m$^3$/s; el referente constante tiene RMSE 71,01. La raíz empeora a RMSE 57,88 y R$^2$ negativo. Aunque la recta reduce error respecto de esa media, la explicación de la variabilidad es escasa, el sesgo es grande y el registro demasiado corto. Se documenta la ecuación exploratoria, pero no se recomienda un modelo operativo local--Q ni añadirle más parámetros o rezagos con esta muestra. No se compara directamente su RMSE de siete meses con los RMSE de 105 meses de IMERG/CHIRPS.
+\[\widehat{Q}_t=\max\left(0,55.3322+0.654768L_t\right).\]
+\begin{center}\small\begin{tabular}{rrrrr}\hline
+Modelo & RMSE ajuste & RMSE temporal & Sesgo temporal & $R^2$ temporal \\ \hline
+media & 63,80 & 71,01 & 44,69 & -0,66 \\
+lineal & 51,13 & 54,31 & 39,05 & 0,03 \\
+raiz & 52,81 & 57,88 & 41,74 & -0,10 \\
+\hline\end{tabular}\end{center}
+\subsubsection*{Supuestos, rangos, ceros y transformaciones}
+El modelo supone una relación aproximadamente estable en el periodo y ámbito de calibración; cambios de medición, uso del suelo, extracciones, humedad antecedente y regulación pueden romperla. Mínimos cuadrados minimiza errores cuadrados y es sensible a extremos. No se supone independencia de meses para calcular p-valores ni intervalos; los residuos pueden ser autocorrelacionados y de varianza cambiante. P(t-1) significa estrictamente el mes anterior del calendario, sin saltar faltantes. Las precipitaciones y caudales cero, si estuvieran observados, serían válidos; en las muestras actuales no hay ceros. La raíz admite cero y evita añadir constantes arbitrarias. Los faltantes nunca se sustituyen por cero. Para evitar estimaciones físicas negativas se publica max(0, expresión), también aplicado durante la comparación; no se recorta el extremo superior. No se recomienda extrapolar fuera de los rangos observados. Las ecuaciones con P(t) estiman el caudal una vez conocida la lluvia del mismo mes: no son pronósticos adelantados.
+\begin{center}\small\begin{tabular}{rrrrr}\hline
+Fuente & P mín. Q & P máx. Q & P mín. local & P máx. local \\ \hline
+IMERG & 60,83 & 440,52 & 89,28 & 302,46 \\
+CHIRPS & 30,12 & 396,03 & 40,56 & 362,47 \\
+\hline\end{tabular}\end{center}
+Rango de Q en desarrollo: 21,34--508,77 m$^3$/s.
+\subsubsection*{Interpretación de parámetros y conservación de masa}
+En lluvia local, el intercepto tiene unidades mm/mes y la pendiente es adimensional. En caudal, el intercepto está en m$^3$/s y las pendientes en (m$^3$/s)/(mm/mes); el coeficiente de $\sqrt{\vphantom{P}}$P tendría unidades (m$^3$/s)/$\sqrt{\vphantom{P}}$(mm/mes). Una pendiente positiva indica asociación, no una fracción causal de lluvia convertida en caudal. El intercepto negativo y el truncamiento no representan un balance de agua. Q estimado puede convertirse a lámina mensual con R\_est=86,4$\times$días\_del\_mes$\times$Q\_est/2797,19, pero la regresión no conserva masa: faltan evapotranspiración, cambios de almacenamiento, aportes, extracciones y controles de operación. No se interpreta P(t-1) como un tiempo de viaje medido.
+\subsubsection*{Comparación y decisión del apartado 2.2}
+Para lluvia local, la recta CHIRPS tiene mejor desempeño en el diagnóstico disponible, pero la muestra de 14 meses exige tratarla como calibración exploratoria. Para caudal, IMERG con lluvia actual y antecedente tiene menor RMSE y MAE de desarrollo que CHIRPS. Sin embargo, su sesgo es -22,66 m$^3$/s, frente a -2,81 de CHIRPS: menor error cuadrático no implica menor sesgo. Los gráficos de residuos permiten revisar magnitud y persistencia del error; no se prometen intervalos de predicción sin validación. Se proponen dos candidatos de caudal para pasar al 2.3, se mantienen calibraciones locales exploratorias y se descarta afirmar que la lluvia local corta sustenta un modelo operativo. Los 68 meses reservados quedan intactos para comprobar generalización, extremos y estabilidad. En el cuartil de caudales observados más altos, ambos modelos subestiman y CHIRPS tiene menor RMSE (89,13 frente a 98,29 m$^3$/s de IMERG): la ventaja global de IMERG no se extiende automáticamente a extremos. La correlación de errores en meses consecutivos es 0,53 para IMERG y 0,67 para CHIRPS, señal de persistencia no resuelta. Esto limita la confianza en la relación y refuerza la necesidad del 2.3.
+\begin{center}\small\begin{tabular}{rrrr}\hline
+Fuente & r error antecedente & RMSE Q alto & Sesgo Q alto \\ \hline
+IMERG & 0,53 & 98,29 & -76,29 \\
+CHIRPS & 0,67 & 89,13 & -63,59 \\
+\hline\end{tabular}\end{center}
 \subsection{Evaluar fuera del periodo de ajuste}
 Pendiente de desarrollar.
 \clearpage
