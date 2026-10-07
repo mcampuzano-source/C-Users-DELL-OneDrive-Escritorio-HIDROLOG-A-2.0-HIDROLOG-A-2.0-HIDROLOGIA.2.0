@@ -27,3 +27,6 @@ Se necesitan Python con NumPy, pandas y Matplotlib, y Tectonic en PATH o en `sel
 El script 35 ejecuta 32 (que llama a 31) y 34 (que llama a 33), integra imágenes locales en el HTML, compila `latex/informe_ordenado.tex` y actualiza `informe_actualizado.pdf`. Si se regeneran documentos con scripts anteriores, ejecutar 35 **al final** para reincorporar los puntos 2.1 y 2.2.
 
 Los CSV y JSON conservan muestras, parámetros, métricas por bloque y estimaciones de desarrollo. No se generan predicciones de la reserva final. Los gráficos estáticos e interactivos usan esos mismos resultados. La comparación de anomalías que incluye lluvia local sigue condicionada a contar con una climatología local adecuada.
+
+
+Actualizacion posterior: los 68 meses reservados ya se evaluaron sin reajuste en [2.3](../apartado_2_3/README.md). Los metadatos del 2.2 se conservan intactos como registro de las decisiones previas a abrir esa prueba.
