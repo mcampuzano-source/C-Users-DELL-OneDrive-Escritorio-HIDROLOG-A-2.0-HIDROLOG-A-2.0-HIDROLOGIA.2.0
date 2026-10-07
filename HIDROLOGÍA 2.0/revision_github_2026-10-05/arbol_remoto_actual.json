@@ -1,0 +1,2386 @@
+﻿{
+    "sha":  "e0efb8edf2104605d39bb5324b0f5f638b35103e",
+    "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/e0efb8edf2104605d39bb5324b0f5f638b35103e",
+    "tree":  [
+                 {
+                     "path":  ".gitattributes",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1b094d91ba6a1ad8586df3f16609ab18e5e89050",
+                     "size":  296,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1b094d91ba6a1ad8586df3f16609ab18e5e89050"
+                 },
+                 {
+                     "path":  "3B-MO.MS.MRG.3IMERG.19980101-S000000-E235959.01.V07B.HDF5",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4150ac3e488ece34ce2c837ce9e71ee2f04f137e",
+                     "size":  17385976,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4150ac3e488ece34ce2c837ce9e71ee2f04f137e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "9c6febcf84bf034938029f534b3f63c3986edae4",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/9c6febcf84bf034938029f534b3f63c3986edae4"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/CONTINUIDAD_HIDROLOGIA.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "7fe06cb1c1a61ddadcc266378a4fed219f1c5b0b",
+                     "size":  38606,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/7fe06cb1c1a61ddadcc266378a4fed219f1c5b0b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "b744e46e23751b5e681957b93eef200d164287de",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/b744e46e23751b5e681957b93eef200d164287de"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/Codigo_desde_el_inicio.html",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "327d859daad29e9e287fea0435cc7cb49381033b",
+                     "size":  163331,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/327d859daad29e9e287fea0435cc7cb49381033b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/Datos_CAMELS.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "797b61c25a6ff41df038e3670bee1d3fbb88ecfc",
+                     "size":  3202363,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/797b61c25a6ff41df038e3670bee1d3fbb88ecfc"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/Filtro_8_cuencas_IMERG.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f2a659fc6c6349aeafbee1e37ee356db3b0b8e5d",
+                     "size":  74284,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/f2a659fc6c6349aeafbee1e37ee356db3b0b8e5d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/Filtro_8_cuencas_IMERG_antes_estaciones.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "50115d5a39feccfd099bfcd1dcbd346c8f277ce6",
+                     "size":  17727,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/50115d5a39feccfd099bfcd1dcbd346c8f277ce6"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/Filtro_8_cuencas_IMERG_con_estaciones.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "15f69b71d47085f4054a657cab2fffd615e9c6d6",
+                     "size":  59919,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/15f69b71d47085f4054a657cab2fffd615e9c6d6"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/README.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b58344058059015636ca0f02e42b71783f18198f",
+                     "size":  13749,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b58344058059015636ca0f02e42b71783f18198f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "d7483aa8579df87261df2f7958c0250aafeff6f8",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/d7483aa8579df87261df2f7958c0250aafeff6f8"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/00_CAMELS-COL  Description.docx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "43b62a2494265503c2f36f9ebe62e4f8f4ad4ad2",
+                     "size":  63552,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/43b62a2494265503c2f36f9ebe62e4f8f4ad4ad2"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/01_CAMELS_COL_Attributes.zip",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "74b8dda40ff1f88f9a5e266f9ead2ed00dfe9838",
+                     "size":  17920,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/74b8dda40ff1f88f9a5e266f9ead2ed00dfe9838"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/02_CAMELS_COL_Catchment_information.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "39956ed038185d9da5174fad76d5513a3a130a32",
+                     "size":  26681,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/39956ed038185d9da5174fad76d5513a3a130a32"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/03_CAMELS_COL_Basin_boundary.zip",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "64353029124bb629d74198c108aefae87305403c",
+                     "size":  13888313,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/64353029124bb629d74198c108aefae87305403c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/04_CAMELS_COL_Hydrometeorological_data.zip",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "105aab2ce1a969cdcd981a63f27d1adb76bd4b7d",
+                     "size":  134,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/105aab2ce1a969cdcd981a63f27d1adb76bd4b7d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/06_CAMELS_COL_Land_cover_characteristics.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "7a8c46a8d8905837ccecb00d23e91a97fc7352c5",
+                     "size":  13043,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/7a8c46a8d8905837ccecb00d23e91a97fc7352c5"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/10_CAMELS_COL_Physiograpic_characteristics.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "645748024f6190e8e00e49cf69d303bcc1336e7c",
+                     "size":  35793,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/645748024f6190e8e00e49cf69d303bcc1336e7c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/catalogo_ideam.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "99d27bac2b6c58b8f03ac8eb3d7ad162d4117c55",
+                     "size":  6878015,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/99d27bac2b6c58b8f03ac8eb3d7ad162d4117c55"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a395d59e342c9387435414e0fa48cb84415dd388",
+                     "size":  67203,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a395d59e342c9387435414e0fa48cb84415dd388"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo_12027050.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c34aa712244c804eb288faa81a1b1da655ddc0d8",
+                     "size":  1701408,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c34aa712244c804eb288faa81a1b1da655ddc0d8"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo_21197010.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4e3376a8297ef5a4970449563fcd17dc654d5574",
+                     "size":  1701404,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4e3376a8297ef5a4970449563fcd17dc654d5574"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo_22027020.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e505e1862edbc4c869e7268c47b10b48cbe2b1f3",
+                     "size":  1701410,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e505e1862edbc4c869e7268c47b10b48cbe2b1f3"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo_23107020.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ee019d2fc7561d5c6112da220d695521fee70bfd",
+                     "size":  1701408,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ee019d2fc7561d5c6112da220d695521fee70bfd"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo_23147020.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "967778e71bafad1629b1ca5ab24d27f5121d394a",
+                     "size":  1701406,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/967778e71bafad1629b1ca5ab24d27f5121d394a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo_24037290.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9d6456f46c612d780f559532885e5fde30ee3b96",
+                     "size":  1701404,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9d6456f46c612d780f559532885e5fde30ee3b96"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo_26127040.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "903f79621833a05e5a786f49966d1b834732d428",
+                     "size":  1701408,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/903f79621833a05e5a786f49966d1b834732d428"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_catalogo_44037050.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1f8bfea005bc5a5e37eb429cdee87084b9aba77e",
+                     "size":  1701410,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1f8bfea005bc5a5e37eb429cdee87084b9aba77e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/imerg_disponibilidad.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "02d20f86229c303a7c80982b535c0edb7235dad3",
+                     "size":  1701010,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/02d20f86229c303a7c80982b535c0edb7235dad3"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/prueba_acceso_imerg.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "0cabafe57d2b1bc9dc8774ba31ce2f3e13f88872",
+                     "size":  187,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/0cabafe57d2b1bc9dc8774ba31ce2f3e13f88872"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/datos/zenodo_18794895.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "871368333696f33a6002c49a1cd088ca1b8cb681",
+                     "size":  10896,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/871368333696f33a6002c49a1cd088ca1b8cb681"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/herramientas",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "a669eae4ac087b14e9e222ad5d9edd99d66759c3",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/a669eae4ac087b14e9e222ad5d9edd99d66759c3"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/herramientas/tectonic",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "047f9612f15f7dd8f480ddfda7f39f9f1726dc4d",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/047f9612f15f7dd8f480ddfda7f39f9f1726dc4d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/herramientas/tectonic/tectonic.exe",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1157744ccf9c579befea0f70393cbc1e113bed8c",
+                     "size":  51538432,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1157744ccf9c579befea0f70393cbc1e113bed8c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "bbc4cd4607ba7120a147fdccd24f1d3cbdb77e14",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/bbc4cd4607ba7120a147fdccd24f1d3cbdb77e14"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "79f488869031768eb5d08af147f186e242a86b21",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/79f488869031768eb5d08af147f186e242a86b21"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/ERA5_Land_t2m_mensual_caja_cuenca_1981_2026.nc",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "942db07723d803b9239857c25fe02d20bc866626",
+                     "size":  116886,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/942db07723d803b9239857c25fe02d20bc866626"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/IMERG_mensual_Giovanni_1998_2022.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "db04855124ecfa0f44db903c29534f87ced14701",
+                     "size":  9960,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/db04855124ecfa0f44db903c29534f87ced14701"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/lluvia_local_Zaragoza_mensual_2018_2022.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a9dcbbb8cba22510bcb1bae0efcd8ba227fe010a",
+                     "size":  836,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a9dcbbb8cba22510bcb1bae0efcd8ba227fe010a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/precipitacion_local_Zaragoza_AUT_bloque1.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "3be137bea4e903e82374692511a0846bc77ce677",
+                     "size":  7655014,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/3be137bea4e903e82374692511a0846bc77ce677"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/precipitacion_local_Zaragoza_AUT_bloque100000.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "28a00bf5d9f66f5f4378e3935e7cf81216f4373b",
+                     "size":  7654683,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/28a00bf5d9f66f5f4378e3935e7cf81216f4373b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/precipitacion_local_Zaragoza_AUT_bloque150000.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "2c713662bf7cc9e7ebcc01928a2528e3c0202293",
+                     "size":  3013377,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/2c713662bf7cc9e7ebcc01928a2528e3c0202293"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/precipitacion_local_Zaragoza_AUT_bloque2.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4f9da7b723a47e689bbfc3c7c2409d886fcf1aab",
+                     "size":  7655083,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4f9da7b723a47e689bbfc3c7c2409d886fcf1aab"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/precipitacion_local_Zaragoza_AUT_bloque_100000.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c1af04b0889ea963d9f8da0784926edf55e29be0",
+                     "size":  1244029,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c1af04b0889ea963d9f8da0784926edf55e29be0"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/precipitacion_local_Zaragoza_AUT_bloque_50000.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "3d9987f4acda409727ccd1670fe19c0155dc034b",
+                     "size":  4242055,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/3d9987f4acda409727ccd1670fe19c0155dc034b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/datos_fuente/prueba_zaragoza.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "292c419ab89fb8d7d90197ccbe8a2eaa497063e3",
+                     "size":  340,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/292c419ab89fb8d7d90197ccbe8a2eaa497063e3"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "f40d37033ceb5a160541524c1593fda4fdb34d63",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/f40d37033ceb5a160541524c1593fda4fdb34d63"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/Estadisticas_por_ano.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4d1d8e74f411f32416ada6ab60e0bb9cf9a51db1",
+                     "size":  12359,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4d1d8e74f411f32416ada6ab60e0bb9cf9a51db1"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/Estadisticos_completos.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a3ecf9d0ce069e424488c1ac3017072327e094ae",
+                     "size":  6200,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a3ecf9d0ce069e424488c1ac3017072327e094ae"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/README.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1d614004e1d2f08b5bba0231f2169304daba6284",
+                     "size":  6370,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1d614004e1d2f08b5bba0231f2169304daba6284"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/Tendencias_resultados.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9be9fd8f601c81cc68b3fcae1a2d55c962ef44a6",
+                     "size":  5621,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9be9fd8f601c81cc68b3fcae1a2d55c962ef44a6"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/control_disponibilidad_mensual.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c63846456dbbb5389fcf7dfe9db109b59661d3b7",
+                     "size":  30069,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c63846456dbbb5389fcf7dfe9db109b59661d3b7"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/control_meses_excluidos.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "fd8940938887f123db10fb4ea828902b1112a435",
+                     "size":  629,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/fd8940938887f123db10fb4ea828902b1112a435"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/correlaciones_rezago_CHIRPS_Q.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "24367479965e0be7b5a92f7713e42c0db76b89da",
+                     "size":  239,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/24367479965e0be7b5a92f7713e42c0db76b89da"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/datos_graficados.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ceb170b118e7838aa968cd02acf2606be183316e",
+                     "size":  44521,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ceb170b118e7838aa968cd02acf2606be183316e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/dispersion_CHIRPS_Q.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b1665d753a400c8bd6d0df45035c0860ea9ec8df",
+                     "size":  326,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b1665d753a400c8bd6d0df45035c0860ea9ec8df"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/dispersion_CHIRPS_Q_ampliada.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ed71ff4a92d4e5b102386065fb2354a7818cf8a9",
+                     "size":  472,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ed71ff4a92d4e5b102386065fb2354a7818cf8a9"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/dispersiones_requeridas_resultados.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "748fe0cd4e6ad460bff31ff481cd01c4a15c457b",
+                     "size":  466,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/748fe0cd4e6ad460bff31ff481cd01c4a15c457b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/ejemplos_estaciones_insitu.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "6574d6399b0f2d896972371c669116b2b59ccee1",
+                     "size":  201,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/6574d6399b0f2d896972371c669116b2b59ccee1"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/estadisticas_globales_y_por_ano.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c91192389da3c3c47e5beecd493377db8621a835",
+                     "size":  8783,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c91192389da3c3c47e5beecd493377db8621a835"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/estadisticos_completos.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ab0cc2b02a838efed65cf7de6edfeb264835d5a8",
+                     "size":  1838,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ab0cc2b02a838efed65cf7de6edfeb264835d5a8"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/histogramas_clases.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "fb2f7fc893569ed06e9770216153d91a8fd7a98e",
+                     "size":  4896,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/fb2f7fc893569ed06e9770216153d91a8fd7a98e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_estadisticos_periodo_comun.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e3a3e9d0b3248bec0d370c737180ac058b935236",
+                     "size":  256,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e3a3e9d0b3248bec0d370c737180ac058b935236"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_periodo_comun_estadisticos.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "2c04b108745eddf573ab50913018d9923d9d142b",
+                     "size":  395,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/2c04b108745eddf573ab50913018d9923d9d142b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "9ac4c76e0cccc098c2e0ef3adeb3570d4af62348",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/9ac4c76e0cccc098c2e0ef3adeb3570d4af62348"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/IMERG_mensual_poligono_1998_2022.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a4dde0125f5d826d016122ddb4b169c9654ce54f",
+                     "size":  19607,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a4dde0125f5d826d016122ddb4b169c9654ce54f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/Punto_1_2_y_1_3.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a52edf0e966fbb8bdb55742bfbf4703797c72206",
+                     "size":  71660,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a52edf0e966fbb8bdb55742bfbf4703797c72206"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/README.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9b2dda4ac3cd71a5827ae0eb07807b286d545c40",
+                     "size":  3976,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9b2dda4ac3cd71a5827ae0eb07807b286d545c40"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/apartado_1_2.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "0e6f5e1177df2067ed293ab251d58fe42fe9711a",
+                     "size":  2126,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/0e6f5e1177df2067ed293ab251d58fe42fe9711a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/apartado_1_3.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "6a3c4e4109c75667cfb377c59f5732cbda7a5024",
+                     "size":  9310,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/6a3c4e4109c75667cfb377c59f5732cbda7a5024"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/asimetria_y_cajas_285.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c1e76b77ffe378e40aaac82324e0863c4f48118b",
+                     "size":  558,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c1e76b77ffe378e40aaac82324e0863c4f48118b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/ceros_y_faltantes_por_fuente.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "38f7d61f6e486a50d7d2df2eee845e4a9c905ccb",
+                     "size":  182,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/38f7d61f6e486a50d7d2df2eee845e4a9c905ccb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/clases_histogramas.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "14cacd4184469c90c0dcec500c860c866eec9f6e",
+                     "size":  3253,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/14cacd4184469c90c0dcec500c860c866eec9f6e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/estadisticos_periodo_comun.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a67db6ae873e035608987bdd1ab16697ad4ab48b",
+                     "size":  1732,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a67db6ae873e035608987bdd1ab16697ad4ab48b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/estadisticos_registros.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "26c8cb2d1cb238cb9892615d99db8ccad64945fc",
+                     "size":  1748,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/26c8cb2d1cb238cb9892615d99db8ccad64945fc"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/manifest_archivos.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4ecc6fbd842a0bf50ee5d7e6d17575325ffd10d9",
+                     "size":  46510,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4ecc6fbd842a0bf50ee5d7e6d17575325ffd10d9"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/meses_comunes_285.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "6350765aa13242ff7752727dc5dba077d3409893",
+                     "size":  26178,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/6350765aa13242ff7752727dc5dba077d3409893"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/metadatos.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e21987e63860916acda1f96e9c0584af16b1b702",
+                     "size":  1873,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e21987e63860916acda1f96e9c0584af16b1b702"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/pesos_celdas.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "0a17f3d0d68195fdcbaa5188ff7059ed25b0da49",
+                     "size":  9372,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/0a17f3d0d68195fdcbaa5188ff7059ed25b0da49"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/precipitacion_celdas_mm_h.npz",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "968c71072c4540478f6c53655c0773e514193efd",
+                     "size":  27198,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/968c71072c4540478f6c53655c0773e514193efd"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/requirements.txt",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f6eae055c419c79e2cc355963bf94a87999639a6",
+                     "size":  132,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/f6eae055c419c79e2cc355963bf94a87999639a6"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/series_alineadas.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c9da844e8bbc280e1875de90305c85f582142515",
+                     "size":  58819,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c9da844e8bbc280e1875de90305c85f582142515"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_resumen.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "3722f5ecd5d95e0369e1a2312c6d83ae0392b712",
+                     "size":  186,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/3722f5ecd5d95e0369e1a2312c6d83ae0392b712"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/informe_actualizado.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ce80259deb6ed91f0d690fbc655b8afb36ffa838",
+                     "size":  3593501,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ce80259deb6ed91f0d690fbc655b8afb36ffa838"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/informe_dispersiones.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4c7d00ce9e17c27556d2ad5fc8629243a6217b6c",
+                     "size":  3502775,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4c7d00ce9e17c27556d2ad5fc8629243a6217b6c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/informe_imerg.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9e257aa7129200a434711be574270951afac0ba1",
+                     "size":  624624,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9e257aa7129200a434711be574270951afac0ba1"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/informe_imerg_actualizado_2026-10-02.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f7ecf093bebaaed73fabcab43621ae7b5c5678cb",
+                     "size":  673158,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/f7ecf093bebaaed73fabcab43621ae7b5c5678cb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/informe_interactivo.html",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4499816475b4a5174440bfc1d9d40a88b55ab457",
+                     "size":  5394615,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4499816475b4a5174440bfc1d9d40a88b55ab457"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/informe_tendencias.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "37bd5ade00eaf3773feeaff0091c2782bdbbcbb8",
+                     "size":  529455,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/37bd5ade00eaf3773feeaff0091c2782bdbbcbb8"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "b137d5dafc4fa7e88aef02c3dd8d4097a9a8092a",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/b137d5dafc4fa7e88aef02c3dd8d4097a9a8092a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/actualizado_dispersiones",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "f76d23e725b8b1fcd077e620fe476f6c2f17a0bb",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/f76d23e725b8b1fcd077e620fe476f6c2f17a0bb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/actualizado_dispersiones/informe.log",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "cce812d5367e4e46fcba56c90a89e813d9699f44",
+                     "size":  16308,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/cce812d5367e4e46fcba56c90a89e813d9699f44"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/actualizado_dispersiones/informe.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "2c36931c29b4c752567739f77d67d502b347e691",
+                     "size":  531419,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/2c36931c29b4c752567739f77d67d502b347e691"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/actualizado_imerg",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "c71ee410428ff2e16858ebbe015deedd356ffef3",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/c71ee410428ff2e16858ebbe015deedd356ffef3"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/actualizado_imerg/informe.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4c7d00ce9e17c27556d2ad5fc8629243a6217b6c",
+                     "size":  3502775,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4c7d00ce9e17c27556d2ad5fc8629243a6217b6c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/actualizado_tendencias",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "0413632afd2d575732f3c8573a806d7f72c7cf3d",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/0413632afd2d575732f3c8573a806d7f72c7cf3d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/actualizado_tendencias/informe.log",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "058fa098b6b08b148228953c32eec9303e679aba",
+                     "size":  16152,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/058fa098b6b08b148228953c32eec9303e679aba"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/actualizado_tendencias/informe.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "37bd5ade00eaf3773feeaff0091c2782bdbbcbb8",
+                     "size":  529455,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/37bd5ade00eaf3773feeaff0091c2782bdbbcbb8"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/control_revision_3.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "52098f833c6cf5699ce3ca09a0898c63ff9f778b",
+                     "size":  70943,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/52098f833c6cf5699ce3ca09a0898c63ff9f778b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/control_revision_4.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "934005c771170d2352798dc19751a5c6d4a6b46a",
+                     "size":  10010,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/934005c771170d2352798dc19751a5c6d4a6b46a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "1c94ab951eb84d905018ba867108a323526ee16e",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/1c94ab951eb84d905018ba867108a323526ee16e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/control_faltantes.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "25000154b027a4bc37645329aeedd5055e0dd85c",
+                     "size":  20765,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/25000154b027a4bc37645329aeedd5055e0dd85c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/control_faltantes.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "77fa7c909b0d2c863aee0a3b5233519a47f1f6e5",
+                     "size":  59446,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/77fa7c909b0d2c863aee0a3b5233519a47f1f6e5"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/diagramas_caja.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "972a7f6fb53bed70cd39c5c6ed31f398689e621e",
+                     "size":  23572,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/972a7f6fb53bed70cd39c5c6ed31f398689e621e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/diagramas_caja.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "416fac4aabd9582b13a7cd7e264c7ff4f3ed8242",
+                     "size":  109101,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/416fac4aabd9582b13a7cd7e264c7ff4f3ed8242"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/dispersion_CHIRPS_caudal.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1413941e3659ce75a83018a123bd90328584de67",
+                     "size":  35338,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1413941e3659ce75a83018a123bd90328584de67"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/dispersion_CHIRPS_caudal.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "497e957c12ed9ae9089a32963f8879cb48437f08",
+                     "size":  145084,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/497e957c12ed9ae9089a32963f8879cb48437f08"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/dispersiones_ampliadas.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9e2417a6d2c4241e9ce9cdd5b29f0c6dbac50dbd",
+                     "size":  94489,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9e2417a6d2c4241e9ce9cdd5b29f0c6dbac50dbd"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/dispersiones_ampliadas.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5a1e0f6fee1e2424319bee64d847822cf2996d97",
+                     "size":  447400,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/5a1e0f6fee1e2424319bee64d847822cf2996d97"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/dispersiones_requeridas.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4dcf132764e4c9704f18481bb9dee5267e27b912",
+                     "size":  38892,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4dcf132764e4c9704f18481bb9dee5267e27b912"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/dispersiones_requeridas.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "18f489edac728c7bfb90d9201d3abb87779c4828",
+                     "size":  231033,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/18f489edac728c7bfb90d9201d3abb87779c4828"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/era5_land_t2m_mensual.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f453566353e0b9d6d2f5d9b8e7501cb90b400032",
+                     "size":  19346,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/f453566353e0b9d6d2f5d9b8e7501cb90b400032"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/era5_land_t2m_mensual.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "cfbdc19a4ac7e3ea4c675503ef955c9fecc03453",
+                     "size":  153587,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/cfbdc19a4ac7e3ea4c675503ef955c9fecc03453"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/histogramas_completos.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "da777e72da39a13030b74163990a3b87f3cb52a4",
+                     "size":  27525,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/da777e72da39a13030b74163990a3b87f3cb52a4"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/histogramas_completos.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d328c7bc4bf67dda764d692d7971a7cf0f603128",
+                     "size":  180433,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/d328c7bc4bf67dda764d692d7971a7cf0f603128"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_caja_estadisticos.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a1e40099826d886c3817cf98e0db798cbff8ce63",
+                     "size":  18713,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a1e40099826d886c3817cf98e0db798cbff8ce63"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_cajas_comparables.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "aadec8272c702a9d2fbabd86e92d843998d18fee",
+                     "size":  20531,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/aadec8272c702a9d2fbabd86e92d843998d18fee"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_caudal_faltantes.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1bc7fce38b9f0be0e90c77eb6a591a458ae3eca9",
+                     "size":  24169,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1bc7fce38b9f0be0e90c77eb6a591a458ae3eca9"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_caudal_primario.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "82b4120ff6ab5168c5e69b3527c7979f501e6940",
+                     "size":  22051,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/82b4120ff6ab5168c5e69b3527c7979f501e6940"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_caudal_primario.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "70461a913ad945a6c1cd2d51aeda3e022eb9b46c",
+                     "size":  276725,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/70461a913ad945a6c1cd2d51aeda3e022eb9b46c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_complemento.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1ea5be7066c1672e20a5166528dfcd0175cb5b76",
+                     "size":  27205,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1ea5be7066c1672e20a5166528dfcd0175cb5b76"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_complemento.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "fb85939583aa8b09eaf65798f043c3757ec92d55",
+                     "size":  223493,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/fb85939583aa8b09eaf65798f043c3757ec92d55"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_histograma_caja_estadisticos.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1f655948e8953880373332f6bea5890726bcadb1",
+                     "size":  21920,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1f655948e8953880373332f6bea5890726bcadb1"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_histogramas_comparables.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "12a651386d46a8c4b769c31a6e61662e529f4211",
+                     "size":  22664,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/12a651386d46a8c4b769c31a6e61662e529f4211"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_poligono_cajas.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9819e7aa164b870e8c97227ffcc4e88a0cb55583",
+                     "size":  22058,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9819e7aa164b870e8c97227ffcc4e88a0cb55583"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_poligono_histogramas.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "2d5c341890a5c87870df106c61196a586bd5c809",
+                     "size":  23618,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/2d5c341890a5c87870df106c61196a586bd5c809"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_poligono_series.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "75be7c9f9e3d346cdc4ea7827ef5fee054109043",
+                     "size":  32278,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/75be7c9f9e3d346cdc4ea7827ef5fee054109043"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/imerg_r_temperatura_comun.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "05c487d55a71d54a506b7e27226892e4e0862461",
+                     "size":  24335,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/05c487d55a71d54a506b7e27226892e4e0862461"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/mapa_cuenca_estaciones.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ee39cf81afa6dbbd52eb9e11c23b8dcdff1b6c3f",
+                     "size":  64533,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ee39cf81afa6dbbd52eb9e11c23b8dcdff1b6c3f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/mapa_cuenca_estaciones.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1fb17d169fdc86b0724bcc0c56b7d6ac188fa3a5",
+                     "size":  103898,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1fb17d169fdc86b0724bcc0c56b7d6ac188fa3a5"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/mapa_cuenca_estaciones_geografico.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "445d3ff7ebb36945fc1f67bc8f6b7fbb2e710e41",
+                     "size":  2835510,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/445d3ff7ebb36945fc1f67bc8f6b7fbb2e710e41"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/mapa_cuenca_estaciones_geografico.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "bee3ce9a375e4101bc6e2b0f95cfb2cbac9835cb",
+                     "size":  3227390,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/bee3ce9a375e4101bc6e2b0f95cfb2cbac9835cb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/mapa_relieve.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "29d0dcbe6192e14e304203063af7089663947a06",
+                     "size":  183692,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/29d0dcbe6192e14e304203063af7089663947a06"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/mapa_relieve.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a6fec156473d906d900a571168881b7fd275f528",
+                     "size":  455680,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a6fec156473d906d900a571168881b7fd275f528"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/series_mensuales.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "fada83faa5e31e12843fa4dc1a2c24bada9a114d",
+                     "size":  23827,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/fada83faa5e31e12843fa4dc1a2c24bada9a114d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/series_mensuales.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "cca6210c112175e0710aa35155cee5ed0b247e49",
+                     "size":  388732,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/cca6210c112175e0710aa35155cee5ed0b247e49"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/temperaturas_mensuales.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d88a671a4b9bb7cafe2b79b857cd9ff3151aac63",
+                     "size":  37371,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/d88a671a4b9bb7cafe2b79b857cd9ff3151aac63"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/temperaturas_mensuales.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9037b6ace5851900d7fdf01175b8bfffc094cbe6",
+                     "size":  195565,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9037b6ace5851900d7fdf01175b8bfffc094cbe6"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/tendencias_mensuales.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "58c42778d889c2250468cc2224b794c1b1260024",
+                     "size":  56739,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/58c42778d889c2250468cc2224b794c1b1260024"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/figuras/tendencias_mensuales.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e0bcaffc8796d0ead532d886ac1c702c466fb028",
+                     "size":  360378,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e0bcaffc8796d0ead532d886ac1c702c466fb028"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe.log",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f149e4357174eeaaad43d011836a2d5fa9aff212",
+                     "size":  16012,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/f149e4357174eeaaad43d011836a2d5fa9aff212"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c44f93f1fe692c2003348408b92e3ea999116947",
+                     "size":  474821,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c44f93f1fe692c2003348408b92e3ea999116947"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c7abfb7b3f9eda7b4255e8bfc836af0d0ddca4d7",
+                     "size":  1133,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c7abfb7b3f9eda7b4255e8bfc836af0d0ddca4d7"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe_ordenado.log",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e733522cfe636c014cf8668333247866ffcc19c3",
+                     "size":  17098,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e733522cfe636c014cf8668333247866ffcc19c3"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe_ordenado.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ce80259deb6ed91f0d690fbc655b8afb36ffa838",
+                     "size":  3593501,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ce80259deb6ed91f0d690fbc655b8afb36ffa838"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe_ordenado.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "44a4d5de13d2d21b82fbf788d255f8c2e49dee7a",
+                     "size":  53444,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/44a4d5de13d2d21b82fbf788d255f8c2e49dee7a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/revision_estadisticas.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "49e8c76323f8602d5f50e5a86aef42d3245c427e",
+                     "size":  81724,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/49e8c76323f8602d5f50e5a86aef42d3245c427e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/revision_pagina_1.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "330ba56682ee3fd3d85a9bdca3411406c6d9d9d4",
+                     "size":  157880,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/330ba56682ee3fd3d85a9bdca3411406c6d9d9d4"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/revision_pagina_11.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "dbbb17b3c4406d2ba8114093dac740d4f6a5544e",
+                     "size":  123573,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/dbbb17b3c4406d2ba8114093dac740d4f6a5544e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/revision_pagina_12.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "91b0348ab8ae9a24bc15502a5883cd75a512d264",
+                     "size":  115764,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/91b0348ab8ae9a24bc15502a5883cd75a512d264"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/revision_pagina_2.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c3db41e9414d15ca377f08cfa46e62c70f580203",
+                     "size":  29080,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c3db41e9414d15ca377f08cfa46e62c70f580203"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "c88fdaa87d91749b04d21c0a2f280b876dd64c8c",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/c88fdaa87d91749b04d21c0a2f280b876dd64c8c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/01_series_mensuales.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "bbd0198f81b6e1fc09782312397b57be93b8d66a",
+                     "size":  3959,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/bbd0198f81b6e1fc09782312397b57be93b8d66a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/02_control_faltantes.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "afbdf3279f58dae976b3d5f168e5e39c233e3193",
+                     "size":  2639,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/afbdf3279f58dae976b3d5f168e5e39c233e3193"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/03_estadistica_por_ano.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f66be6efc3174305c246838fa460612c3e08effe",
+                     "size":  7107,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/f66be6efc3174305c246838fa460612c3e08effe"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/04_procedencia_alcance.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4516f8b8512b0b0692059570f70ab4d69fdab9d3",
+                     "size":  3427,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4516f8b8512b0b0692059570f70ab4d69fdab9d3"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/05_temperatura_dispersion_mapas.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "372d9c1b621b2874a060a4dd65d73667bc2806d5",
+                     "size":  4906,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/372d9c1b621b2874a060a4dd65d73667bc2806d5"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/06_histogramas_estadisticos.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "cde5e6685d51709013a8bcb231d93ec3f6751d3d",
+                     "size":  6283,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/cde5e6685d51709013a8bcb231d93ec3f6751d3d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/07_diagramas_caja.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "36f54bda5e9f4c6b5c781b0a132bed6ea02acd0f",
+                     "size":  1100,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/36f54bda5e9f4c6b5c781b0a132bed6ea02acd0f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/08_tendencias.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "eacdc68e311e48823338ae3e6c6e72cea737f508",
+                     "size":  2842,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/eacdc68e311e48823338ae3e6c6e72cea737f508"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/09_dispersiones_analisis.tex",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "353380b0f8dea90a72d71fe5e00e9ce74c939a0d",
+                     "size":  6223,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/353380b0f8dea90a72d71fe5e00e9ce74c939a0d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/metadatos_ERA5_Land_t2m.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "fb421d6c729a58b3dc324ca495b2a877087a846c",
+                     "size":  502,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/fb421d6c729a58b3dc324ca495b2a877087a846c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/proveniencia.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "05f1f64aba6ad17b591207387fdf1f5d4e619d1c",
+                     "size":  335,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/05f1f64aba6ad17b591207387fdf1f5d4e619d1c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/requirements.txt",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "2046c44570bf212634de2b69ffa5ebcc21e0e225",
+                     "size":  60,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/2046c44570bf212634de2b69ffa5ebcc21e0e225"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/temperatura_media_ERA5_Land_mensual.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "cdabc52d23a01a95c2404b7fae60f8dceea6a60b",
+                     "size":  24303,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/cdabc52d23a01a95c2404b7fae60f8dceea6a60b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/temperaturas_mensuales.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9bdd5d719fd79c5d887a3f9eca9a933d08a94b8d",
+                     "size":  31362,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9bdd5d719fd79c5d887a3f9eca9a933d08a94b8d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/tendencias_resultados.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "7d1fcdeae31d584af9a393677289f1fd59d40cfd",
+                     "size":  904,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/7d1fcdeae31d584af9a393677289f1fd59d40cfd"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_agregacion-16.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4c88951acb941d43737ae919d773ee89856993c1",
+                     "size":  197504,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4c88951acb941d43737ae919d773ee89856993c1"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_agregacion-17.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "fe0a74c4f2d0635d41785446efeda6823680684f",
+                     "size":  181197,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/fe0a74c4f2d0635d41785446efeda6823680684f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_barras-13.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b22a6581e30e2614abbbbadf6ea5e2dbf550e271",
+                     "size":  87352,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b22a6581e30e2614abbbbadf6ea5e2dbf550e271"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja-07.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "7674cec7ce1a1516239314b0858ae3461bd52a92",
+                     "size":  145918,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/7674cec7ce1a1516239314b0858ae3461bd52a92"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja-08.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "19007cc095ad605863db3d41c2d4b0da6d72b473",
+                     "size":  121161,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/19007cc095ad605863db3d41c2d4b0da6d72b473"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja-09.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1eee5f0c082f9848e961e828a98b035be654524e",
+                     "size":  127740,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1eee5f0c082f9848e961e828a98b035be654524e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja-10.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5b8505ce88b2f537ed950bce78aa22f5462c4f7c",
+                     "size":  228671,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/5b8505ce88b2f537ed950bce78aa22f5462c4f7c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja_b-04.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "20a562f7d7c10c08d0717391bcbebbe92b321b61",
+                     "size":  23975,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/20a562f7d7c10c08d0717391bcbebbe92b321b61"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja_b-05.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "2c5144a545c39d97db3e27a8cb73fa26aae14b08",
+                     "size":  273061,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/2c5144a545c39d97db3e27a8cb73fa26aae14b08"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja_b-06.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "92ee2cfe5addb00a217cdc2352764f8474ec10ad",
+                     "size":  216828,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/92ee2cfe5addb00a217cdc2352764f8474ec10ad"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja_c-11.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "06f6c2fcd963a5e65c73b0a048d2d737bc35b9da",
+                     "size":  224558,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/06f6c2fcd963a5e65c73b0a048d2d737bc35b9da"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja_c-12.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "47a94f9160f282beada2c7e7ce5d786fd2a3a188",
+                     "size":  117830,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/47a94f9160f282beada2c7e7ce5d786fd2a3a188"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_caja_c-13.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "402a32f8425260c0d14b149c0839bd26901b5420",
+                     "size":  174681,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/402a32f8425260c0d14b149c0839bd26901b5420"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_cobertura.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1e41df99f7d55000b839714d2e88ca6e49d8ba27",
+                     "size":  61542,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1e41df99f7d55000b839714d2e88ca6e49d8ba27"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_cuadriculas-12.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "8d1fdfc3f60ca79d6297e7fe60917684c34cca83",
+                     "size":  117344,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/8d1fdfc3f60ca79d6297e7fe60917684c34cca83"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_cuadriculas-13.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "52e1ef8347815d3df9525288d6467c908e73d9fb",
+                     "size":  63225,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/52e1ef8347815d3df9525288d6467c908e73d9fb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_cuadriculas-14.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d4528a2356cd5efa079f3e2a54d5223efdbc4be5",
+                     "size":  174551,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/d4528a2356cd5efa079f3e2a54d5223efdbc4be5"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_final-14.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "09527603d154a9fb4bd07394808fe15fdd992a84",
+                     "size":  187849,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/09527603d154a9fb4bd07394808fe15fdd992a84"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_final-15.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "8ff601f38ce1335a2fcf86eeefb0bc4ca7ea2547",
+                     "size":  179626,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/8ff601f38ce1335a2fcf86eeefb0bc4ca7ea2547"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_final-16.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "dba0a3dfa710c4c231fcd7ea09357edd18a8c12a",
+                     "size":  191266,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/dba0a3dfa710c4c231fcd7ea09357edd18a8c12a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_final-17.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4899a4ecf878be0d679550079d79268fe1490a5c",
+                     "size":  226800,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4899a4ecf878be0d679550079d79268fe1490a5c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_final-18.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a1178ff29d6d7ffaad2293851f366909de798601",
+                     "size":  134033,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a1178ff29d6d7ffaad2293851f366909de798601"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_final-19.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "3489bd28d70abfc73f68d2d2722563e33a66a677",
+                     "size":  284675,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/3489bd28d70abfc73f68d2d2722563e33a66a677"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_hist_imerg-12.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "791092836b96bc404fd6d11473b73fc215870ee2",
+                     "size":  121169,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/791092836b96bc404fd6d11473b73fc215870ee2"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_hist_imerg-13.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "eb309b3bf57e0285df67276b41438bb05db4071b",
+                     "size":  108467,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/eb309b3bf57e0285df67276b41438bb05db4071b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_histogramas.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "cfbb86a25452f1fad22ec13ad87a0f44d9a281be",
+                     "size":  24782,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/cfbb86a25452f1fad22ec13ad87a0f44d9a281be"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_imerg_faltantes-14.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e8d2ac236145feb5561c57339a5342940a19051c",
+                     "size":  266646,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e8d2ac236145feb5561c57339a5342940a19051c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_imerg_faltantes-15.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "3e59b7fe1fa9a9ed99cfab07fb1fae982a74a29c",
+                     "size":  143528,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/3e59b7fe1fa9a9ed99cfab07fb1fae982a74a29c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_interactivo.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "33f9c2fd69420086eba13be5795ad989fd4123cb",
+                     "size":  327,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/33f9c2fd69420086eba13be5795ad989fd4123cb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_interactivo.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "43dce56fa63bd16fe90830115404c08a01991e98",
+                     "size":  1291042,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/43dce56fa63bd16fe90830115404c08a01991e98"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_pdf-01.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b8bb03398c5141a2eee210a38427a018f25d3ef9",
+                     "size":  193742,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b8bb03398c5141a2eee210a38427a018f25d3ef9"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_pdf-02.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5baa53607b25f0bc819dfd7c90039b582bd4a94a",
+                     "size":  178216,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/5baa53607b25f0bc819dfd7c90039b582bd4a94a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_seccion-10.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5b8505ce88b2f537ed950bce78aa22f5462c4f7c",
+                     "size":  228671,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/5b8505ce88b2f537ed950bce78aa22f5462c4f7c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_seccion-11.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "06f6c2fcd963a5e65c73b0a048d2d737bc35b9da",
+                     "size":  224558,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/06f6c2fcd963a5e65c73b0a048d2d737bc35b9da"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_seccion-12.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "86246abfec3cc4fa1adff70d67f4b61adace800a",
+                     "size":  99097,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/86246abfec3cc4fa1adff70d67f4b61adace800a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/verificacion_seccion-13.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "da52eab2d93918799743f96979e527f178627b5f",
+                     "size":  117733,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/da52eab2d93918799743f96979e527f178627b5f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/estaciones_insitu",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "8fcc7e320e32671f6b436f56ad7cfe0db3b50c7e",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/8fcc7e320e32671f6b436f56ad7cfe0db3b50c7e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/estaciones_insitu/error_consulta.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b2c7ee5279fbd192402868b179a547deefa54039",
+                     "size":  2828,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b2c7ee5279fbd192402868b179a547deefa54039"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "7f8a6ac25a0e17836d664e2073313ab7be73889a",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/7f8a6ac25a0e17836d664e2073313ab7be73889a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/Exploracion_mensual_La_Vieja.xlsx",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c5b4987aa84879e7644e52687716df951736f5ff",
+                     "size":  91538,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c5b4987aa84879e7644e52687716df951736f5ff"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/Informe_exploracion.html",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b4198a59bc265a0184e3531b0a96f59adf4b40fb",
+                     "size":  39957,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b4198a59bc265a0184e3531b0a96f59adf4b40fb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/Interpretacion_inicial.md",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e1831949989303a78a2e07f0782a65c5ad1f6b2c",
+                     "size":  11671,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e1831949989303a78a2e07f0782a65c5ad1f6b2c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/POMCA_capitulo_clima.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "bacd7a1a7b8f21ca5ee6da7943bc1d7d8b89f345",
+                     "size":  20108114,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/bacd7a1a7b8f21ca5ee6da7943bc1d7d8b89f345"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/alertas_cambios_bruscos.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1b4eb63bd6e1bace2ccc80a043721263c6ea38a1",
+                     "size":  238,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1b4eb63bd6e1bace2ccc80a043721263c6ea38a1"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/alertas_diagramas_caja.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a1fa9bef693695574230be1b17b8321b99f8e73e",
+                     "size":  4507,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a1fa9bef693695574230be1b17b8321b99f8e73e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/climatologia_exploratoria.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "eae5108fa79b630217e47d119910f2978466e6d0",
+                     "size":  4536,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/eae5108fa79b630217e47d119910f2978466e6d0"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/comprobacion_manual.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1a27186ea579b5355d9ae39e75377d1c94713e5c",
+                     "size":  261,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1a27186ea579b5355d9ae39e75377d1c94713e5c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/criterio_histogramas.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "6eaa683b555d8081ba5ec883afcfdc215d78950d",
+                     "size":  2019,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/6eaa683b555d8081ba5ec883afcfdc215d78950d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/diario_calendario_completo.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "508ae76da4f14bcb4e6d7cb7518398bfdb7d7e65",
+                     "size":  641634,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/508ae76da4f14bcb4e6d7cb7518398bfdb7d7e65"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/disponibilidad_anual.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "825b72dc8d66a9fdda5333ebe162ee33da19b403",
+                     "size":  2263,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/825b72dc8d66a9fdda5333ebe162ee33da19b403"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/disponibilidad_mensual.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c63846456dbbb5389fcf7dfe9db109b59661d3b7",
+                     "size":  30069,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c63846456dbbb5389fcf7dfe9db109b59661d3b7"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/estadistica_descriptiva.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9decc2a363dc95900ee5b0931258fa438988195d",
+                     "size":  940,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9decc2a363dc95900ee5b0931258fa438988195d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "a5bb2e72612309ff6aa106e49a3b9fcef4cd837e",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/a5bb2e72612309ff6aa106e49a3b9fcef4cd837e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/01_series_cronologicas.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9c66f3f0fd4d7a410acffa8bdf72adcff94c145e",
+                     "size":  55498,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9c66f3f0fd4d7a410acffa8bdf72adcff94c145e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/01_series_cronologicas.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "9ae41387946198cf9bad0012ee6f94231fd0a08e",
+                     "size":  519752,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/9ae41387946198cf9bad0012ee6f94231fd0a08e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/02_disponibilidad.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "08fba6ff9f3c7b94aa61f46d160630f3eaa96aef",
+                     "size":  22232,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/08fba6ff9f3c7b94aa61f46d160630f3eaa96aef"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/02_disponibilidad.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "7234cd47c6bfcc1e0086fa529a33bd0536bd83fd",
+                     "size":  55251,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/7234cd47c6bfcc1e0086fa529a33bd0536bd83fd"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/03_distribuciones.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "8ee68d7b5549604c100e22725330cc1982e1e2bb",
+                     "size":  25660,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/8ee68d7b5549604c100e22725330cc1982e1e2bb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/03_distribuciones.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "924dd3770da58d49a9a984e39555e02ea799a01f",
+                     "size":  136717,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/924dd3770da58d49a9a984e39555e02ea799a01f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/04_ciclo_anual_exploratorio.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f24b449be7035609bae139c1a7cf015edd8900d5",
+                     "size":  26033,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/f24b449be7035609bae139c1a7cf015edd8900d5"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/04_ciclo_anual_exploratorio.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "8935bbcd0ad9685bf0e0d7d5fe3506c4d9704399",
+                     "size":  341553,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/8935bbcd0ad9685bf0e0d7d5fe3506c4d9704399"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/05_mapa_ano_mes.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b562c15e5715fd121da3f743d488752e91d12f42",
+                     "size":  34571,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b562c15e5715fd121da3f743d488752e91d12f42"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/05_mapa_ano_mes.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e093fa423de95d5128eddf3d33d2ee2bd706374c",
+                     "size":  85057,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e093fa423de95d5128eddf3d33d2ee2bd706374c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/06_revision_extremos.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4833c0795740b7dbad9c012a6d33a6ec045e9a5a",
+                     "size":  23593,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4833c0795740b7dbad9c012a6d33a6ec045e9a5a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/figuras/06_revision_extremos.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e27a38dfed3ea4dcb1b8007d584a8417019b43f6",
+                     "size":  425939,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e27a38dfed3ea4dcb1b8007d584a8417019b43f6"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/intervalos_faltantes.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "eac69df63259c0c57fd1c95289cd1ffe9e7124ef",
+                     "size":  1208,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/eac69df63259c0c57fd1c95289cd1ffe9e7124ef"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/meses_excluidos.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "50b7cc2424db30f79bbe3ed944e92ef23d68132b",
+                     "size":  1454,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/50b7cc2424db30f79bbe3ed944e92ef23d68132b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/meses_extremos.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "89633a328257b6c59021e8ad719fa8036234c906",
+                     "size":  2557,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/89633a328257b6c59021e8ad719fa8036234c906"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/requirements.txt",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "648613c5a45307aabc9aa69ea4a733be47b2d9d2",
+                     "size":  62,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/648613c5a45307aabc9aa69ea4a733be47b2d9d2"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/resumen_control.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "12d1122be55f70afc0878c2f16b4030421572df5",
+                     "size":  1122,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/12d1122be55f70afc0878c2f16b4030421572df5"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/secuencias_constantes.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "88197e2ad398e8bc9272a13c6895b7ad4919d66b",
+                     "size":  4416,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/88197e2ad398e8bc9272a13c6895b7ad4919d66b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/sensibilidad_completitud_Q.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e24b83c2aa3ccc3a0a38813dfa6a557a4c47f57e",
+                     "size":  25658,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e24b83c2aa3ccc3a0a38813dfa6a557a4c47f57e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/series_mensuales.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ceb170b118e7838aa968cd02acf2606be183316e",
+                     "size":  44521,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ceb170b118e7838aa968cd02acf2606be183316e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/punto_1/valores_invalidos.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d72c7fb69901dc9c8bae8c12ff662ed246f5334d",
+                     "size":  30,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/d72c7fb69901dc9c8bae8c12ff662ed246f5334d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/topografia",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "36d2065295756b47db9e495256d1e801545f8cb9",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/36d2065295756b47db9e495256d1e801545f8cb9"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/topografia/ATRIBUCION.txt",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "318c5526127237a188f9168776e93d0bc4f12133",
+                     "size":  183,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/318c5526127237a188f9168776e93d0bc4f12133"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/topografia/Copernicus_DSM_COG_10_N04_00_W076_00_DEM.tif",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "52eb9867bbc6c29060e160a3fbba06d9d2df5212",
+                     "size":  42911250,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/52eb9867bbc6c29060e160a3fbba06d9d2df5212"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/topografia/cuenca_la_vieja.geojson",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "bdf6610b38042e23fe0cc323ee08b31aa8444657",
+                     "size":  208401,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/bdf6610b38042e23fe0cc323ee08b31aa8444657"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/topografia/dem_la_vieja_30m.tif",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c564344d03c9cf1522f1b6f11d5a6f17a400e03f",
+                     "size":  9990204,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c564344d03c9cf1522f1b6f11d5a6f17a400e03f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/topografia/metadatos_dem.json",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "2f59bdd30b791e7b06911e6a7007e596f20f50fe",
+                     "size":  1405,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/2f59bdd30b791e7b06911e6a7007e596f20f50fe"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/topografia/relieve_visualizacion.npz",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "f892f1fc253541006fd023133f663529a49d09e2",
+                     "size":  184615,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/f892f1fc253541006fd023133f663529a49d09e2"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/requirements_revision.txt",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "65a0bf7bf07bb7929fa460995ddb009e2499e853",
+                     "size":  46,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/65a0bf7bf07bb7929fa460995ddb009e2499e853"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "1f499001d099b65ab139a7135e355600a1ef72c2",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/1f499001d099b65ab139a7135e355600a1ef72c2"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/candidatas_42_anos.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5dad0b6f33fa5cb65a642f752d389590ab4a053e",
+                     "size":  41052,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/5dad0b6f33fa5cb65a642f752d389590ab4a053e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/cuencas_recomendadas_estacion_insitu.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d2721de2e1e3acfef2bbf46483a81189671b2eb4",
+                     "size":  1430,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/d2721de2e1e3acfef2bbf46483a81189671b2eb4"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/diario_12027050.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4e4405deaf283021145d18180933ab4e711fe3f6",
+                     "size":  627629,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4e4405deaf283021145d18180933ab4e711fe3f6"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/diario_21017020.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "566dcb6650d1489ad66fcf81674c9eb7a84c05ce",
+                     "size":  619815,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/566dcb6650d1489ad66fcf81674c9eb7a84c05ce"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/diario_22027020.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a58fa6ecf8668ce91bf92908ef229eb3882ed002",
+                     "size":  610975,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a58fa6ecf8668ce91bf92908ef229eb3882ed002"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/diario_23057140.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ded024c0bd4ffe6f658058eed741adad7b9d0eaf",
+                     "size":  663063,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ded024c0bd4ffe6f658058eed741adad7b9d0eaf"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/diario_26127040.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ac856d1da20113652e04de37eee18a51f514079d",
+                     "size":  637554,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ac856d1da20113652e04de37eee18a51f514079d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/disponibilidad_candidatas.png",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "3a1768161f914d59dc4f3812db34bb373a783f7d",
+                     "size":  102085,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/3a1768161f914d59dc4f3812db34bb373a783f7d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/disponibilidad_mensual_candidatas.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "77ad2a57a9dba48c146df0a804e80a2a3c58c0bc",
+                     "size":  95757,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/77ad2a57a9dba48c146df0a804e80a2a3c58c0bc"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/estaciones_coordenadas_invalidas.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "3a74b113115e9e2534aa3531ab49dc76450a6642",
+                     "size":  253,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/3a74b113115e9e2534aa3531ab49dc76450a6642"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/estaciones_dentro_cuencas.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "8557027ee116d378adc83e6558463cddb6353434",
+                     "size":  70412,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/8557027ee116d378adc83e6558463cddb6353434"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/filtro_8_temperatura_imerg.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "462e4d681c845bdf95fd1839ade726d64fd83504",
+                     "size":  1909,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/462e4d681c845bdf95fd1839ade726d64fd83504"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/mensual_preliminar_12027050.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "735137bd3b3a6d6e9b1f10990a25d6f32430368d",
+                     "size":  17710,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/735137bd3b3a6d6e9b1f10990a25d6f32430368d"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/mensual_preliminar_21017020.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "16c4c1f6814f489b86dbb4025e66373a25db1743",
+                     "size":  18895,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/16c4c1f6814f489b86dbb4025e66373a25db1743"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/mensual_preliminar_22027020.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "6911e16b8943567492c5a865573375bab7f6ca2b",
+                     "size":  18321,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/6911e16b8943567492c5a865573375bab7f6ca2b"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/mensual_preliminar_23057140.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d22d7b60946f3ac7a90c43bed682eb4da7a10ba4",
+                     "size":  18607,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/d22d7b60946f3ac7a90c43bed682eb4da7a10ba4"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/mensual_preliminar_26127040.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1a2b276485dd333b820ca13d9d67799245c1dbe1",
+                     "size":  18348,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1a2b276485dd333b820ca13d9d67799245c1dbe1"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/ocho_cuencas_wgs84.geojson",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "dbabd10009c910cc5a18f68e68a1294049677b50",
+                     "size":  1402701,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/dbabd10009c910cc5a18f68e68a1294049677b50"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/pesos_era5_land_t2m_poligono.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ed27ec41c1f3c04d3b0e99f1c4c0cbee01531ebe",
+                     "size":  2476,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ed27ec41c1f3c04d3b0e99f1c4c0cbee01531ebe"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/pesos_preliminares_malla_imerg.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "3168c46caa4ec1e0cf0aae1f44706791d70c6fca",
+                     "size":  16588,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/3168c46caa4ec1e0cf0aae1f44706791d70c6fca"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/ranking_estaciones_ideam.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b2c0fbf9716d01682d38e04186085a569362c8e7",
+                     "size":  4102,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b2c0fbf9716d01682d38e04186085a569362c8e7"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/resultados/revision_todas_cuencas.csv",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "54e974c9195c38d6278cef9ca6c204bcafbda4ee",
+                     "size":  275028,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/54e974c9195c38d6278cef9ca6c204bcafbda4ee"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts",
+                     "mode":  "040000",
+                     "type":  "tree",
+                     "sha":  "10cbbb15bf9c0117e9a23e33246d93f0575ee8c0",
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/trees/10cbbb15bf9c0117e9a23e33246d93f0575ee8c0"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/05_filtrar_temperatura_imerg.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "c2bbf378b3c6fc11031107f2cd7bd5da912fba76",
+                     "size":  7010,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/c2bbf378b3c6fc11031107f2cd7bd5da912fba76"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/06_mostrar_codigo.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "a266fdf43509fe856508cb83d2ba9382b60ee4c4",
+                     "size":  3960,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/a266fdf43509fe856508cb83d2ba9382b60ee4c4"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/07_contar_estaciones_ideam.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "517ac02a9976388fca31382f4cae200550455435",
+                     "size":  9338,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/517ac02a9976388fca31382f4cae200550455435"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/08_exploracion_mensual_la_vieja.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "ef99b73ebd5d1454ce264a91eadff4b7aa61ae7f",
+                     "size":  17895,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/ef99b73ebd5d1454ce264a91eadff4b7aa61ae7f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/09_informe_exploracion.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "59eebbd1c965871539b7389006ad820b10e2dfff",
+                     "size":  4528,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/59eebbd1c965871539b7389006ad820b10e2dfff"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/10_documentos_series_mensuales.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "858a63b58b5d289e9d788ad8f8a4f761b7d17489",
+                     "size":  10439,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/858a63b58b5d289e9d788ad8f8a4f761b7d17489"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/11_verificar_documento_interactivo.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "242791b3fabf1b29ef65a0e648a69effbe3f12a5",
+                     "size":  3826,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/242791b3fabf1b29ef65a0e648a69effbe3f12a5"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/12_compilar_latex.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "080d713380efb34274cb93ff74efc5de07e8a1cb",
+                     "size":  612,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/080d713380efb34274cb93ff74efc5de07e8a1cb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/13_control_faltantes_documentos.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "7c4f3e910eaebc06b46e8750e766f5fcd5d9349f",
+                     "size":  8414,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/7c4f3e910eaebc06b46e8750e766f5fcd5d9349f"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/14_estadisticas_por_ano.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "98aa1a9a780c481d36e966cee7a8ddd07366dfda",
+                     "size":  7337,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/98aa1a9a780c481d36e966cee7a8ddd07366dfda"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/15_grafica_cobertura_mensual.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "6a949290589c3f672f3cde7c980f9d4e5c8f012c",
+                     "size":  2900,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/6a949290589c3f672f3cde7c980f9d4e5c8f012c"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/16_procedencia_alcance.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "80308bd480f2714afaf07e589ecedb4e4f582623",
+                     "size":  8172,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/80308bd480f2714afaf07e589ecedb4e4f582623"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/17_topografia_la_vieja.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "6f0dc4a9ceea2fcbd6a85a904d126997777cf8bb",
+                     "size":  3438,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/6f0dc4a9ceea2fcbd6a85a904d126997777cf8bb"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/18_temperatura_dispersion_mapas.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "6808fc16e1fcaaf1f5b68079692577a276c5f373",
+                     "size":  16247,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/6808fc16e1fcaaf1f5b68079692577a276c5f373"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/19_histogramas_estadisticas.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "031fee4d11d8d733954ce3ad5ec3dd46afde2f26",
+                     "size":  11186,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/031fee4d11d8d733954ce3ad5ec3dd46afde2f26"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/20_verificar_precipitacion_insitu.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "e05aa656538f8f54ec3613f8b872da3283882d7a",
+                     "size":  2042,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/e05aa656538f8f54ec3613f8b872da3283882d7a"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/21_ordenar_informes.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "252146d8853c698c18e4be6960d7ad792d5fcfae",
+                     "size":  15188,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/252146d8853c698c18e4be6960d7ad792d5fcfae"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/22_imerg_poligono_estadisticas.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5389224b12bca9b5e4c3ef4ff692e34762da22c9",
+                     "size":  23448,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/5389224b12bca9b5e4c3ef4ff692e34762da22c9"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/23_ampliar_distribuciones.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "7bb5eb401917ef94094862414f2eda982101e76e",
+                     "size":  9824,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/7bb5eb401917ef94094862414f2eda982101e76e"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/crear_excel.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "4025aa5f08249f163f76db38b6a5b5d47d4eafef",
+                     "size":  3867,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/4025aa5f08249f163f76db38b6a5b5d47d4eafef"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/descargar_camels.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "5c838de416b1230befe2f71958b41d8a6be6ee65",
+                     "size":  1080,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/5c838de416b1230befe2f71958b41d8a6be6ee65"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/graficar_disponibilidad.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "b49f51107062d32614670c82ed8b61816263b517",
+                     "size":  1182,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/b49f51107062d32614670c82ed8b61816263b517"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/seleccion_cuenca/scripts/revisar_series.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "82c2b511b575a780b364f3adffb76ea05ed53aea",
+                     "size":  4380,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/82c2b511b575a780b364f3adffb76ea05ed53aea"
+                 },
+                 {
+                     "path":  "HIDROLOGÍA 2.0/tarea_1_202602.pdf",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "d2ea86f2589e7431411bd9cfc47f1d288442119f",
+                     "size":  250596,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/d2ea86f2589e7431411bd9cfc47f1d288442119f"
+                 },
+                 {
+                     "path":  "download_files_GPM_3IMERGM_07.original.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "1604366bda3363bed6158d61037141757686e394",
+                     "size":  6998,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/1604366bda3363bed6158d61037141757686e394"
+                 },
+                 {
+                     "path":  "download_files_GPM_3IMERGM_07.py",
+                     "mode":  "100644",
+                     "type":  "blob",
+                     "sha":  "134e4104d427babfa99c7c07a879e2010af5e1ee",
+                     "size":  10031,
+                     "url":  "https://api.github.com/repos/mcampuzano-source/C-Users-DELL-OneDrive-Escritorio-HIDROLOG-A-2.0-HIDROLOG-A-2.0-HIDROLOGIA.2.0/git/blobs/134e4104d427babfa99c7c07a879e2010af5e1ee"
+                 }
+             ],
+    "truncated":  false
+}

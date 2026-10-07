@@ -1,0 +1,480 @@
+{
+  "errores": [
+    {
+      "fuente": "IMERG",
+      "n": 14,
+      "sesgo": 109.80271641962149,
+      "MAE": 109.80271641962149,
+      "RMSE": 119.60848118560924,
+      "SD_error": 49.21986101440537
+    },
+    {
+      "fuente": "CHIRPS",
+      "n": 14,
+      "sesgo": 86.7390714285714,
+      "MAE": 86.7390714285714,
+      "RMSE": 104.13686949292126,
+      "SD_error": 59.80191343538239
+    }
+  ],
+  "correlaciones": [
+    {
+      "fuente": "IMERG",
+      "referencia": "lluvia local",
+      "serie": "original",
+      "n": 14,
+      "Pearson": 0.7880592702774647,
+      "Spearman": 0.7098901098901099
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "n": 285,
+      "Pearson": 0.618847940451542,
+      "Spearman": 0.626963770106839
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "n": 285,
+      "Pearson": 0.6362434535806327,
+      "Spearman": 0.6020958285598759
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "n": 285,
+      "Pearson": 0.6185514322815361,
+      "Spearman": 0.6312114127532956
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "n": 285,
+      "Pearson": 0.6338460717203999,
+      "Spearman": 0.6005163109684978
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "lluvia local",
+      "serie": "original",
+      "n": 14,
+      "Pearson": 0.8171736449038928,
+      "Spearman": 0.7494505494505495
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "n": 285,
+      "Pearson": 0.5812789014133474,
+      "Spearman": 0.6021243397077348
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "n": 285,
+      "Pearson": 0.54227839724093,
+      "Spearman": 0.5371101100530308
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "n": 285,
+      "Pearson": 0.5789779234275512,
+      "Spearman": 0.6033829772895747
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "n": 285,
+      "Pearson": 0.5398550134200374,
+      "Spearman": 0.5357534977994578
+    }
+  ],
+  "dispersion_residual": [
+    {
+      "fuente": "IMERG",
+      "referencia": "lluvia local",
+      "n": 14,
+      "RMSE_residuo": 35.87488170103031,
+      "mediana_abs_residuo": 14.860073818265352
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "n": 285,
+      "RMSE_residuo": 56.84829262982981,
+      "mediana_abs_residuo": 35.490521607530596
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "n": 285,
+      "RMSE_residuo": 53.57862571643428,
+      "mediana_abs_residuo": 32.64065474272151
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "lluvia local",
+      "n": 14,
+      "RMSE_residuo": 33.58999389811051,
+      "mediana_abs_residuo": 25.80371212056484
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "n": 285,
+      "RMSE_residuo": 58.88869391736526,
+      "mediana_abs_residuo": 33.69842964568838
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "n": 285,
+      "RMSE_residuo": 55.596926903289344,
+      "mediana_abs_residuo": 31.763782047145327
+    }
+  ],
+  "influencia": [
+    {
+      "relacion": "IMERG–lluvia local",
+      "mes": "2018-09",
+      "r_sin_mes": 0.8682059610754367,
+      "r_min": 0.7524837492786636,
+      "r_max": 0.8682059610754367
+    },
+    {
+      "relacion": "IMERG–caudal Q",
+      "mes": "2010-11",
+      "r_sin_mes": 0.6011093809110599,
+      "r_min": 0.6011093809110599,
+      "r_max": 0.628872673848367
+    },
+    {
+      "relacion": "IMERG–escorrentía R",
+      "mes": "2010-11",
+      "r_sin_mes": 0.6006706286637393,
+      "r_min": 0.6006706286637393,
+      "r_max": 0.6289514532527466
+    },
+    {
+      "relacion": "CHIRPS–lluvia local",
+      "mes": "2018-09",
+      "r_sin_mes": 0.8690797105007917,
+      "r_min": 0.7828239560020092,
+      "r_max": 0.8690797105007917
+    },
+    {
+      "relacion": "CHIRPS–caudal Q",
+      "mes": "2010-11",
+      "r_sin_mes": 0.5631290849928313,
+      "r_min": 0.5631290849928313,
+      "r_max": 0.593587341031396
+    },
+    {
+      "relacion": "CHIRPS–escorrentía R",
+      "mes": "2010-11",
+      "r_sin_mes": 0.5605590161281532,
+      "r_min": 0.5605590161281532,
+      "r_max": 0.5910828109596532
+    }
+  ],
+  "rezagos": [
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "k": 0,
+      "n": 285,
+      "Pearson": 0.618847940451542,
+      "Spearman": 0.626963770106839
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "k": 1,
+      "n": 284,
+      "Pearson": 0.5980303945241707,
+      "Spearman": 0.6509122056123237
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "k": 2,
+      "n": 283,
+      "Pearson": 0.31632781074012656,
+      "Spearman": 0.3570635904745063
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "k": 3,
+      "n": 282,
+      "Pearson": 0.07542106011456591,
+      "Spearman": 0.06420008021230846
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "k": 0,
+      "n": 285,
+      "Pearson": 0.6362434535806327,
+      "Spearman": 0.6020958285598759
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "k": 1,
+      "n": 284,
+      "Pearson": 0.4956028238407086,
+      "Spearman": 0.5019428080478406
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "k": 2,
+      "n": 283,
+      "Pearson": 0.4133370327879914,
+      "Spearman": 0.440319005983877
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "k": 3,
+      "n": 282,
+      "Pearson": 0.42602689815320416,
+      "Spearman": 0.4558084493687228
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "k": 0,
+      "n": 285,
+      "Pearson": 0.6185514322815361,
+      "Spearman": 0.6312114127532956
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "k": 1,
+      "n": 284,
+      "Pearson": 0.6020424862896386,
+      "Spearman": 0.6564448996377371
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "k": 2,
+      "n": 283,
+      "Pearson": 0.3184705669463744,
+      "Spearman": 0.3582590952072861
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "k": 3,
+      "n": 282,
+      "Pearson": 0.0708282391485729,
+      "Spearman": 0.05839418597215686
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "k": 0,
+      "n": 285,
+      "Pearson": 0.6338460717203999,
+      "Spearman": 0.6005163109684978
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "k": 1,
+      "n": 284,
+      "Pearson": 0.4957734218308572,
+      "Spearman": 0.5012439524631516
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "k": 2,
+      "n": 283,
+      "Pearson": 0.4126934018803216,
+      "Spearman": 0.44130220008873633
+    },
+    {
+      "fuente": "IMERG",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "k": 3,
+      "n": 282,
+      "Pearson": 0.4237713257624691,
+      "Spearman": 0.45478586283481215
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "k": 0,
+      "n": 285,
+      "Pearson": 0.5812789014133474,
+      "Spearman": 0.6021243397077348
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "k": 1,
+      "n": 274,
+      "Pearson": 0.6011433290821816,
+      "Spearman": 0.6576620459832139
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "k": 2,
+      "n": 270,
+      "Pearson": 0.26270091383547073,
+      "Spearman": 0.31976509356171623
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "original",
+      "k": 3,
+      "n": 267,
+      "Pearson": -0.0559183270793763,
+      "Spearman": -0.05871483168763767
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "k": 0,
+      "n": 285,
+      "Pearson": 0.54227839724093,
+      "Spearman": 0.5371101100530308
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "k": 1,
+      "n": 274,
+      "Pearson": 0.4147304943021879,
+      "Spearman": 0.419238279968207
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "k": 2,
+      "n": 270,
+      "Pearson": 0.3025592391934915,
+      "Spearman": 0.35920230577770457
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "caudal Q",
+      "serie": "anomalía",
+      "k": 3,
+      "n": 267,
+      "Pearson": 0.2967288742029482,
+      "Spearman": 0.3526262831319452
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "k": 0,
+      "n": 285,
+      "Pearson": 0.5789779234275512,
+      "Spearman": 0.6033829772895747
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "k": 1,
+      "n": 274,
+      "Pearson": 0.6046541634981462,
+      "Spearman": 0.6627372627372627
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "k": 2,
+      "n": 270,
+      "Pearson": 0.2662766349033403,
+      "Spearman": 0.3205149895365124
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "original",
+      "k": 3,
+      "n": 267,
+      "Pearson": -0.05999842185036444,
+      "Spearman": -0.06561704445584866
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "k": 0,
+      "n": 285,
+      "Pearson": 0.5398550134200374,
+      "Spearman": 0.5357534977994578
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "k": 1,
+      "n": 274,
+      "Pearson": 0.41460740117465517,
+      "Spearman": 0.41773846591364844
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "k": 2,
+      "n": 270,
+      "Pearson": 0.30216510069282115,
+      "Spearman": 0.35933094646931596
+    },
+    {
+      "fuente": "CHIRPS",
+      "referencia": "escorrentía R",
+      "serie": "anomalía",
+      "k": 3,
+      "n": 267,
+      "Pearson": 0.2955567317565977,
+      "Spearman": 0.3523406873716238
+    }
+  ]
+}

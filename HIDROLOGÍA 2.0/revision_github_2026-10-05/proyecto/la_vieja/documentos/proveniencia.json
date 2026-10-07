@@ -1,0 +1,13 @@
+{
+  "fuente": "la_vieja\\punto_1\\series_mensuales.csv",
+  "sha256": "f7c1d23ba119cbb9f3f8e605b2244d600b828b5b7693cbc92f5e62f682b74bd0",
+  "filas": 504,
+  "P_validos": 485,
+  "Q_validos": 485,
+  "html": "Plotly incluido en linea; sin CDN",
+  "versiones": {
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "plotly": "7.1.0"
+  }
+}

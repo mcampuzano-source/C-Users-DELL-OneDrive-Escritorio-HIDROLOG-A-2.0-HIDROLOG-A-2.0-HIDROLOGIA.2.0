@@ -1,0 +1,6 @@
+variable,meses_periodo,validos,faltantes,ceros_validos
+CHIRPS,504,485,19,0
+IMERG polígono,300,300,0,0
+Caudal Q,504,485,19,0
+Escorrentía R,504,485,19,0
+ERA5-Land Tmedia,504,504,0,0

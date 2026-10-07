@@ -1,0 +1,54 @@
+\section{Procedencia y alcance}
+\subsection{Procedencia de los datos}
+Se utiliza CAMELS-COL, depósito del 26 de febrero de 2026, DOI
+\href{https://doi.org/10.5281/zenodo.18794895}{10.5281/zenodo.18794895}, consultado
+el 21 de septiembre de 2026. El archivo de entrada es
+\path{Hydromet_data_26127040.txt}, incluido en
+\path{04_CAMELS_COL_Hydrometeorological_data.zip}, para la cuenca del río
+La Vieja hasta la estación Cartago (IDEAM 26127040).
+\begin{itemize}
+\item \textbf{Precipitación:} CHIRPS v2, datos diarios promediados sobre la cuenca
+por los autores de CAMELS-COL, en mm/día. Es un producto combinado, no una
+medición directa de un único pluviómetro.
+\item \textbf{Caudal:} valores diarios reportados como observados en la estación
+hidrométrica IDEAM, distribuidos mediante CAMELS-COL, en m$^3$/s. No se
+descargaron aforos originales directamente del IDEAM.
+\item \textbf{Área y delimitación:} atributos y polígono CAMELS-COL; área
+reportada de 2797,19 km$^2$. Nombre y ubicación contrastados con el catálogo IDEAM.
+\item \textbf{Temperatura:} el archivo contiene Tmin y Tmax de MSWX; se grafican sus medias mensuales y una Tmedia estimada como $(Tmin+Tmax)/2$, no una media horaria observada.
+\end{itemize}
+
+\subsection{Alcance temporal y procesamiento}
+Se analiza enero de 1981 a diciembre de 2022 (42 años). Se reconstruyó el
+calendario diario y se conservaron solo meses con el 100\,\% de días válidos:
+485 de 504 meses. P mensual es la suma de P diaria; Q mensual es la media de Q
+diaria. No se rellenaron faltantes, no se prorratearon sumas ni se eliminaron
+extremos por su magnitud.
+
+Las estadísticas globales y por año describen valores mensuales válidos. Mínimo
+y máximo no son extremos instantáneos ni diarios. La desviación estándar es
+muestral. Los años incompletos describen únicamente su muestra disponible.
+
+\subsection{Limitaciones y trabajo pendiente}
+Este documento es una exploración descriptiva inicial. La cartografía de relieve utiliza Copernicus GLO-30, documentado en la sección de mapas. Las gráficas no prueban
+tendencias, causalidad ni capacidad predictiva. No se ha certificado la
+homogeneidad del registro, la ausencia de reconstrucciones previas o el efecto de
+extracciones y regulación. No hay banderas por observación en el archivo diario
+que permitan resolver esas cuestiones.
+
+\textbf{IMERG está incorporado como promedio de caja para 1998--2022:} falta
+calcular el promedio exacto ponderado por fracción de área del polígono y validar
+los valores por celda. También quedan pendientes una temperatura media de fuente
+directa y los registros individuales de estaciones de lluvia. El conteo de estaciones
+no demuestra continuidad de sus series ni significa que se hayan utilizado como datos de entrada.
+
+\subsection{Reproducibilidad y apoyo de IA}
+Los scripts numerados se conservan en \path{seleccion_cuenca/scripts/}.
+La tabla común a las gráficas es \path{datos_graficados.csv};
+\path{proveniencia.json} registra su huella SHA-256 y versiones de bibliotecas.
+Las comprobaciones e intermedios están en \path{la_vieja/punto_1/}.
+La IA apoyó la programación, la revisión aritmética y la redacción preliminar;
+el grupo debe revisar fuentes, decisiones e interpretación.
+
+PDF y HTML representan los mismos datos. El HTML incluye Plotly y las series y
+funciona sin servidor ni Internet; consultar fuentes externas sí requiere conexión.

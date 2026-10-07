@@ -1,0 +1,11 @@
+{
+  "periodo": "1981-01 a 2022-12",
+  "meses_completos": 485,
+  "Pearson_valores_mensuales": 0.5753100412054909,
+  "Spearman_valores_mensuales": 0.606792910885382,
+  "Pearson_anomalias_mensuales": 0.5580082371123903,
+  "Spearman_anomalias_mensuales": 0.5762694107586329,
+  "mejor_rezago_P_a_Q_meses": 1,
+  "Pearson_mejor_rezago": 0.6118874713211075,
+  "limitacion": "Correlaciones descriptivas; no prueban causalidad ni usan p-valores simples debido a autocorrelación."
+}

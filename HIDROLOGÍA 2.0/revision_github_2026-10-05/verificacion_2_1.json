@@ -1,0 +1,15 @@
+{
+  "pdf_paginas": 31,
+  "apartado_paginas": [
+    23,
+    24,
+    25
+  ],
+  "meses_locales_completos": 14,
+  "meses_imerg_caudal": 285,
+  "graficas_interactivas_nuevas": 6,
+  "identidad_R_verificada": true,
+  "anomalias_centradas_por_mes": true,
+  "imagenes_html_autocontenidas": true,
+  "limitacion": "Climatologia de lluvia local insuficiente: marzo sin meses completos; varios meses con un solo a?o."
+}

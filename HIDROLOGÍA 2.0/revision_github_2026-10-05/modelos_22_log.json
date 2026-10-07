@@ -1,0 +1,475 @@
+﻿{
+  "Q_modelos": {
+    "IMERG": {
+      "modelo": "lineal_rezago",
+      "modelo_coef": {
+        "kind": "lineal_rezago",
+        "coef": [
+          -87.26919821101201,
+          0.46543884351007614,
+          0.43306546998561474
+        ],
+        "p": 3,
+        "condition": 1185.5520089689896
+      },
+      "CV_RMSE": 56.42722297854848,
+      "baseline": "climatologia",
+      "baseline_RMSE": 77.36665378739232,
+      "ganancia_vs_baseline_pct": 27.065188661754085,
+      "candidato_util": true,
+      "n_ajuste": 206,
+      "periodo_ajuste": [
+        "1998-01",
+        "2016-12"
+      ],
+      "rango_P": [
+        60.82799282844521,
+        440.5209094163651
+      ],
+      "rango_Q": [
+        21.335714285714285,
+        508.76666666666665
+      ]
+    },
+    "CHIRPS": {
+      "modelo": "lineal_rezago",
+      "modelo_coef": {
+        "kind": "lineal_rezago",
+        "coef": [
+          -35.85262537381069,
+          0.42215476803181085,
+          0.43493925863135935
+        ],
+        "p": 3,
+        "condition": 732.7409882651425
+      },
+      "CV_RMSE": 63.86636293347134,
+      "baseline": "climatologia",
+      "baseline_RMSE": 77.36665378739232,
+      "ganancia_vs_baseline_pct": 17.449754116315408,
+      "candidato_util": true,
+      "n_ajuste": 206,
+      "periodo_ajuste": [
+        "1998-01",
+        "2016-12"
+      ],
+      "rango_P": [
+        30.124,
+        396.033
+      ],
+      "rango_Q": [
+        21.335714285714285,
+        508.76666666666665
+      ]
+    }
+  },
+  "Q_coeficientes": {
+    "IMERG_media": {
+      "kind": "media",
+      "coef": [
+        107.09804535958946
+      ],
+      "p": 1
+    },
+    "IMERG_climatologia": {
+      "kind": "climatologia",
+      "monthly": {
+        "1": 99.42437204301076,
+        "2": 92.8227896261953,
+        "3": 117.59931899641578,
+        "4": 130.57883137254902,
+        "5": 146.64309677419357,
+        "6": 99.45615925925925,
+        "7": 67.68789813242783,
+        "8": 50.07550896057348,
+        "9": 54.743182352941176,
+        "10": 107.71470967741935,
+        "11": 172.29615208333334,
+        "12": 159.96290120967743
+      },
+      "coef": [],
+      "p": 12
+    },
+    "IMERG_lineal": {
+      "kind": "lineal",
+      "coef": [
+        -26.096212649940217,
+        0.6138691309898963
+      ],
+      "p": 2,
+      "condition": 710.6608415312534
+    },
+    "IMERG_rezago1": {
+      "kind": "rezago1",
+      "coef": [
+        -22.111518751894064,
+        0.5992397814083208
+      ],
+      "p": 2,
+      "condition": 714.222559571814
+    },
+    "IMERG_lineal_rezago": {
+      "kind": "lineal_rezago",
+      "coef": [
+        -87.26919821101201,
+        0.46543884351007614,
+        0.43306546998561474
+      ],
+      "p": 3,
+      "condition": 1185.5520089689896
+    },
+    "IMERG_raiz": {
+      "kind": "raiz",
+      "coef": [
+        -138.95496116376086,
+        16.96956048565857
+      ],
+      "p": 2,
+      "condition": 83.98251706542146
+    },
+    "CHIRPS_media": {
+      "kind": "media",
+      "coef": [
+        107.09804535958946
+      ],
+      "p": 1
+    },
+    "CHIRPS_climatologia": {
+      "kind": "climatologia",
+      "monthly": {
+        "1": 99.42437204301076,
+        "2": 92.8227896261953,
+        "3": 117.59931899641578,
+        "4": 130.57883137254902,
+        "5": 146.64309677419357,
+        "6": 99.45615925925925,
+        "7": 67.68789813242783,
+        "8": 50.07550896057348,
+        "9": 54.743182352941176,
+        "10": 107.71470967741935,
+        "11": 172.29615208333334,
+        "12": 159.96290120967743
+      },
+      "coef": [],
+      "p": 12
+    },
+    "CHIRPS_lineal": {
+      "kind": "lineal",
+      "coef": [
+        10.96875606506743,
+        0.5743993341877461
+      ],
+      "p": 2,
+      "condition": 449.9566975986023
+    },
+    "CHIRPS_rezago1": {
+      "kind": "rezago1",
+      "coef": [
+        9.197176238800495,
+        0.5889441830541012
+      ],
+      "p": 2,
+      "condition": 451.13329045771076
+    },
+    "CHIRPS_lineal_rezago": {
+      "kind": "lineal_rezago",
+      "coef": [
+        -35.85262537381069,
+        0.42215476803181085,
+        0.43493925863135935
+      ],
+      "p": 3,
+      "condition": 732.7409882651425
+    },
+    "CHIRPS_raiz": {
+      "kind": "raiz",
+      "coef": [
+        -70.48803575781596,
+        14.107175505141274
+      ],
+      "p": 2,
+      "condition": 56.44837837179204
+    }
+  },
+  "local_coeficientes": {
+    "IMERG_media": {
+      "kind": "media",
+      "coef": [
+        86.25714285714284
+      ],
+      "p": 1,
+      "rango_P": [
+        89.28360337076545,
+        302.4610084507526
+      ],
+      "n": 14
+    },
+    "IMERG_lineal": {
+      "kind": "lineal",
+      "coef": [
+        -30.754896084323594,
+        0.596817927816058
+      ],
+      "p": 2,
+      "condition": 576.4988236807063,
+      "rango_P": [
+        89.28360337076545,
+        302.4610084507526
+      ],
+      "n": 14
+    },
+    "IMERG_raiz": {
+      "kind": "raiz",
+      "coef": [
+        -137.78306362734617,
+        16.32894152291678
+      ],
+      "p": 2,
+      "condition": 70.50172740716206,
+      "rango_P": [
+        89.28360337076545,
+        302.4610084507526
+      ],
+      "n": 14
+    },
+    "CHIRPS_media": {
+      "kind": "media",
+      "coef": [
+        86.25714285714284
+      ],
+      "p": 1,
+      "rango_P": [
+        40.559,
+        362.473
+      ],
+      "n": 14
+    },
+    "CHIRPS_lineal": {
+      "kind": "lineal",
+      "coef": [
+        -0.9712561346871936,
+        0.5042214325439909
+      ],
+      "p": 2,
+      "condition": 411.32944618173525,
+      "rango_P": [
+        40.559,
+        362.473
+      ],
+      "n": 14
+    },
+    "CHIRPS_raiz": {
+      "kind": "raiz",
+      "coef": [
+        -75.86383185477753,
+        12.836488488894885
+      ],
+      "p": 2,
+      "condition": 47.35757936941424,
+      "rango_P": [
+        40.559,
+        362.473
+      ],
+      "n": 14
+    }
+  },
+  "local_resultados": [
+    {
+      "fuente": "IMERG",
+      "modelo": "media",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 58.276345535556636,
+      "ajuste_MAE": 51.279591836734696,
+      "ajuste_sesgo": -2.030122102171715e-14,
+      "ajuste_R2": 0.0,
+      "n_temporal_ajuste": 7,
+      "n_temporal_validacion": 7,
+      "temporal_RMSE": 58.02634869485709,
+      "temporal_MAE": 48.57551020408164,
+      "temporal_sesgo": 10.971428571428577,
+      "temporal_R2": -0.037075431919378454,
+      "negativos_truncados_ajuste": 0,
+      "negativos_truncados_temporal": 0
+    },
+    {
+      "fuente": "IMERG",
+      "modelo": "lineal",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 35.87488170103031,
+      "ajuste_MAE": 26.04295851168441,
+      "ajuste_sesgo": -1.6494742080145184e-14,
+      "ajuste_R2": 0.6210374134702502,
+      "n_temporal_ajuste": 7,
+      "n_temporal_validacion": 7,
+      "temporal_RMSE": 41.84581300786624,
+      "temporal_MAE": 36.76039960315449,
+      "temporal_sesgo": -17.395286280438103,
+      "temporal_R2": 0.4606584496727709,
+      "negativos_truncados_ajuste": 0,
+      "negativos_truncados_temporal": 0
+    },
+    {
+      "fuente": "IMERG",
+      "modelo": "raiz",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 36.247166863502315,
+      "ajuste_MAE": 26.34718248298439,
+      "ajuste_sesgo": 2.6391587328232294e-14,
+      "ajuste_R2": 0.6131313706491794,
+      "n_temporal_ajuste": 7,
+      "n_temporal_validacion": 7,
+      "temporal_RMSE": 41.46715766829644,
+      "temporal_MAE": 36.762388189291265,
+      "temporal_sesgo": -18.666753558563613,
+      "temporal_R2": 0.47037509979233805,
+      "negativos_truncados_ajuste": 0,
+      "negativos_truncados_temporal": 1
+    },
+    {
+      "fuente": "CHIRPS",
+      "modelo": "media",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 58.276345535556636,
+      "ajuste_MAE": 51.279591836734696,
+      "ajuste_sesgo": -2.030122102171715e-14,
+      "ajuste_R2": 0.0,
+      "n_temporal_ajuste": 7,
+      "n_temporal_validacion": 7,
+      "temporal_RMSE": 58.02634869485709,
+      "temporal_MAE": 48.57551020408164,
+      "temporal_sesgo": 10.971428571428577,
+      "temporal_R2": -0.037075431919378454,
+      "negativos_truncados_ajuste": 0,
+      "negativos_truncados_temporal": 0
+    },
+    {
+      "fuente": "CHIRPS",
+      "modelo": "lineal",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 33.58999389811051,
+      "ajuste_MAE": 26.795495589223723,
+      "ajuste_sesgo": 2.385393470051765e-14,
+      "ajuste_R2": 0.6677727659255137,
+      "n_temporal_ajuste": 7,
+      "n_temporal_validacion": 7,
+      "temporal_RMSE": 30.495727564689073,
+      "temporal_MAE": 25.581896977367148,
+      "temporal_sesgo": -14.285519057129367,
+      "temporal_R2": 0.713557234863071,
+      "negativos_truncados_ajuste": 0,
+      "negativos_truncados_temporal": 0
+    },
+    {
+      "fuente": "CHIRPS",
+      "modelo": "raiz",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 34.26100012741363,
+      "ajuste_MAE": 26.191787908700253,
+      "ajuste_sesgo": 3.654219783909087e-14,
+      "ajuste_R2": 0.6543667988910963,
+      "n_temporal_ajuste": 7,
+      "n_temporal_validacion": 7,
+      "temporal_RMSE": 33.08557895198226,
+      "temporal_MAE": 30.233799900059616,
+      "temporal_sesgo": -18.065389179520064,
+      "temporal_R2": 0.6628389976261833,
+      "negativos_truncados_ajuste": 0,
+      "negativos_truncados_temporal": 1
+    }
+  ],
+  "Q_local_resultados": [
+    {
+      "modelo": "media",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 63.80169216253325,
+      "ajuste_MAE": 57.883684601398166,
+      "ajuste_sesgo": -1.2180732613030288e-14,
+      "ajuste_R2": 0.0,
+      "n_validacion": 7,
+      "temporal_RMSE": 71.00500938190339,
+      "temporal_MAE": 59.54789768488041,
+      "temporal_sesgo": 44.69323395874479,
+      "temporal_R2": -0.6561553029654852
+    },
+    {
+      "modelo": "lineal",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 51.133763334099946,
+      "ajuste_MAE": 39.006333205925806,
+      "ajuste_sesgo": -4.567774729886359e-15,
+      "ajuste_R2": 0.3576804814032174,
+      "n_validacion": 7,
+      "temporal_RMSE": 54.31092499239274,
+      "temporal_MAE": 42.17079724971749,
+      "temporal_sesgo": 39.04801535701352,
+      "temporal_R2": 0.031058671737143273
+    },
+    {
+      "modelo": "raiz",
+      "n_ajuste": 14,
+      "ajuste_RMSE": 52.81242143698879,
+      "ajuste_MAE": 40.199818417014704,
+      "ajuste_sesgo": -4.517021677332065e-14,
+      "ajuste_R2": 0.31481512784854215,
+      "n_validacion": 7,
+      "temporal_RMSE": 57.88477535853909,
+      "temporal_MAE": 45.12516371341304,
+      "temporal_sesgo": 41.74128981163842,
+      "temporal_R2": -0.10065645684115077
+    }
+  ],
+  "Q_local_coeficientes": {
+    "media": {
+      "kind": "media",
+      "coef": [
+        111.81062664581961
+      ],
+      "p": 1
+    },
+    "lineal": {
+      "kind": "lineal",
+      "coef": [
+        55.33220166408742,
+        0.6547680935278658
+      ],
+      "p": 2,
+      "condition": 185.96076441433235
+    },
+    "raiz": {
+      "kind": "raiz",
+      "coef": [
+        16.856980284675323,
+        10.926285965451767
+      ],
+      "p": 2,
+      "condition": 26.5949983777409
+    }
+  },
+  "folds": [
+    [
+      "1998-01",
+      "2006-12",
+      "2007-01",
+      "2009-12"
+    ],
+    [
+      "1998-01",
+      "2009-12",
+      "2010-01",
+      "2012-12"
+    ],
+    [
+      "1998-01",
+      "2012-12",
+      "2013-01",
+      "2016-12"
+    ]
+  ],
+  "n_desarrollo": 206,
+  "n_reserva_2_3": 68,
+  "periodo_reserva": [
+    "2017-01",
+    "2022-12"
+  ],
+  "reserva_evaluada": false
+}
