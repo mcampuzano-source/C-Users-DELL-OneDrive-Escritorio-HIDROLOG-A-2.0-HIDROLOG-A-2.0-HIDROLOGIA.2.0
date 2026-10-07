@@ -1,0 +1,8 @@
+{
+  "field": "z500",
+  "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\z500_2016_2020.nc",
+  "url": "https://www.psl.noaa.gov/thredds/ncss/grid/Datasets/ncep.reanalysis.derived/pressure/hgt.mon.mean.nc?var=hgt&north=90&south=-90&west=0&east=360&horizStride=1&time_start=2016-01-01T00%3A00%3A00Z&time_end=2020-12-01T00%3A00%3A00Z&timeStride=1&accept=netcdf4&vertCoord=500",
+  "bytes": 1151992,
+  "sha256": "59d6655dd40b9cc894f812d4dc99e80cf9fedf8677d383e34551bd2cdb8c5af7",
+  "retrieved_at": "2026-10-07T11:11:02.447977-05:00"
+}

@@ -1,0 +1,201 @@
+{
+  "combinations": [
+    {
+      "key": "CHIRPS_sst_l0",
+      "response": "CHIRPS",
+      "field": "sst",
+      "lag": 0,
+      "figures": [
+        "CHIRPS_sst_l0_pearson",
+        "CHIRPS_sst_l0_spearman"
+      ]
+    },
+    {
+      "key": "CHIRPS_slp_l0",
+      "response": "CHIRPS",
+      "field": "slp",
+      "lag": 0,
+      "figures": [
+        "CHIRPS_slp_l0_pearson",
+        "CHIRPS_slp_l0_spearman"
+      ]
+    },
+    {
+      "key": "CHIRPS_z500_l0",
+      "response": "CHIRPS",
+      "field": "z500",
+      "lag": 0,
+      "figures": [
+        "CHIRPS_z500_l0_pearson",
+        "CHIRPS_z500_l0_spearman"
+      ]
+    },
+    {
+      "key": "Q_sst_l0",
+      "response": "Q",
+      "field": "sst",
+      "lag": 0,
+      "figures": [
+        "Q_sst_l0_pearson",
+        "Q_sst_l0_spearman"
+      ]
+    },
+    {
+      "key": "Q_sst_l1",
+      "response": "Q",
+      "field": "sst",
+      "lag": 1,
+      "figures": [
+        "Q_sst_l1_pearson",
+        "Q_sst_l1_spearman"
+      ]
+    },
+    {
+      "key": "Q_slp_l0",
+      "response": "Q",
+      "field": "slp",
+      "lag": 0,
+      "figures": [
+        "Q_slp_l0_pearson",
+        "Q_slp_l0_spearman"
+      ]
+    },
+    {
+      "key": "Q_slp_l1",
+      "response": "Q",
+      "field": "slp",
+      "lag": 1,
+      "figures": [
+        "Q_slp_l1_pearson",
+        "Q_slp_l1_spearman"
+      ]
+    },
+    {
+      "key": "Q_z500_l0",
+      "response": "Q",
+      "field": "z500",
+      "lag": 0,
+      "figures": [
+        "Q_z500_l0_pearson",
+        "Q_z500_l0_spearman"
+      ]
+    },
+    {
+      "key": "Q_z500_l1",
+      "response": "Q",
+      "field": "z500",
+      "lag": 1,
+      "figures": [
+        "Q_z500_l1_pearson",
+        "Q_z500_l1_spearman"
+      ]
+    },
+    {
+      "key": "IMERG_sst_l0",
+      "response": "IMERG",
+      "field": "sst",
+      "lag": 0,
+      "figures": [
+        "IMERG_sst_l0_pearson",
+        "IMERG_sst_l0_spearman"
+      ]
+    },
+    {
+      "key": "IMERG_slp_l0",
+      "response": "IMERG",
+      "field": "slp",
+      "lag": 0,
+      "figures": [
+        "IMERG_slp_l0_pearson",
+        "IMERG_slp_l0_spearman"
+      ]
+    },
+    {
+      "key": "IMERG_z500_l0",
+      "response": "IMERG",
+      "field": "z500",
+      "lag": 0,
+      "figures": [
+        "IMERG_z500_l0_pearson",
+        "IMERG_z500_l0_spearman"
+      ]
+    }
+  ],
+  "calendar_months": 12,
+  "primary_combinations": 9,
+  "primary_maps_per_statistic": 108,
+  "supplementary_Q_lag1_combinations": 3,
+  "total_maps": 288,
+  "response_period": "1998-2022",
+  "n_response": 285,
+  "monthly_n": {
+    "1": 24,
+    "2": 24,
+    "3": 24,
+    "4": 23,
+    "5": 24,
+    "6": 24,
+    "7": 25,
+    "8": 24,
+    "9": 24,
+    "10": 25,
+    "11": 22,
+    "12": 22
+  },
+  "reference": "mismas 285 fechas completas de cuenca",
+  "minimum_pairs": 20,
+  "lag_positive": "campo climático anterior a la respuesta",
+  "no_inference": "Coeficientes descriptivos, sin pruebas de significancia o atribución causal. 5.3 evaluará robustez.",
+  "local_station": "Zaragoza: 14 meses completos; no se pueden estimar doce correlaciones interanuales locales.",
+  "regions": {
+    "Niño 3.4": [
+      -5,
+      5,
+      -170,
+      -120
+    ],
+    "Atlántico tropical norte": [
+      5,
+      25,
+      -55,
+      -15
+    ],
+    "Caribe": [
+      10,
+      20,
+      -85,
+      -60
+    ]
+  },
+  "fields": {
+    "sst": {
+      "label": "SST ERSSTv5",
+      "units": "°C",
+      "sha256": "e7bc8d33d672c68df471408e8f2d36775deb1d4faba9daf2aa575b16951a6598"
+    },
+    "slp": {
+      "label": "SLP NCEP/NCAR R1",
+      "units": "hPa",
+      "sha256": "fbb598ebb5c1fdd6bb87114309eab656ee63566a5b66d0411d6d8f5f748cf251"
+    },
+    "z500": {
+      "label": "Z500 NCEP/NCAR R1",
+      "units": "m",
+      "sha256": "c92b025fb9afa1c8f2fa711721e796a5a85a026c4fb799d5fe5227e695a42e37"
+    }
+  },
+  "outputs_sha256": {
+    "CHIRPS_slp_l0.nc": "1f730b799ed73abeaff1911a295a134620655f0650a1132148cd17ef2e739b50",
+    "CHIRPS_sst_l0.nc": "9892114e604b7894ad41feab5518b13042b31861758bb0dbac1436dec7c3eaeb",
+    "CHIRPS_z500_l0.nc": "728035fa5b96667d7c4f210ea5e003643886fae850b01959b39c674d95804f42",
+    "IMERG_slp_l0.nc": "13a1351d374ffb61d8be40d790d2f79f47cbc3fa02574149520ad0a706356333",
+    "IMERG_sst_l0.nc": "8dd0bd6944b0a0dcb5ab7d0d0dd463349b0ec60630dba34c00e4ba2f9f969884",
+    "IMERG_z500_l0.nc": "e21cd4fd798961554ab0e6a32a1ce7d1bdd89072bc0d780db1e8c5e7c0f9aff7",
+    "Q_slp_l0.nc": "a4ebb820cc2543ec4079e408854faa94368e000081f9ab5c1280bf0c46130281",
+    "Q_slp_l1.nc": "7663b46fe4e607d3ec940777ceab95e60f7f6ce801dd549a91d0925091b282c3",
+    "Q_sst_l0.nc": "39b42344622710e734cd15efc1eae8f4e43ba010dc2ae174e8e165a3d55d6646",
+    "Q_sst_l1.nc": "7da3c52aeb3ef4e7cfce9c78aaa401e92e41c1a8042db176ff60e874784fde1c",
+    "Q_z500_l0.nc": "d2715cebf2de754b70764b94b6bd6b38afb2f949a357ec56ce2df3f1d2100b72",
+    "Q_z500_l1.nc": "12a807f4a9526f7ea85d46ef6eb503c5cd1eaad3a0212e0bf102eab95d5bd9ca"
+  }
+}

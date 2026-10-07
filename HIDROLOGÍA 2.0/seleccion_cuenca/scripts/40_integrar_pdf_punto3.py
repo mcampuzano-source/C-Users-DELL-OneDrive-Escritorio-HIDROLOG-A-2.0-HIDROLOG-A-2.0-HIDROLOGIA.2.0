@@ -25,6 +25,34 @@ for level, title, page in toc:
     elif page > end:
         page += offset
     new_toc.append([level, title, page])
+# Incorporar el 5.1 cuando sus datos y sección hayan sido generados.
+p51_path = DOCS / 'apartado_5_1/punto_5_1.pdf'
+if p51_path.exists():
+    p51 = pymupdf.open(p51_path)
+    pos = next(row[2] - 1 for row in new_toc if row[0] == 1 and row[1].startswith('Mapas de correlación'))
+    # Quitar únicamente el encabezado y el marcador pendiente de 5.1.
+    # Los apartados 5.2-5.4, conclusiones y procedencia se conservan.
+    old_page = out[pos]
+    old_page.add_redact_annot(pymupdf.Rect(35, 40, old_page.rect.width - 35, 131), fill=(1, 1, 1))
+    old_page.apply_redactions()
+    out.insert_pdf(p51, start_at=pos)
+    for row in new_toc:
+        if row[2] > pos:
+            if row[1] not in ('Mapas de correlación con el clima global', 'Seleccionar los campos climáticos'):
+                row[2] += len(p51)
+    p51.close()
+p52_path = DOCS / 'apartado_5_2/punto_5_2.pdf'
+if p52_path.exists():
+    p52 = pymupdf.open(p52_path)
+    pos = next(row[2] - 1 for row in new_toc if row[1] == 'Definir y calcular los mapas mensuales')
+    old_page = out[pos]
+    old_page.add_redact_annot(pymupdf.Rect(35, 135, old_page.rect.width - 35, 183), fill=(1, 1, 1))
+    old_page.apply_redactions()
+    out.insert_pdf(p52, start_at=pos)
+    for row in new_toc:
+        if row[2] > pos and row[1] != 'Definir y calcular los mapas mensuales':
+            row[2] += len(p52)
+    p52.close()
 out.set_toc(new_toc)
 # Portada sin número; el índice comienza en la página numerada 1.
 for i in range(1, len(out)):

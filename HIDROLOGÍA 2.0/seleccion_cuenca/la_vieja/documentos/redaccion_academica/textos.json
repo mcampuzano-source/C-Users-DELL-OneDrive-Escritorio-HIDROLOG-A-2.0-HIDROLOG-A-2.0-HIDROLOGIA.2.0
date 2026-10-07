@@ -1,0 +1,29 @@
+{
+  "introduction": [
+    "La variabilidad de la precipitación y del caudal condiciona la disponibilidad de agua y la ocurrencia de periodos secos y crecientes en las cuencas andinas. En el río La Vieja, el contraste entre las zonas montañosas y los sectores bajos del valle, junto con la variabilidad del clima tropical, motiva estudiar cómo cambia la respuesta hidrológica a lo largo del año y entre años.",
+    "Este informe analiza la cuenca del río La Vieja hasta la estación Cartago mediante series mensuales de precipitación, caudal y temperatura. Se examinan el ciclo anual, las distribuciones y los valores extremos; se comparan CHIRPS e IMERG y se evalúan modelos estadísticos de lluvia–caudal y tendencias temporales. El análisis se complementa con la selección de campos oceánicos y atmosféricos globales para estudiar asociaciones climáticas. Las relaciones estadísticas se interpretan considerando la cobertura de los datos, la topografía y las diferencias entre las fuentes."
+  ],
+  "methodology": [
+    "La delimitación de la cuenca y las series hidrológicas de referencia proceden de CAMELS-COL. La precipitación CHIRPS se analiza como promedio de cuenca y el caudal corresponde a Cartago (IDEAM 26127040). IMERG Final Run V07B y la temperatura ERA5-Land se ponderan según el área de intersección de sus celdas con la cuenca. Estos productos representan estimaciones espaciales distintas de una observación pluviométrica puntual.",
+    "El registro hidrológico abarca 1981–2022. Los acumulados de lluvia y las medias de caudal se calculan únicamente para meses con todos sus días válidos: se conservan 485 de 504 meses. La comparación entre CHIRPS, IMERG y caudal utiliza 285 meses simultáneos de 1998–2022. Los vacíos se mantienen sin relleno. Las diferencias estacionales se examinan mediante climatologías y anomalías mensuales; la evaluación de modelos distingue el periodo de ajuste de la reserva temporal. Los criterios y las incertidumbres específicos se documentan junto a cada análisis."
+  ],
+  "context": [
+    "La cuenca del río La Vieja se localiza en el centro-occidente de Colombia, en la región del Eje Cafetero, y comprende territorios de Quindío, Risaralda y Valle del Cauca. Su red hidrográfica conecta las vertientes de la cordillera Central con los sectores bajos próximos a Cartago. El río La Vieja se forma por la confluencia de los ríos Quindío y Barragán y desemboca en el río Cauca, de cuya red de drenaje es tributario.",
+    "El área de estudio corresponde a la cuenca aguas arriba de la estación Cartago (IDEAM 26127040), delimitada en CAMELS-COL, con una superficie de 2.797,19 km². Esta delimitación define el área sobre la que se promedian los productos de precipitación y temperatura y el territorio cuyos aportes se integran en el caudal observado. Su extensión no debe confundirse con la cuenca administrativa completa descrita en los instrumentos de ordenamiento ambiental.",
+    "El relieve presenta un contraste marcado entre las zonas altas de la cordillera y el sector de salida hacia Cartago, con elevaciones del orden de 900 a 4.800 m en la información topográfica analizada. Esta heterogeneidad es relevante para la distribución espacial de la lluvia y la temperatura y para el tránsito y almacenamiento del agua. Las series de cuenca muestran un ciclo de precipitación bimodal, con máximos alrededor de abril–mayo y octubre–noviembre. Por ello, la interpretación de la relación lluvia–caudal distingue el ciclo estacional compartido de las variaciones entre años."
+  ],
+  "sources": [
+    [
+      "CRQ, Plan de Gestión Ambiental Regional 2020–2039",
+      "https://crq.gov.co/wp-content/uploads/2021/03/PGARQUINDIO2020-2039.pdf"
+    ],
+    [
+      "CVC, Balance oferta–demanda de agua: río La Vieja",
+      "https://www.cvc.gov.co/sites/default/files/2018-09/Balance_La_Vieja_1.pdf"
+    ],
+    [
+      "CAMELS-COL",
+      "https://doi.org/10.5281/zenodo.18794895"
+    ]
+  ]
+}

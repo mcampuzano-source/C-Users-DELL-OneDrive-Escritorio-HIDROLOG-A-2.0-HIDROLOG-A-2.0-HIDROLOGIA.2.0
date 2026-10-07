@@ -1,0 +1,111 @@
+[
+  {
+    "field": "sst",
+    "status": "downloaded",
+    "months": 504,
+    "path": "datos\\clima_global_5_1\\sst_1981_2022.nc",
+    "sha256": "e7bc8d33d672c68df471408e8f2d36775deb1d4faba9daf2aa575b16951a6598",
+    "shape": [
+      504,
+      89,
+      180
+    ],
+    "units": "degC",
+    "source": "noaa.ersst.v5/sst.mnmean.nc",
+    "request": {
+      "var": "sst",
+      "north": 90,
+      "south": -90,
+      "west": 0,
+      "east": 360,
+      "horizStride": 1,
+      "time_start": "1981-01-01T00:00:00Z",
+      "time_end": "2022-12-01T00:00:00Z",
+      "timeStride": 1,
+      "accept": "netcdf4"
+    },
+    "retrieved_at": "2026-10-07T11:20:02.708548-05:00"
+  },
+  {
+    "field": "slp",
+    "status": "downloaded",
+    "months": 504,
+    "path": "datos\\clima_global_5_1\\slp_1981_2022.nc",
+    "sha256": "fbb598ebb5c1fdd6bb87114309eab656ee63566a5b66d0411d6d8f5f748cf251",
+    "shape": [
+      504,
+      73,
+      144
+    ],
+    "units": "millibars",
+    "source": "ncep.reanalysis.derived/surface/slp.mon.mean.nc",
+    "request": {
+      "var": "slp",
+      "north": 90,
+      "south": -90,
+      "west": 0,
+      "east": 360,
+      "horizStride": 1,
+      "time_start": "1981-01-01T00:00:00Z",
+      "time_end": "2022-12-01T00:00:00Z",
+      "timeStride": 1,
+      "accept": "netcdf4"
+    },
+    "retrieved_at": "2026-10-07T11:20:03.499218-05:00"
+  },
+  {
+    "field": "z500",
+    "status": "downloaded",
+    "months": 504,
+    "path": "datos\\clima_global_5_1\\z500_1981_2022.nc",
+    "sha256": "c92b025fb9afa1c8f2fa711721e796a5a85a026c4fb799d5fe5227e695a42e37",
+    "shape": [
+      504,
+      73,
+      144
+    ],
+    "units": "m",
+    "source": "ncep.reanalysis.derived/pressure/hgt.mon.mean.nc",
+    "request": {
+      "var": "hgt",
+      "north": 90,
+      "south": -90,
+      "west": 0,
+      "east": 360,
+      "horizStride": 1,
+      "time_start": "1981-01-01T00:00:00Z",
+      "time_end": "2022-12-01T00:00:00Z",
+      "timeStride": 1,
+      "accept": "netcdf4",
+      "vertCoord": 500
+    },
+    "retrieved_at": "2026-10-07T11:20:04.288151-05:00"
+  },
+  {
+    "field": "psfc",
+    "status": "downloaded",
+    "months": 504,
+    "path": "datos\\clima_global_5_1\\psfc_1981_2022.nc",
+    "sha256": "25ca639fde0d780186992c2a7388d030fab5c151f9eec6625f3a68796eba57d5",
+    "shape": [
+      504,
+      73,
+      144
+    ],
+    "units": "millibars",
+    "source": "ncep.reanalysis.derived/surface/pres.sfc.mon.mean.nc",
+    "request": {
+      "var": "pres",
+      "north": 90,
+      "south": -90,
+      "west": 0,
+      "east": 360,
+      "horizStride": 1,
+      "time_start": "1981-01-01T00:00:00Z",
+      "time_end": "2022-12-01T00:00:00Z",
+      "timeStride": 1,
+      "accept": "netcdf4"
+    },
+    "retrieved_at": "2026-10-07T11:20:05.061984-05:00"
+  }
+]

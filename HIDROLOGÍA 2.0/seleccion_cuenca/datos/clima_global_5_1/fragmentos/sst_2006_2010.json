@@ -1,0 +1,12 @@
+{
+  "url": "https://www.psl.noaa.gov/thredds/dodsC/Datasets/noaa.ersst.v5/sst.mnmean.nc.dods?sst[1824:1:1883][0:1:88][0:1:179]",
+  "retrieved_at": "2026-10-07T11:18:56.793859-05:00",
+  "protocol": "DAP2 Grid, FLOAT32 SST y coordenadas FLOAT64/FLOAT32",
+  "source_sha256_dods": "3dfd041a6b0d04fc590f7613ec1cb8641d9e58e77b865b0f2c05f183b4a3104d",
+  "shape": [
+    60,
+    89,
+    180
+  ],
+  "sha256": "40990984f1627cdbac036068def3c7c82c7e4f5b8043514910326348ba7d2bfa"
+}

@@ -1,0 +1,8 @@
+{
+  "field": "sst",
+  "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_2021_2022.nc",
+  "url": "https://www.psl.noaa.gov/thredds/ncss/grid/Datasets/noaa.ersst.v5/sst.mnmean.nc?var=sst&north=90&south=-90&west=0&east=360&horizStride=1&time_start=2021-01-01T00%3A00%3A00Z&time_end=2022-12-01T00%3A00%3A00Z&timeStride=1&accept=netcdf4",
+  "bytes": 742490,
+  "sha256": "b122260ea902769e3ad354e53bdc9ba582066fef286e4bef2e72ddd49ed706e1",
+  "retrieved_at": "2026-10-07T11:10:32.520789-05:00"
+}

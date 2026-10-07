@@ -1,0 +1,8 @@
+{
+  "field": "psfc",
+  "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\psfc_1986_1990.nc",
+  "url": "https://www.psl.noaa.gov/thredds/ncss/grid/Datasets/ncep.reanalysis.derived/surface/pres.sfc.mon.mean.nc?var=pres&north=90&south=-90&west=0&east=360&horizStride=1&time_start=1986-01-01T00%3A00%3A00Z&time_end=1990-12-01T00%3A00%3A00Z&timeStride=1&accept=netcdf4",
+  "bytes": 1546607,
+  "sha256": "e45e3297d0ede448f571c9cc3f09aa491d26b1ceb11a623de411b6a01c103f90",
+  "retrieved_at": "2026-10-07T11:11:18.012773-05:00"
+}

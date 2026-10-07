@@ -50,22 +50,22 @@ Mariana Campuzano Tobón\par}
 \tableofcontents
 \clearpage
 \section*{Introducción}
-Pendiente de redacción final.
+La variabilidad de la precipitación y del caudal condiciona la disponibilidad de agua y la ocurrencia de periodos secos y crecientes en las cuencas andinas. En el río La Vieja, el contraste entre las zonas montañosas y los sectores bajos del valle, junto con la variabilidad del clima tropical, motiva estudiar cómo cambia la respuesta hidrológica a lo largo del año y entre años.
+
+Este informe analiza la cuenca del río La Vieja hasta la estación Cartago mediante series mensuales de precipitación, caudal y temperatura. Se examinan el ciclo anual, las distribuciones y los valores extremos; se comparan CHIRPS e IMERG y se evalúan modelos estadísticos de lluvia–caudal y tendencias temporales. El análisis se complementa con la selección de campos oceánicos y atmosféricos globales para estudiar asociaciones climáticas. Las relaciones estadísticas se interpretan considerando la cobertura de los datos, la topografía y las diferencias entre las fuentes.
 \section*{Metodología}
-Los procedimientos existentes se conservan junto a cada análisis; la metodología integrada está pendiente de redacción final.
-\section*{Resultados y discusión física}
+La delimitación de la cuenca y las series hidrológicas de referencia proceden de CAMELS-COL. La precipitación CHIRPS se analiza como promedio de cuenca y el caudal corresponde a Cartago (IDEAM 26127040). IMERG Final Run V07B y la temperatura ERA5-Land se ponderan según el área de intersección de sus celdas con la cuenca. Estos productos representan estimaciones espaciales distintas de una observación pluviométrica puntual.
 
-\section*{Contexto geográfico de la cuenca}
-\subsubsection*{Contexto geográfico con base cartográfica}
-Además del mapa analítico sin teselas, se incluye una versión geográfica con
-base OpenStreetMap. Muestra el polígono de cuenca, las estaciones activas de
-lluvia y Cartago. La base es únicamente contexto cartográfico; no se usa para
-calcular resultados. Fuente de la base: © OpenStreetMap contributors.
-\begin{figure}[H]\centering
-\includegraphics[width=.82\linewidth]{figuras/mapa_cuenca_estaciones_geografico.pdf}
-\caption{Cuenca La Vieja, estaciones de lluvia inventariadas y estación Cartago sobre contexto geográfico OpenStreetMap.}
-\end{figure}
+El registro hidrológico abarca 1981–2022. Los acumulados de lluvia y las medias de caudal se calculan únicamente para meses con todos sus días válidos: se conservan 485 de 504 meses. La comparación entre CHIRPS, IMERG y caudal utiliza 285 meses simultáneos de 1998–2022. Los vacíos se mantienen sin relleno. Las diferencias estacionales se examinan mediante climatologías y anomalías mensuales; la evaluación de modelos distingue el periodo de ajuste de la reserva temporal. Los criterios y las incertidumbres específicos se documentan junto a cada análisis.
+\clearpage
+\section*{Área de estudio: cuenca del río La Vieja}
+La cuenca del río La Vieja se localiza en el centro-occidente de Colombia, en la región del Eje Cafetero, y comprende territorios de Quindío, Risaralda y Valle del Cauca. Su red hidrográfica conecta las vertientes de la cordillera Central con los sectores bajos próximos a Cartago. El río La Vieja se forma por la confluencia de los ríos Quindío y Barragán y desemboca en el río Cauca, de cuya red de drenaje es tributario.
 
+El área de estudio corresponde a la cuenca aguas arriba de la estación Cartago (IDEAM 26127040), delimitada en CAMELS-COL, con una superficie de 2.797,19 km$^2$. Esta delimitación define el área sobre la que se promedian los productos de precipitación y temperatura y el territorio cuyos aportes se integran en el caudal observado. Su extensión no debe confundirse con la cuenca administrativa completa descrita en los instrumentos de ordenamiento ambiental.
+
+El relieve presenta un contraste marcado entre las zonas altas de la cordillera y el sector de salida hacia Cartago, con elevaciones del orden de 900 a 4.800 m en la información topográfica analizada. Esta heterogeneidad es relevante para la distribución espacial de la lluvia y la temperatura y para el tránsito y almacenamiento del agua. Las series de cuenca muestran un ciclo de precipitación bimodal, con máximos alrededor de abril–mayo y octubre–noviembre. Por ello, la interpretación de la relación lluvia–caudal distingue el ciclo estacional compartido de las variaciones entre años.
+\begin{figure}[H]\centering\includegraphics[width=.82\linewidth]{figuras/mapa_cuenca_estaciones_geografico.pdf}\caption{Localización de la cuenca hasta Cartago y estaciones de lluvia inventariadas. Base: \copyright\ OpenStreetMap contributors; delimitación: CAMELS-COL; estaciones: catálogo IDEAM.}\end{figure}
+Fuentes de contexto: \href{https://crq.gov.co/wp-content/uploads/2021/03/PGARQUINDIO2020-2039.pdf}{CRQ, Plan de Gestión Ambiental Regional 2020–2039}; \href{https://www.cvc.gov.co/sites/default/files/2018-09/Balance_La_Vieja_1.pdf}{CVC, Balance oferta–demanda de agua: río La Vieja}; \href{https://doi.org/10.5281/zenodo.18794895}{CAMELS-COL}.
 \clearpage
 \subsubsection*{Mapas de la cuenca y topografía}
 \subsubsection*{Delimitación y red terrestre inventariada}
@@ -101,12 +101,12 @@ under COPERNICUS by the European Union and ESA; all rights reserved}
 \clearpage
 \section{Series mensuales: exploración y validación}
 
-\subsection{Graficar las series de caudal y precipitación}
+\subsection{Variabilidad temporal de la precipitación y del caudal}
 \subsubsection*{Series de precipitación y caudal}
 
 Se analiza la cuenca del río La Vieja hasta la estación Cartago (IDEAM 26127040), con un área CAMELS de 2797,19~km$^2$. El periodo comprende enero de 1981 a diciembre de 2022. Se utiliza precipitación CHIRPS v2 promediada sobre la cuenca y caudal observado según el depósito \href{https://doi.org/10.5281/zenodo.18794895}{CAMELS-COL}.
 
-Para mantener una notación explícita, $P_{L,m}$ es la precipitación de referencia elegida: CHIRPS v2 diario, promediado sobre la cuenca por CAMELS-COL y acumulado a mm/mes. CHIRPS es un producto combinado espacial, no la observación independiente de un único pluviómetro local. $P_{I,m}$ es IMERG Final Run V07 en mm/mes. Para la comparación simultánea de $P_{L,m}$, $P_{I,m}$ y Q se define enero de 1998--diciembre de 2022, con 285 meses completos; los 15 meses sin Q se mantienen como faltantes y no se rellenan.
+$P_{L,m}$ es la precipitación de referencia elegida: CHIRPS v2 diario, promediado sobre la cuenca por CAMELS-COL y acumulado a mm/mes. CHIRPS es un producto combinado espacial, no la observación independiente de un único pluviómetro local. $P_{I,m}$ es IMERG Final Run V07 en mm/mes. Para la comparación simultánea de $P_{L,m}$, $P_{I,m}$ y Q se define enero de 1998--diciembre de 2022, con 285 meses completos; los 15 meses sin Q se mantienen como faltantes y no se rellenan.
 
 \subsubsection*{Agregación y tratamiento de faltantes}
 La precipitación mensual se obtiene sumando los valores diarios y el caudal mensual promediándolos. Para un mes completo con $n_m$ días:
@@ -185,7 +185,7 @@ La fuente original disponible contiene Tmin y Tmax diarios de MSWX, pero no una 
 
 
 
-\subsection{Incorporar precipitación IMERG para la misma cuenca}
+\subsection{Precipitación satelital y comparación de fuentes}
 \subsubsection*{IMERG: promedio exacto de cuenca y validación (V07B)}
 Actualización del 4 de octubre de 2026. IMERG Final Run V07B (GPM\_3IMERGM), variable Grid/precipitation, malla de 0,1$^\circ$. Se verificaron 300 archivos mensuales de enero de 1998 a diciembre de 2022. El promedio se calcula sobre el polígono CAMELS de La Vieja con 42 celdas intersectadas, 31 de borde, ponderadas por el área geodésica WGS84 de su intersección. Cobertura espacial 100.000000\%. Área geodésica del polígono 2780.18 km²; el área CAMELS de 2797,19 km² usada para R permanece sin cambios. Las tasas originales están en mm/h y se multiplican por las horas de cada mes, incluidos los bisiestos. No se rellenan celdas ni se renormalizan pesos cuando faltan valores. Hay 300/300 meses válidos y 285 meses completos comunes con CHIRPS y Q. Enero de 1998: 0.10202291 mm/h $\times$ 744 h = 75.905043 mm/mes; se comprobó también la suma independiente celda por celda. El promedio Giovanni de caja y sus resultados previos se conservan como antecedentes y no se mezclan con esta nueva serie. Los bordes se segmentizan a máximo 0,001$^\circ$ para las áreas geodésicas. Se reconstruyen límites contiguos de la malla nominal 0,1$^\circ$ para evitar los solapes del redondeo float32 de los límites originales; ambos límites quedan registrados. No se modifica ni remuestrea la precipitación. La suma de intersecciones coincide con el área del polígono dentro de una tolerancia relativa de una parte por millón. La malla es de unos 11 km por lado en esta región: aporta representación espacial de la cuenca, pero no resuelve toda la variabilidad orográfica interna.
 
@@ -201,7 +201,7 @@ Los años con mayor precipitación media IMERG son 2008, 2011 y 2022, y 2015 es 
 
 
 
-\subsection{Describir la distribución de los datos mensuales}
+\subsection{Distribución de las variables hidroclimáticas}
 \subsubsection*{Distribuciones actualizadas: IMERG de cuenca y ERA5-Land}
 Desviación estándar muestral (n-1); percentiles lineales tipo 7. Histogramas Freedman--Diaconis; CHIRPS e IMERG usan los mismos 285 meses y exactamente los mismos bordes. Barras en porcentaje de meses, cuya suma es 100\%. Se utilizan frecuencias relativas para expresar qué porcentaje de meses cae en cada intervalo y facilitar la comparación de las distribuciones. En CHIRPS e IMERG se mantienen los mismos 285 meses y límites de clase, por lo que las diferencias entre barras corresponden a la distribución de los productos y no a distintos tamaños de muestra. Las estadísticas del registro disponible por fuente conservan sus distintas coberturas y se presentan separadas de la muestra común. ERA5-Land es temperatura a 2 m de reanálisis, no estación terrestre ni estimación MSWX.
 \subsubsection*{Registros disponibles por fuente}
@@ -762,7 +762,7 @@ En este apartado se presentan únicamente serie, distribución, caja y estadíst
 
 
 
-\subsection{Usar la exploración como control de calidad}
+\subsection{Calidad y completitud de las series}
 \subsubsection*{Control de datos faltantes}
 Se reconstruyó el calendario diario completo de 1981--2022, incluidos los años
 bisiestos. De 15\,340 días esperados, el archivo contiene 15\,085 fechas y omite
@@ -1010,7 +1010,7 @@ escorrentía R & 2,00 & 270 & 0,30 & 0,36 \\
 escorrentía R & 3,00 & 267 & 0,30 & 0,35 \\
 \hline\end{tabular}\end{center}
 
-\subsection{¿Se pueden construir modelos útiles?}
+\subsection{Modelos estadísticos de lluvia y caudal}
 \subsubsection*{Objetivos, variables y muestras comunes}
 Se evalúa (i) estimar lluvia mensual local de Zaragoza-AUT a partir de IMERG o CHIRPS y (ii) estimar el caudal medio mensual Q a partir de cada producto de precipitación; se añade la relación local--Q como ejercicio exploratorio. P(t) es precipitación de cuenca en mm/mes, L(t) lluvia local en mm/mes y Q(t) caudal en m$^3$/s. IMERG es el promedio del polígono exacto. Las dos fuentes usan las mismas fechas para cada comparación. Para modelos con rezago se exige Q, P\_IMERG(t), P\_CHIRPS(t) y ambas lluvias en t-1 válidas: quedan 274 meses de 1998--2022, once menos que los 285 pares contemporáneos de 2.1. No se rellenan faltantes. Hay 206 meses para desarrollo hasta diciembre de 2016 y 68 meses de 2017--2022 reservados para el 2.3, sin evaluar sus resultados.
 \subsubsection*{Relaciones candidatas y criterio de selección}
@@ -1087,7 +1087,7 @@ Fuente & r error antecedente & RMSE Q alto & Sesgo Q alto \\ \hline
 IMERG & 0,53 & 98,29 & -76,29 \\
 CHIRPS & 0,67 & 89,13 & -63,59 \\
 \hline\end{tabular}\end{center}
-\subsection{Evaluar fuera del periodo de ajuste}
+\subsection{Desempeño de los modelos en la reserva temporal}
 \subsubsection*{Partición temporal y prueba sin reajuste}
 Se mantienen las decisiones del 2.2: modelos de caudal con lluvia del mismo mes y del mes anterior, ajustados con 206 meses válidos hasta diciembre de 2016. Aquí se abren únicamente los 68 meses comunes de enero de 2017 a diciembre de 2022. No se vuelven a elegir modelos, rezagos, transformaciones ni parámetros a partir de esta prueba. Los años completos definen la partición cronológica, pero se excluyen pares inválidos: junio y julio de 2021 y marzo y abril de 2022. Junio de 2021 y marzo de 2022 carecen de datos mensuales completos; los meses siguientes pierden la lluvia antecedente CHIRPS. No hay mezcla aleatoria de ajuste y prueba ni relleno de huecos. Se usa precipitación original, no anomalías, por lo que no se calcula una nueva climatología de predictores con la reserva.
 \subsubsection*{Ecuaciones congeladas y referencia}
@@ -1209,7 +1209,7 @@ Existe una relación aprovechable para estimar caudal mensual a partir de lluvia
 4,subsection,2,Dos escalas de evaluación temporal,punto33,
 6,subsection,2,Métodos y comparación de resultados,punto34,
 9,subsection,2,{Incertidumbre, robustez y presentación},punto35,
-10,subsection,2,¿A qué podrían deberse los cambios?,punto36
+10,subsection,2,Interpretación física de la variabilidad hidroclimática,punto36
 }]{../apartado_3/punto_3_commit_2d27402.pdf}
 % PUNTO_3_COMMIT_2D27402_FIN
 \section{Análisis de frecuencias mediante Fourier}
@@ -1220,7 +1220,31 @@ Pendiente de desarrollar.
 \clearpage
 \section{Mapas de correlación con el clima global}
 \subsection{Seleccionar los campos climáticos}
-Pendiente de desarrollar.
+\subsubsection*{Selección y justificación física}
+Se obtuvo una base pública de campos globales mensuales: SST NOAA ERSSTv5, presión al nivel del mar (SLP) y altura geopotencial a 500 hPa (Z500) de NCEP/NCAR Reanalysis 1. Se añade presión de superficie como control vertical. La malla nativa de 2$^\circ$/2,5$^\circ$ resuelve patrones de gran escala y evita interpolar a una resolución aparente mayor. No resuelve el relieve ni los procesos de lluvia de una cuenca andina. La selección se fijó antes de calcular mapas de correlación.
+
+\subsubsection*{Mecanismos relevantes y alcance}
+Para el occidente y los Andes colombianos, la literatura describe conexiones de la lluvia con SST del Pacífico y Atlántico, ENSO y circulación asociada a los chorros de Chocó y del Caribe (Poveda y Mesa, 1997; Poveda et al., 2014). Es una justificación regional, no una atribución demostrada para La Vieja. SLP y Z500 describen el estado de circulación; para evaluar directamente advección de humedad se necesitarían vientos y humedad, no inferirla solo de estos dos campos.
+
+\subsubsection*{Productos atmosféricos y alternativas}
+Se consideraron los productos mensuales ERA5 en superficie y en niveles de presión, distribuidos por el CDS en una malla atmosférica regular de 0,25$^\circ$. En este análisis se adopta NCEP/NCAR Reanalysis 1, de acceso público y resolución de 2,5$^\circ$, como base inicial para identificar patrones de gran escala. ERA5 constituye una alternativa para evaluar la sensibilidad de los resultados al reanálisis y a la resolución espacial; esa comparación requeriría una agregación consistente por área y debe conservar ambos productos separados. La temperatura ERA5-Land utilizada en el estudio de cuenca no reemplaza los campos atmosféricos globales.
+
+\subsubsection*{Periodo, cobertura y correspondencia con la cuenca}
+Cada campo descargado contiene 504 meses consecutivos entre enero de 1981 y diciembre de 2022. CHIRPS y Q tienen 485 meses completos; IMERG tiene 300 desde 1998. La comparación principal conserva los mismos 285 meses completos de CHIRPS, IMERG y Q en 1998-2022, con 15 huecos sin relleno. El análisis secundario CHIRPS-Q podrá usar 1981-2022 por separado. La muestra principal aporta entre 22 y 25 pares por mes calendario; los mapas informarán el tamaño efectivo en cada píxel.
+
+\subsubsection*{Unidades, máscaras y transformaciones}
+Las medias mensuales no se suman. SLP y presión superficial vienen en las unidades declaradas en el NetCDF: se dividen por 100 solo si están en Pa; millibars equivale a hPa. NCEP hgt ya es altura geopotencial en metros: no se vuelve a dividir por g. En ERA5, geopotential es $\Phi$ en m$^2$/s$^2$ y se convertiría a Z=$\Phi$/9,80665 m. Se conservan los faltantes oceánicos/terrestres de ERSST sin interpolarlos. Las longitudes se normalizan a [-180$^\circ$,180$^\circ$) sin duplicar la costura; cada campo mantiene su malla nativa.
+
+\subsubsection*{Control vertical y máscara para los mapas}
+Se comparó cada celda y mes de presión superficial con 500 hPa: se enmascaran 24 valores celda-mes de Z500 donde la presión superficial mensual es menor de 500 hPa. Es un control sobre medias, no garantiza que el nivel esté sobre el terreno durante cada instante del mes. Los mapas por mes calendario deberán conservar solo píxeles con al menos 20 pares y variación no nula. SLP es una reducción al nivel del mar y puede ser menos fiable sobre terreno elevado; se contrastarán sus patrones sobre océanos y tierras altas en 5.3. Los valores de SST próximos a congelación y el hielo marino requieren cautela; el interés físico principal es tropical.
+
+\subsubsection*{Anomalías y muestra de análisis}
+Las anomalías de cada campo se definen como la diferencia entre el valor mensual y la media de su mes calendario. La climatología de referencia se estima con las mismas 285 fechas completas de la cuenca durante 1998-2022, de modo que las comparaciones no dependan de calendarios distintos. Los campos conservan su malla nativa, sus unidades y sus faltantes; no se elimina la tendencia. La verificación de una media de anomalías próxima a cero en cada mes confirma esta transformación. Los índices Niño 3.4 u ONI podrán complementar la interpretación, sin sustituir los campos espaciales. La asociación con lluvia y caudal, sus rezagos y su robustez se evaluarán en los apartados siguientes.
+
+\subsubsection*{Procedencia y alcance de los productos}
+La base global combina ERSSTv5 y NCEP/NCAR Reanalysis 1, distribuidos por NOAA PSL. ERSSTv5 es una reconstrucción de SST basada en observaciones oceánicas, mientras que los campos atmosféricos proceden de un reanálisis; por ello, sus valores no se interpretan como mediciones locales directas. Se fijaron las versiones, el periodo y los niveles verticales antes de construir los mapas. Los metadatos de soporte conservan las solicitudes de acceso, fechas, coordenadas, unidades y huellas SHA-256 de los archivos, junto con los conteos y las máscaras. La lluvia de Zaragoza no se utiliza como respuesta principal: sus 14 meses completos resultan insuficientes para estimar asociaciones por mes calendario.
+
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_5_1/campos_globales_control.pdf}\caption{Campos obtenidos y control vertical; no son mapas de correlación.}\end{figure}
 \subsection{Definir y calcular los mapas mensuales}
 Pendiente de desarrollar.
 \subsection{Robustez y presentación de los patrones}

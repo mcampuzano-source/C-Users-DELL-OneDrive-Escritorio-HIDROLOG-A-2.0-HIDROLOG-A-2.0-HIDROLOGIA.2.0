@@ -1,0 +1,47 @@
+[
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_1981_1985.nc",
+    "cached": true
+  },
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_1986_1990.nc",
+    "cached": true
+  },
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_1991_1995.nc",
+    "cached": true
+  },
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_1996_2000.nc",
+    "cached": true
+  },
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_2001_2005.nc",
+    "cached": true
+  },
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_2006_2010.nc",
+    "cached": true
+  },
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_2011_2015.nc",
+    "cached": true
+  },
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_2016_2020.nc",
+    "cached": true
+  },
+  {
+    "field": "sst",
+    "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_2021_2022.nc",
+    "cached": true
+  }
+]

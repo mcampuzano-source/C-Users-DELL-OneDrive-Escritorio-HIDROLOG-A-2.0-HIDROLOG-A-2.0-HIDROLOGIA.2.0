@@ -1,0 +1,8 @@
+{
+  "field": "sst",
+  "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\sst_1996_2000.nc",
+  "url": "https://psl.noaa.gov/thredds/ncss/grid/Datasets/noaa.ersst.v5/sst.mnmean.nc?var=sst&north=90&south=-90&west=0&east=360&horizStride=1&time_start=1996-01-01T00%3A00%3A00Z&time_end=2000-12-01T00%3A00%3A00Z&timeStride=1&accept=netcdf4",
+  "bytes": 1788633,
+  "sha256": "8b47c1a15fa30666d02c3dd538e605f9c9a1cca671c33e90ebce765c690b7433",
+  "retrieved_at": "2026-10-07T11:10:50.916483-05:00"
+}

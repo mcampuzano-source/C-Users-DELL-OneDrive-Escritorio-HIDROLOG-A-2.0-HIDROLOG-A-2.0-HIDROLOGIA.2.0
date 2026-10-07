@@ -1,0 +1,8 @@
+{
+  "field": "z500",
+  "file": "C:\\Users\\DELL\\OneDrive\\Escritorio\\HIDROLOG\u00cdA 2.0\\HIDROLOG\u00cdA 2.0\\seleccion_cuenca\\datos\\clima_global_5_1\\fragmentos\\z500_2011_2015.nc",
+  "url": "https://www.psl.noaa.gov/thredds/ncss/grid/Datasets/ncep.reanalysis.derived/pressure/hgt.mon.mean.nc?var=hgt&north=90&south=-90&west=0&east=360&horizStride=1&time_start=2011-01-01T00%3A00%3A00Z&time_end=2015-12-01T00%3A00%3A00Z&timeStride=1&accept=netcdf4&vertCoord=500",
+  "bytes": 1144050,
+  "sha256": "fdaaa65872eacfbf6207c5536f60016333cbce79b1cd54d09466e86eb7623fb8",
+  "retrieved_at": "2026-10-07T11:11:03.881365-05:00"
+}
