@@ -742,6 +742,8 @@ bisiestos. De 15\,340 días esperados, el archivo contiene 15\,085 fechas y omit
 ambas variables: no se deben sumar como 510 días distintos.
 
 \subsubsection*{Criterio de completitud}
+Se exige el 100 \% de días válidos para que la lluvia acumulada y el caudal medio representen el mes completo, evitando presentar sumas parciales de lluvia como totales mensuales. Este mismo criterio se mantiene en los análisis de CHIRPS y caudal; R conserva los mismos meses válidos que Q porque se calcula a partir de él.
+
 Se retiene únicamente un mes con el 100\,\% de sus días válidos. De 504 meses,
 se conservan 485 (96,23\,\%) y se excluyen 19 (3,77\,\%): seis totalmente ausentes
 y trece parcialmente completos. Los ceros se conservan y los faltantes permanecen
@@ -817,6 +819,20 @@ ERA5-Land Tmedia & 1981-01 & 2022-12 & 504 & 0 & 0 \\
 \begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/disponibilidad_imerg_era5.pdf}\caption{Cobertura temporal mensual. Gris: fuera de cobertura; verde: meses válidos. No hay faltantes dentro de los periodos utilizados. El detalle por año y mes se conserva en los archivos de disponibilidad.}\end{figure}
 
 
+
+% CONCLUSION_COMPROBACION_INICIO
+\subsubsection*{Conclusión de la comprobación de datos}
+Durante la comprobación de las series revisadas no se encontraron inconsistencias en las fechas, duplicados, unidades ni valores negativos de lluvia, caudal o escorrentía. No fue necesario corregir datos por estos criterios. Sin embargo, los archivos tabulares revisados de CAMELS y lluvia local no incluyen banderas explícitas de calidad, lo que limita la validación y no permite garantizar la exactitud de todos los valores.
+% CONCLUSION_COMPROBCACION_FIN
+
+
+
+% CONCLUSION_RECONSTRUCCIONES_INICIO
+\subsubsection*{Conclusión sobre reconstrucciones y estimaciones}
+\textbf{Reconstrucción del calendario y ajuste de la geometría de las celdas:} se completaron las fechas y se ajustaron los límites de las celdas IMERG, sin rellenar los vacíos ni modificar los valores originales.
+
+\textbf{Estimaciones de modelos y escenario hipotético P95:} se generaron valores para evaluar los modelos del punto 2 y la influencia de los extremos. Estos resultados permanecen separados y no sustituyen ni rellenan los datos originales.
+% CONCLUSION_RECONSTRUCCIONES_FIN
 \subsection{Climatología, variabilidad y explicación física}
 \subsubsection*{Lectura temporal con IMERG}
 IMERG muestra dos máximos estacionales: abril--mayo (medias de 273,27 y 257,47~mm/mes) y octubre--noviembre (276,25 y 276,03~mm/mes). Los meses medios más secos son enero (144,68), julio (153,95) y agosto (154,74~mm/mes). Este patrón describe el ciclo observado por el producto y no demuestra una causa climática por sí solo.

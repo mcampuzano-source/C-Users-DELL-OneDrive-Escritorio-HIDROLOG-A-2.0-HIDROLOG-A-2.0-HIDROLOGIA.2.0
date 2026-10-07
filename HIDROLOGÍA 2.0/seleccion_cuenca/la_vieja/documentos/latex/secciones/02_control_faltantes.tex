@@ -5,6 +5,8 @@ bisiestos. De 15\,340 días esperados, el archivo contiene 15\,085 fechas y omit
 ambas variables: no se deben sumar como 510 días distintos.
 
 \subsection{Criterio de completitud}
+Se exige el 100 \% de días válidos para que la lluvia acumulada y el caudal medio representen el mes completo, evitando presentar sumas parciales de lluvia como totales mensuales. Este mismo criterio se mantiene en los análisis de CHIRPS y caudal; R conserva los mismos meses válidos que Q porque se calcula a partir de él.
+
 Se retiene únicamente un mes con el 100\,\% de sus días válidos. De 504 meses,
 se conservan 485 (96,23\,\%) y se excluyen 19 (3,77\,\%): seis totalmente ausentes
 y trece parcialmente completos. Los ceros se conservan y los faltantes permanecen
@@ -61,3 +63,17 @@ no justifica tratar sumas parciales de precipitación como acumulados completos.
 Este control describe el archivo CAMELS ensamblado, no la disponibilidad original
 de CHIRPS, IMERG ni de las estaciones pluviométricas individuales. No se supone
 que los faltantes ocurran al azar.
+
+% CONCLUSION_COMPROBACION_INICIO
+\subsection{Conclusión de la comprobación de datos}
+Durante la comprobación de las series revisadas no se encontraron inconsistencias en las fechas, duplicados, unidades ni valores negativos de lluvia, caudal o escorrentía. No fue necesario corregir datos por estos criterios. Sin embargo, los archivos tabulares revisados de CAMELS y lluvia local no incluyen banderas explícitas de calidad, lo que limita la validación y no permite garantizar la exactitud de todos los valores.
+% CONCLUSION_COMPROBCACION_FIN
+
+
+
+% CONCLUSION_RECONSTRUCCIONES_INICIO
+\subsection{Conclusión sobre reconstrucciones y estimaciones}
+\textbf{Reconstrucción del calendario y ajuste de la geometría de las celdas:} se completaron las fechas y se ajustaron los límites de las celdas IMERG, sin rellenar los vacíos ni modificar los valores originales.
+
+\textbf{Estimaciones de modelos y escenario hipotético P95:} se generaron valores para evaluar los modelos del punto 2 y la influencia de los extremos. Estos resultados permanecen separados y no sustituyen ni rellenan los datos originales.
+% CONCLUSION_RECONSTRUCCIONES_FIN
