@@ -1,0 +1,238 @@
+{
+  "correlaciones": [
+    {
+      "relacion": "IMERG–lluvia local",
+      "n": 14,
+      "Pearson": 0.7880592702774647,
+      "Spearman": 0.7098901098901099
+    },
+    {
+      "relacion": "Lluvia local–caudal",
+      "n": 14,
+      "Pearson": 0.5980639442427684,
+      "Spearman": 0.5208791208791209
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "n": 285,
+      "Pearson": 0.618847940451542,
+      "Spearman": 0.626963770106839
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "n": 285,
+      "Pearson": 0.6185514322815361,
+      "Spearman": 0.6312114127532956
+    }
+  ],
+  "errores": {
+    "sesgo": 109.80271641962149,
+    "MAE": 109.80271641962149,
+    "RMSE": 119.60848118560924
+  },
+  "sensibilidad": [
+    {
+      "relacion": "IMERG–lluvia local",
+      "mes": "2018-09",
+      "r_sin_mes": 0.8682059610754367,
+      "cambio": 0.08014669079797199,
+      "r_min": 0.7524837492786636,
+      "r_max": 0.8682059610754367
+    },
+    {
+      "relacion": "Lluvia local–caudal",
+      "mes": "2018-12",
+      "r_sin_mes": 0.8363837219995823,
+      "cambio": 0.2383197777568139,
+      "r_min": 0.5318779677629583,
+      "r_max": 0.8363837219995823
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "mes": "2010-11",
+      "r_sin_mes": 0.6011093809110599,
+      "cambio": 0.01773855954048209,
+      "r_min": 0.6011093809110599,
+      "r_max": 0.628872673848367
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "mes": "2010-11",
+      "r_sin_mes": 0.6006706286637393,
+      "cambio": 0.01788080361779676,
+      "r_min": 0.6006706286637393,
+      "r_max": 0.6289514532527466
+    }
+  ],
+  "rezagos": [
+    {
+      "relacion": "Lluvia local–caudal",
+      "serie": "original",
+      "rezago": 0,
+      "n": 14,
+      "Pearson": 0.5980639442427684,
+      "Spearman": 0.5208791208791209
+    },
+    {
+      "relacion": "Lluvia local–caudal",
+      "serie": "original",
+      "rezago": 1,
+      "n": 14,
+      "Pearson": 0.6528217825164365,
+      "Spearman": 0.6395604395604396
+    },
+    {
+      "relacion": "Lluvia local–caudal",
+      "serie": "original",
+      "rezago": 2,
+      "n": 14,
+      "Pearson": 0.1358065595008028,
+      "Spearman": 0.09010989010989012
+    },
+    {
+      "relacion": "Lluvia local–caudal",
+      "serie": "original",
+      "rezago": 3,
+      "n": 14,
+      "Pearson": -0.4338170890471272,
+      "Spearman": -0.42857142857142855
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "serie": "original",
+      "rezago": 0,
+      "n": 285,
+      "Pearson": 0.618847940451542,
+      "Spearman": 0.626963770106839
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "serie": "anomalia",
+      "rezago": 0,
+      "n": 285,
+      "Pearson": 0.6362434535806327,
+      "Spearman": 0.6020958285598759
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "serie": "original",
+      "rezago": 1,
+      "n": 284,
+      "Pearson": 0.5980303945241707,
+      "Spearman": 0.6509122056123237
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "serie": "anomalia",
+      "rezago": 1,
+      "n": 284,
+      "Pearson": 0.4956028238407086,
+      "Spearman": 0.5019428080478406
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "serie": "original",
+      "rezago": 2,
+      "n": 283,
+      "Pearson": 0.31632781074012656,
+      "Spearman": 0.3570635904745063
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "serie": "anomalia",
+      "rezago": 2,
+      "n": 283,
+      "Pearson": 0.4133370327879914,
+      "Spearman": 0.440319005983877
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "serie": "original",
+      "rezago": 3,
+      "n": 282,
+      "Pearson": 0.07542106011456591,
+      "Spearman": 0.06420008021230846
+    },
+    {
+      "relacion": "IMERG–caudal",
+      "serie": "anomalia",
+      "rezago": 3,
+      "n": 282,
+      "Pearson": 0.42602689815320416,
+      "Spearman": 0.4558084493687228
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "serie": "original",
+      "rezago": 0,
+      "n": 285,
+      "Pearson": 0.6185514322815361,
+      "Spearman": 0.6312114127532956
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "serie": "anomalia",
+      "rezago": 0,
+      "n": 285,
+      "Pearson": 0.6338460717203999,
+      "Spearman": 0.6005163109684978
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "serie": "original",
+      "rezago": 1,
+      "n": 284,
+      "Pearson": 0.6020424862896386,
+      "Spearman": 0.6564448996377371
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "serie": "anomalia",
+      "rezago": 1,
+      "n": 284,
+      "Pearson": 0.4957734218308572,
+      "Spearman": 0.5012439524631516
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "serie": "original",
+      "rezago": 2,
+      "n": 283,
+      "Pearson": 0.3184705669463744,
+      "Spearman": 0.3582590952072861
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "serie": "anomalia",
+      "rezago": 2,
+      "n": 283,
+      "Pearson": 0.4126934018803216,
+      "Spearman": 0.44130220008873633
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "serie": "original",
+      "rezago": 3,
+      "n": 282,
+      "Pearson": 0.0708282391485729,
+      "Spearman": 0.05839418597215686
+    },
+    {
+      "relacion": "IMERG–escorrentía",
+      "serie": "anomalia",
+      "rezago": 3,
+      "n": 282,
+      "Pearson": 0.4237713257624691,
+      "Spearman": 0.45478586283481215
+    }
+  ],
+  "anomalias_I_Q": {
+    "Pearson": 0.6362434535806327,
+    "Spearman": 0.6020958285598759
+  },
+  "n_local": 14,
+  "huellas": {
+    "datos_fuente\\lluvia_local_Zaragoza_mensual_2018_2022.csv": "f3bcf4ca00c944911b66e9bc88d2f7fa35223167eaca7132b7561135c483163b",
+    "documentos\\imerg_poligono\\series_alineadas.csv": "93d64d063d32df98dcdccb076b6cde1c157b5a5a54b5d014fea50f576c5f070b"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "pdf_paginas": 42,
+  "paginas_revisadas": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "punto_1_3_preservado": true,
+  "n_Q_desarrollo": 206,
+  "n_Q_validacion_desarrollo": 105,
+  "n_reserva": 68,
+  "reserva_evaluada": false,
+  "imagenes_html_autocontenidas": true,
+  "revision_visual_pdf": true,
+  "scripts_javascript_sintaxis_validos": 24,
+  "graficas_nuevas_datos_verificados": 16,
+  "verificacion_navegador_real": false
+}
