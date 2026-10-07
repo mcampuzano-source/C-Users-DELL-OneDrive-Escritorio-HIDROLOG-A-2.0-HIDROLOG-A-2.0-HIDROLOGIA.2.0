@@ -1,0 +1,116 @@
+{
+  "periodo": [
+    "2017-01",
+    "2022-12"
+  ],
+  "n": 68,
+  "meses_excluidos": [
+    "2021-06",
+    "2021-07",
+    "2022-03",
+    "2022-04"
+  ],
+  "parametros_reajustados": false,
+  "huella_parametros_2_2": "cd006730b756350d0433ce177467f0227568c97e7c502a1cd138210d0e9efa45",
+  "coeficientes": {
+    "IMERG": [
+      -87.26919821101201,
+      0.46543884351007614,
+      0.43306546998561474
+    ],
+    "CHIRPS": [
+      -35.85262537381069,
+      0.42215476803181085,
+      0.43493925863135935
+    ]
+  },
+  "metricas": [
+    {
+      "fuente": "IMERG",
+      "n": 68,
+      "RMSE": 43.77076827253445,
+      "MAE": 34.48569196303888,
+      "sesgo": -10.056829310116504,
+      "NSE": 0.5734492961647994,
+      "PBIAS": -8.629313666358607
+    },
+    {
+      "fuente": "CHIRPS",
+      "n": 68,
+      "RMSE": 42.1389865925791,
+      "MAE": 30.232302416696516,
+      "sesgo": 2.4741827531629976,
+      "NSE": 0.6046602367349608,
+      "PBIAS": 2.1229851264812694
+    },
+    {
+      "fuente": "Media",
+      "n": 68,
+      "RMSE": 67.68134966235164,
+      "MAE": 53.902453138729165,
+      "sesgo": -9.444587101704284,
+      "NSE": -0.019859498453438595,
+      "PBIAS": -8.103976117787651
+    },
+    {
+      "fuente": "Climatologia",
+      "n": 68,
+      "RMSE": 51.14271752088271,
+      "MAE": 39.251190846863174,
+      "sesgo": -8.032230767656603,
+      "NSE": 0.41766897882894005,
+      "PBIAS": -6.8920965641687175
+    }
+  ],
+  "umbral_Q_alto_ajuste": 141.54103448275862,
+  "fisica": [
+    {
+      "fuente": "IMERG",
+      "raw_min": 9.32224429839939,
+      "raw_max": 218.97398397559596,
+      "negativos_truncados": 0,
+      "meses_fuera_rango_P": 0,
+      "meses_extrapolados": []
+    },
+    {
+      "fuente": "CHIRPS",
+      "raw_min": 12.759587126960572,
+      "raw_max": 270.15298238013963,
+      "negativos_truncados": 0,
+      "meses_fuera_rango_P": 2,
+      "meses_extrapolados": [
+        "2022-10",
+        "2022-11"
+      ]
+    }
+  ],
+  "residuos": [
+    {
+      "fuente": "IMERG",
+      "corr_error_lag1": 0.21405227288454629,
+      "fraccion_subestimada": 0.5588235294117647
+    },
+    {
+      "fuente": "CHIRPS",
+      "corr_error_lag1": 0.18187069574985365,
+      "fraccion_subestimada": 0.5
+    }
+  ],
+  "bootstrap": [
+    {
+      "bloque_meses": 6,
+      "repeticiones": 3000,
+      "delta_RMSE_CHIRPS_menos_IMERG": -1.6317816799553455,
+      "p025": -7.763122207786573,
+      "p975": 5.8899656024195615
+    },
+    {
+      "bloque_meses": 12,
+      "repeticiones": 3000,
+      "delta_RMSE_CHIRPS_menos_IMERG": -1.6317816799553455,
+      "p025": -7.825313949987484,
+      "p975": 5.62393929987969
+    }
+  ],
+  "local_evaluacion_independiente": false
+}

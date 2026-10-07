@@ -50,3 +50,8 @@ Paso actual: series mensuales de P CHIRPS y Q observado reportado por CAMELS, 19
 ## Actualizacion del 6 de octubre: puntos 2.1 y 2.2
 
 Se incorporan diagramas CHIRPS debajo de IMERG, comparacion de fuentes con muestras comunes y modelos para lluvia local y caudal. Zaragoza tiene 14 meses completos, no 22. Los modelos de caudal se eligen con bloques temporales de desarrollo; 68 meses de 2017-2022 quedan reservados, sin evaluar, para el 2.3. Detalles, rangos, ecuaciones y reproduccion: [apartado_2_2/README.md](apartado_2_2/README.md). Ejecutar el script 35 al final para regenerar ambos informes y conservar los puntos 2.1 y 2.2.
+
+
+## Punto 2.3 evaluado (6 de octubre de 2026)
+
+La reserva de 68 meses de 2017-2022 ya fue evaluada con los modelos congelados del 2.2, sin reajuste. El PDF y el HTML incluyen errores, residuos, estabilidad anual y mensual, condiciones de caudal y conclusion. Detalles y reproduccion: [apartado_2_3/README.md](apartado_2_3/README.md); ejecutar el script 37 al final. Para lluvia local no hay una nueva reserva independiente. Las menciones a reserva sin evaluar en los apartados de desarrollo describen el estado metodologico anterior a esta prueba.

@@ -1,0 +1,20 @@
+{
+  "pdf_paginas": 47,
+  "apartado_paginas": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "revision_visual": true,
+  "parametros_2_2_intactos": true,
+  "apartados_anteriores_intactos": true,
+  "formulas_metricas_verificadas": true,
+  "reserva_n": 68,
+  "local_prueba_independiente": false,
+  "navegador_real_verificado": false,
+  "scripts_javascript_validos": 26,
+  "graficas_2_3_verificadas": 7
+}
