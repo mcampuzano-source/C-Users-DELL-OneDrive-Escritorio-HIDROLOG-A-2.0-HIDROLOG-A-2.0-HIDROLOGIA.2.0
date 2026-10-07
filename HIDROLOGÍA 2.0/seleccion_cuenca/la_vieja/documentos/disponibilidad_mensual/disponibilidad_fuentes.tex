@@ -1,0 +1,13 @@
+\subsubsection*{Disponibilidad mensual de IMERG y temperatura}
+IMERG dispone de 300 meses válidos de enero de 1998 a diciembre de 2022, sin faltantes en ese periodo. Los 204 meses de 1981--1997 están fuera de la cobertura utilizada, no son datos perdidos. ERA5-Land dispone de los 504 meses de 1981--2022, sin faltantes mensuales. Se comprueban fechas mensuales únicas y valores finitos; para precipitación se exige además un valor no negativo. Una temperatura negativa en $^\circ$C no se clasifica como inválida por su signo. Esta revisión verifica la presencia y validez del resultado mensual disponible: no demuestra completitud diaria de los productos mensuales ni reemplaza la comprobación espacial de IMERG documentada en el punto 1.2. Las comparaciones conjuntas conservan solo los 285 meses válidos en todas las variables.
+\begin{center}{\small
+\begin{tabular}{lllrrr}
+\toprule
+Fuente & Inicio & Fin & Validos & Faltantes & Fuera\_de\_cobertura \\
+\midrule
+IMERG polígono & 1998-01 & 2022-12 & 300 & 0 & 204 \\
+ERA5-Land Tmedia & 1981-01 & 2022-12 & 504 & 0 & 0 \\
+\bottomrule
+\end{tabular}
+}\end{center}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/disponibilidad_imerg_era5.pdf}\caption{Cobertura temporal mensual. Gris: fuera de cobertura; verde: meses válidos. No hay faltantes dentro de los periodos utilizados. El detalle por año y mes se conserva en los archivos de disponibilidad.}\end{figure}

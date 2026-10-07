@@ -20,6 +20,7 @@ def main():
     files += list((DOC / 'latex' / 'secciones').glob('*.tex'))
     files += [DOC / 'latex' / 'informe.tex', DOC / 'latex' / 'informe_ordenado.tex']
     files += list((DOC / 'imerg_poligono').glob('*.tex'))
+    files += list((DOC / 'disponibilidad_mensual').glob('*.tex'))
     files += [DOC / 'informe_interactivo.html']
     files = sorted(set(p for p in files if p.is_file()), key=lambda p: p.relative_to(WORKSPACE).as_posix())
     nav, sections = [], []

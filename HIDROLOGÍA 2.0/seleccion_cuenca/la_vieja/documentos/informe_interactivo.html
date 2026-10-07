@@ -5663,7 +5663,723 @@ Plotly.newPlot('imerg-caudal-interactivo',[{x:x,y:imerg,type:'scatter',mode:'lin
       <td>14.84</td>
     </tr>
   </tbody>
-</table></div><p>Este contraste utiliza el registro completo por fuente, separado de los 285 meses comunes con IMERG. Se revisan agosto de 1982, julio de 1992 y enero de 1984 porque contienen los mínimos históricos que no aparecen en la figura de 1998–2022. Son datos válidos anteriores a la cobertura IMERG utilizada, no meses descartados por ese motivo. Los máximos de CHIRPS, Q, R y temperatura están dentro del periodo ya analizado; el máximo IMERG de noviembre de 2008 se mantiene aparte por ausencia de CHIRPS y Q.</p><p>Agosto de 1982: CHIRPS alcanza 24,89 mm/mes, tras 87,29 en junio y 53,49 en julio. Q desciende de 77,22 a 45,62 y 29,20 m³/s; R es 27,96 mm/mes en agosto. En septiembre aumenta la lluvia a 168,27 mm/mes, pero Q permanece bajo (31,70 m³/s), y en octubre sube a 66,39 m³/s. Es una secuencia plausible de condiciones secas y recuperación posterior; el mínimo de lluvia no constituye por sí solo un problema de datos.</p><p>Julio de 1992: Q y R alcanzan sus mínimos históricos (18,37 m³/s y 17,59 mm/mes). CHIRPS registra 75,46 mm/mes, después de 80,03 en junio; Q ya era bajo en mayo y junio (28,16 y 28,38 m³/s). La persistencia de caudal bajo es compatible con almacenamiento reducido, pero agosto y septiembre tienen datos ausentes de CHIRPS, Q y R: no puede comprobarse la evolución posterior con esas series ni rellenarse el vacío con cero.</p><p>Enero de 1984: ERA5-Land alcanza su temperatura mínima (14,84 °C), con valores próximos en diciembre (15,12 °C) y febrero (15,05 °C). CHIRPS permanece entre 190,87 y 236,26 mm/mes en esos tres meses y Q entre 98,77 y 127,13 m³/s. El mínimo está integrado en una secuencia de temperaturas bajas y lluvia apreciable, sin un salto aislado evidente. Es plausible, pero no prueba causalidad ni exactitud del reanálisis. En conjunto, no se identifican errores confirmados: se conservan todos los valores y se reconoce la limitación de los faltantes de 1992. R deriva de Q, por lo que su coincidencia no constituye evidencia independiente.</p><div style="height:1000px; width:100%;">                            <div id="extremos-historicos-cronologias" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("extremos-historicos-cronologias")) {                    Plotly.newPlot(                        "extremos-historicos-cronologias",                        [{"connectgaps":false,"line":{"color":"#23769b"},"mode":"lines+markers","name":"CHIRPS (mm\u002fmes)","showlegend":false,"x":["1982-06-01","1982-07-01","1982-08-01","1982-09-01","1982-10-01"],"y":[87.288,53.492,24.892,168.272,295.096],"type":"scatter","xaxis":"x","yaxis":"y"},{"connectgaps":false,"line":{"color":"#206c44"},"mode":"lines+markers","name":"Caudal Q (m\u00b3\u002fs)","showlegend":false,"x":["1982-06-01","1982-07-01","1982-08-01","1982-09-01","1982-10-01"],"y":[77.21666666666667,45.61612903225806,29.203225806451613,31.7,66.38709677419355],"type":"scatter","xaxis":"x2","yaxis":"y2"},{"connectgaps":false,"line":{"color":"#a3344b"},"mode":"lines+markers","name":"ERA5-Land Tmedia (\u00b0C)","showlegend":false,"x":["1982-06-01","1982-07-01","1982-08-01","1982-09-01","1982-10-01"],"y":[16.42553815701899,16.23458676329858,16.667279981831143,16.239045925072332,15.611869191669824],"type":"scatter","xaxis":"x3","yaxis":"y3"},{"connectgaps":false,"line":{"color":"#23769b"},"mode":"lines+markers","name":"CHIRPS (mm\u002fmes)","showlegend":false,"x":["1992-05-01","1992-06-01","1992-07-01","1992-08-01","1992-09-01"],"y":[159.558,80.033,75.46,null,null],"type":"scatter","xaxis":"x4","yaxis":"y4"},{"connectgaps":false,"line":{"color":"#206c44"},"mode":"lines+markers","name":"Caudal Q (m\u00b3\u002fs)","showlegend":false,"x":["1992-05-01","1992-06-01","1992-07-01","1992-08-01","1992-09-01"],"y":[28.161290322580644,28.38,18.36774193548387,null,null],"type":"scatter","xaxis":"x5","yaxis":"y5"},{"connectgaps":false,"line":{"color":"#a3344b"},"mode":"lines+markers","name":"ERA5-Land Tmedia (\u00b0C)","showlegend":false,"x":["1992-05-01","1992-06-01","1992-07-01","1992-08-01","1992-09-01"],"y":[16.420107771063385,16.586233914477816,15.831544756197957,16.114490290387835,15.81081939236242],"type":"scatter","xaxis":"x6","yaxis":"y6"},{"connectgaps":false,"line":{"color":"#23769b"},"mode":"lines+markers","name":"CHIRPS (mm\u002fmes)","showlegend":false,"x":["1983-11-01","1983-12-01","1984-01-01","1984-02-01","1984-03-01"],"y":[209.144,236.262,190.868,199.502,162.651],"type":"scatter","xaxis":"x7","yaxis":"y7"},{"connectgaps":false,"line":{"color":"#206c44"},"mode":"lines+markers","name":"Caudal Q (m\u00b3\u002fs)","showlegend":false,"x":["1983-11-01","1983-12-01","1984-01-01","1984-02-01","1984-03-01"],"y":[46.17333333333333,98.76774193548388,127.13225806451612,106.63793103448276,75.26774193548388],"type":"scatter","xaxis":"x8","yaxis":"y8"},{"connectgaps":false,"line":{"color":"#a3344b"},"mode":"lines+markers","name":"ERA5-Land Tmedia (\u00b0C)","showlegend":false,"x":["1983-11-01","1983-12-01","1984-01-01","1984-02-01","1984-03-01"],"y":[15.758928671064552,15.12148189797938,14.842604815919572,15.052100921527083,15.692051432800326],"type":"scatter","xaxis":"x9","yaxis":"y9"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"xaxis":{"anchor":"y","domain":[0.0,0.2888888888888889]},"yaxis":{"anchor":"x","domain":[0.7466666666666667,1.0]},"xaxis2":{"anchor":"y2","domain":[0.35555555555555557,0.6444444444444445]},"yaxis2":{"anchor":"x2","domain":[0.7466666666666667,1.0]},"xaxis3":{"anchor":"y3","domain":[0.7111111111111111,1.0]},"yaxis3":{"anchor":"x3","domain":[0.7466666666666667,1.0]},"xaxis4":{"anchor":"y4","domain":[0.0,0.2888888888888889]},"yaxis4":{"anchor":"x4","domain":[0.37333333333333335,0.6266666666666667]},"xaxis5":{"anchor":"y5","domain":[0.35555555555555557,0.6444444444444445]},"yaxis5":{"anchor":"x5","domain":[0.37333333333333335,0.6266666666666667]},"xaxis6":{"anchor":"y6","domain":[0.7111111111111111,1.0]},"yaxis6":{"anchor":"x6","domain":[0.37333333333333335,0.6266666666666667]},"xaxis7":{"anchor":"y7","domain":[0.0,0.2888888888888889]},"yaxis7":{"anchor":"x7","domain":[0.0,0.25333333333333335]},"xaxis8":{"anchor":"y8","domain":[0.35555555555555557,0.6444444444444445]},"yaxis8":{"anchor":"x8","domain":[0.0,0.25333333333333335]},"xaxis9":{"anchor":"y9","domain":[0.7111111111111111,1.0]},"yaxis9":{"anchor":"x9","domain":[0.0,0.25333333333333335]},"annotations":[{"font":{"size":16},"showarrow":false,"text":"1982-08: CHIRPS (mm\u002fmes)","x":0.14444444444444446,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1982-08: Caudal Q (m\u00b3\u002fs)","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1982-08: ERA5-Land Tmedia (\u00b0C)","x":0.8555555555555556,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1992-07: CHIRPS (mm\u002fmes)","x":0.14444444444444446,"xanchor":"center","xref":"paper","y":0.6266666666666667,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1992-07: Caudal Q (m\u00b3\u002fs)","x":0.5,"xanchor":"center","xref":"paper","y":0.6266666666666667,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1992-07: ERA5-Land Tmedia (\u00b0C)","x":0.8555555555555556,"xanchor":"center","xref":"paper","y":0.6266666666666667,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1984-01: CHIRPS (mm\u002fmes)","x":0.14444444444444446,"xanchor":"center","xref":"paper","y":0.25333333333333335,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1984-01: Caudal Q (m\u00b3\u002fs)","x":0.5,"xanchor":"center","xref":"paper","y":0.25333333333333335,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1984-01: ERA5-Land Tmedia (\u00b0C)","x":0.8555555555555556,"xanchor":"center","xref":"paper","y":0.25333333333333335,"yanchor":"bottom","yref":"paper"}],"shapes":[{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":397008000000.0,"x1":397008000000.0,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":397008000000.0,"x1":397008000000.0,"xref":"x2","y0":0,"y1":1,"yref":"y2 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":397008000000.0,"x1":397008000000.0,"xref":"x3","y0":0,"y1":1,"yref":"y3 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":709948800000.0,"x1":709948800000.0,"xref":"x4","y0":0,"y1":1,"yref":"y4 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":709948800000.0,"x1":709948800000.0,"xref":"x5","y0":0,"y1":1,"yref":"y5 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":709948800000.0,"x1":709948800000.0,"xref":"x6","y0":0,"y1":1,"yref":"y6 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":441763200000.0,"x1":441763200000.0,"xref":"x7","y0":0,"y1":1,"yref":"y7 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":441763200000.0,"x1":441763200000.0,"xref":"x8","y0":0,"y1":1,"yref":"y8 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":441763200000.0,"x1":441763200000.0,"xref":"x9","y0":0,"y1":1,"yref":"y9 domain"}],"height":1000,"title":{"text":"Extremos hist\u00f3ricos anteriores a 1998: mes se\u00f1alado y vecinos"}},                        {"responsive": true, "displaylogo": false}                    )                };            </script>        </div></div><!-- EXTREMOS_HISTORICOS_FIN --><!-- CONCLUSION_EXTREMOS_INICIO --><div id="conclusion-extremos"><h3>Conclusión del contraste de extremos</h3><p><strong>¿Son coherentes entre variables?</strong> Sí, en general: los meses lluviosos coinciden con caudales altos o con aumentos posteriores, y los meses secos con caudales bajos. La principal discrepancia aparece en diciembre de 2015, cuando IMERG registra mucha menos lluvia que CHIRPS.</p><p><strong>¿Son episodios plausibles o problemas de datos?</strong> Las secuencias son físicamente plausibles y no encontramos evidencia suficiente para declarar errores. La discrepancia de diciembre de 2015 requiere revisión independiente; los faltantes posteriores a julio de 1992 limitan su comprobación.</p></div><!-- CONCLUSION_EXTREMOS_FIN --><!-- RESPUESTAS_INTERPRETACION_INICIO --><div id="respuestas-interpretacion"><h3>Interpretación de las cifras</h3><p><strong>¿Qué valores describen mejor un mes típico?</strong> En lluvia y temperatura, el promedio y la mediana son casi iguales, por lo que ambos sirven. Para caudal y escorrentía, conviene la mediana (el valor central al ordenar los meses), porque unos pocos meses muy altos hacen subir el promedio.</p><p><strong>¿Cuánto influyen los meses extremos?</strong> Influyen más en caudal y escorrentía. Como prueba, si limitamos los valores superiores al percentil 95 a ese umbral, sin cambiar los datos originales, el promedio del caudal baja de 109,83 a 106,25 m³/s y el de escorrentía de 103,27 a 99,76 mm/mes. Esto muestra que esos meses elevan el promedio, pero no significa que sean errores.</p><p><strong>¿En qué se diferencian CHIRPS e IMERG?</strong> Al comparar los mismos 285 meses, IMERG registra 46,05 mm/mes más de lluvia en promedio. CHIRPS muestra valores más dispersos, mientras los de IMERG están más agrupados. Esa diferencia no permite decir cuál mide mejor: necesitamos compararlos con una referencia independiente.</p><p>Esta condición típica reúne meses de todas las estaciones del año; no describe un mes calendario específico.</p></div><!-- RESPUESTAS_INTERPRETACION_FIN --></section><!-- IMERG_POLIGONO_FIN --><footer>HTML autocontenido: datos y biblioteca Plotly incluidos. Se abre directamente, sin servidor ni conexión a Internet. Documento ampliable por pasos.</footer></main>
+</table></div><p>Este contraste utiliza el registro completo por fuente, separado de los 285 meses comunes con IMERG. Se revisan agosto de 1982, julio de 1992 y enero de 1984 porque contienen los mínimos históricos que no aparecen en la figura de 1998–2022. Son datos válidos anteriores a la cobertura IMERG utilizada, no meses descartados por ese motivo. Los máximos de CHIRPS, Q, R y temperatura están dentro del periodo ya analizado; el máximo IMERG de noviembre de 2008 se mantiene aparte por ausencia de CHIRPS y Q.</p><p>Agosto de 1982: CHIRPS alcanza 24,89 mm/mes, tras 87,29 en junio y 53,49 en julio. Q desciende de 77,22 a 45,62 y 29,20 m³/s; R es 27,96 mm/mes en agosto. En septiembre aumenta la lluvia a 168,27 mm/mes, pero Q permanece bajo (31,70 m³/s), y en octubre sube a 66,39 m³/s. Es una secuencia plausible de condiciones secas y recuperación posterior; el mínimo de lluvia no constituye por sí solo un problema de datos.</p><p>Julio de 1992: Q y R alcanzan sus mínimos históricos (18,37 m³/s y 17,59 mm/mes). CHIRPS registra 75,46 mm/mes, después de 80,03 en junio; Q ya era bajo en mayo y junio (28,16 y 28,38 m³/s). La persistencia de caudal bajo es compatible con almacenamiento reducido, pero agosto y septiembre tienen datos ausentes de CHIRPS, Q y R: no puede comprobarse la evolución posterior con esas series ni rellenarse el vacío con cero.</p><p>Enero de 1984: ERA5-Land alcanza su temperatura mínima (14,84 °C), con valores próximos en diciembre (15,12 °C) y febrero (15,05 °C). CHIRPS permanece entre 190,87 y 236,26 mm/mes en esos tres meses y Q entre 98,77 y 127,13 m³/s. El mínimo está integrado en una secuencia de temperaturas bajas y lluvia apreciable, sin un salto aislado evidente. Es plausible, pero no prueba causalidad ni exactitud del reanálisis. En conjunto, no se identifican errores confirmados: se conservan todos los valores y se reconoce la limitación de los faltantes de 1992. R deriva de Q, por lo que su coincidencia no constituye evidencia independiente.</p><div style="height:1000px; width:100%;">                            <div id="extremos-historicos-cronologias" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("extremos-historicos-cronologias")) {                    Plotly.newPlot(                        "extremos-historicos-cronologias",                        [{"connectgaps":false,"line":{"color":"#23769b"},"mode":"lines+markers","name":"CHIRPS (mm\u002fmes)","showlegend":false,"x":["1982-06-01","1982-07-01","1982-08-01","1982-09-01","1982-10-01"],"y":[87.288,53.492,24.892,168.272,295.096],"type":"scatter","xaxis":"x","yaxis":"y"},{"connectgaps":false,"line":{"color":"#206c44"},"mode":"lines+markers","name":"Caudal Q (m\u00b3\u002fs)","showlegend":false,"x":["1982-06-01","1982-07-01","1982-08-01","1982-09-01","1982-10-01"],"y":[77.21666666666667,45.61612903225806,29.203225806451613,31.7,66.38709677419355],"type":"scatter","xaxis":"x2","yaxis":"y2"},{"connectgaps":false,"line":{"color":"#a3344b"},"mode":"lines+markers","name":"ERA5-Land Tmedia (\u00b0C)","showlegend":false,"x":["1982-06-01","1982-07-01","1982-08-01","1982-09-01","1982-10-01"],"y":[16.42553815701899,16.23458676329858,16.667279981831143,16.239045925072332,15.611869191669824],"type":"scatter","xaxis":"x3","yaxis":"y3"},{"connectgaps":false,"line":{"color":"#23769b"},"mode":"lines+markers","name":"CHIRPS (mm\u002fmes)","showlegend":false,"x":["1992-05-01","1992-06-01","1992-07-01","1992-08-01","1992-09-01"],"y":[159.558,80.033,75.46,null,null],"type":"scatter","xaxis":"x4","yaxis":"y4"},{"connectgaps":false,"line":{"color":"#206c44"},"mode":"lines+markers","name":"Caudal Q (m\u00b3\u002fs)","showlegend":false,"x":["1992-05-01","1992-06-01","1992-07-01","1992-08-01","1992-09-01"],"y":[28.161290322580644,28.38,18.36774193548387,null,null],"type":"scatter","xaxis":"x5","yaxis":"y5"},{"connectgaps":false,"line":{"color":"#a3344b"},"mode":"lines+markers","name":"ERA5-Land Tmedia (\u00b0C)","showlegend":false,"x":["1992-05-01","1992-06-01","1992-07-01","1992-08-01","1992-09-01"],"y":[16.420107771063385,16.586233914477816,15.831544756197957,16.114490290387835,15.81081939236242],"type":"scatter","xaxis":"x6","yaxis":"y6"},{"connectgaps":false,"line":{"color":"#23769b"},"mode":"lines+markers","name":"CHIRPS (mm\u002fmes)","showlegend":false,"x":["1983-11-01","1983-12-01","1984-01-01","1984-02-01","1984-03-01"],"y":[209.144,236.262,190.868,199.502,162.651],"type":"scatter","xaxis":"x7","yaxis":"y7"},{"connectgaps":false,"line":{"color":"#206c44"},"mode":"lines+markers","name":"Caudal Q (m\u00b3\u002fs)","showlegend":false,"x":["1983-11-01","1983-12-01","1984-01-01","1984-02-01","1984-03-01"],"y":[46.17333333333333,98.76774193548388,127.13225806451612,106.63793103448276,75.26774193548388],"type":"scatter","xaxis":"x8","yaxis":"y8"},{"connectgaps":false,"line":{"color":"#a3344b"},"mode":"lines+markers","name":"ERA5-Land Tmedia (\u00b0C)","showlegend":false,"x":["1983-11-01","1983-12-01","1984-01-01","1984-02-01","1984-03-01"],"y":[15.758928671064552,15.12148189797938,14.842604815919572,15.052100921527083,15.692051432800326],"type":"scatter","xaxis":"x9","yaxis":"y9"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"xaxis":{"anchor":"y","domain":[0.0,0.2888888888888889]},"yaxis":{"anchor":"x","domain":[0.7466666666666667,1.0]},"xaxis2":{"anchor":"y2","domain":[0.35555555555555557,0.6444444444444445]},"yaxis2":{"anchor":"x2","domain":[0.7466666666666667,1.0]},"xaxis3":{"anchor":"y3","domain":[0.7111111111111111,1.0]},"yaxis3":{"anchor":"x3","domain":[0.7466666666666667,1.0]},"xaxis4":{"anchor":"y4","domain":[0.0,0.2888888888888889]},"yaxis4":{"anchor":"x4","domain":[0.37333333333333335,0.6266666666666667]},"xaxis5":{"anchor":"y5","domain":[0.35555555555555557,0.6444444444444445]},"yaxis5":{"anchor":"x5","domain":[0.37333333333333335,0.6266666666666667]},"xaxis6":{"anchor":"y6","domain":[0.7111111111111111,1.0]},"yaxis6":{"anchor":"x6","domain":[0.37333333333333335,0.6266666666666667]},"xaxis7":{"anchor":"y7","domain":[0.0,0.2888888888888889]},"yaxis7":{"anchor":"x7","domain":[0.0,0.25333333333333335]},"xaxis8":{"anchor":"y8","domain":[0.35555555555555557,0.6444444444444445]},"yaxis8":{"anchor":"x8","domain":[0.0,0.25333333333333335]},"xaxis9":{"anchor":"y9","domain":[0.7111111111111111,1.0]},"yaxis9":{"anchor":"x9","domain":[0.0,0.25333333333333335]},"annotations":[{"font":{"size":16},"showarrow":false,"text":"1982-08: CHIRPS (mm\u002fmes)","x":0.14444444444444446,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1982-08: Caudal Q (m\u00b3\u002fs)","x":0.5,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1982-08: ERA5-Land Tmedia (\u00b0C)","x":0.8555555555555556,"xanchor":"center","xref":"paper","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1992-07: CHIRPS (mm\u002fmes)","x":0.14444444444444446,"xanchor":"center","xref":"paper","y":0.6266666666666667,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1992-07: Caudal Q (m\u00b3\u002fs)","x":0.5,"xanchor":"center","xref":"paper","y":0.6266666666666667,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1992-07: ERA5-Land Tmedia (\u00b0C)","x":0.8555555555555556,"xanchor":"center","xref":"paper","y":0.6266666666666667,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1984-01: CHIRPS (mm\u002fmes)","x":0.14444444444444446,"xanchor":"center","xref":"paper","y":0.25333333333333335,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1984-01: Caudal Q (m\u00b3\u002fs)","x":0.5,"xanchor":"center","xref":"paper","y":0.25333333333333335,"yanchor":"bottom","yref":"paper"},{"font":{"size":16},"showarrow":false,"text":"1984-01: ERA5-Land Tmedia (\u00b0C)","x":0.8555555555555556,"xanchor":"center","xref":"paper","y":0.25333333333333335,"yanchor":"bottom","yref":"paper"}],"shapes":[{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":397008000000.0,"x1":397008000000.0,"xref":"x","y0":0,"y1":1,"yref":"y domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":397008000000.0,"x1":397008000000.0,"xref":"x2","y0":0,"y1":1,"yref":"y2 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":397008000000.0,"x1":397008000000.0,"xref":"x3","y0":0,"y1":1,"yref":"y3 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":709948800000.0,"x1":709948800000.0,"xref":"x4","y0":0,"y1":1,"yref":"y4 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":709948800000.0,"x1":709948800000.0,"xref":"x5","y0":0,"y1":1,"yref":"y5 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":709948800000.0,"x1":709948800000.0,"xref":"x6","y0":0,"y1":1,"yref":"y6 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":441763200000.0,"x1":441763200000.0,"xref":"x7","y0":0,"y1":1,"yref":"y7 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":441763200000.0,"x1":441763200000.0,"xref":"x8","y0":0,"y1":1,"yref":"y8 domain"},{"line":{"color":"#bf5b45","dash":"dash"},"type":"line","x0":441763200000.0,"x1":441763200000.0,"xref":"x9","y0":0,"y1":1,"yref":"y9 domain"}],"height":1000,"title":{"text":"Extremos hist\u00f3ricos anteriores a 1998: mes se\u00f1alado y vecinos"}},                        {"responsive": true, "displaylogo": false}                    )                };            </script>        </div></div><!-- EXTREMOS_HISTORICOS_FIN --><!-- CONCLUSION_EXTREMOS_INICIO --><div id="conclusion-extremos"><h3>Conclusión del contraste de extremos</h3><p><strong>¿Son coherentes entre variables?</strong> Sí, en general: los meses lluviosos coinciden con caudales altos o con aumentos posteriores, y los meses secos con caudales bajos. La principal discrepancia aparece en diciembre de 2015, cuando IMERG registra mucha menos lluvia que CHIRPS.</p><p><strong>¿Son episodios plausibles o problemas de datos?</strong> Las secuencias son físicamente plausibles y no encontramos evidencia suficiente para declarar errores. La discrepancia de diciembre de 2015 requiere revisión independiente; los faltantes posteriores a julio de 1992 limitan su comprobación.</p></div><!-- CONCLUSION_EXTREMOS_FIN --><!-- RESPUESTAS_INTERPRETACION_INICIO --><div id="respuestas-interpretacion"><h3>Interpretación de las cifras</h3><p><strong>¿Qué valores describen mejor un mes típico?</strong> En lluvia y temperatura, el promedio y la mediana son casi iguales, por lo que ambos sirven. Para caudal y escorrentía, conviene la mediana (el valor central al ordenar los meses), porque unos pocos meses muy altos hacen subir el promedio.</p><p><strong>¿Cuánto influyen los meses extremos?</strong> Influyen más en caudal y escorrentía. Como prueba, si limitamos los valores superiores al percentil 95 a ese umbral, sin cambiar los datos originales, el promedio del caudal baja de 109,83 a 106,25 m³/s y el de escorrentía de 103,27 a 99,76 mm/mes. Esto muestra que esos meses elevan el promedio, pero no significa que sean errores.</p><p><strong>¿En qué se diferencian CHIRPS e IMERG?</strong> Al comparar los mismos 285 meses, IMERG registra 46,05 mm/mes más de lluvia en promedio. CHIRPS muestra valores más dispersos, mientras los de IMERG están más agrupados. Esa diferencia no permite decir cuál mide mejor: necesitamos compararlos con una referencia independiente.</p><p>Esta condición típica reúne meses de todas las estaciones del año; no describe un mes calendario específico.</p></div><!-- RESPUESTAS_INTERPRETACION_FIN --></section><!-- IMERG_POLIGONO_FIN --><!-- DISPONIBILIDAD_FUENTES_INICIO --><section class="panel" id="disponibilidad-imerg-temperatura"><h2>Disponibilidad mensual de IMERG y temperatura</h2><p>IMERG dispone de 300 meses válidos de enero de 1998 a diciembre de 2022, sin faltantes en ese periodo. Los 204 meses de 1981–1997 están fuera de la cobertura utilizada, no son datos perdidos. ERA5-Land dispone de los 504 meses de 1981–2022, sin faltantes mensuales. Se comprueban fechas mensuales únicas y valores finitos; para precipitación se exige además un valor no negativo. Una temperatura negativa en °C no se clasifica como inválida por su signo. Esta revisión verifica la presencia y validez del resultado mensual disponible: no demuestra completitud diaria de los productos mensuales ni reemplaza la comprobación espacial de IMERG documentada en el punto 1.2. Las comparaciones conjuntas conservan solo los 285 meses válidos en todas las variables.</p><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Fuente</th>
+      <th>Inicio</th>
+      <th>Fin</th>
+      <th>Validos</th>
+      <th>Faltantes</th>
+      <th>Fuera_de_cobertura</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>IMERG polígono</td>
+      <td>1998-01</td>
+      <td>2022-12</td>
+      <td>300</td>
+      <td>0</td>
+      <td>204</td>
+    </tr>
+    <tr>
+      <td>ERA5-Land Tmedia</td>
+      <td>1981-01</td>
+      <td>2022-12</td>
+      <td>504</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div><div style="height:350px; width:100%;">                            <div id="mapa-disponibilidad-fuentes" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("mapa-disponibilidad-fuentes")) {                    Plotly.newPlot(                        "mapa-disponibilidad-fuentes",                        [{"base":[1981.0],"customdata":[["1981-01 a 1997-12",204]],"hovertemplate":"%{y}\u003cbr\u003e%{customdata[0]}\u003cbr\u003e%{customdata[1]} meses\u003cextra\u003eFuera de cobertura\u003c\u002fextra\u003e","marker":{"color":"#d9dde1"},"name":"Fuera de cobertura","orientation":"h","showlegend":true,"text":["204 meses fuera de cobertura"],"textposition":"inside","width":0.48,"x":[17.0],"y":["IMERG pol\u00edgono"],"type":"bar"},{"base":[1998.0],"customdata":[["1998-01 a 2022-12",300]],"hovertemplate":"%{y}\u003cbr\u003e%{customdata[0]}\u003cbr\u003e%{customdata[1]} meses\u003cextra\u003eV\u00e1lido\u003c\u002fextra\u003e","marker":{"color":"#34856a"},"name":"V\u00e1lido","orientation":"h","showlegend":true,"text":["300 meses v\u00e1lidos"],"textposition":"inside","width":0.48,"x":[25.0],"y":["IMERG pol\u00edgono"],"type":"bar"},{"base":[1981.0],"customdata":[["1981-01 a 2022-12",504]],"hovertemplate":"%{y}\u003cbr\u003e%{customdata[0]}\u003cbr\u003e%{customdata[1]} meses\u003cextra\u003eV\u00e1lido\u003c\u002fextra\u003e","marker":{"color":"#34856a"},"name":"V\u00e1lido","orientation":"h","showlegend":false,"text":["504 meses v\u00e1lidos"],"textposition":"inside","width":0.48,"x":[42.0],"y":["ERA5-Land Tmedia"],"type":"bar"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"yaxis":{"autorange":"reversed","categoryorder":"array","categoryarray":["IMERG pol\u00edgono","ERA5-Land Tmedia"]},"xaxis":{"range":[1981,2023],"tickvals":[1981,1990,1998,2010,2020,2023],"ticktext":["1981","1990","1998","2010","2020","Fin 2022"]},"legend":{"orientation":"h","y":-0.25},"margin":{"l":160,"r":35,"b":90},"height":350,"barmode":"overlay","title":{"text":"Cobertura temporal de los datos mensuales"}},                        {"responsive": true, "displaylogo": false}                    )                };            </script>        </div><details><summary>Conteos por fuente y año</summary><div style="overflow:auto"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>estado</th>
+      <th>fuente</th>
+      <th>anio</th>
+      <th>Fuera de cobertura</th>
+      <th>Válido</th>
+      <th>Faltante o inválido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1981</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1982</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1983</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1984</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1985</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1986</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1987</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1988</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1989</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1990</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1991</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1992</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1993</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1994</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1995</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1996</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1997</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1998</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>1999</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2000</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2001</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2002</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2003</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2004</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2005</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2006</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2007</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2008</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2009</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2010</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2011</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2012</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2013</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2014</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2015</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2016</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2017</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2018</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2019</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2020</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2021</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>ERA5-Land Tmedia</td>
+      <td>2022</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1981</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1982</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1983</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1984</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1985</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1986</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1987</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1988</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1989</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1990</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1991</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1992</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1993</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1994</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1995</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1996</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1997</td>
+      <td>12</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1998</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>1999</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2000</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2001</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2002</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2003</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2004</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2005</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2006</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2007</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2008</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2009</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2010</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2011</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2012</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2013</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2014</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2015</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2016</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2017</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2018</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2019</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2020</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2021</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td>IMERG polígono</td>
+      <td>2022</td>
+      <td>0</td>
+      <td>12</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table></div></details></section><!-- DISPONIBILIDAD_FUENTES_FIN --><footer>HTML autocontenido: datos y biblioteca Plotly incluidos. Se abre directamente, sin servidor ni conexión a Internet. Documento ampliable por pasos.</footer></main>
+
+
 
 
 
@@ -5712,6 +6428,7 @@ function ordenar(){
  mover(s13,document.getElementById('histogramas'),'Histogramas y estadísticos completos');
  const s14=sub(p1,'guia-1-4','1.4. Usar la exploración como control de calidad');
  mover(s14,document.getElementById('faltantes'),'Control de datos faltantes');
+ mover(s14,document.getElementById('disponibilidad-imerg-temperatura'),'Disponibilidad mensual de IMERG y temperatura');
  const s15=sub(p1,'guia-1-5','1.5. Climatología, variabilidad y explicación física');
  const pending=document.createElement('p');pending.textContent='Apartado pendiente de completar según la guía; esta reorganización no incorpora resultados nuevos.';s15.appendChild(pending);
  for(const [id,title] of [['guia-1-5-a','1.5.a. Construir la climatología de doce meses'],['guia-1-5-b','1.5.b. Describir y contrastar el ciclo anual'],['guia-1-5-c','1.5.c. Explicar los procesos regionales y de la cuenca']])pendiente(sub(s15,id,title));

@@ -62,7 +62,9 @@ Los procedimientos existentes se conservan junto a cada análisis; la metodolog�
     content += block(r'\subsection{Graficar las series de caudal y precipitación}', sources['01_series_mensuales'] + temp + parts[1])
     content += block(r'\subsection{Incorporar precipitación IMERG para la misma cuenca}', new12 + (r'\subsubsection*{Antecedentes conservados: IMERG promedio de caja}' if new12 else '') + imerg_reading)
     content += block(r'\subsection{Describir la distribución de los datos mensuales}', new13 + (r'\subsubsection*{Antecedentes conservados: fuentes y muestras anteriores}' if new13 else '') + sources['03_estadistica_por_ano'] + sources['06_histogramas_estadisticos'] + parts[2])
-    content += block(r'\subsection{Usar la exploración como control de calidad}', sources['02_control_faltantes'])
+    availability = DOC / 'disponibilidad_mensual' / 'disponibilidad_fuentes.tex'
+    new14 = availability.read_text(encoding='utf-8') if availability.exists() else ''
+    content += block(r'\subsection{Usar la exploración como control de calidad}', sources['02_control_faltantes'] + new14)
     content += block(r'\subsection{Climatología, variabilidad y explicación física}', imerg_cycle)
     content += 'Apartado pendiente de completar según la guía; esta reorganización no incorpora resultados nuevos.\n'
     for title in ['1.5.a. Construir la climatología de doce meses', '1.5.b. Describir y contrastar el ciclo anual', '1.5.c. Explicar los procesos regionales y de la cuenca']:
@@ -89,7 +91,7 @@ Los procedimientos existentes se conservan junto a cada análisis; la metodolog�
     content += '\\end{document}\n'
     original_used = ''.join(sources[name] for name in ['01_series_mensuales', '02_control_faltantes', '03_estadistica_por_ano', '05_temperatura_dispersion_mapas', '06_histogramas_estadisticos', '09_dispersiones_analisis', '08_tendencias', '04_procedencia_alcance'])
     figures = lambda t: sorted(re.findall(r'\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}', t))
-    assert figures(content) == figures(original_used + new12 + new13), 'Se modificó el inventario de figuras'
+    assert figures(content) == figures(original_used + new12 + new13 + new14), 'Se modificó el inventario de figuras'
     def bodies(text):
         text = re.sub(r'\\(?:subsubsection|subsection|section)\*?\{[^\n]*?\}', '', text)
         return re.sub(r'\s+', '', text)
@@ -145,6 +147,7 @@ function ordenar(){
  mover(s13,document.getElementById('histogramas'),'Histogramas y estadísticos completos');
  const s14=sub(p1,'guia-1-4','1.4. Usar la exploración como control de calidad');
  mover(s14,document.getElementById('faltantes'),'Control de datos faltantes');
+ mover(s14,document.getElementById('disponibilidad-imerg-temperatura'),'Disponibilidad mensual de IMERG y temperatura');
  const s15=sub(p1,'guia-1-5','1.5. Climatología, variabilidad y explicación física');
  const pending=document.createElement('p');pending.textContent='Apartado pendiente de completar según la guía; esta reorganización no incorpora resultados nuevos.';s15.appendChild(pending);
  for(const [id,title] of [['guia-1-5-a','1.5.a. Construir la climatología de doce meses'],['guia-1-5-b','1.5.b. Describir y contrastar el ciclo anual'],['guia-1-5-c','1.5.c. Explicar los procesos regionales y de la cuenca']])pendiente(sub(s15,id,title));

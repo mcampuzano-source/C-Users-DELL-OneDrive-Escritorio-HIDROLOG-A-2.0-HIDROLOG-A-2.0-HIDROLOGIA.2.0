@@ -18,14 +18,27 @@ pueden consultarse en su código completo, incluido abajo.</p>
 script 22, script 23, script 21 y script 25. Para actualizar esta vista de código al terminar, ejecutar el script 24.
 La generación de esta página solo lee las fuentes: no ejecuta descargas ni recalcula datos.
 Los HDF5 originales permanecen locales; GitHub contiene los scripts, informes y resultados procesados.</p>
-<p>Fuentes actuales reproducibles:</p><nav><a href="#codigo-actual-01">apartado_1_2.tex</a><a href="#codigo-actual-02">apartado_1_3.tex</a><a href="#codigo-actual-03">contraste_extremos.tex</a><a href="#codigo-actual-04">interpretacion_graficas.tex</a><a href="#codigo-actual-05">informe_interactivo.html</a><a href="#codigo-actual-06">informe.tex</a><a href="#codigo-actual-07">informe_ordenado.tex</a><a href="#codigo-actual-08">01_series_mensuales.tex</a><a href="#codigo-actual-09">02_control_faltantes.tex</a><a href="#codigo-actual-10">03_estadistica_por_ano.tex</a><a href="#codigo-actual-11">04_procedencia_alcance.tex</a><a href="#codigo-actual-12">05_temperatura_dispersion_mapas.tex</a><a href="#codigo-actual-13">06_histogramas_estadisticos.tex</a><a href="#codigo-actual-14">07_diagramas_caja.tex</a><a href="#codigo-actual-15">08_tendencias.tex</a><a href="#codigo-actual-16">09_dispersiones_analisis.tex</a><a href="#codigo-actual-17">05_filtrar_temperatura_imerg.py</a><a href="#codigo-actual-18">06_mostrar_codigo.py</a><a href="#codigo-actual-19">07_contar_estaciones_ideam.py</a><a href="#codigo-actual-20">08_exploracion_mensual_la_vieja.py</a><a href="#codigo-actual-21">09_informe_exploracion.py</a><a href="#codigo-actual-22">10_documentos_series_mensuales.py</a><a href="#codigo-actual-23">11_verificar_documento_interactivo.py</a><a href="#codigo-actual-24">12_compilar_latex.py</a><a href="#codigo-actual-25">13_control_faltantes_documentos.py</a><a href="#codigo-actual-26">14_estadisticas_por_ano.py</a><a href="#codigo-actual-27">15_grafica_cobertura_mensual.py</a><a href="#codigo-actual-28">16_procedencia_alcance.py</a><a href="#codigo-actual-29">17_topografia_la_vieja.py</a><a href="#codigo-actual-30">18_temperatura_dispersion_mapas.py</a><a href="#codigo-actual-31">19_histogramas_estadisticas.py</a><a href="#codigo-actual-32">20_verificar_precipitacion_insitu.py</a><a href="#codigo-actual-33">21_ordenar_informes.py</a><a href="#codigo-actual-34">22_imerg_poligono_estadisticas.py</a><a href="#codigo-actual-35">23_ampliar_distribuciones.py</a><a href="#codigo-actual-36">24_actualizar_codigo_completo.py</a><a href="#codigo-actual-37">25_contraste_extremos_interactivo.py</a><a href="#codigo-actual-38">26_graficas_interpretacion.py</a><a href="#codigo-actual-39">27_justificar_frecuencias.py</a><a href="#codigo-actual-40">28_extremos_registro_historico.py</a><a href="#codigo-actual-41">29_conclusion_extremos.py</a><a href="#codigo-actual-42">30_respuestas_interpretacion.py</a><a href="#codigo-actual-43">crear_excel.py</a><a href="#codigo-actual-44">descargar_camels.py</a><a href="#codigo-actual-45">graficar_disponibilidad.py</a><a href="#codigo-actual-46">revisar_series.py</a><a href="#codigo-actual-47">download_files_GPM_3IMERGM_07.original.py</a><a href="#codigo-actual-48">download_files_GPM_3IMERGM_07.py</a></nav><section id="codigo-actual-01"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/apartado_1_2.tex</h3><p>SHA256: <code>46c95f67a2751b225421065089bed14dac423fdcd8f08ea71b6b511a8a4b7f49</code></p><details><summary>Ver código completo de apartado_1_2.tex</summary><pre><code>\subsubsection*{IMERG: promedio exacto de cuenca y validación (V07B)}
+<p>Fuentes actuales reproducibles:</p><nav><a href="#codigo-actual-01">disponibilidad_fuentes.tex</a><a href="#codigo-actual-02">apartado_1_2.tex</a><a href="#codigo-actual-03">apartado_1_3.tex</a><a href="#codigo-actual-04">contraste_extremos.tex</a><a href="#codigo-actual-05">interpretacion_graficas.tex</a><a href="#codigo-actual-06">informe_interactivo.html</a><a href="#codigo-actual-07">informe.tex</a><a href="#codigo-actual-08">informe_ordenado.tex</a><a href="#codigo-actual-09">01_series_mensuales.tex</a><a href="#codigo-actual-10">02_control_faltantes.tex</a><a href="#codigo-actual-11">03_estadistica_por_ano.tex</a><a href="#codigo-actual-12">04_procedencia_alcance.tex</a><a href="#codigo-actual-13">05_temperatura_dispersion_mapas.tex</a><a href="#codigo-actual-14">06_histogramas_estadisticos.tex</a><a href="#codigo-actual-15">07_diagramas_caja.tex</a><a href="#codigo-actual-16">08_tendencias.tex</a><a href="#codigo-actual-17">09_dispersiones_analisis.tex</a><a href="#codigo-actual-18">05_filtrar_temperatura_imerg.py</a><a href="#codigo-actual-19">06_mostrar_codigo.py</a><a href="#codigo-actual-20">07_contar_estaciones_ideam.py</a><a href="#codigo-actual-21">08_exploracion_mensual_la_vieja.py</a><a href="#codigo-actual-22">09_informe_exploracion.py</a><a href="#codigo-actual-23">10_documentos_series_mensuales.py</a><a href="#codigo-actual-24">11_verificar_documento_interactivo.py</a><a href="#codigo-actual-25">12_compilar_latex.py</a><a href="#codigo-actual-26">13_control_faltantes_documentos.py</a><a href="#codigo-actual-27">14_estadisticas_por_ano.py</a><a href="#codigo-actual-28">15_grafica_cobertura_mensual.py</a><a href="#codigo-actual-29">16_procedencia_alcance.py</a><a href="#codigo-actual-30">17_topografia_la_vieja.py</a><a href="#codigo-actual-31">18_temperatura_dispersion_mapas.py</a><a href="#codigo-actual-32">19_histogramas_estadisticas.py</a><a href="#codigo-actual-33">20_verificar_precipitacion_insitu.py</a><a href="#codigo-actual-34">21_ordenar_informes.py</a><a href="#codigo-actual-35">22_imerg_poligono_estadisticas.py</a><a href="#codigo-actual-36">23_ampliar_distribuciones.py</a><a href="#codigo-actual-37">24_actualizar_codigo_completo.py</a><a href="#codigo-actual-38">25_contraste_extremos_interactivo.py</a><a href="#codigo-actual-39">26_graficas_interpretacion.py</a><a href="#codigo-actual-40">27_justificar_frecuencias.py</a><a href="#codigo-actual-41">28_extremos_registro_historico.py</a><a href="#codigo-actual-42">29_conclusion_extremos.py</a><a href="#codigo-actual-43">30_respuestas_interpretacion.py</a><a href="#codigo-actual-44">31_disponibilidad_imerg_temperatura.py</a><a href="#codigo-actual-45">crear_excel.py</a><a href="#codigo-actual-46">descargar_camels.py</a><a href="#codigo-actual-47">graficar_disponibilidad.py</a><a href="#codigo-actual-48">revisar_series.py</a><a href="#codigo-actual-49">download_files_GPM_3IMERGM_07.original.py</a><a href="#codigo-actual-50">download_files_GPM_3IMERGM_07.py</a></nav><section id="codigo-actual-01"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/disponibilidad_mensual/disponibilidad_fuentes.tex</h3><p>SHA256: <code>6bb96ec01ea1dac677d3658dbc74fb99071a4f81085febd841cdcca2172ae56a</code></p><details><summary>Ver código completo de disponibilidad_fuentes.tex</summary><pre><code>\subsubsection*{Disponibilidad mensual de IMERG y temperatura}
+IMERG dispone de 300 meses válidos de enero de 1998 a diciembre de 2022, sin faltantes en ese periodo. Los 204 meses de 1981--1997 están fuera de la cobertura utilizada, no son datos perdidos. ERA5-Land dispone de los 504 meses de 1981--2022, sin faltantes mensuales. Se comprueban fechas mensuales únicas y valores finitos; para precipitación se exige además un valor no negativo. Una temperatura negativa en $^\circ$C no se clasifica como inválida por su signo. Esta revisión verifica la presencia y validez del resultado mensual disponible: no demuestra completitud diaria de los productos mensuales ni reemplaza la comprobación espacial de IMERG documentada en el punto 1.2. Las comparaciones conjuntas conservan solo los 285 meses válidos en todas las variables.
+\begin{center}{\small
+\begin{tabular}{lllrrr}
+\toprule
+Fuente &amp; Inicio &amp; Fin &amp; Validos &amp; Faltantes &amp; Fuera\_de\_cobertura \\
+\midrule
+IMERG polígono &amp; 1998-01 &amp; 2022-12 &amp; 300 &amp; 0 &amp; 204 \\
+ERA5-Land Tmedia &amp; 1981-01 &amp; 2022-12 &amp; 504 &amp; 0 &amp; 0 \\
+\bottomrule
+\end{tabular}
+}\end{center}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/disponibilidad_imerg_era5.pdf}\caption{Cobertura temporal mensual. Gris: fuera de cobertura; verde: meses válidos. No hay faltantes dentro de los periodos utilizados. El detalle por año y mes se conserva en los archivos de disponibilidad.}\end{figure}
+</code></pre></details></section><section id="codigo-actual-02"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/apartado_1_2.tex</h3><p>SHA256: <code>46c95f67a2751b225421065089bed14dac423fdcd8f08ea71b6b511a8a4b7f49</code></p><details><summary>Ver código completo de apartado_1_2.tex</summary><pre><code>\subsubsection*{IMERG: promedio exacto de cuenca y validación (V07B)}
 Actualización del 4 de octubre de 2026. IMERG Final Run V07B (GPM\_3IMERGM), variable Grid/precipitation, malla de 0,1$^\circ$. Se verificaron 300 archivos mensuales de enero de 1998 a diciembre de 2022. El promedio se calcula sobre el polígono CAMELS de La Vieja con 42 celdas intersectadas, 31 de borde, ponderadas por el área geodésica WGS84 de su intersección. Cobertura espacial 100.000000\%. Área geodésica del polígono 2780.18 km²; el área CAMELS de 2797,19 km² usada para R permanece sin cambios. Las tasas originales están en mm/h y se multiplican por las horas de cada mes, incluidos los bisiestos. No se rellenan celdas ni se renormalizan pesos cuando faltan valores. Hay 300/300 meses válidos y 285 meses completos comunes con CHIRPS y Q. Enero de 1998: 0.10202291 mm/h $\times$ 744 h = 75.905043 mm/mes; se comprobó también la suma independiente celda por celda. El promedio Giovanni de caja y sus resultados previos se conservan como antecedentes y no se mezclan con esta nueva serie. Los bordes se segmentizan a máximo 0,001$^\circ$ para las áreas geodésicas. Se reconstruyen límites contiguos de la malla nominal 0,1$^\circ$ para evitar los solapes del redondeo float32 de los límites originales; ambos límites quedan registrados. No se modifica ni remuestrea la precipitación. La suma de intersecciones coincide con el área del polígono dentro de una tolerancia relativa de una parte por millón. La malla es de unos 11 km por lado en esta región: aporta representación espacial de la cuenca, pero no resuelve toda la variabilidad orográfica interna.
 
 Acceso: GES DISC mediante el script de descarga conservado y sesión Earthdata. Reproducción: \path{scripts/22_imerg_poligono_estadisticas.py}; huellas, pesos y metadatos en \path{documentos/imerg_poligono}.
 
 DOI: \url{https://doi.org/10.5067/GPM/IMERG/3B-MONTH/07}.
 \begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/imerg_poligono_series.pdf}\caption{Fuentes identificadas y alineadas, 1998--2022; los vacíos se conservan.}\end{figure}
-</code></pre></details></section><section id="codigo-actual-02"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/apartado_1_3.tex</h3><p>SHA256: <code>03a60b6a8792120839c0a1e4ee4577ba3181aff0021b2e093ff6795e04d25b18</code></p><details><summary>Ver código completo de apartado_1_3.tex</summary><pre><code>\subsubsection*{Distribuciones actualizadas: IMERG de cuenca y ERA5-Land}
+</code></pre></details></section><section id="codigo-actual-03"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/apartado_1_3.tex</h3><p>SHA256: <code>03a60b6a8792120839c0a1e4ee4577ba3181aff0021b2e093ff6795e04d25b18</code></p><details><summary>Ver código completo de apartado_1_3.tex</summary><pre><code>\subsubsection*{Distribuciones actualizadas: IMERG de cuenca y ERA5-Land}
 Desviación estándar muestral (n-1); percentiles lineales tipo 7. Histogramas Freedman--Diaconis; CHIRPS e IMERG usan los mismos 285 meses y exactamente los mismos bordes. Barras en porcentaje de meses, cuya suma es 100\%. Se utilizan frecuencias relativas para expresar qué porcentaje de meses cae en cada intervalo y facilitar la comparación de las distribuciones. En CHIRPS e IMERG se mantienen los mismos 285 meses y límites de clase, por lo que las diferencias entre barras corresponden a la distribución de los productos y no a distintos tamaños de muestra. Las estadísticas del registro disponible por fuente conservan sus distintas coberturas y se presentan separadas de la muestra común. ERA5-Land es temperatura a 2 m de reanálisis, no estación terrestre ni estimación MSWX.
 \subsubsection*{Registros disponibles por fuente}
 {\scriptsize
@@ -247,7 +260,7 @@ ERA5-Land Tmedia &amp; 504 &amp; 504 &amp; 0 &amp; 0 \\
 \end{tabular}
 }
 % DISTRIBUCIONES_AMPLIADAS_FIN
-</code></pre></details></section><section id="codigo-actual-03"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/contraste_extremos.tex</h3><p>SHA256: <code>43869644092932c82fa620f63f274960e8c9f9f9a648ed389e4432dcecc56759</code></p><details><summary>Ver código completo de contraste_extremos.tex</summary><pre><code>\subsubsection*{Meses extremos y contraste con las series cronológicas}
+</code></pre></details></section><section id="codigo-actual-04"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/contraste_extremos.tex</h3><p>SHA256: <code>43869644092932c82fa620f63f274960e8c9f9f9a648ed389e4432dcecc56759</code></p><details><summary>Ver código completo de contraste_extremos.tex</summary><pre><code>\subsubsection*{Meses extremos y contraste con las series cronológicas}
 Se identifican los mínimos y máximos de los mismos 285 meses completos de 1998--2022 y se contrastan con las series de la Figura 8 y los valores de sus meses vecinos. Son extremos de la muestra común, que se distingue de los registros completos por fuente. Los meses adicionales con valores altos se evalúan mediante P95 y los límites de las cajas; no se exige que todas las variables sean extremas simultáneamente.
 
 \begin{center}
@@ -308,7 +321,7 @@ Enero de 1984: ERA5-Land alcanza su temperatura mínima (14,84 $^\circ$C), con v
 
 \textbf{¿Son episodios plausibles o problemas de datos?} Las secuencias son físicamente plausibles y no encontramos evidencia suficiente para declarar errores. La discrepancia de diciembre de 2015 requiere revisión independiente; los faltantes posteriores a julio de 1992 limitan su comprobación.
 % CONCLUSION_EXTREMOS_FIN
-</code></pre></details></section><section id="codigo-actual-04"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/interpretacion_graficas.tex</h3><p>SHA256: <code>fd24dc82ab93bbef36b4d1feafcb366c52ebd056eb671b0096c0dd6752a31736</code></p><details><summary>Ver código completo de interpretacion_graficas.tex</summary><pre><code>\subsubsection*{Interpretación visual: condición típica, extremos y fuentes}
+</code></pre></details></section><section id="codigo-actual-05"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/imerg_poligono/interpretacion_graficas.tex</h3><p>SHA256: <code>fd24dc82ab93bbef36b4d1feafcb366c52ebd056eb671b0096c0dd6752a31736</code></p><details><summary>Ver código completo de interpretacion_graficas.tex</summary><pre><code>\subsubsection*{Interpretación visual: condición típica, extremos y fuentes}
 La primera figura compara media y mediana con sus valores reales y unidades propias, en paneles separados: Q y R presentan mayor separación, mientras lluvia y temperatura tienen centros próximos. La segunda compara los mismos percentiles de ambas precipitaciones; permite localizar las diferencias en el centro y las colas, sin confundir percentiles con fechas. La tercera muestra un diagnóstico hipotético: se limita cada valor superior a P95 a ese umbral y se mide cuánto bajaría la media en las unidades de cada variable. Los valores y las diferencias se indican explícitamente; cada panel usa su propia escala, por lo que no deben compararse alturas entre variables. La comparación evidencia sensibilidad a la cola alta, no errores ni una corrección recomendada. Los datos, gráficos y estadísticos oficiales conservan todos los valores originales. La proximidad de media y mediana no demuestra normalidad. Las distribuciones mezclan meses calendario; no representan la climatología del punto 1.5.
 \begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/interpretacion_centro.pdf}\caption{Centro: media frente a mediana. Mismos 285 meses comunes; paneles con unidades propias.}\end{figure}
 \begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/interpretacion_percentiles.pdf}\caption{Lluvia: percentiles compartidos. Mismos 285 meses comunes; paneles con unidades propias.}\end{figure}
@@ -324,7 +337,7 @@ La primera figura compara media y mediana con sus valores reales y unidades prop
 
 Esta condición típica reúne meses de todas las estaciones del año; no describe un mes calendario específico.
 % RESPUESTAS_INTERPRETACION_FIN
-</code></pre></details></section><section id="codigo-actual-05"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/informe_interactivo.html</h3><p>SHA256: <code>9cbb67705ecf887df0b1f199d00efae53a25fb77ce3087dabf1051635611105a</code></p><details><summary>Ver código completo de informe_interactivo.html</summary><pre><code>http://127.0.0.1:3000/HIDROLOG&lt;!doctype html&gt;&lt;html lang=&quot;es&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;title&gt;La Vieja — informe interactivo&lt;/title&gt;&lt;style&gt;
+</code></pre></details></section><section id="codigo-actual-06"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/informe_interactivo.html</h3><p>SHA256: <code>6dbdb0c33901fc78909f810dc834bcce3686b2ab31267e73a3362a7e3dbe3cac</code></p><details><summary>Ver código completo de informe_interactivo.html</summary><pre><code>http://127.0.0.1:3000/HIDROLOG&lt;!doctype html&gt;&lt;html lang=&quot;es&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1&quot;&gt;&lt;title&gt;La Vieja — informe interactivo&lt;/title&gt;&lt;style&gt;
 body{font:16px/1.6 system-ui,sans-serif;color:#193646;margin:0;background:#f3f6f8}main{max-width:1250px;margin:auto;padding:30px 24px}h1,h2{line-height:1.2}.etiqueta{color:#32758b;font-size:13px;text-transform:uppercase;letter-spacing:.08em}.ficha{display:flex;gap:14px;flex-wrap:wrap}.ficha p{background:white;border:1px solid #dce5e9;padding:12px 20px;border-radius:8px}.panel{background:white;padding:20px;border-radius:10px;margin:20px 0}.nota{border-left:4px solid #cb9541;padding-left:18px}code{font:14px Consolas,monospace}footer{font-size:13px;color:#526976}button{background:#226d87;color:white;border:0;padding:10px 14px;cursor:pointer;border-radius:5px}a{color:#226d87}@media(max-width:600px){main{padding:18px 10px}.panel{padding:10px}}
 &lt;/style&gt;&lt;style id=&quot;tablas-centradas&quot;&gt;table { margin-left: auto !important; margin-right: auto !important; }&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;main&gt;&lt;p class=&quot;etiqueta&quot;&gt;Hidrología · Documento en construcción · Pasos 1–3&lt;/p&gt;&lt;h1&gt;Cuenca del río La Vieja&lt;/h1&gt;&lt;p&gt;Series mensuales de precipitación y caudal hasta la estación Cartago · IDEAM 26127040.&lt;/p&gt;
 &lt;div class=&quot;ficha&quot;&gt;&lt;p&gt;&lt;b&gt;1981–2022&lt;/b&gt;&lt;br&gt;Periodo analizado&lt;/p&gt;&lt;p&gt;&lt;b&gt;2.797,19 km²&lt;/b&gt;&lt;br&gt;Área CAMELS&lt;/p&gt;&lt;p&gt;&lt;b&gt;485 / 504&lt;/b&gt;&lt;br&gt;Meses completos&lt;/p&gt;&lt;p&gt;&lt;b&gt;19 meses&lt;/b&gt;&lt;br&gt;Excluidos, sin relleno&lt;/p&gt;&lt;/div&gt;
@@ -5989,7 +6002,723 @@ Plotly.newPlot(&#x27;imerg-caudal-interactivo&#x27;,[{x:x,y:imerg,type:&#x27;sca
       &lt;td&gt;14.84&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;&lt;/div&gt;&lt;p&gt;Este contraste utiliza el registro completo por fuente, separado de los 285 meses comunes con IMERG. Se revisan agosto de 1982, julio de 1992 y enero de 1984 porque contienen los mínimos históricos que no aparecen en la figura de 1998–2022. Son datos válidos anteriores a la cobertura IMERG utilizada, no meses descartados por ese motivo. Los máximos de CHIRPS, Q, R y temperatura están dentro del periodo ya analizado; el máximo IMERG de noviembre de 2008 se mantiene aparte por ausencia de CHIRPS y Q.&lt;/p&gt;&lt;p&gt;Agosto de 1982: CHIRPS alcanza 24,89 mm/mes, tras 87,29 en junio y 53,49 en julio. Q desciende de 77,22 a 45,62 y 29,20 m³/s; R es 27,96 mm/mes en agosto. En septiembre aumenta la lluvia a 168,27 mm/mes, pero Q permanece bajo (31,70 m³/s), y en octubre sube a 66,39 m³/s. Es una secuencia plausible de condiciones secas y recuperación posterior; el mínimo de lluvia no constituye por sí solo un problema de datos.&lt;/p&gt;&lt;p&gt;Julio de 1992: Q y R alcanzan sus mínimos históricos (18,37 m³/s y 17,59 mm/mes). CHIRPS registra 75,46 mm/mes, después de 80,03 en junio; Q ya era bajo en mayo y junio (28,16 y 28,38 m³/s). La persistencia de caudal bajo es compatible con almacenamiento reducido, pero agosto y septiembre tienen datos ausentes de CHIRPS, Q y R: no puede comprobarse la evolución posterior con esas series ni rellenarse el vacío con cero.&lt;/p&gt;&lt;p&gt;Enero de 1984: ERA5-Land alcanza su temperatura mínima (14,84 °C), con valores próximos en diciembre (15,12 °C) y febrero (15,05 °C). CHIRPS permanece entre 190,87 y 236,26 mm/mes en esos tres meses y Q entre 98,77 y 127,13 m³/s. El mínimo está integrado en una secuencia de temperaturas bajas y lluvia apreciable, sin un salto aislado evidente. Es plausible, pero no prueba causalidad ni exactitud del reanálisis. En conjunto, no se identifican errores confirmados: se conservan todos los valores y se reconoce la limitación de los faltantes de 1992. R deriva de Q, por lo que su coincidencia no constituye evidencia independiente.&lt;/p&gt;&lt;div style=&quot;height:1000px; width:100%;&quot;&gt;                            &lt;div id=&quot;extremos-historicos-cronologias&quot; class=&quot;plotly-graph-div&quot; style=&quot;height:100%; width:100%;&quot;&gt;&lt;/div&gt;            &lt;script&gt;                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById(&quot;extremos-historicos-cronologias&quot;)) {                    Plotly.newPlot(                        &quot;extremos-historicos-cronologias&quot;,                        [{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#23769b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;CHIRPS (mm\u002fmes)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1982-06-01&quot;,&quot;1982-07-01&quot;,&quot;1982-08-01&quot;,&quot;1982-09-01&quot;,&quot;1982-10-01&quot;],&quot;y&quot;:[87.288,53.492,24.892,168.272,295.096],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x&quot;,&quot;yaxis&quot;:&quot;y&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#206c44&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;Caudal Q (m\u00b3\u002fs)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1982-06-01&quot;,&quot;1982-07-01&quot;,&quot;1982-08-01&quot;,&quot;1982-09-01&quot;,&quot;1982-10-01&quot;],&quot;y&quot;:[77.21666666666667,45.61612903225806,29.203225806451613,31.7,66.38709677419355],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x2&quot;,&quot;yaxis&quot;:&quot;y2&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#a3344b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;ERA5-Land Tmedia (\u00b0C)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1982-06-01&quot;,&quot;1982-07-01&quot;,&quot;1982-08-01&quot;,&quot;1982-09-01&quot;,&quot;1982-10-01&quot;],&quot;y&quot;:[16.42553815701899,16.23458676329858,16.667279981831143,16.239045925072332,15.611869191669824],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x3&quot;,&quot;yaxis&quot;:&quot;y3&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#23769b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;CHIRPS (mm\u002fmes)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1992-05-01&quot;,&quot;1992-06-01&quot;,&quot;1992-07-01&quot;,&quot;1992-08-01&quot;,&quot;1992-09-01&quot;],&quot;y&quot;:[159.558,80.033,75.46,null,null],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x4&quot;,&quot;yaxis&quot;:&quot;y4&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#206c44&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;Caudal Q (m\u00b3\u002fs)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1992-05-01&quot;,&quot;1992-06-01&quot;,&quot;1992-07-01&quot;,&quot;1992-08-01&quot;,&quot;1992-09-01&quot;],&quot;y&quot;:[28.161290322580644,28.38,18.36774193548387,null,null],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x5&quot;,&quot;yaxis&quot;:&quot;y5&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#a3344b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;ERA5-Land Tmedia (\u00b0C)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1992-05-01&quot;,&quot;1992-06-01&quot;,&quot;1992-07-01&quot;,&quot;1992-08-01&quot;,&quot;1992-09-01&quot;],&quot;y&quot;:[16.420107771063385,16.586233914477816,15.831544756197957,16.114490290387835,15.81081939236242],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x6&quot;,&quot;yaxis&quot;:&quot;y6&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#23769b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;CHIRPS (mm\u002fmes)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1983-11-01&quot;,&quot;1983-12-01&quot;,&quot;1984-01-01&quot;,&quot;1984-02-01&quot;,&quot;1984-03-01&quot;],&quot;y&quot;:[209.144,236.262,190.868,199.502,162.651],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x7&quot;,&quot;yaxis&quot;:&quot;y7&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#206c44&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;Caudal Q (m\u00b3\u002fs)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1983-11-01&quot;,&quot;1983-12-01&quot;,&quot;1984-01-01&quot;,&quot;1984-02-01&quot;,&quot;1984-03-01&quot;],&quot;y&quot;:[46.17333333333333,98.76774193548388,127.13225806451612,106.63793103448276,75.26774193548388],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x8&quot;,&quot;yaxis&quot;:&quot;y8&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#a3344b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;ERA5-Land Tmedia (\u00b0C)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1983-11-01&quot;,&quot;1983-12-01&quot;,&quot;1984-01-01&quot;,&quot;1984-02-01&quot;,&quot;1984-03-01&quot;],&quot;y&quot;:[15.758928671064552,15.12148189797938,14.842604815919572,15.052100921527083,15.692051432800326],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x9&quot;,&quot;yaxis&quot;:&quot;y9&quot;}],                        {&quot;template&quot;:{&quot;data&quot;:{&quot;histogram2dcontour&quot;:[{&quot;type&quot;:&quot;histogram2dcontour&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;choropleth&quot;:[{&quot;type&quot;:&quot;choropleth&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;histogram2d&quot;:[{&quot;type&quot;:&quot;histogram2d&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;heatmap&quot;:[{&quot;type&quot;:&quot;heatmap&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;contourcarpet&quot;:[{&quot;type&quot;:&quot;contourcarpet&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;contour&quot;:[{&quot;type&quot;:&quot;contour&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;surface&quot;:[{&quot;type&quot;:&quot;surface&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;mesh3d&quot;:[{&quot;type&quot;:&quot;mesh3d&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;scatter&quot;:[{&quot;fillpattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2},&quot;type&quot;:&quot;scatter&quot;}],&quot;parcoords&quot;:[{&quot;type&quot;:&quot;parcoords&quot;,&quot;line&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterpolargl&quot;:[{&quot;type&quot;:&quot;scatterpolargl&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;bar&quot;:[{&quot;error_x&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;error_y&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;marker&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#E5ECF6&quot;,&quot;width&quot;:0.5},&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;bar&quot;}],&quot;scattergeo&quot;:[{&quot;type&quot;:&quot;scattergeo&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterpolar&quot;:[{&quot;type&quot;:&quot;scatterpolar&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;histogram&quot;:[{&quot;marker&quot;:{&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;histogram&quot;}],&quot;scattergl&quot;:[{&quot;type&quot;:&quot;scattergl&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatter3d&quot;:[{&quot;type&quot;:&quot;scatter3d&quot;,&quot;line&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}},&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scattermap&quot;:[{&quot;type&quot;:&quot;scattermap&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterternary&quot;:[{&quot;type&quot;:&quot;scatterternary&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scattercarpet&quot;:[{&quot;type&quot;:&quot;scattercarpet&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;carpet&quot;:[{&quot;aaxis&quot;:{&quot;endlinecolor&quot;:&quot;#2a3f5f&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;minorgridcolor&quot;:&quot;white&quot;,&quot;startlinecolor&quot;:&quot;#2a3f5f&quot;},&quot;baxis&quot;:{&quot;endlinecolor&quot;:&quot;#2a3f5f&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;minorgridcolor&quot;:&quot;white&quot;,&quot;startlinecolor&quot;:&quot;#2a3f5f&quot;},&quot;type&quot;:&quot;carpet&quot;}],&quot;table&quot;:[{&quot;cells&quot;:{&quot;fill&quot;:{&quot;color&quot;:&quot;#EBF0F8&quot;},&quot;line&quot;:{&quot;color&quot;:&quot;white&quot;}},&quot;header&quot;:{&quot;fill&quot;:{&quot;color&quot;:&quot;#C8D4E3&quot;},&quot;line&quot;:{&quot;color&quot;:&quot;white&quot;}},&quot;type&quot;:&quot;table&quot;}],&quot;barpolar&quot;:[{&quot;marker&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#E5ECF6&quot;,&quot;width&quot;:0.5},&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;barpolar&quot;}],&quot;pie&quot;:[{&quot;automargin&quot;:true,&quot;type&quot;:&quot;pie&quot;}]},&quot;layout&quot;:{&quot;autotypenumbers&quot;:&quot;strict&quot;,&quot;colorway&quot;:[&quot;#636efa&quot;,&quot;#EF553B&quot;,&quot;#00cc96&quot;,&quot;#ab63fa&quot;,&quot;#FFA15A&quot;,&quot;#19d3f3&quot;,&quot;#FF6692&quot;,&quot;#B6E880&quot;,&quot;#FF97FF&quot;,&quot;#FECB52&quot;],&quot;font&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;hovermode&quot;:&quot;closest&quot;,&quot;hoverlabel&quot;:{&quot;align&quot;:&quot;left&quot;},&quot;paper_bgcolor&quot;:&quot;white&quot;,&quot;plot_bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;polar&quot;:{&quot;bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;angularaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;radialaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;}},&quot;ternary&quot;:{&quot;bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;aaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;baxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;caxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;}},&quot;coloraxis&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}},&quot;colorscale&quot;:{&quot;sequential&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]],&quot;sequentialminus&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]],&quot;diverging&quot;:[[0,&quot;#8e0152&quot;],[0.1,&quot;#c51b7d&quot;],[0.2,&quot;#de77ae&quot;],[0.3,&quot;#f1b6da&quot;],[0.4,&quot;#fde0ef&quot;],[0.5,&quot;#f7f7f7&quot;],[0.6,&quot;#e6f5d0&quot;],[0.7,&quot;#b8e186&quot;],[0.8,&quot;#7fbc41&quot;],[0.9,&quot;#4d9221&quot;],[1,&quot;#276419&quot;]]},&quot;xaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;,&quot;title&quot;:{&quot;standoff&quot;:15},&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;automargin&quot;:true,&quot;zerolinewidth&quot;:2},&quot;yaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;,&quot;title&quot;:{&quot;standoff&quot;:15},&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;automargin&quot;:true,&quot;zerolinewidth&quot;:2},&quot;scene&quot;:{&quot;xaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2},&quot;yaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2},&quot;zaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2}},&quot;shapedefaults&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;}},&quot;annotationdefaults&quot;:{&quot;arrowcolor&quot;:&quot;#2a3f5f&quot;,&quot;arrowhead&quot;:0,&quot;arrowwidth&quot;:1},&quot;geo&quot;:{&quot;bgcolor&quot;:&quot;white&quot;,&quot;landcolor&quot;:&quot;#E5ECF6&quot;,&quot;subunitcolor&quot;:&quot;white&quot;,&quot;showland&quot;:true,&quot;showlakes&quot;:true,&quot;lakecolor&quot;:&quot;white&quot;},&quot;title&quot;:{&quot;x&quot;:0.05}}},&quot;xaxis&quot;:{&quot;anchor&quot;:&quot;y&quot;,&quot;domain&quot;:[0.0,0.2888888888888889]},&quot;yaxis&quot;:{&quot;anchor&quot;:&quot;x&quot;,&quot;domain&quot;:[0.7466666666666667,1.0]},&quot;xaxis2&quot;:{&quot;anchor&quot;:&quot;y2&quot;,&quot;domain&quot;:[0.35555555555555557,0.6444444444444445]},&quot;yaxis2&quot;:{&quot;anchor&quot;:&quot;x2&quot;,&quot;domain&quot;:[0.7466666666666667,1.0]},&quot;xaxis3&quot;:{&quot;anchor&quot;:&quot;y3&quot;,&quot;domain&quot;:[0.7111111111111111,1.0]},&quot;yaxis3&quot;:{&quot;anchor&quot;:&quot;x3&quot;,&quot;domain&quot;:[0.7466666666666667,1.0]},&quot;xaxis4&quot;:{&quot;anchor&quot;:&quot;y4&quot;,&quot;domain&quot;:[0.0,0.2888888888888889]},&quot;yaxis4&quot;:{&quot;anchor&quot;:&quot;x4&quot;,&quot;domain&quot;:[0.37333333333333335,0.6266666666666667]},&quot;xaxis5&quot;:{&quot;anchor&quot;:&quot;y5&quot;,&quot;domain&quot;:[0.35555555555555557,0.6444444444444445]},&quot;yaxis5&quot;:{&quot;anchor&quot;:&quot;x5&quot;,&quot;domain&quot;:[0.37333333333333335,0.6266666666666667]},&quot;xaxis6&quot;:{&quot;anchor&quot;:&quot;y6&quot;,&quot;domain&quot;:[0.7111111111111111,1.0]},&quot;yaxis6&quot;:{&quot;anchor&quot;:&quot;x6&quot;,&quot;domain&quot;:[0.37333333333333335,0.6266666666666667]},&quot;xaxis7&quot;:{&quot;anchor&quot;:&quot;y7&quot;,&quot;domain&quot;:[0.0,0.2888888888888889]},&quot;yaxis7&quot;:{&quot;anchor&quot;:&quot;x7&quot;,&quot;domain&quot;:[0.0,0.25333333333333335]},&quot;xaxis8&quot;:{&quot;anchor&quot;:&quot;y8&quot;,&quot;domain&quot;:[0.35555555555555557,0.6444444444444445]},&quot;yaxis8&quot;:{&quot;anchor&quot;:&quot;x8&quot;,&quot;domain&quot;:[0.0,0.25333333333333335]},&quot;xaxis9&quot;:{&quot;anchor&quot;:&quot;y9&quot;,&quot;domain&quot;:[0.7111111111111111,1.0]},&quot;yaxis9&quot;:{&quot;anchor&quot;:&quot;x9&quot;,&quot;domain&quot;:[0.0,0.25333333333333335]},&quot;annotations&quot;:[{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1982-08: CHIRPS (mm\u002fmes)&quot;,&quot;x&quot;:0.14444444444444446,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:1.0,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1982-08: Caudal Q (m\u00b3\u002fs)&quot;,&quot;x&quot;:0.5,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:1.0,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1982-08: ERA5-Land Tmedia (\u00b0C)&quot;,&quot;x&quot;:0.8555555555555556,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:1.0,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1992-07: CHIRPS (mm\u002fmes)&quot;,&quot;x&quot;:0.14444444444444446,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.6266666666666667,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1992-07: Caudal Q (m\u00b3\u002fs)&quot;,&quot;x&quot;:0.5,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.6266666666666667,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1992-07: ERA5-Land Tmedia (\u00b0C)&quot;,&quot;x&quot;:0.8555555555555556,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.6266666666666667,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1984-01: CHIRPS (mm\u002fmes)&quot;,&quot;x&quot;:0.14444444444444446,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.25333333333333335,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1984-01: Caudal Q (m\u00b3\u002fs)&quot;,&quot;x&quot;:0.5,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.25333333333333335,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1984-01: ERA5-Land Tmedia (\u00b0C)&quot;,&quot;x&quot;:0.8555555555555556,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.25333333333333335,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;}],&quot;shapes&quot;:[{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:397008000000.0,&quot;x1&quot;:397008000000.0,&quot;xref&quot;:&quot;x&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:397008000000.0,&quot;x1&quot;:397008000000.0,&quot;xref&quot;:&quot;x2&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y2 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:397008000000.0,&quot;x1&quot;:397008000000.0,&quot;xref&quot;:&quot;x3&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y3 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:709948800000.0,&quot;x1&quot;:709948800000.0,&quot;xref&quot;:&quot;x4&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y4 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:709948800000.0,&quot;x1&quot;:709948800000.0,&quot;xref&quot;:&quot;x5&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y5 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:709948800000.0,&quot;x1&quot;:709948800000.0,&quot;xref&quot;:&quot;x6&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y6 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:441763200000.0,&quot;x1&quot;:441763200000.0,&quot;xref&quot;:&quot;x7&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y7 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:441763200000.0,&quot;x1&quot;:441763200000.0,&quot;xref&quot;:&quot;x8&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y8 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:441763200000.0,&quot;x1&quot;:441763200000.0,&quot;xref&quot;:&quot;x9&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y9 domain&quot;}],&quot;height&quot;:1000,&quot;title&quot;:{&quot;text&quot;:&quot;Extremos hist\u00f3ricos anteriores a 1998: mes se\u00f1alado y vecinos&quot;}},                        {&quot;responsive&quot;: true, &quot;displaylogo&quot;: false}                    )                };            &lt;/script&gt;        &lt;/div&gt;&lt;/div&gt;&lt;!-- EXTREMOS_HISTORICOS_FIN --&gt;&lt;!-- CONCLUSION_EXTREMOS_INICIO --&gt;&lt;div id=&quot;conclusion-extremos&quot;&gt;&lt;h3&gt;Conclusión del contraste de extremos&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;¿Son coherentes entre variables?&lt;/strong&gt; Sí, en general: los meses lluviosos coinciden con caudales altos o con aumentos posteriores, y los meses secos con caudales bajos. La principal discrepancia aparece en diciembre de 2015, cuando IMERG registra mucha menos lluvia que CHIRPS.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;¿Son episodios plausibles o problemas de datos?&lt;/strong&gt; Las secuencias son físicamente plausibles y no encontramos evidencia suficiente para declarar errores. La discrepancia de diciembre de 2015 requiere revisión independiente; los faltantes posteriores a julio de 1992 limitan su comprobación.&lt;/p&gt;&lt;/div&gt;&lt;!-- CONCLUSION_EXTREMOS_FIN --&gt;&lt;!-- RESPUESTAS_INTERPRETACION_INICIO --&gt;&lt;div id=&quot;respuestas-interpretacion&quot;&gt;&lt;h3&gt;Interpretación de las cifras&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;¿Qué valores describen mejor un mes típico?&lt;/strong&gt; En lluvia y temperatura, el promedio y la mediana son casi iguales, por lo que ambos sirven. Para caudal y escorrentía, conviene la mediana (el valor central al ordenar los meses), porque unos pocos meses muy altos hacen subir el promedio.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;¿Cuánto influyen los meses extremos?&lt;/strong&gt; Influyen más en caudal y escorrentía. Como prueba, si limitamos los valores superiores al percentil 95 a ese umbral, sin cambiar los datos originales, el promedio del caudal baja de 109,83 a 106,25 m³/s y el de escorrentía de 103,27 a 99,76 mm/mes. Esto muestra que esos meses elevan el promedio, pero no significa que sean errores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;¿En qué se diferencian CHIRPS e IMERG?&lt;/strong&gt; Al comparar los mismos 285 meses, IMERG registra 46,05 mm/mes más de lluvia en promedio. CHIRPS muestra valores más dispersos, mientras los de IMERG están más agrupados. Esa diferencia no permite decir cuál mide mejor: necesitamos compararlos con una referencia independiente.&lt;/p&gt;&lt;p&gt;Esta condición típica reúne meses de todas las estaciones del año; no describe un mes calendario específico.&lt;/p&gt;&lt;/div&gt;&lt;!-- RESPUESTAS_INTERPRETACION_FIN --&gt;&lt;/section&gt;&lt;!-- IMERG_POLIGONO_FIN --&gt;&lt;footer&gt;HTML autocontenido: datos y biblioteca Plotly incluidos. Se abre directamente, sin servidor ni conexión a Internet. Documento ampliable por pasos.&lt;/footer&gt;&lt;/main&gt;
+&lt;/table&gt;&lt;/div&gt;&lt;p&gt;Este contraste utiliza el registro completo por fuente, separado de los 285 meses comunes con IMERG. Se revisan agosto de 1982, julio de 1992 y enero de 1984 porque contienen los mínimos históricos que no aparecen en la figura de 1998–2022. Son datos válidos anteriores a la cobertura IMERG utilizada, no meses descartados por ese motivo. Los máximos de CHIRPS, Q, R y temperatura están dentro del periodo ya analizado; el máximo IMERG de noviembre de 2008 se mantiene aparte por ausencia de CHIRPS y Q.&lt;/p&gt;&lt;p&gt;Agosto de 1982: CHIRPS alcanza 24,89 mm/mes, tras 87,29 en junio y 53,49 en julio. Q desciende de 77,22 a 45,62 y 29,20 m³/s; R es 27,96 mm/mes en agosto. En septiembre aumenta la lluvia a 168,27 mm/mes, pero Q permanece bajo (31,70 m³/s), y en octubre sube a 66,39 m³/s. Es una secuencia plausible de condiciones secas y recuperación posterior; el mínimo de lluvia no constituye por sí solo un problema de datos.&lt;/p&gt;&lt;p&gt;Julio de 1992: Q y R alcanzan sus mínimos históricos (18,37 m³/s y 17,59 mm/mes). CHIRPS registra 75,46 mm/mes, después de 80,03 en junio; Q ya era bajo en mayo y junio (28,16 y 28,38 m³/s). La persistencia de caudal bajo es compatible con almacenamiento reducido, pero agosto y septiembre tienen datos ausentes de CHIRPS, Q y R: no puede comprobarse la evolución posterior con esas series ni rellenarse el vacío con cero.&lt;/p&gt;&lt;p&gt;Enero de 1984: ERA5-Land alcanza su temperatura mínima (14,84 °C), con valores próximos en diciembre (15,12 °C) y febrero (15,05 °C). CHIRPS permanece entre 190,87 y 236,26 mm/mes en esos tres meses y Q entre 98,77 y 127,13 m³/s. El mínimo está integrado en una secuencia de temperaturas bajas y lluvia apreciable, sin un salto aislado evidente. Es plausible, pero no prueba causalidad ni exactitud del reanálisis. En conjunto, no se identifican errores confirmados: se conservan todos los valores y se reconoce la limitación de los faltantes de 1992. R deriva de Q, por lo que su coincidencia no constituye evidencia independiente.&lt;/p&gt;&lt;div style=&quot;height:1000px; width:100%;&quot;&gt;                            &lt;div id=&quot;extremos-historicos-cronologias&quot; class=&quot;plotly-graph-div&quot; style=&quot;height:100%; width:100%;&quot;&gt;&lt;/div&gt;            &lt;script&gt;                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById(&quot;extremos-historicos-cronologias&quot;)) {                    Plotly.newPlot(                        &quot;extremos-historicos-cronologias&quot;,                        [{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#23769b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;CHIRPS (mm\u002fmes)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1982-06-01&quot;,&quot;1982-07-01&quot;,&quot;1982-08-01&quot;,&quot;1982-09-01&quot;,&quot;1982-10-01&quot;],&quot;y&quot;:[87.288,53.492,24.892,168.272,295.096],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x&quot;,&quot;yaxis&quot;:&quot;y&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#206c44&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;Caudal Q (m\u00b3\u002fs)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1982-06-01&quot;,&quot;1982-07-01&quot;,&quot;1982-08-01&quot;,&quot;1982-09-01&quot;,&quot;1982-10-01&quot;],&quot;y&quot;:[77.21666666666667,45.61612903225806,29.203225806451613,31.7,66.38709677419355],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x2&quot;,&quot;yaxis&quot;:&quot;y2&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#a3344b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;ERA5-Land Tmedia (\u00b0C)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1982-06-01&quot;,&quot;1982-07-01&quot;,&quot;1982-08-01&quot;,&quot;1982-09-01&quot;,&quot;1982-10-01&quot;],&quot;y&quot;:[16.42553815701899,16.23458676329858,16.667279981831143,16.239045925072332,15.611869191669824],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x3&quot;,&quot;yaxis&quot;:&quot;y3&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#23769b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;CHIRPS (mm\u002fmes)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1992-05-01&quot;,&quot;1992-06-01&quot;,&quot;1992-07-01&quot;,&quot;1992-08-01&quot;,&quot;1992-09-01&quot;],&quot;y&quot;:[159.558,80.033,75.46,null,null],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x4&quot;,&quot;yaxis&quot;:&quot;y4&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#206c44&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;Caudal Q (m\u00b3\u002fs)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1992-05-01&quot;,&quot;1992-06-01&quot;,&quot;1992-07-01&quot;,&quot;1992-08-01&quot;,&quot;1992-09-01&quot;],&quot;y&quot;:[28.161290322580644,28.38,18.36774193548387,null,null],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x5&quot;,&quot;yaxis&quot;:&quot;y5&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#a3344b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;ERA5-Land Tmedia (\u00b0C)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1992-05-01&quot;,&quot;1992-06-01&quot;,&quot;1992-07-01&quot;,&quot;1992-08-01&quot;,&quot;1992-09-01&quot;],&quot;y&quot;:[16.420107771063385,16.586233914477816,15.831544756197957,16.114490290387835,15.81081939236242],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x6&quot;,&quot;yaxis&quot;:&quot;y6&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#23769b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;CHIRPS (mm\u002fmes)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1983-11-01&quot;,&quot;1983-12-01&quot;,&quot;1984-01-01&quot;,&quot;1984-02-01&quot;,&quot;1984-03-01&quot;],&quot;y&quot;:[209.144,236.262,190.868,199.502,162.651],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x7&quot;,&quot;yaxis&quot;:&quot;y7&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#206c44&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;Caudal Q (m\u00b3\u002fs)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1983-11-01&quot;,&quot;1983-12-01&quot;,&quot;1984-01-01&quot;,&quot;1984-02-01&quot;,&quot;1984-03-01&quot;],&quot;y&quot;:[46.17333333333333,98.76774193548388,127.13225806451612,106.63793103448276,75.26774193548388],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x8&quot;,&quot;yaxis&quot;:&quot;y8&quot;},{&quot;connectgaps&quot;:false,&quot;line&quot;:{&quot;color&quot;:&quot;#a3344b&quot;},&quot;mode&quot;:&quot;lines+markers&quot;,&quot;name&quot;:&quot;ERA5-Land Tmedia (\u00b0C)&quot;,&quot;showlegend&quot;:false,&quot;x&quot;:[&quot;1983-11-01&quot;,&quot;1983-12-01&quot;,&quot;1984-01-01&quot;,&quot;1984-02-01&quot;,&quot;1984-03-01&quot;],&quot;y&quot;:[15.758928671064552,15.12148189797938,14.842604815919572,15.052100921527083,15.692051432800326],&quot;type&quot;:&quot;scatter&quot;,&quot;xaxis&quot;:&quot;x9&quot;,&quot;yaxis&quot;:&quot;y9&quot;}],                        {&quot;template&quot;:{&quot;data&quot;:{&quot;histogram2dcontour&quot;:[{&quot;type&quot;:&quot;histogram2dcontour&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;choropleth&quot;:[{&quot;type&quot;:&quot;choropleth&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;histogram2d&quot;:[{&quot;type&quot;:&quot;histogram2d&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;heatmap&quot;:[{&quot;type&quot;:&quot;heatmap&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;contourcarpet&quot;:[{&quot;type&quot;:&quot;contourcarpet&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;contour&quot;:[{&quot;type&quot;:&quot;contour&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;surface&quot;:[{&quot;type&quot;:&quot;surface&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;mesh3d&quot;:[{&quot;type&quot;:&quot;mesh3d&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;scatter&quot;:[{&quot;fillpattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2},&quot;type&quot;:&quot;scatter&quot;}],&quot;parcoords&quot;:[{&quot;type&quot;:&quot;parcoords&quot;,&quot;line&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterpolargl&quot;:[{&quot;type&quot;:&quot;scatterpolargl&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;bar&quot;:[{&quot;error_x&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;error_y&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;marker&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#E5ECF6&quot;,&quot;width&quot;:0.5},&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;bar&quot;}],&quot;scattergeo&quot;:[{&quot;type&quot;:&quot;scattergeo&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterpolar&quot;:[{&quot;type&quot;:&quot;scatterpolar&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;histogram&quot;:[{&quot;marker&quot;:{&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;histogram&quot;}],&quot;scattergl&quot;:[{&quot;type&quot;:&quot;scattergl&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatter3d&quot;:[{&quot;type&quot;:&quot;scatter3d&quot;,&quot;line&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}},&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scattermap&quot;:[{&quot;type&quot;:&quot;scattermap&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterternary&quot;:[{&quot;type&quot;:&quot;scatterternary&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scattercarpet&quot;:[{&quot;type&quot;:&quot;scattercarpet&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;carpet&quot;:[{&quot;aaxis&quot;:{&quot;endlinecolor&quot;:&quot;#2a3f5f&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;minorgridcolor&quot;:&quot;white&quot;,&quot;startlinecolor&quot;:&quot;#2a3f5f&quot;},&quot;baxis&quot;:{&quot;endlinecolor&quot;:&quot;#2a3f5f&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;minorgridcolor&quot;:&quot;white&quot;,&quot;startlinecolor&quot;:&quot;#2a3f5f&quot;},&quot;type&quot;:&quot;carpet&quot;}],&quot;table&quot;:[{&quot;cells&quot;:{&quot;fill&quot;:{&quot;color&quot;:&quot;#EBF0F8&quot;},&quot;line&quot;:{&quot;color&quot;:&quot;white&quot;}},&quot;header&quot;:{&quot;fill&quot;:{&quot;color&quot;:&quot;#C8D4E3&quot;},&quot;line&quot;:{&quot;color&quot;:&quot;white&quot;}},&quot;type&quot;:&quot;table&quot;}],&quot;barpolar&quot;:[{&quot;marker&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#E5ECF6&quot;,&quot;width&quot;:0.5},&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;barpolar&quot;}],&quot;pie&quot;:[{&quot;automargin&quot;:true,&quot;type&quot;:&quot;pie&quot;}]},&quot;layout&quot;:{&quot;autotypenumbers&quot;:&quot;strict&quot;,&quot;colorway&quot;:[&quot;#636efa&quot;,&quot;#EF553B&quot;,&quot;#00cc96&quot;,&quot;#ab63fa&quot;,&quot;#FFA15A&quot;,&quot;#19d3f3&quot;,&quot;#FF6692&quot;,&quot;#B6E880&quot;,&quot;#FF97FF&quot;,&quot;#FECB52&quot;],&quot;font&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;hovermode&quot;:&quot;closest&quot;,&quot;hoverlabel&quot;:{&quot;align&quot;:&quot;left&quot;},&quot;paper_bgcolor&quot;:&quot;white&quot;,&quot;plot_bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;polar&quot;:{&quot;bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;angularaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;radialaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;}},&quot;ternary&quot;:{&quot;bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;aaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;baxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;caxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;}},&quot;coloraxis&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}},&quot;colorscale&quot;:{&quot;sequential&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]],&quot;sequentialminus&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]],&quot;diverging&quot;:[[0,&quot;#8e0152&quot;],[0.1,&quot;#c51b7d&quot;],[0.2,&quot;#de77ae&quot;],[0.3,&quot;#f1b6da&quot;],[0.4,&quot;#fde0ef&quot;],[0.5,&quot;#f7f7f7&quot;],[0.6,&quot;#e6f5d0&quot;],[0.7,&quot;#b8e186&quot;],[0.8,&quot;#7fbc41&quot;],[0.9,&quot;#4d9221&quot;],[1,&quot;#276419&quot;]]},&quot;xaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;,&quot;title&quot;:{&quot;standoff&quot;:15},&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;automargin&quot;:true,&quot;zerolinewidth&quot;:2},&quot;yaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;,&quot;title&quot;:{&quot;standoff&quot;:15},&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;automargin&quot;:true,&quot;zerolinewidth&quot;:2},&quot;scene&quot;:{&quot;xaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2},&quot;yaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2},&quot;zaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2}},&quot;shapedefaults&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;}},&quot;annotationdefaults&quot;:{&quot;arrowcolor&quot;:&quot;#2a3f5f&quot;,&quot;arrowhead&quot;:0,&quot;arrowwidth&quot;:1},&quot;geo&quot;:{&quot;bgcolor&quot;:&quot;white&quot;,&quot;landcolor&quot;:&quot;#E5ECF6&quot;,&quot;subunitcolor&quot;:&quot;white&quot;,&quot;showland&quot;:true,&quot;showlakes&quot;:true,&quot;lakecolor&quot;:&quot;white&quot;},&quot;title&quot;:{&quot;x&quot;:0.05}}},&quot;xaxis&quot;:{&quot;anchor&quot;:&quot;y&quot;,&quot;domain&quot;:[0.0,0.2888888888888889]},&quot;yaxis&quot;:{&quot;anchor&quot;:&quot;x&quot;,&quot;domain&quot;:[0.7466666666666667,1.0]},&quot;xaxis2&quot;:{&quot;anchor&quot;:&quot;y2&quot;,&quot;domain&quot;:[0.35555555555555557,0.6444444444444445]},&quot;yaxis2&quot;:{&quot;anchor&quot;:&quot;x2&quot;,&quot;domain&quot;:[0.7466666666666667,1.0]},&quot;xaxis3&quot;:{&quot;anchor&quot;:&quot;y3&quot;,&quot;domain&quot;:[0.7111111111111111,1.0]},&quot;yaxis3&quot;:{&quot;anchor&quot;:&quot;x3&quot;,&quot;domain&quot;:[0.7466666666666667,1.0]},&quot;xaxis4&quot;:{&quot;anchor&quot;:&quot;y4&quot;,&quot;domain&quot;:[0.0,0.2888888888888889]},&quot;yaxis4&quot;:{&quot;anchor&quot;:&quot;x4&quot;,&quot;domain&quot;:[0.37333333333333335,0.6266666666666667]},&quot;xaxis5&quot;:{&quot;anchor&quot;:&quot;y5&quot;,&quot;domain&quot;:[0.35555555555555557,0.6444444444444445]},&quot;yaxis5&quot;:{&quot;anchor&quot;:&quot;x5&quot;,&quot;domain&quot;:[0.37333333333333335,0.6266666666666667]},&quot;xaxis6&quot;:{&quot;anchor&quot;:&quot;y6&quot;,&quot;domain&quot;:[0.7111111111111111,1.0]},&quot;yaxis6&quot;:{&quot;anchor&quot;:&quot;x6&quot;,&quot;domain&quot;:[0.37333333333333335,0.6266666666666667]},&quot;xaxis7&quot;:{&quot;anchor&quot;:&quot;y7&quot;,&quot;domain&quot;:[0.0,0.2888888888888889]},&quot;yaxis7&quot;:{&quot;anchor&quot;:&quot;x7&quot;,&quot;domain&quot;:[0.0,0.25333333333333335]},&quot;xaxis8&quot;:{&quot;anchor&quot;:&quot;y8&quot;,&quot;domain&quot;:[0.35555555555555557,0.6444444444444445]},&quot;yaxis8&quot;:{&quot;anchor&quot;:&quot;x8&quot;,&quot;domain&quot;:[0.0,0.25333333333333335]},&quot;xaxis9&quot;:{&quot;anchor&quot;:&quot;y9&quot;,&quot;domain&quot;:[0.7111111111111111,1.0]},&quot;yaxis9&quot;:{&quot;anchor&quot;:&quot;x9&quot;,&quot;domain&quot;:[0.0,0.25333333333333335]},&quot;annotations&quot;:[{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1982-08: CHIRPS (mm\u002fmes)&quot;,&quot;x&quot;:0.14444444444444446,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:1.0,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1982-08: Caudal Q (m\u00b3\u002fs)&quot;,&quot;x&quot;:0.5,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:1.0,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1982-08: ERA5-Land Tmedia (\u00b0C)&quot;,&quot;x&quot;:0.8555555555555556,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:1.0,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1992-07: CHIRPS (mm\u002fmes)&quot;,&quot;x&quot;:0.14444444444444446,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.6266666666666667,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1992-07: Caudal Q (m\u00b3\u002fs)&quot;,&quot;x&quot;:0.5,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.6266666666666667,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1992-07: ERA5-Land Tmedia (\u00b0C)&quot;,&quot;x&quot;:0.8555555555555556,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.6266666666666667,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1984-01: CHIRPS (mm\u002fmes)&quot;,&quot;x&quot;:0.14444444444444446,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.25333333333333335,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1984-01: Caudal Q (m\u00b3\u002fs)&quot;,&quot;x&quot;:0.5,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.25333333333333335,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;},{&quot;font&quot;:{&quot;size&quot;:16},&quot;showarrow&quot;:false,&quot;text&quot;:&quot;1984-01: ERA5-Land Tmedia (\u00b0C)&quot;,&quot;x&quot;:0.8555555555555556,&quot;xanchor&quot;:&quot;center&quot;,&quot;xref&quot;:&quot;paper&quot;,&quot;y&quot;:0.25333333333333335,&quot;yanchor&quot;:&quot;bottom&quot;,&quot;yref&quot;:&quot;paper&quot;}],&quot;shapes&quot;:[{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:397008000000.0,&quot;x1&quot;:397008000000.0,&quot;xref&quot;:&quot;x&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:397008000000.0,&quot;x1&quot;:397008000000.0,&quot;xref&quot;:&quot;x2&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y2 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:397008000000.0,&quot;x1&quot;:397008000000.0,&quot;xref&quot;:&quot;x3&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y3 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:709948800000.0,&quot;x1&quot;:709948800000.0,&quot;xref&quot;:&quot;x4&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y4 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:709948800000.0,&quot;x1&quot;:709948800000.0,&quot;xref&quot;:&quot;x5&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y5 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:709948800000.0,&quot;x1&quot;:709948800000.0,&quot;xref&quot;:&quot;x6&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y6 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:441763200000.0,&quot;x1&quot;:441763200000.0,&quot;xref&quot;:&quot;x7&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y7 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:441763200000.0,&quot;x1&quot;:441763200000.0,&quot;xref&quot;:&quot;x8&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y8 domain&quot;},{&quot;line&quot;:{&quot;color&quot;:&quot;#bf5b45&quot;,&quot;dash&quot;:&quot;dash&quot;},&quot;type&quot;:&quot;line&quot;,&quot;x0&quot;:441763200000.0,&quot;x1&quot;:441763200000.0,&quot;xref&quot;:&quot;x9&quot;,&quot;y0&quot;:0,&quot;y1&quot;:1,&quot;yref&quot;:&quot;y9 domain&quot;}],&quot;height&quot;:1000,&quot;title&quot;:{&quot;text&quot;:&quot;Extremos hist\u00f3ricos anteriores a 1998: mes se\u00f1alado y vecinos&quot;}},                        {&quot;responsive&quot;: true, &quot;displaylogo&quot;: false}                    )                };            &lt;/script&gt;        &lt;/div&gt;&lt;/div&gt;&lt;!-- EXTREMOS_HISTORICOS_FIN --&gt;&lt;!-- CONCLUSION_EXTREMOS_INICIO --&gt;&lt;div id=&quot;conclusion-extremos&quot;&gt;&lt;h3&gt;Conclusión del contraste de extremos&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;¿Son coherentes entre variables?&lt;/strong&gt; Sí, en general: los meses lluviosos coinciden con caudales altos o con aumentos posteriores, y los meses secos con caudales bajos. La principal discrepancia aparece en diciembre de 2015, cuando IMERG registra mucha menos lluvia que CHIRPS.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;¿Son episodios plausibles o problemas de datos?&lt;/strong&gt; Las secuencias son físicamente plausibles y no encontramos evidencia suficiente para declarar errores. La discrepancia de diciembre de 2015 requiere revisión independiente; los faltantes posteriores a julio de 1992 limitan su comprobación.&lt;/p&gt;&lt;/div&gt;&lt;!-- CONCLUSION_EXTREMOS_FIN --&gt;&lt;!-- RESPUESTAS_INTERPRETACION_INICIO --&gt;&lt;div id=&quot;respuestas-interpretacion&quot;&gt;&lt;h3&gt;Interpretación de las cifras&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;¿Qué valores describen mejor un mes típico?&lt;/strong&gt; En lluvia y temperatura, el promedio y la mediana son casi iguales, por lo que ambos sirven. Para caudal y escorrentía, conviene la mediana (el valor central al ordenar los meses), porque unos pocos meses muy altos hacen subir el promedio.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;¿Cuánto influyen los meses extremos?&lt;/strong&gt; Influyen más en caudal y escorrentía. Como prueba, si limitamos los valores superiores al percentil 95 a ese umbral, sin cambiar los datos originales, el promedio del caudal baja de 109,83 a 106,25 m³/s y el de escorrentía de 103,27 a 99,76 mm/mes. Esto muestra que esos meses elevan el promedio, pero no significa que sean errores.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;¿En qué se diferencian CHIRPS e IMERG?&lt;/strong&gt; Al comparar los mismos 285 meses, IMERG registra 46,05 mm/mes más de lluvia en promedio. CHIRPS muestra valores más dispersos, mientras los de IMERG están más agrupados. Esa diferencia no permite decir cuál mide mejor: necesitamos compararlos con una referencia independiente.&lt;/p&gt;&lt;p&gt;Esta condición típica reúne meses de todas las estaciones del año; no describe un mes calendario específico.&lt;/p&gt;&lt;/div&gt;&lt;!-- RESPUESTAS_INTERPRETACION_FIN --&gt;&lt;/section&gt;&lt;!-- IMERG_POLIGONO_FIN --&gt;&lt;!-- DISPONIBILIDAD_FUENTES_INICIO --&gt;&lt;section class=&quot;panel&quot; id=&quot;disponibilidad-imerg-temperatura&quot;&gt;&lt;h2&gt;Disponibilidad mensual de IMERG y temperatura&lt;/h2&gt;&lt;p&gt;IMERG dispone de 300 meses válidos de enero de 1998 a diciembre de 2022, sin faltantes en ese periodo. Los 204 meses de 1981–1997 están fuera de la cobertura utilizada, no son datos perdidos. ERA5-Land dispone de los 504 meses de 1981–2022, sin faltantes mensuales. Se comprueban fechas mensuales únicas y valores finitos; para precipitación se exige además un valor no negativo. Una temperatura negativa en °C no se clasifica como inválida por su signo. Esta revisión verifica la presencia y validez del resultado mensual disponible: no demuestra completitud diaria de los productos mensuales ni reemplaza la comprobación espacial de IMERG documentada en el punto 1.2. Las comparaciones conjuntas conservan solo los 285 meses válidos en todas las variables.&lt;/p&gt;&lt;div style=&quot;overflow:auto&quot;&gt;&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;Fuente&lt;/th&gt;
+      &lt;th&gt;Inicio&lt;/th&gt;
+      &lt;th&gt;Fin&lt;/th&gt;
+      &lt;th&gt;Validos&lt;/th&gt;
+      &lt;th&gt;Faltantes&lt;/th&gt;
+      &lt;th&gt;Fuera_de_cobertura&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1998-01&lt;/td&gt;
+      &lt;td&gt;2022-12&lt;/td&gt;
+      &lt;td&gt;300&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;204&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1981-01&lt;/td&gt;
+      &lt;td&gt;2022-12&lt;/td&gt;
+      &lt;td&gt;504&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;&lt;div style=&quot;height:350px; width:100%;&quot;&gt;                            &lt;div id=&quot;mapa-disponibilidad-fuentes&quot; class=&quot;plotly-graph-div&quot; style=&quot;height:100%; width:100%;&quot;&gt;&lt;/div&gt;            &lt;script&gt;                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById(&quot;mapa-disponibilidad-fuentes&quot;)) {                    Plotly.newPlot(                        &quot;mapa-disponibilidad-fuentes&quot;,                        [{&quot;base&quot;:[1981.0],&quot;customdata&quot;:[[&quot;1981-01 a 1997-12&quot;,204]],&quot;hovertemplate&quot;:&quot;%{y}\u003cbr\u003e%{customdata[0]}\u003cbr\u003e%{customdata[1]} meses\u003cextra\u003eFuera de cobertura\u003c\u002fextra\u003e&quot;,&quot;marker&quot;:{&quot;color&quot;:&quot;#d9dde1&quot;},&quot;name&quot;:&quot;Fuera de cobertura&quot;,&quot;orientation&quot;:&quot;h&quot;,&quot;showlegend&quot;:true,&quot;text&quot;:[&quot;204 meses fuera de cobertura&quot;],&quot;textposition&quot;:&quot;inside&quot;,&quot;width&quot;:0.48,&quot;x&quot;:[17.0],&quot;y&quot;:[&quot;IMERG pol\u00edgono&quot;],&quot;type&quot;:&quot;bar&quot;},{&quot;base&quot;:[1998.0],&quot;customdata&quot;:[[&quot;1998-01 a 2022-12&quot;,300]],&quot;hovertemplate&quot;:&quot;%{y}\u003cbr\u003e%{customdata[0]}\u003cbr\u003e%{customdata[1]} meses\u003cextra\u003eV\u00e1lido\u003c\u002fextra\u003e&quot;,&quot;marker&quot;:{&quot;color&quot;:&quot;#34856a&quot;},&quot;name&quot;:&quot;V\u00e1lido&quot;,&quot;orientation&quot;:&quot;h&quot;,&quot;showlegend&quot;:true,&quot;text&quot;:[&quot;300 meses v\u00e1lidos&quot;],&quot;textposition&quot;:&quot;inside&quot;,&quot;width&quot;:0.48,&quot;x&quot;:[25.0],&quot;y&quot;:[&quot;IMERG pol\u00edgono&quot;],&quot;type&quot;:&quot;bar&quot;},{&quot;base&quot;:[1981.0],&quot;customdata&quot;:[[&quot;1981-01 a 2022-12&quot;,504]],&quot;hovertemplate&quot;:&quot;%{y}\u003cbr\u003e%{customdata[0]}\u003cbr\u003e%{customdata[1]} meses\u003cextra\u003eV\u00e1lido\u003c\u002fextra\u003e&quot;,&quot;marker&quot;:{&quot;color&quot;:&quot;#34856a&quot;},&quot;name&quot;:&quot;V\u00e1lido&quot;,&quot;orientation&quot;:&quot;h&quot;,&quot;showlegend&quot;:false,&quot;text&quot;:[&quot;504 meses v\u00e1lidos&quot;],&quot;textposition&quot;:&quot;inside&quot;,&quot;width&quot;:0.48,&quot;x&quot;:[42.0],&quot;y&quot;:[&quot;ERA5-Land Tmedia&quot;],&quot;type&quot;:&quot;bar&quot;}],                        {&quot;template&quot;:{&quot;data&quot;:{&quot;histogram2dcontour&quot;:[{&quot;type&quot;:&quot;histogram2dcontour&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;choropleth&quot;:[{&quot;type&quot;:&quot;choropleth&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;histogram2d&quot;:[{&quot;type&quot;:&quot;histogram2d&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;heatmap&quot;:[{&quot;type&quot;:&quot;heatmap&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;contourcarpet&quot;:[{&quot;type&quot;:&quot;contourcarpet&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;contour&quot;:[{&quot;type&quot;:&quot;contour&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;surface&quot;:[{&quot;type&quot;:&quot;surface&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;},&quot;colorscale&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]]}],&quot;mesh3d&quot;:[{&quot;type&quot;:&quot;mesh3d&quot;,&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}],&quot;scatter&quot;:[{&quot;fillpattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2},&quot;type&quot;:&quot;scatter&quot;}],&quot;parcoords&quot;:[{&quot;type&quot;:&quot;parcoords&quot;,&quot;line&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterpolargl&quot;:[{&quot;type&quot;:&quot;scatterpolargl&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;bar&quot;:[{&quot;error_x&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;error_y&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;marker&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#E5ECF6&quot;,&quot;width&quot;:0.5},&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;bar&quot;}],&quot;scattergeo&quot;:[{&quot;type&quot;:&quot;scattergeo&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterpolar&quot;:[{&quot;type&quot;:&quot;scatterpolar&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;histogram&quot;:[{&quot;marker&quot;:{&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;histogram&quot;}],&quot;scattergl&quot;:[{&quot;type&quot;:&quot;scattergl&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatter3d&quot;:[{&quot;type&quot;:&quot;scatter3d&quot;,&quot;line&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}},&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scattermap&quot;:[{&quot;type&quot;:&quot;scattermap&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scatterternary&quot;:[{&quot;type&quot;:&quot;scatterternary&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;scattercarpet&quot;:[{&quot;type&quot;:&quot;scattercarpet&quot;,&quot;marker&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}}}],&quot;carpet&quot;:[{&quot;aaxis&quot;:{&quot;endlinecolor&quot;:&quot;#2a3f5f&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;minorgridcolor&quot;:&quot;white&quot;,&quot;startlinecolor&quot;:&quot;#2a3f5f&quot;},&quot;baxis&quot;:{&quot;endlinecolor&quot;:&quot;#2a3f5f&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;minorgridcolor&quot;:&quot;white&quot;,&quot;startlinecolor&quot;:&quot;#2a3f5f&quot;},&quot;type&quot;:&quot;carpet&quot;}],&quot;table&quot;:[{&quot;cells&quot;:{&quot;fill&quot;:{&quot;color&quot;:&quot;#EBF0F8&quot;},&quot;line&quot;:{&quot;color&quot;:&quot;white&quot;}},&quot;header&quot;:{&quot;fill&quot;:{&quot;color&quot;:&quot;#C8D4E3&quot;},&quot;line&quot;:{&quot;color&quot;:&quot;white&quot;}},&quot;type&quot;:&quot;table&quot;}],&quot;barpolar&quot;:[{&quot;marker&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#E5ECF6&quot;,&quot;width&quot;:0.5},&quot;pattern&quot;:{&quot;fillmode&quot;:&quot;overlay&quot;,&quot;size&quot;:10,&quot;solidity&quot;:0.2}},&quot;type&quot;:&quot;barpolar&quot;}],&quot;pie&quot;:[{&quot;automargin&quot;:true,&quot;type&quot;:&quot;pie&quot;}]},&quot;layout&quot;:{&quot;autotypenumbers&quot;:&quot;strict&quot;,&quot;colorway&quot;:[&quot;#636efa&quot;,&quot;#EF553B&quot;,&quot;#00cc96&quot;,&quot;#ab63fa&quot;,&quot;#FFA15A&quot;,&quot;#19d3f3&quot;,&quot;#FF6692&quot;,&quot;#B6E880&quot;,&quot;#FF97FF&quot;,&quot;#FECB52&quot;],&quot;font&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;},&quot;hovermode&quot;:&quot;closest&quot;,&quot;hoverlabel&quot;:{&quot;align&quot;:&quot;left&quot;},&quot;paper_bgcolor&quot;:&quot;white&quot;,&quot;plot_bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;polar&quot;:{&quot;bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;angularaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;radialaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;}},&quot;ternary&quot;:{&quot;bgcolor&quot;:&quot;#E5ECF6&quot;,&quot;aaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;baxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;},&quot;caxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;}},&quot;coloraxis&quot;:{&quot;colorbar&quot;:{&quot;outlinewidth&quot;:0,&quot;ticks&quot;:&quot;&quot;}},&quot;colorscale&quot;:{&quot;sequential&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]],&quot;sequentialminus&quot;:[[0.0,&quot;#0d0887&quot;],[0.1111111111111111,&quot;#46039f&quot;],[0.2222222222222222,&quot;#7201a8&quot;],[0.3333333333333333,&quot;#9c179e&quot;],[0.4444444444444444,&quot;#bd3786&quot;],[0.5555555555555556,&quot;#d8576b&quot;],[0.6666666666666666,&quot;#ed7953&quot;],[0.7777777777777778,&quot;#fb9f3a&quot;],[0.8888888888888888,&quot;#fdca26&quot;],[1.0,&quot;#f0f921&quot;]],&quot;diverging&quot;:[[0,&quot;#8e0152&quot;],[0.1,&quot;#c51b7d&quot;],[0.2,&quot;#de77ae&quot;],[0.3,&quot;#f1b6da&quot;],[0.4,&quot;#fde0ef&quot;],[0.5,&quot;#f7f7f7&quot;],[0.6,&quot;#e6f5d0&quot;],[0.7,&quot;#b8e186&quot;],[0.8,&quot;#7fbc41&quot;],[0.9,&quot;#4d9221&quot;],[1,&quot;#276419&quot;]]},&quot;xaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;,&quot;title&quot;:{&quot;standoff&quot;:15},&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;automargin&quot;:true,&quot;zerolinewidth&quot;:2},&quot;yaxis&quot;:{&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;ticks&quot;:&quot;&quot;,&quot;title&quot;:{&quot;standoff&quot;:15},&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;automargin&quot;:true,&quot;zerolinewidth&quot;:2},&quot;scene&quot;:{&quot;xaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2},&quot;yaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2},&quot;zaxis&quot;:{&quot;backgroundcolor&quot;:&quot;#E5ECF6&quot;,&quot;gridcolor&quot;:&quot;white&quot;,&quot;linecolor&quot;:&quot;white&quot;,&quot;showbackground&quot;:true,&quot;ticks&quot;:&quot;&quot;,&quot;zerolinecolor&quot;:&quot;white&quot;,&quot;gridwidth&quot;:2}},&quot;shapedefaults&quot;:{&quot;line&quot;:{&quot;color&quot;:&quot;#2a3f5f&quot;}},&quot;annotationdefaults&quot;:{&quot;arrowcolor&quot;:&quot;#2a3f5f&quot;,&quot;arrowhead&quot;:0,&quot;arrowwidth&quot;:1},&quot;geo&quot;:{&quot;bgcolor&quot;:&quot;white&quot;,&quot;landcolor&quot;:&quot;#E5ECF6&quot;,&quot;subunitcolor&quot;:&quot;white&quot;,&quot;showland&quot;:true,&quot;showlakes&quot;:true,&quot;lakecolor&quot;:&quot;white&quot;},&quot;title&quot;:{&quot;x&quot;:0.05}}},&quot;yaxis&quot;:{&quot;autorange&quot;:&quot;reversed&quot;,&quot;categoryorder&quot;:&quot;array&quot;,&quot;categoryarray&quot;:[&quot;IMERG pol\u00edgono&quot;,&quot;ERA5-Land Tmedia&quot;]},&quot;xaxis&quot;:{&quot;range&quot;:[1981,2023],&quot;tickvals&quot;:[1981,1990,1998,2010,2020,2023],&quot;ticktext&quot;:[&quot;1981&quot;,&quot;1990&quot;,&quot;1998&quot;,&quot;2010&quot;,&quot;2020&quot;,&quot;Fin 2022&quot;]},&quot;legend&quot;:{&quot;orientation&quot;:&quot;h&quot;,&quot;y&quot;:-0.25},&quot;margin&quot;:{&quot;l&quot;:160,&quot;r&quot;:35,&quot;b&quot;:90},&quot;height&quot;:350,&quot;barmode&quot;:&quot;overlay&quot;,&quot;title&quot;:{&quot;text&quot;:&quot;Cobertura temporal de los datos mensuales&quot;}},                        {&quot;responsive&quot;: true, &quot;displaylogo&quot;: false}                    )                };            &lt;/script&gt;        &lt;/div&gt;&lt;details&gt;&lt;summary&gt;Conteos por fuente y año&lt;/summary&gt;&lt;div style=&quot;overflow:auto&quot;&gt;&lt;table border=&quot;1&quot; class=&quot;dataframe&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr style=&quot;text-align: right;&quot;&gt;
+      &lt;th&gt;estado&lt;/th&gt;
+      &lt;th&gt;fuente&lt;/th&gt;
+      &lt;th&gt;anio&lt;/th&gt;
+      &lt;th&gt;Fuera de cobertura&lt;/th&gt;
+      &lt;th&gt;Válido&lt;/th&gt;
+      &lt;th&gt;Faltante o inválido&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1981&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1982&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1983&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1984&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1985&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1986&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1987&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1988&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1989&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1990&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1991&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1992&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1993&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1994&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1995&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1996&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2019&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2020&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2021&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;ERA5-Land Tmedia&lt;/td&gt;
+      &lt;td&gt;2022&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1981&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1982&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1983&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1984&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1985&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1986&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1987&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1988&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1989&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1990&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1991&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1992&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1993&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1994&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1995&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1996&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1997&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1998&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;1999&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2000&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2001&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2002&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2013&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2014&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2015&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2016&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2017&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2018&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2019&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2020&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2021&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;IMERG polígono&lt;/td&gt;
+      &lt;td&gt;2022&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;&lt;/details&gt;&lt;/section&gt;&lt;!-- DISPONIBILIDAD_FUENTES_FIN --&gt;&lt;footer&gt;HTML autocontenido: datos y biblioteca Plotly incluidos. Se abre directamente, sin servidor ni conexión a Internet. Documento ampliable por pasos.&lt;/footer&gt;&lt;/main&gt;
+
+
 
 
 
@@ -6038,6 +6767,7 @@ function ordenar(){
  mover(s13,document.getElementById(&#x27;histogramas&#x27;),&#x27;Histogramas y estadísticos completos&#x27;);
  const s14=sub(p1,&#x27;guia-1-4&#x27;,&#x27;1.4. Usar la exploración como control de calidad&#x27;);
  mover(s14,document.getElementById(&#x27;faltantes&#x27;),&#x27;Control de datos faltantes&#x27;);
+ mover(s14,document.getElementById(&#x27;disponibilidad-imerg-temperatura&#x27;),&#x27;Disponibilidad mensual de IMERG y temperatura&#x27;);
  const s15=sub(p1,&#x27;guia-1-5&#x27;,&#x27;1.5. Climatología, variabilidad y explicación física&#x27;);
  const pending=document.createElement(&#x27;p&#x27;);pending.textContent=&#x27;Apartado pendiente de completar según la guía; esta reorganización no incorpora resultados nuevos.&#x27;;s15.appendChild(pending);
  for(const [id,title] of [[&#x27;guia-1-5-a&#x27;,&#x27;1.5.a. Construir la climatología de doce meses&#x27;],[&#x27;guia-1-5-b&#x27;,&#x27;1.5.b. Describir y contrastar el ciclo anual&#x27;],[&#x27;guia-1-5-c&#x27;,&#x27;1.5.c. Explicar los procesos regionales y de la cuenca&#x27;]])pendiente(sub(s15,id,title));
@@ -6061,7 +6791,7 @@ if(document.readyState===&#x27;complete&#x27;)setTimeout(ordenar,800);else windo
 &lt;/script&gt;
 &lt;!-- ORDEN_GUIA_FIN --&gt;
 &lt;/body&gt;&lt;/html&gt;
-</code></pre></details></section><section id="codigo-actual-06"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe.tex</h3><p>SHA256: <code>52b8cd0ad00cfcffb4613e9f6ccdb1ea9a28ebc2148c193282797cb17dd39be6</code></p><details><summary>Ver código completo de informe.tex</summary><pre><code>\documentclass[10pt,a4paper]{article}
+</code></pre></details></section><section id="codigo-actual-07"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe.tex</h3><p>SHA256: <code>52b8cd0ad00cfcffb4613e9f6ccdb1ea9a28ebc2148c193282797cb17dd39be6</code></p><details><summary>Ver código completo de informe.tex</summary><pre><code>\documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish,es-nodecimaldot]{babel}
@@ -6098,7 +6828,7 @@ Curso de Hidrología -- Tarea 1\\
 \clearpage
 \input{secciones/04_procedencia_alcance}
 \end{document}
-</code></pre></details></section><section id="codigo-actual-07"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe_ordenado.tex</h3><p>SHA256: <code>a33715e1b9a3e5c81d3c615d78d1d0d8096f9189e6e78eaf00bc2ae99fad18ee</code></p><details><summary>Ver código completo de informe_ordenado.tex</summary><pre><code>\documentclass[10pt,a4paper]{article}
+</code></pre></details></section><section id="codigo-actual-08"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/informe_ordenado.tex</h3><p>SHA256: <code>e76d60d944df87058d3be3f5e69301fa21d55a33bdf23df274e2d3a116a41090</code></p><details><summary>Ver código completo de informe_ordenado.tex</summary><pre><code>\documentclass[10pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[spanish,es-nodecimaldot]{babel}
@@ -6900,6 +7630,21 @@ no justifica tratar sumas parciales de precipitación como acumulados completos.
 Este control describe el archivo CAMELS ensamblado, no la disponibilidad original
 de CHIRPS, IMERG ni de las estaciones pluviométricas individuales. No se supone
 que los faltantes ocurran al azar.
+\subsubsection*{Disponibilidad mensual de IMERG y temperatura}
+IMERG dispone de 300 meses válidos de enero de 1998 a diciembre de 2022, sin faltantes en ese periodo. Los 204 meses de 1981--1997 están fuera de la cobertura utilizada, no son datos perdidos. ERA5-Land dispone de los 504 meses de 1981--2022, sin faltantes mensuales. Se comprueban fechas mensuales únicas y valores finitos; para precipitación se exige además un valor no negativo. Una temperatura negativa en $^\circ$C no se clasifica como inválida por su signo. Esta revisión verifica la presencia y validez del resultado mensual disponible: no demuestra completitud diaria de los productos mensuales ni reemplaza la comprobación espacial de IMERG documentada en el punto 1.2. Las comparaciones conjuntas conservan solo los 285 meses válidos en todas las variables.
+\begin{center}{\small
+\begin{center}
+\begin{tabular}{lllrrr}
+\toprule
+Fuente &amp; Inicio &amp; Fin &amp; Validos &amp; Faltantes &amp; Fuera\_de\_cobertura \\
+\midrule
+IMERG polígono &amp; 1998-01 &amp; 2022-12 &amp; 300 &amp; 0 &amp; 204 \\
+ERA5-Land Tmedia &amp; 1981-01 &amp; 2022-12 &amp; 504 &amp; 0 &amp; 0 \\
+\bottomrule
+\end{tabular}
+\end{center}
+}\end{center}
+\begin{figure}[H]\centering\includegraphics[width=\linewidth]{figuras/disponibilidad_imerg_era5.pdf}\caption{Cobertura temporal mensual. Gris: fuera de cobertura; verde: meses válidos. No hay faltantes dentro de los periodos utilizados. El detalle por año y mes se conserva en los archivos de disponibilidad.}\end{figure}
 
 
 \subsection{Climatología, variabilidad y explicación física}
@@ -7112,7 +7857,7 @@ La declaración existente se conserva en el apartado anterior; falta completar l
 \section*{Referencias y anexos}
 Las referencias y fuentes existentes se conservan junto a sus análisis; falta consolidar el listado final.
 \end{document}
-</code></pre></details></section><section id="codigo-actual-08"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/01_series_mensuales.tex</h3><p>SHA256: <code>1b9e71667c87762d1260cf157387b5df285a2edc32eddffe1afc12aca47e8fd4</code></p><details><summary>Ver código completo de 01_series_mensuales.tex</summary><pre><code>\section{Series de precipitación y caudal}
+</code></pre></details></section><section id="codigo-actual-09"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/01_series_mensuales.tex</h3><p>SHA256: <code>1b9e71667c87762d1260cf157387b5df285a2edc32eddffe1afc12aca47e8fd4</code></p><details><summary>Ver código completo de 01_series_mensuales.tex</summary><pre><code>\section{Series de precipitación y caudal}
 
 Se analiza la cuenca del río La Vieja hasta la estación Cartago (IDEAM 26127040), con un área CAMELS de 2797,19~km$^2$. El periodo comprende enero de 1981 a diciembre de 2022. Se utiliza precipitación CHIRPS v2 promediada sobre la cuenca y caudal observado según el depósito \href{https://doi.org/10.5281/zenodo.18794895}{CAMELS-COL}.
 
@@ -7146,7 +7891,7 @@ IDEAM (2010). \textit{Boletín diciembre de 2010}. Disponible en \url{https://ww
 
 IDEAM (2006). \textit{La sequía en Colombia}, nota técnica NT\_IDEAM-2006-004.
 
-Esta primera sección presenta las series históricas y la comparación IMERG disponible desde 1998. Las gráficas no demuestran por sí solas tendencias ni causas físicas. El código Python genera la figura vectorial y una versión Plotly con las mismas fechas y valores para su exploración interactiva.</code></pre></details></section><section id="codigo-actual-09"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/02_control_faltantes.tex</h3><p>SHA256: <code>a340adac107c96a83f5387fdd25265fe957b5001a8e1096d68bc3a5a2dc26263</code></p><details><summary>Ver código completo de 02_control_faltantes.tex</summary><pre><code>\section{Control de datos faltantes}
+Esta primera sección presenta las series históricas y la comparación IMERG disponible desde 1998. Las gráficas no demuestran por sí solas tendencias ni causas físicas. El código Python genera la figura vectorial y una versión Plotly con las mismas fechas y valores para su exploración interactiva.</code></pre></details></section><section id="codigo-actual-10"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/02_control_faltantes.tex</h3><p>SHA256: <code>a340adac107c96a83f5387fdd25265fe957b5001a8e1096d68bc3a5a2dc26263</code></p><details><summary>Ver código completo de 02_control_faltantes.tex</summary><pre><code>\section{Control de datos faltantes}
 Se reconstruyó el calendario diario completo de 1981--2022, incluidos los años
 bisiestos. De 15\,340 días esperados, el archivo contiene 15\,085 fechas y omite
 255 días (1,66\,\%) tanto en P como en Q. Son las mismas fechas ausentes para
@@ -7209,7 +7954,7 @@ no justifica tratar sumas parciales de precipitación como acumulados completos.
 Este control describe el archivo CAMELS ensamblado, no la disponibilidad original
 de CHIRPS, IMERG ni de las estaciones pluviométricas individuales. No se supone
 que los faltantes ocurran al azar.
-</code></pre></details></section><section id="codigo-actual-10"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/03_estadistica_por_ano.tex</h3><p>SHA256: <code>b8755dab58c3b2c32649afcc5652bd174c3952bdd655d30a5e410f8234d1bed8</code></p><details><summary>Ver código completo de 03_estadistica_por_ano.tex</summary><pre><code>\section{Periodo de datos y estadística descriptiva}
+</code></pre></details></section><section id="codigo-actual-11"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/03_estadistica_por_ano.tex</h3><p>SHA256: <code>b8755dab58c3b2c32649afcc5652bd174c3952bdd655d30a5e410f8234d1bed8</code></p><details><summary>Ver código completo de 03_estadistica_por_ano.tex</summary><pre><code>\section{Periodo de datos y estadística descriptiva}
 Los registros originales son diarios y se agregaron a escala mensual. El periodo
 comprende enero de 1981 a diciembre de 2022 (42 años). Se describen los valores
 mensuales válidos de precipitación acumulada y caudal medio, no los registros
@@ -7335,7 +8080,7 @@ Periodo &amp; Variable &amp; Meses &amp; Media &amp; Mediana &amp; Desv. est. &a
 2022 &amp; P &amp; 11 &amp; 213,48 &amp; 190,40 &amp; 98,93 &amp; 93,92 &amp; 407,57 \\
 2022 &amp; Q &amp; 11 &amp; 164,50 &amp; 148,99 &amp; 68,53 &amp; 73,93 &amp; 296,50 \\
 \end{longtable}\endgroup
-</code></pre></details></section><section id="codigo-actual-11"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/04_procedencia_alcance.tex</h3><p>SHA256: <code>e2bd430c478f45f0249035c61693f04ecb9f6062faa1ca7350c78ae8931edd56</code></p><details><summary>Ver código completo de 04_procedencia_alcance.tex</summary><pre><code>\section{Procedencia y alcance}
+</code></pre></details></section><section id="codigo-actual-12"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/04_procedencia_alcance.tex</h3><p>SHA256: <code>e2bd430c478f45f0249035c61693f04ecb9f6062faa1ca7350c78ae8931edd56</code></p><details><summary>Ver código completo de 04_procedencia_alcance.tex</summary><pre><code>\section{Procedencia y alcance}
 \subsection{Procedencia de los datos}
 Se utiliza CAMELS-COL, depósito del 26 de febrero de 2026, DOI
 \href{https://doi.org/10.5281/zenodo.18794895}{10.5281/zenodo.18794895}, consultado
@@ -7389,7 +8134,7 @@ el grupo debe revisar fuentes, decisiones e interpretación.
 
 PDF y HTML representan los mismos datos. El HTML incluye Plotly y las series y
 funciona sin servidor ni Internet; consultar fuentes externas sí requiere conexión.
-</code></pre></details></section><section id="codigo-actual-12"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/05_temperatura_dispersion_mapas.tex</h3><p>SHA256: <code>cf2f64d4122e75d26b6ddd7b6c0137a665200ebdeb1971feef47ff878a4d6e8d</code></p><details><summary>Ver código completo de 05_temperatura_dispersion_mapas.tex</summary><pre><code>\section{Temperatura mensual}
+</code></pre></details></section><section id="codigo-actual-13"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/05_temperatura_dispersion_mapas.tex</h3><p>SHA256: <code>cf2f64d4122e75d26b6ddd7b6c0137a665200ebdeb1971feef47ff878a4d6e8d</code></p><details><summary>Ver código completo de 05_temperatura_dispersion_mapas.tex</summary><pre><code>\section{Temperatura mensual}
 Se grafican las medias mensuales de Tmin y Tmax diarias de MSWX incluidas en
 CAMELS, no los extremos absolutos del mes. La \textbf{temperatura media es estimada}:
 $T_{d,\mathrm{est}}=(T_{d,\min}+T_{d,\max})/2$, seguida del promedio mensual.
@@ -7473,7 +8218,7 @@ Fuente: \href{https://doi.org/10.5270/ESA-c5d3d65}{Copernicus DEM} y
 {\footnotesize produced using Copernicus WorldDEM-30 \textcopyright\ DLR e.V.
 2010-2014 and \textcopyright\ Airbus Defence and Space GmbH 2014-2018 provided
 under COPERNICUS by the European Union and ESA; all rights reserved}
-</code></pre></details></section><section id="codigo-actual-13"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/06_histogramas_estadisticos.tex</h3><p>SHA256: <code>fed09c634f9d2ede94b90e9827d1aa6f12837cbf87a83b53af3a8e1f72c609c6</code></p><details><summary>Ver código completo de 06_histogramas_estadisticos.tex</summary><pre><code>\section{Histogramas y estadísticos completos}
+</code></pre></details></section><section id="codigo-actual-14"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/06_histogramas_estadisticos.tex</h3><p>SHA256: <code>fed09c634f9d2ede94b90e9827d1aa6f12837cbf87a83b53af3a8e1f72c609c6</code></p><details><summary>Ver código completo de 06_histogramas_estadisticos.tex</summary><pre><code>\section{Histogramas y estadísticos completos}
 Periodo: enero de 1981--diciembre de 2022. Se utilizan 485 meses completos por
 variable; se excluyen 19 con faltantes, sin rellenos, prorrateos ni eliminación
 automática de extremos. Se conservan los ceros. Se reúnen meses de distintas
@@ -7575,7 +8320,7 @@ faltantes, distribución espacial y ponderación. Fuente:
 Las climatologías publicadas no sustituyen una serie cronológica de 25 años.
 No se han incorporado registros terrestres sin auditar: los histogramas de
 precipitación de este documento corresponden a CHIRPS.
-</code></pre></details></section><section id="codigo-actual-14"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/07_diagramas_caja.tex</h3><p>SHA256: <code>5737e6326eae021d5b4235dfce9aa6da29498cfbd7e49aa380eef7302fc82246</code></p><details><summary>Ver código completo de 07_diagramas_caja.tex</summary><pre><code>\section{Diagramas de caja}
+</code></pre></details></section><section id="codigo-actual-15"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/07_diagramas_caja.tex</h3><p>SHA256: <code>5737e6326eae021d5b4235dfce9aa6da29498cfbd7e49aa380eef7302fc82246</code></p><details><summary>Ver código completo de 07_diagramas_caja.tex</summary><pre><code>\section{Diagramas de caja}
 Se construyen diagramas de caja con los 485 meses completos entre enero de 1981 y diciembre de 2022. Los 19 meses con algún día faltante se excluyen; no se reemplazan por cero. P, Q y R no tienen meses válidos con valor cero. Para temperatura, un valor de 0~$^\circ$C se consideraría una observación válida y nunca una ausencia.
 
 P presenta media y mediana muy próximas (168,20 y 168,47~mm), pero un rango amplio. Q y R muestran media mayor que mediana (98,70 frente a 85,55~m$^3$/s; 92,82 frente a 81,40~mm), consistente con asimetría hacia valores altos y con crecientes poco frecuentes. Los puntos fuera de 1,5 veces el IQR no se eliminan: deben revisarse en las cronologías y, cuando sea posible, contra los datos diarios y metadatos. Las cajas de temperatura son mucho más compactas que las de P, Q y R.
@@ -7584,7 +8329,7 @@ P presenta media y mediana muy próximas (168,20 y 168,47~mm), pero un rango amp
 \includegraphics[width=\linewidth]{figuras/diagramas_caja.pdf}
 \caption{Diagramas de caja de meses válidos. La línea central es la mediana; la caja representa Q1--Q3; los puntos son valores fuera de 1,5 IQR.}
 \end{figure}
-</code></pre></details></section><section id="codigo-actual-15"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/08_tendencias.tex</h3><p>SHA256: <code>3d7a6a0e6abc3edc508f2cd0e3a2d0b6fff4360554379c63f7c73f149e509cf2</code></p><details><summary>Ver código completo de 08_tendencias.tex</summary><pre><code>\section{Tendencias temporales}
+</code></pre></details></section><section id="codigo-actual-16"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/08_tendencias.tex</h3><p>SHA256: <code>3d7a6a0e6abc3edc508f2cd0e3a2d0b6fff4360554379c63f7c73f149e509cf2</code></p><details><summary>Ver código completo de 08_tendencias.tex</summary><pre><code>\section{Tendencias temporales}
 Se analizaron los 485 meses completos de enero de 1981 a diciembre de 2022.
 Para separar la estacionalidad del cambio de largo plazo se usaron anomalías
 mensuales: a cada valor se le resta la media histórica de su mes calendario.
@@ -7629,7 +8374,7 @@ R se deriva directamente de Q, por lo que sus resultados no son evidencias
 independientes. Tmedia se estima como $(Tmin+Tmax)/2$ y tampoco es una
 observación independiente. IMERG no entra al análisis: aún no se cuenta con
 valores mensuales descargados y verificados.
-</code></pre></details></section><section id="codigo-actual-16"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/09_dispersiones_analisis.tex</h3><p>SHA256: <code>bf27c11bbede44751b093761ce27dec5fe57deb8272e8d6e1023f504ae71b7ae</code></p><details><summary>Ver código completo de 09_dispersiones_analisis.tex</summary><pre><code>\section{Análisis de diagramas de dispersión}
+</code></pre></details></section><section id="codigo-actual-17"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/latex/secciones/09_dispersiones_analisis.tex</h3><p>SHA256: <code>bf27c11bbede44751b093761ce27dec5fe57deb8272e8d6e1023f504ae71b7ae</code></p><details><summary>Ver código completo de 09_dispersiones_analisis.tex</summary><pre><code>\section{Análisis de diagramas de dispersión}
 \subsection{Lectura temporal con IMERG}
 IMERG muestra dos máximos estacionales: abril--mayo (medias de 273,27 y 257,47~mm/mes) y octubre--noviembre (276,25 y 276,03~mm/mes). Los meses medios más secos son enero (144,68), julio (153,95) y agosto (154,74~mm/mes). Este patrón describe el ciclo observado por el producto y no demuestra una causa climática por sí solo.
 
@@ -7699,7 +8444,7 @@ Rezago P (meses) &amp; Meses emparejados &amp; Pearson &amp; Spearman \\ \hline
 El mayor Pearson a escala mensual se observa con P rezagada 1 mes(es) (0,61). Esto no demuestra un tiempo físico de respuesta: los promedios mensuales pueden ocultar respuestas de días/semanas y Q depende además de humedad antecedente, almacenamiento y operación.
 
 No se reportan p-valores simples porque los meses consecutivos son dependientes. Estas correlaciones no prueban causalidad ni son un modelo de pronóstico; se requieren rezagos diarios, validación temporal y otras variables.
-</code></pre></details></section><section id="codigo-actual-17"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/05_filtrar_temperatura_imerg.py</h3><p>SHA256: <code>f509afd5fa4c107a9eeed499a780c4fc63dde5a69f335c277bf8d1bc5d7b1993</code></p><details><summary>Ver código completo de 05_filtrar_temperatura_imerg.py</summary><pre><code>&quot;&quot;&quot;Filtro de ocho candidatas: temperatura real de CAMELS y cobertura catalogada IMERG.
+</code></pre></details></section><section id="codigo-actual-18"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/05_filtrar_temperatura_imerg.py</h3><p>SHA256: <code>f509afd5fa4c107a9eeed499a780c4fc63dde5a69f335c277bf8d1bc5d7b1993</code></p><details><summary>Ver código completo de 05_filtrar_temperatura_imerg.py</summary><pre><code>&quot;&quot;&quot;Filtro de ocho candidatas: temperatura real de CAMELS y cobertura catalogada IMERG.
 No confundir cobertura de catalogo con precipitacion extraida y validada.
 &quot;&quot;&quot;
 from pathlib import Path
@@ -7802,7 +8547,7 @@ with pd.ExcelWriter(ROOT/&#x27;Filtro_8_cuencas_IMERG.xlsx&#x27;,engine=&#x27;op
         for c in sheet[1]:
             sheet.column_dimensions[c.column_letter].width=25
 print(&#x27;Guardado:&#x27;,ROOT/&#x27;Filtro_8_cuencas_IMERG.xlsx&#x27;)
-</code></pre></details></section><section id="codigo-actual-18"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/06_mostrar_codigo.py</h3><p>SHA256: <code>08597b7fcc78299212230e9214c7eebca23d7eab2798b044d87c9375564ea71b</code></p><details><summary>Ver código completo de 06_mostrar_codigo.py</summary><pre><code>&quot;&quot;&quot;Crea una vista local de todo el codigo, desde la descarga inicial.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-19"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/06_mostrar_codigo.py</h3><p>SHA256: <code>08597b7fcc78299212230e9214c7eebca23d7eab2798b044d87c9375564ea71b</code></p><details><summary>Ver código completo de 06_mostrar_codigo.py</summary><pre><code>&quot;&quot;&quot;Crea una vista local de todo el codigo, desde la descarga inicial.&quot;&quot;&quot;
 from pathlib import Path
 from html import escape
 import json
@@ -7845,7 +8590,7 @@ html=&#x27;&#x27;&#x27;&lt;!doctype html&gt;&lt;html lang=&quot;es&quot;&gt;&lt;
 import runpy
 runpy.run_path(str(root/&#x27;scripts&#x27;/&#x27;24_actualizar_codigo_completo.py&#x27;), run_name=&#x27;__main__&#x27;)
 print(root/&#x27;Codigo_desde_el_inicio.html&#x27;)
-</code></pre></details></section><section id="codigo-actual-19"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/07_contar_estaciones_ideam.py</h3><p>SHA256: <code>83adbd087d8e80f2715a840000b586bbc62dcc92bf16f3bec0d58c96c6ccb651</code></p><details><summary>Ver código completo de 07_contar_estaciones_ideam.py</summary><pre><code>&quot;&quot;&quot;Cruce espacial reproducible del catalogo IDEAM con ocho cuencas CAMELS.
+</code></pre></details></section><section id="codigo-actual-20"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/07_contar_estaciones_ideam.py</h3><p>SHA256: <code>83adbd087d8e80f2715a840000b586bbc62dcc92bf16f3bec0d58c96c6ccb651</code></p><details><summary>Ver código completo de 07_contar_estaciones_ideam.py</summary><pre><code>&quot;&quot;&quot;Cruce espacial reproducible del catalogo IDEAM con ocho cuencas CAMELS.
 Los conteos son de estaciones, no de series disponibles ni de sensores verificados.
 &quot;&quot;&quot;
 from pathlib import Path
@@ -7965,7 +8710,7 @@ except PermissionError:
     wb.save(saved)
 print(&#x27;ARCHIVO:&#x27;,saved)
 print(summary[[&#x27;prioridad&#x27;,&#x27;codigo&#x27;,&#x27;estacion&#x27;,&#x27;meteorologicas_multivariable_total&#x27;,&#x27;meteorologicas_multivariable_activas&#x27;,&#x27;pluviometricas_pluviograficas_total&#x27;,&#x27;pluviometricas_pluviograficas_activas&#x27;,&#x27;lluvia_segun_categoria_activas&#x27;,&#x27;faltante_max_PQT_1998_2022_pct&#x27;,&#x27;pareto_estaciones_faltantes&#x27;]].to_string(index=False))
-</code></pre></details></section><section id="codigo-actual-20"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/08_exploracion_mensual_la_vieja.py</h3><p>SHA256: <code>d88a9bd974057a81f23039929090896a68344ac403f4c1cfee6b30e8fe6555a8</code></p><details><summary>Ver código completo de 08_exploracion_mensual_la_vieja.py</summary><pre><code>&quot;&quot;&quot;Punto 1, primera exploracion P/Q: originales, auditoria, agregacion y figuras.
+</code></pre></details></section><section id="codigo-actual-21"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/08_exploracion_mensual_la_vieja.py</h3><p>SHA256: <code>d88a9bd974057a81f23039929090896a68344ac403f4c1cfee6b30e8fe6555a8</code></p><details><summary>Ver código completo de 08_exploracion_mensual_la_vieja.py</summary><pre><code>&quot;&quot;&quot;Punto 1, primera exploracion P/Q: originales, auditoria, agregacion y figuras.
 Ejecutar desde cualquier carpeta. Sin rellenos, sin eliminacion por ser extremo.
 &quot;&quot;&quot;
 from pathlib import Path
@@ -8233,7 +8978,7 @@ with pd.ExcelWriter(OUT/&#x27;Exploracion_mensual_La_Vieja.xlsx&#x27;,engine=&#x
 print(json.dumps(summary,indent=2,ensure_ascii=False))
 print(statistics.to_string())
 print(&#x27;Climatologia:&#x27;); print(climatology[climatology.variable.isin([&#x27;P_mm&#x27;,&#x27;Q_m3_s&#x27;])].to_string(index=False))
-</code></pre></details></section><section id="codigo-actual-21"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/09_informe_exploracion.py</h3><p>SHA256: <code>3c2ea3afe20030c7b2f25e475f1e473e545921c3fb69f78b144f37deb281d6a6</code></p><details><summary>Ver código completo de 09_informe_exploracion.py</summary><pre><code>&quot;&quot;&quot;Vista HTML local de figuras, estadisticas y codigo; sin dependencias de red.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-22"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/09_informe_exploracion.py</h3><p>SHA256: <code>3c2ea3afe20030c7b2f25e475f1e473e545921c3fb69f78b144f37deb281d6a6</code></p><details><summary>Ver código completo de 09_informe_exploracion.py</summary><pre><code>&quot;&quot;&quot;Vista HTML local de figuras, estadisticas y codigo; sin dependencias de red.&quot;&quot;&quot;
 from pathlib import Path
 from html import escape
 import json
@@ -8259,7 +9004,7 @@ body{font:17px/1.6 system-ui;max-width:1250px;margin:32px auto;padding:0 24px;co
 &lt;p&gt;Se verificaron de manera independiente enero de 1981 y febrero bisiesto de 1992. Se encontraron ocho secuencias de caudal constante de al menos siete días; permanecen en el análisis y requieren metadatos.&lt;/p&gt;&#x27;&#x27;&#x27;+sections+&#x27;&lt;h2&gt;Tabla descriptiva completa&lt;/h2&gt;&#x27;+stats.to_html(index=False,float_format=lambda x:f&#x27;{x:.3f}&#x27;,border=0)+&#x27;&lt;h2&gt;Interpretación, decisiones y limitaciones&lt;/h2&gt;&#x27;+interpretation+&#x27;&lt;details id=&quot;codigo&quot;&gt;&lt;summary&gt;Ver código completo de esta exploración&lt;/summary&gt;&lt;pre&gt;&lt;code&gt;&#x27;+escape(code)+&#x27;&lt;/code&gt;&lt;/pre&gt;&lt;/details&gt;&lt;/html&gt;&#x27;
 (OUT/&#x27;Informe_exploracion.html&#x27;).write_text(html,encoding=&#x27;utf-8&#x27;)
 print(OUT/&#x27;Informe_exploracion.html&#x27;)
-</code></pre></details></section><section id="codigo-actual-22"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/10_documentos_series_mensuales.py</h3><p>SHA256: <code>7f831b42f4942cbe617c9547b706cddc18835a215ade7c586e42911d76832902</code></p><details><summary>Ver código completo de 10_documentos_series_mensuales.py</summary><pre><code>&quot;&quot;&quot;Paso 1 de los documentos LaTeX y HTML Plotly sin servidor.
+</code></pre></details></section><section id="codigo-actual-23"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/10_documentos_series_mensuales.py</h3><p>SHA256: <code>7f831b42f4942cbe617c9547b706cddc18835a215ade7c586e42911d76832902</code></p><details><summary>Ver código completo de 10_documentos_series_mensuales.py</summary><pre><code>&quot;&quot;&quot;Paso 1 de los documentos LaTeX y HTML Plotly sin servidor.
 Lee las mismas series auditadas para ambos documentos. No rellena vacios.
 &quot;&quot;&quot;
 from pathlib import Path
@@ -8357,7 +9102,7 @@ if (ROOT/&#x27;la_vieja&#x27;/&#x27;topografia&#x27;/&#x27;metadatos_dem.json&#x
 if (LATEX/&#x27;secciones&#x27;/&#x27;06_histogramas_estadisticos.tex&#x27;).exists():
     import runpy
     runpy.run_path(str(ROOT/&#x27;scripts&#x27;/&#x27;19_histogramas_estadisticas.py&#x27;),run_name=&#x27;__main__&#x27;)
-</code></pre></details></section><section id="codigo-actual-23"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/11_verificar_documento_interactivo.py</h3><p>SHA256: <code>35b5ceef57e4ac91dfa1d1402fbcf3f33fbfe5410de5ded9cd4842c5cc41db8f</code></p><details><summary>Ver código completo de 11_verificar_documento_interactivo.py</summary><pre><code>&quot;&quot;&quot;Comprueba apertura offline, datos, zoom y restablecimiento en Edge headless.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-24"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/11_verificar_documento_interactivo.py</h3><p>SHA256: <code>35b5ceef57e4ac91dfa1d1402fbcf3f33fbfe5410de5ded9cd4842c5cc41db8f</code></p><details><summary>Ver código completo de 11_verificar_documento_interactivo.py</summary><pre><code>&quot;&quot;&quot;Comprueba apertura offline, datos, zoom y restablecimiento en Edge headless.&quot;&quot;&quot;
 from pathlib import Path
 import json
 from playwright.sync_api import sync_playwright
@@ -8406,7 +9151,7 @@ with sync_playwright() as p:
     (DOC/&#x27;verificacion_interactivo.json&#x27;).write_text(json.dumps({&#x27;offline&#x27;:True,&#x27;trazas&#x27;:counts,&#x27;zoom_sincronizado&#x27;:True,&#x27;restablecimiento&#x27;:reset,&#x27;errores_js&#x27;:errors,&#x27;peticiones_http&#x27;:network},indent=2),encoding=&#x27;utf-8&#x27;)
     browser.close()
 print(&#x27;HTML verificado sin conexion: datos, 19 vacios, zoom sincronizado y restablecimiento.&#x27;)
-</code></pre></details></section><section id="codigo-actual-24"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/12_compilar_latex.py</h3><p>SHA256: <code>1be59e7b0e2a9c9c607cb5a5ffdf3c033de239267ea2b5bf7b3e8d78c2c0f97e</code></p><details><summary>Ver código completo de 12_compilar_latex.py</summary><pre><code>&quot;&quot;&quot;Compila el documento editable con Tectonic instalado en la carpeta local.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-25"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/12_compilar_latex.py</h3><p>SHA256: <code>1be59e7b0e2a9c9c607cb5a5ffdf3c033de239267ea2b5bf7b3e8d78c2c0f97e</code></p><details><summary>Ver código completo de 12_compilar_latex.py</summary><pre><code>&quot;&quot;&quot;Compila el documento editable con Tectonic instalado en la carpeta local.&quot;&quot;&quot;
 from pathlib import Path
 import subprocess
 
@@ -8419,7 +9164,7 @@ subprocess.run([str(engine),&#x27;informe.tex&#x27;,&#x27;--keep-logs&#x27;],cwd
 if not (folder/&#x27;informe.pdf&#x27;).exists():
     raise RuntimeError(&#x27;No se generó informe.pdf&#x27;)
 print(folder/&#x27;informe.pdf&#x27;)
-</code></pre></details></section><section id="codigo-actual-25"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/13_control_faltantes_documentos.py</h3><p>SHA256: <code>f1c605c8bc2e90757f21fcaf1b32da972a52faa339cfeb73dce58eb61e9365ee</code></p><details><summary>Ver código completo de 13_control_faltantes_documentos.py</summary><pre><code>&quot;&quot;&quot;Añade control de faltantes a LaTeX y HTML; ejecución repetible sin duplicados.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-26"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/13_control_faltantes_documentos.py</h3><p>SHA256: <code>f1c605c8bc2e90757f21fcaf1b32da972a52faa339cfeb73dce58eb61e9365ee</code></p><details><summary>Ver código completo de 13_control_faltantes_documentos.py</summary><pre><code>&quot;&quot;&quot;Añade control de faltantes a LaTeX y HTML; ejecución repetible sin duplicados.&quot;&quot;&quot;
 from pathlib import Path
 import pandas as pd
 import numpy as np
@@ -8521,7 +9266,7 @@ if r&#x27;\input{secciones/02_control_faltantes}&#x27; not in content:
 content=content.replace(&#x27;Documento en construcción -- Paso 1&#x27;,&#x27;Documento en construcción -- Pasos 1 y 2&#x27;)
 main.write_text(content,encoding=&#x27;utf-8&#x27;)
 print(&#x27;Control de faltantes agregado a ambos documentos; 19 meses y 255 días comprobados.&#x27;)
-</code></pre></details></section><section id="codigo-actual-26"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/14_estadisticas_por_ano.py</h3><p>SHA256: <code>e30f82263da6157130e1916a3d563ddaf580c9d5e5a98a463dd5abfb0919f78a</code></p><details><summary>Ver código completo de 14_estadisticas_por_ano.py</summary><pre><code>&quot;&quot;&quot;Descripción global y por año de valores mensuales válidos de P y Q.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-27"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/14_estadisticas_por_ano.py</h3><p>SHA256: <code>e30f82263da6157130e1916a3d563ddaf580c9d5e5a98a463dd5abfb0919f78a</code></p><details><summary>Ver código completo de 14_estadisticas_por_ano.py</summary><pre><code>&quot;&quot;&quot;Descripción global y por año de valores mensuales válidos de P y Q.&quot;&quot;&quot;
 from pathlib import Path
 import pandas as pd
 
@@ -8615,7 +9360,7 @@ if r&#x27;\input{secciones/03_estadistica_por_ano}&#x27; not in text:
 text=text.replace(&#x27;Pasos 1 y 2&#x27;,&#x27;Pasos 1 a 3&#x27;)
 main.write_text(text,encoding=&#x27;utf-8&#x27;)
 print(&#x27;Agregadas 2 filas globales y 84 filas por año: 42 años x 2 variables.&#x27;)
-</code></pre></details></section><section id="codigo-actual-27"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/15_grafica_cobertura_mensual.py</h3><p>SHA256: <code>e04030cb7fd8dd3fa8d6d5a784786a4a0f9a409074c7c83899ec68ae4147e589</code></p><details><summary>Ver código completo de 15_grafica_cobertura_mensual.py</summary><pre><code>&quot;&quot;&quot;Tercera gráfica interactiva: porcentaje de días válidos por mes vs tiempo.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-28"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/15_grafica_cobertura_mensual.py</h3><p>SHA256: <code>e04030cb7fd8dd3fa8d6d5a784786a4a0f9a409074c7c83899ec68ae4147e589</code></p><details><summary>Ver código completo de 15_grafica_cobertura_mensual.py</summary><pre><code>&quot;&quot;&quot;Tercera gráfica interactiva: porcentaje de días válidos por mes vs tiempo.&quot;&quot;&quot;
 from pathlib import Path
 import pandas as pd
 import plotly.graph_objects as go
@@ -8639,7 +9384,7 @@ if start in html:
 html=html.replace(&#x27;&lt;/section&gt;&#x27;,&#x27;&lt;/section&gt;&#x27;+section,1)
 path.write_text(html,encoding=&#x27;utf-8&#x27;)
 print(&#x27;Tercera gráfica añadida: 504 porcentajes mensuales y curva común P/Q.&#x27;)
-</code></pre></details></section><section id="codigo-actual-28"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/16_procedencia_alcance.py</h3><p>SHA256: <code>0c8aad34602e20df19bf117a5a829938dbe673af4d1e796822b82511fa127b18</code></p><details><summary>Ver código completo de 16_procedencia_alcance.py</summary><pre><code>&quot;&quot;&quot;Sección final de procedencia y alcance en LaTeX y HTML autocontenido.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-29"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/16_procedencia_alcance.py</h3><p>SHA256: <code>0c8aad34602e20df19bf117a5a829938dbe673af4d1e796822b82511fa127b18</code></p><details><summary>Ver código completo de 16_procedencia_alcance.py</summary><pre><code>&quot;&quot;&quot;Sección final de procedencia y alcance en LaTeX y HTML autocontenido.&quot;&quot;&quot;
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -8728,7 +9473,7 @@ if r&#x27;\input{secciones/04_procedencia_alcance}&#x27; not in content:
     content=content.replace(r&#x27;\end{document}&#x27;,r&#x27;\clearpage&#x27;+&#x27;\n&#x27;+r&#x27;\input{secciones/04_procedencia_alcance}&#x27;+&#x27;\n&#x27;+r&#x27;\end{document}&#x27;)
 main.write_text(content,encoding=&#x27;utf-8&#x27;)
 print(&#x27;Procedencia y alcance añadidos al final de ambos documentos.&#x27;)
-</code></pre></details></section><section id="codigo-actual-29"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/17_topografia_la_vieja.py</h3><p>SHA256: <code>4afb8cebde50883435b7b7faff64cbb5038631b448db731c271a0f4a0b34e01d</code></p><details><summary>Ver código completo de 17_topografia_la_vieja.py</summary><pre><code>&quot;&quot;&quot;Descarga pública Copernicus GLO-30 y recorte al polígono CAMELS.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-30"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/17_topografia_la_vieja.py</h3><p>SHA256: <code>4afb8cebde50883435b7b7faff64cbb5038631b448db731c271a0f4a0b34e01d</code></p><details><summary>Ver código completo de 17_topografia_la_vieja.py</summary><pre><code>&quot;&quot;&quot;Descarga pública Copernicus GLO-30 y recorte al polígono CAMELS.&quot;&quot;&quot;
 from pathlib import Path
 import json, hashlib, urllib.request
 import numpy as np
@@ -8772,7 +9517,7 @@ meta={&#x27;producto&#x27;:&#x27;Copernicus DEM GLO-30 Public COG&#x27;,&#x27;ti
 (OUT/&#x27;metadatos_dem.json&#x27;).write_text(json.dumps(meta,ensure_ascii=False,indent=2),encoding=&#x27;utf-8&#x27;)
 (OUT/&#x27;ATRIBUCION.txt&#x27;).write_text(notice,encoding=&#x27;utf-8&#x27;)
 print(json.dumps(meta,ensure_ascii=False,indent=2))
-</code></pre></details></section><section id="codigo-actual-30"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/18_temperatura_dispersion_mapas.py</h3><p>SHA256: <code>606c714819db42a58766e8a079f1e685cb3800d13f134cc63bc0926c68b8493e</code></p><details><summary>Ver código completo de 18_temperatura_dispersion_mapas.py</summary><pre><code>&quot;&quot;&quot;Añade temperatura, dispersión disponible y mapas sin sustituir IMERG ausente.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-31"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/18_temperatura_dispersion_mapas.py</h3><p>SHA256: <code>606c714819db42a58766e8a079f1e685cb3800d13f134cc63bc0926c68b8493e</code></p><details><summary>Ver código completo de 18_temperatura_dispersion_mapas.py</summary><pre><code>&quot;&quot;&quot;Añade temperatura, dispersión disponible y mapas sin sustituir IMERG ausente.&quot;&quot;&quot;
 from pathlib import Path
 import json
 import numpy as np
@@ -8957,7 +9702,7 @@ if r&#x27;\input{secciones/05_temperatura_dispersion_mapas}&#x27; not in content
     content=content.replace(r&#x27;\input{secciones/04_procedencia_alcance}&#x27;,r&#x27;\input{secciones/05_temperatura_dispersion_mapas}&#x27;+&#x27;\n&#x27;+r&#x27;\clearpage&#x27;+&#x27;\n&#x27;+r&#x27;\input{secciones/04_procedencia_alcance}&#x27;)
 main.write_text(content,encoding=&#x27;utf-8&#x27;)
 print(f&#x27;Temperatura: 485 meses. Dispersión CHIRPS–Q: n={len(paired)}, r={r:.4f}, rho={rho:.4f}. Mapas y GeoTIFF listos. IMERG/estaciones pendientes.&#x27;)
-</code></pre></details></section><section id="codigo-actual-31"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/19_histogramas_estadisticas.py</h3><p>SHA256: <code>7c951b580167c4b163e9a9c8a5cf26e5bff33143ddf8ca60e4bd2b9b74fcc9c9</code></p><details><summary>Ver código completo de 19_histogramas_estadisticas.py</summary><pre><code>&quot;&quot;&quot;Histogramas y estadísticos completos; periodos y unidades explícitos.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-32"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/19_histogramas_estadisticas.py</h3><p>SHA256: <code>7c951b580167c4b163e9a9c8a5cf26e5bff33143ddf8ca60e4bd2b9b74fcc9c9</code></p><details><summary>Ver código completo de 19_histogramas_estadisticas.py</summary><pre><code>&quot;&quot;&quot;Histogramas y estadísticos completos; periodos y unidades explícitos.&quot;&quot;&quot;
 from pathlib import Path
 import json
 import numpy as np
@@ -9062,7 +9807,7 @@ if r&#x27;\input{secciones/06_histogramas_estadisticos}&#x27; not in text:
     text=text.replace(r&#x27;\input{secciones/04_procedencia_alcance}&#x27;,r&#x27;\input{secciones/06_histogramas_estadisticos}&#x27;+&#x27;\n&#x27;+r&#x27;\clearpage&#x27;+&#x27;\n&#x27;+r&#x27;\input{secciones/04_procedencia_alcance}&#x27;)
 main.write_text(text,encoding=&#x27;utf-8&#x27;)
 print(df[[&#x27;Variable&#x27;,&#x27;Meses válidos&#x27;,&#x27;Media&#x27;,&#x27;P5&#x27;,&#x27;P95&#x27;]].to_string(index=False))
-</code></pre></details></section><section id="codigo-actual-32"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/20_verificar_precipitacion_insitu.py</h3><p>SHA256: <code>62709ec2e097c4bd240c4e05d2cf2516f8063c964edd51bd778771ee1e273f74</code></p><details><summary>Ver código completo de 20_verificar_precipitacion_insitu.py</summary><pre><code>&quot;&quot;&quot;Consulta pública IDEAM: existencia de registros, sin confundirlos con series diarias.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-33"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/20_verificar_precipitacion_insitu.py</h3><p>SHA256: <code>62709ec2e097c4bd240c4e05d2cf2516f8063c964edd51bd778771ee1e273f74</code></p><details><summary>Ver código completo de 20_verificar_precipitacion_insitu.py</summary><pre><code>&quot;&quot;&quot;Consulta pública IDEAM: existencia de registros, sin confundirlos con series diarias.&quot;&quot;&quot;
 from pathlib import Path
 import urllib.request, urllib.parse, json
 import pandas as pd
@@ -9090,7 +9835,7 @@ try:
 except Exception as error:
     (OUT/&#x27;error_consulta.json&#x27;).write_text(json.dumps({&#x27;url&#x27;:url,&#x27;error&#x27;:str(error)},indent=2),encoding=&#x27;utf-8&#x27;)
     raise
-</code></pre></details></section><section id="codigo-actual-33"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/21_ordenar_informes.py</h3><p>SHA256: <code>076be6d59c9690450bcac1f320118713e147b9956776b0db725984b89b135e2e</code></p><details><summary>Ver código completo de 21_ordenar_informes.py</summary><pre><code>&quot;&quot;&quot;Ordena los informes existentes sin recalcular datos ni generar figuras.
+</code></pre></details></section><section id="codigo-actual-34"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/21_ordenar_informes.py</h3><p>SHA256: <code>106a110b9555065a283e5f592edd8dc7bb6c71edc2188a31a58162f0040cf50f</code></p><details><summary>Ver código completo de 21_ordenar_informes.py</summary><pre><code>&quot;&quot;&quot;Ordena los informes existentes sin recalcular datos ni generar figuras.
 
 Ejecutar después de regenerar los documentos con los scripts anteriores.
 Las fuentes originales por sección se mantienen como entradas sin modificar.
@@ -9154,7 +9899,9 @@ Los procedimientos existentes se conservan junto a cada análisis; la metodolog�
     content += block(r&#x27;\subsection{Graficar las series de caudal y precipitación}&#x27;, sources[&#x27;01_series_mensuales&#x27;] + temp + parts[1])
     content += block(r&#x27;\subsection{Incorporar precipitación IMERG para la misma cuenca}&#x27;, new12 + (r&#x27;\subsubsection*{Antecedentes conservados: IMERG promedio de caja}&#x27; if new12 else &#x27;&#x27;) + imerg_reading)
     content += block(r&#x27;\subsection{Describir la distribución de los datos mensuales}&#x27;, new13 + (r&#x27;\subsubsection*{Antecedentes conservados: fuentes y muestras anteriores}&#x27; if new13 else &#x27;&#x27;) + sources[&#x27;03_estadistica_por_ano&#x27;] + sources[&#x27;06_histogramas_estadisticos&#x27;] + parts[2])
-    content += block(r&#x27;\subsection{Usar la exploración como control de calidad}&#x27;, sources[&#x27;02_control_faltantes&#x27;])
+    availability = DOC / &#x27;disponibilidad_mensual&#x27; / &#x27;disponibilidad_fuentes.tex&#x27;
+    new14 = availability.read_text(encoding=&#x27;utf-8&#x27;) if availability.exists() else &#x27;&#x27;
+    content += block(r&#x27;\subsection{Usar la exploración como control de calidad}&#x27;, sources[&#x27;02_control_faltantes&#x27;] + new14)
     content += block(r&#x27;\subsection{Climatología, variabilidad y explicación física}&#x27;, imerg_cycle)
     content += &#x27;Apartado pendiente de completar según la guía; esta reorganización no incorpora resultados nuevos.\n&#x27;
     for title in [&#x27;1.5.a. Construir la climatología de doce meses&#x27;, &#x27;1.5.b. Describir y contrastar el ciclo anual&#x27;, &#x27;1.5.c. Explicar los procesos regionales y de la cuenca&#x27;]:
@@ -9181,7 +9928,7 @@ Los procedimientos existentes se conservan junto a cada análisis; la metodolog�
     content += &#x27;\\end{document}\n&#x27;
     original_used = &#x27;&#x27;.join(sources[name] for name in [&#x27;01_series_mensuales&#x27;, &#x27;02_control_faltantes&#x27;, &#x27;03_estadistica_por_ano&#x27;, &#x27;05_temperatura_dispersion_mapas&#x27;, &#x27;06_histogramas_estadisticos&#x27;, &#x27;09_dispersiones_analisis&#x27;, &#x27;08_tendencias&#x27;, &#x27;04_procedencia_alcance&#x27;])
     figures = lambda t: sorted(re.findall(r&#x27;\\includegraphics(?:\[[^]]*\])?\{([^}]+)\}&#x27;, t))
-    assert figures(content) == figures(original_used + new12 + new13), &#x27;Se modificó el inventario de figuras&#x27;
+    assert figures(content) == figures(original_used + new12 + new13 + new14), &#x27;Se modificó el inventario de figuras&#x27;
     def bodies(text):
         text = re.sub(r&#x27;\\(?:subsubsection|subsection|section)\*?\{[^\n]*?\}&#x27;, &#x27;&#x27;, text)
         return re.sub(r&#x27;\s+&#x27;, &#x27;&#x27;, text)
@@ -9237,6 +9984,7 @@ function ordenar(){
  mover(s13,document.getElementById(&#x27;histogramas&#x27;),&#x27;Histogramas y estadísticos completos&#x27;);
  const s14=sub(p1,&#x27;guia-1-4&#x27;,&#x27;1.4. Usar la exploración como control de calidad&#x27;);
  mover(s14,document.getElementById(&#x27;faltantes&#x27;),&#x27;Control de datos faltantes&#x27;);
+ mover(s14,document.getElementById(&#x27;disponibilidad-imerg-temperatura&#x27;),&#x27;Disponibilidad mensual de IMERG y temperatura&#x27;);
  const s15=sub(p1,&#x27;guia-1-5&#x27;,&#x27;1.5. Climatología, variabilidad y explicación física&#x27;);
  const pending=document.createElement(&#x27;p&#x27;);pending.textContent=&#x27;Apartado pendiente de completar según la guía; esta reorganización no incorpora resultados nuevos.&#x27;;s15.appendChild(pending);
  for(const [id,title] of [[&#x27;guia-1-5-a&#x27;,&#x27;1.5.a. Construir la climatología de doce meses&#x27;],[&#x27;guia-1-5-b&#x27;,&#x27;1.5.b. Describir y contrastar el ciclo anual&#x27;],[&#x27;guia-1-5-c&#x27;,&#x27;1.5.c. Explicar los procesos regionales y de la cuenca&#x27;]])pendiente(sub(s15,id,title));
@@ -9273,7 +10021,7 @@ if __name__ == &#x27;__main__&#x27;:
     organize_html()
     organize_pdf()
     print(&#x27;HTML y PDF ordenados; datos y figuras originales conservados.&#x27;)
-</code></pre></details></section><section id="codigo-actual-34"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/22_imerg_poligono_estadisticas.py</h3><p>SHA256: <code>b3c57005637bdcc32399f120e39e71dfd6704cd8e8699a327661e4faa9fd03d7</code></p><details><summary>Ver código completo de 22_imerg_poligono_estadisticas.py</summary><pre><code>&quot;&quot;&quot;Extrae los 300 meses IMERG V07B y añade 1.2/1.3 sin sustituir antecedentes.
+</code></pre></details></section><section id="codigo-actual-35"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/22_imerg_poligono_estadisticas.py</h3><p>SHA256: <code>b3c57005637bdcc32399f120e39e71dfd6704cd8e8699a327661e4faa9fd03d7</code></p><details><summary>Ver código completo de 22_imerg_poligono_estadisticas.py</summary><pre><code>&quot;&quot;&quot;Extrae los 300 meses IMERG V07B y añade 1.2/1.3 sin sustituir antecedentes.
 
 Ejecutar desde cualquier directorio. No modifica HDF5 ni tablas anteriores.
 Después ejecutar 21_ordenar_informes.py para compilar el PDF y ordenar el HTML.
@@ -9532,7 +10280,7 @@ if __name__ == &#x27;__main__&#x27;:
     FIG.mkdir(exist_ok=True)
     s, meta = extract()
     report(s, meta)
-</code></pre></details></section><section id="codigo-actual-35"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/23_ampliar_distribuciones.py</h3><p>SHA256: <code>3f458d6b8e2dc483acf1a28aea4e57f32f18c250eaecd7f6ffb395fb427c5db6</code></p><details><summary>Ver código completo de 23_ampliar_distribuciones.py</summary><pre><code>&quot;&quot;&quot;Amplía el inciso 1.3 sin modificar series, tablas previas ni figuras.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-36"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/23_ampliar_distribuciones.py</h3><p>SHA256: <code>3f458d6b8e2dc483acf1a28aea4e57f32f18c250eaecd7f6ffb395fb427c5db6</code></p><details><summary>Ver código completo de 23_ampliar_distribuciones.py</summary><pre><code>&quot;&quot;&quot;Amplía el inciso 1.3 sin modificar series, tablas previas ni figuras.&quot;&quot;&quot;
 from pathlib import Path
 import re
 import pandas as pd
@@ -9646,7 +10394,7 @@ def main():
 
 if __name__ == &#x27;__main__&#x27;:
     main()
-</code></pre></details></section><section id="codigo-actual-36"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/24_actualizar_codigo_completo.py</h3><p>SHA256: <code>1e8fd73d4335d1dc8246fad270472cb6acd147aa646c20febe7895648e13cff9</code></p><details><summary>Ver código completo de 24_actualizar_codigo_completo.py</summary><pre><code>&quot;&quot;&quot;Actualiza la vista de código completa y conserva su registro histórico.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-37"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/24_actualizar_codigo_completo.py</h3><p>SHA256: <code>0ff820470e9365d0b7b8e5237b0b0038222c52d44a20d3ad98a0452410d60efe</code></p><details><summary>Ver código completo de 24_actualizar_codigo_completo.py</summary><pre><code>&quot;&quot;&quot;Actualiza la vista de código completa y conserva su registro histórico.&quot;&quot;&quot;
 from pathlib import Path
 from html import escape
 import hashlib
@@ -9668,6 +10416,7 @@ def main():
     files += list((DOC / &#x27;latex&#x27; / &#x27;secciones&#x27;).glob(&#x27;*.tex&#x27;))
     files += [DOC / &#x27;latex&#x27; / &#x27;informe.tex&#x27;, DOC / &#x27;latex&#x27; / &#x27;informe_ordenado.tex&#x27;]
     files += list((DOC / &#x27;imerg_poligono&#x27;).glob(&#x27;*.tex&#x27;))
+    files += list((DOC / &#x27;disponibilidad_mensual&#x27;).glob(&#x27;*.tex&#x27;))
     files += [DOC / &#x27;informe_interactivo.html&#x27;]
     files = sorted(set(p for p in files if p.is_file()), key=lambda p: p.relative_to(WORKSPACE).as_posix())
     nav, sections = [], []
@@ -9709,7 +10458,7 @@ Los HDF5 originales permanecen locales; GitHub contiene los scripts, informes y 
 
 if __name__ == &#x27;__main__&#x27;:
     main()
-</code></pre></details></section><section id="codigo-actual-37"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/25_contraste_extremos_interactivo.py</h3><p>SHA256: <code>bc2559624df40bc222aa5a2667bda9ea6dd1e755cdb4f9bba13fce950500a26d</code></p><details><summary>Ver código completo de 25_contraste_extremos_interactivo.py</summary><pre><code>&quot;&quot;&quot;Incorpora al HTML el contraste breve de extremos sin alterar gráficos.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-38"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/25_contraste_extremos_interactivo.py</h3><p>SHA256: <code>bc2559624df40bc222aa5a2667bda9ea6dd1e755cdb4f9bba13fce950500a26d</code></p><details><summary>Ver código completo de 25_contraste_extremos_interactivo.py</summary><pre><code>&quot;&quot;&quot;Incorpora al HTML el contraste breve de extremos sin alterar gráficos.&quot;&quot;&quot;
 from pathlib import Path
 import re
 import pandas as pd
@@ -9759,7 +10508,7 @@ def main():
 
 if __name__ == &#x27;__main__&#x27;:
     main()
-</code></pre></details></section><section id="codigo-actual-38"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/26_graficas_interpretacion.py</h3><p>SHA256: <code>755043b66c46ea809ccac5c717e809f65ed20a9507aae2ec7f3a0da8c928cb09</code></p><details><summary>Ver código completo de 26_graficas_interpretacion.py</summary><pre><code>&quot;&quot;&quot;Comparaciones visuales del cuarto inciso de 1.3; no modifica las series.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-39"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/26_graficas_interpretacion.py</h3><p>SHA256: <code>755043b66c46ea809ccac5c717e809f65ed20a9507aae2ec7f3a0da8c928cb09</code></p><details><summary>Ver código completo de 26_graficas_interpretacion.py</summary><pre><code>&quot;&quot;&quot;Comparaciones visuales del cuarto inciso de 1.3; no modifica las series.&quot;&quot;&quot;
 from pathlib import Path
 import re
 import numpy as np
@@ -9895,7 +10644,7 @@ def main():
 
 
 if __name__==&#x27;__main__&#x27;: main()
-</code></pre></details></section><section id="codigo-actual-39"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/27_justificar_frecuencias.py</h3><p>SHA256: <code>c45cbb393686d9ce8eaf4c61aa4466caa60854bf8783d48fb78cf7b776035a2e</code></p><details><summary>Ver código completo de 27_justificar_frecuencias.py</summary><pre><code>&quot;&quot;&quot;Añade una justificación breve sin regenerar datos ni gráficos.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-40"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/27_justificar_frecuencias.py</h3><p>SHA256: <code>c45cbb393686d9ce8eaf4c61aa4466caa60854bf8783d48fb78cf7b776035a2e</code></p><details><summary>Ver código completo de 27_justificar_frecuencias.py</summary><pre><code>&quot;&quot;&quot;Añade una justificación breve sin regenerar datos ni gráficos.&quot;&quot;&quot;
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -9926,7 +10675,7 @@ def main():
 
 if __name__ == &#x27;__main__&#x27;:
     main()
-</code></pre></details></section><section id="codigo-actual-40"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/28_extremos_registro_historico.py</h3><p>SHA256: <code>eb9bd089e12f427f208806cef5686f91ae2bb5bfb647fdca9b382f19b9e68045</code></p><details><summary>Ver código completo de 28_extremos_registro_historico.py</summary><pre><code>&quot;&quot;&quot;Contrasta los extremos históricos anteriores a IMERG, sin modificar series.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-41"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/28_extremos_registro_historico.py</h3><p>SHA256: <code>eb9bd089e12f427f208806cef5686f91ae2bb5bfb647fdca9b382f19b9e68045</code></p><details><summary>Ver código completo de 28_extremos_registro_historico.py</summary><pre><code>&quot;&quot;&quot;Contrasta los extremos históricos anteriores a IMERG, sin modificar series.&quot;&quot;&quot;
 from pathlib import Path
 import re
 import pandas as pd
@@ -10019,7 +10768,7 @@ def main():
 
 
 if __name__==&#x27;__main__&#x27;: main()
-</code></pre></details></section><section id="codigo-actual-41"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/29_conclusion_extremos.py</h3><p>SHA256: <code>6d7e6d6ba3bf2633f311c28b4fd590a2507df91fd06091ec9658ae61e456f668</code></p><details><summary>Ver código completo de 29_conclusion_extremos.py</summary><pre><code>&quot;&quot;&quot;Añade respuestas concisas a las dos preguntas del inciso 1.3.3.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-42"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/29_conclusion_extremos.py</h3><p>SHA256: <code>6d7e6d6ba3bf2633f311c28b4fd590a2507df91fd06091ec9658ae61e456f668</code></p><details><summary>Ver código completo de 29_conclusion_extremos.py</summary><pre><code>&quot;&quot;&quot;Añade respuestas concisas a las dos preguntas del inciso 1.3.3.&quot;&quot;&quot;
 from pathlib import Path
 import re
 
@@ -10053,7 +10802,7 @@ def main():
 
 
 if __name__==&#x27;__main__&#x27;: main()
-</code></pre></details></section><section id="codigo-actual-42"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/30_respuestas_interpretacion.py</h3><p>SHA256: <code>7fa3f85191a0a99a2790c550cac218f1bf690eab30b41d51bf005415d67132b7</code></p><details><summary>Ver código completo de 30_respuestas_interpretacion.py</summary><pre><code>&quot;&quot;&quot;Respuestas breves en lenguaje sencillo para el cuarto inciso del 1.3.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-43"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/30_respuestas_interpretacion.py</h3><p>SHA256: <code>7fa3f85191a0a99a2790c550cac218f1bf690eab30b41d51bf005415d67132b7</code></p><details><summary>Ver código completo de 30_respuestas_interpretacion.py</summary><pre><code>&quot;&quot;&quot;Respuestas breves en lenguaje sencillo para el cuarto inciso del 1.3.&quot;&quot;&quot;
 from pathlib import Path
 import re
 
@@ -10090,7 +10839,128 @@ def main():
 
 
 if __name__==&#x27;__main__&#x27;: main()
-</code></pre></details></section><section id="codigo-actual-43"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/crear_excel.py</h3><p>SHA256: <code>3292b333580e70feeb259b9ebac0155d039a692779a8cc8d041ae38c7a91ad67</code></p><details><summary>Ver código completo de crear_excel.py</summary><pre><code>from pathlib import Path
+</code></pre></details></section><section id="codigo-actual-44"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/31_disponibilidad_imerg_temperatura.py</h3><p>SHA256: <code>adf3ead6d20a8ad0f65b931f4c1dfd8f92600317bf2fc4cb94a8e93ebaee8034</code></p><details><summary>Ver código completo de 31_disponibilidad_imerg_temperatura.py</summary><pre><code>&quot;&quot;&quot;Disponibilidad mensual por fuente; no atribuye cobertura diaria no comprobada.&quot;&quot;&quot;
+from pathlib import Path
+import re
+import numpy as np
+import pandas as pd
+import matplotlib
+matplotlib.use(&#x27;Agg&#x27;)
+import matplotlib.pyplot as plt
+from matplotlib.colors import ListedColormap
+from matplotlib.patches import Patch
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+ROOT = Path(__file__).resolve().parents[1]
+DOC = ROOT / &#x27;la_vieja&#x27; / &#x27;documentos&#x27;
+OUT = DOC / &#x27;disponibilidad_mensual&#x27;
+
+
+def main():
+    OUT.mkdir(exist_ok=True)
+    calendar = pd.date_range(&#x27;1981-01-01&#x27;,&#x27;2022-12-01&#x27;,freq=&#x27;MS&#x27;)
+    specs = [(&#x27;IMERG polígono&#x27;, DOC/&#x27;imerg_poligono&#x27;/&#x27;IMERG_mensual_poligono_1998_2022.csv&#x27;,
+              &#x27;P_IMERG_poligono_mm&#x27;,&#x27;1998-01-01&#x27;),
+             (&#x27;ERA5-Land Tmedia&#x27;, DOC/&#x27;temperatura_media_ERA5_Land_mensual.csv&#x27;,
+              &#x27;Tmedia_ERA5_Land_C&#x27;,&#x27;1981-01-01&#x27;)]
+    rows, matrices, summary = [], [], []
+    for name,path,key,start in specs:
+        source = pd.read_csv(path,parse_dates=[&#x27;mes&#x27;])
+        assert not source.mes.duplicated().any()
+        assert source.mes.dt.is_month_start.all()
+        assert source.mes.between(pd.Timestamp(start),pd.Timestamp(&#x27;2022-12-01&#x27;)).all()
+        series = source.set_index(&#x27;mes&#x27;)[key].reindex(calendar)
+        within = calendar &gt;= pd.Timestamp(start)
+        valid = np.isfinite(series.to_numpy())
+        if key.startswith(&#x27;P_&#x27;): valid &amp;= series.to_numpy() &gt;= 0
+        states = np.where(~within,0,np.where(valid,2,1))
+        matrices.append(states.reshape(42,12))
+        for month,value,state in zip(calendar,series,states):
+            rows.append(dict(fuente=name,mes=month.strftime(&#x27;%Y-%m&#x27;),anio=month.year,
+                             mes_numero=month.month,estado=[&#x27;Fuera de cobertura&#x27;,&#x27;Faltante o inválido&#x27;,&#x27;Válido&#x27;][state],
+                             valor=value if state!=0 else np.nan))
+        summary.append(dict(Fuente=name,Inicio=start[:7],Fin=&#x27;2022-12&#x27;,
+                            Validos=int((states==2).sum()),Faltantes=int((states==1).sum()),
+                            Fuera_de_cobertura=int((states==0).sum())))
+    monthly = pd.DataFrame(rows)
+    totals = pd.DataFrame(summary)
+    annual = monthly.groupby([&#x27;fuente&#x27;,&#x27;anio&#x27;,&#x27;estado&#x27;]).size().unstack(fill_value=0).reset_index()
+    for name in [&#x27;Válido&#x27;,&#x27;Faltante o inválido&#x27;,&#x27;Fuera de cobertura&#x27;]:
+        if name not in annual: annual[name]=0
+    assert totals.Validos.tolist()==[300,504]
+    assert totals.Faltantes.tolist()==[0,0]
+    assert totals.Fuera_de_cobertura.tolist()==[204,0]
+    monthly.to_csv(OUT/&#x27;disponibilidad_por_mes.csv&#x27;,index=False)
+    annual.to_csv(OUT/&#x27;disponibilidad_por_anio.csv&#x27;,index=False)
+    totals.to_csv(OUT/&#x27;resumen_fuentes.csv&#x27;,index=False)
+    colors=[&#x27;#d9dde1&#x27;,&#x27;#de8b36&#x27;,&#x27;#34856a&#x27;]
+    months=[&#x27;Ene&#x27;,&#x27;Feb&#x27;,&#x27;Mar&#x27;,&#x27;Abr&#x27;,&#x27;May&#x27;,&#x27;Jun&#x27;,&#x27;Jul&#x27;,&#x27;Ago&#x27;,&#x27;Sep&#x27;,&#x27;Oct&#x27;,&#x27;Nov&#x27;,&#x27;Dic&#x27;]
+    fig, axis=plt.subplots(figsize=(11,3.7))
+    chart=go.Figure()
+    state_labels=[&#x27;Fuera de cobertura&#x27;,&#x27;Faltante o inválido&#x27;,&#x27;Válido&#x27;]
+    legend_seen=set()
+    for n,(matrix,spec) in enumerate(zip(matrices,specs)):
+        states=matrix.ravel()
+        boundaries=np.r_[0,np.flatnonzero(np.diff(states))+1,len(states)]
+        for first,last in zip(boundaries[:-1],boundaries[1:]):
+            state=int(states[first]);left=1981+first/12;width=(last-first)/12
+            count=int(last-first)
+            period=f&#x27;{calendar[first]:%Y-%m} a {calendar[last-1]:%Y-%m}&#x27;
+            label=f&#x27;{count} meses &#x27;+(&#x27;válidos&#x27; if state==2 else &#x27;fuera de cobertura&#x27; if state==0 else &#x27;faltantes&#x27;)
+            axis.barh(n,width,left=left,height=.48,color=colors[state])
+            axis.text(left+width/2,n,label,ha=&#x27;center&#x27;,va=&#x27;center&#x27;,fontsize=10,
+                      color=&#x27;white&#x27; if state==2 else &#x27;#263744&#x27;)
+            chart.add_trace(go.Bar(y=[spec[0]],x=[width],base=[left],orientation=&#x27;h&#x27;,
+                width=.48,marker_color=colors[state],name=state_labels[state],
+                showlegend=state not in legend_seen,text=[label],textposition=&#x27;inside&#x27;,
+                customdata=[[period,count]],hovertemplate=&#x27;%{y}&lt;br&gt;%{customdata[0]}&lt;br&gt;%{customdata[1]} meses&lt;extra&gt;&#x27;+state_labels[state]+&#x27;&lt;/extra&gt;&#x27;))
+            legend_seen.add(state)
+    ticks=[1981,1990,1998,2010,2020,2023]
+    ticklabels=[&#x27;1981&#x27;,&#x27;1990&#x27;,&#x27;1998&#x27;,&#x27;2010&#x27;,&#x27;2020&#x27;,&#x27;Fin 2022&#x27;]
+    axis.set_yticks([0,1],[s[0] for s in specs]);axis.invert_yaxis()
+    axis.set_xlim(1981,2023);axis.set_xticks(ticks,ticklabels)
+    axis.set_xlabel(&#x27;Periodo de estudio&#x27;);axis.set_title(&#x27;Cobertura temporal de los datos mensuales&#x27;)
+    axis.axvline(1998,color=&#x27;#6f7e87&#x27;,ls=&#x27;--&#x27;,lw=.8)
+    axis.grid(axis=&#x27;x&#x27;,alpha=.18);axis.set_axisbelow(True)
+    axis.spines[[&#x27;top&#x27;,&#x27;right&#x27;,&#x27;left&#x27;]].set_visible(False)
+    fig.legend(handles=[Patch(color=colors[s],label=state_labels[s]) for s in sorted(legend_seen)],loc=&#x27;lower center&#x27;,ncol=len(legend_seen))
+    fig.tight_layout(rect=[0,.12,1,1])
+    fig.savefig(DOC/&#x27;latex&#x27;/&#x27;figuras&#x27;/&#x27;disponibilidad_imerg_era5.pdf&#x27;)
+    fig.savefig(OUT/&#x27;disponibilidad_imerg_era5.png&#x27;,dpi=150)
+    plt.close(fig)
+    chart.update_yaxes(autorange=&#x27;reversed&#x27;,categoryorder=&#x27;array&#x27;,categoryarray=[s[0] for s in specs])
+    chart.update_layout(height=350,barmode=&#x27;overlay&#x27;,title=&#x27;Cobertura temporal de los datos mensuales&#x27;,
+                        xaxis={&#x27;range&#x27;:[1981,2023],&#x27;tickvals&#x27;:ticks,&#x27;ticktext&#x27;:ticklabels},
+                        legend={&#x27;orientation&#x27;:&#x27;h&#x27;,&#x27;y&#x27;:-.25},margin={&#x27;l&#x27;:160,&#x27;r&#x27;:35,&#x27;b&#x27;:90})
+    explanation=(&#x27;IMERG dispone de 300 meses válidos de enero de 1998 a diciembre de 2022, sin faltantes en ese periodo. &#x27;
+                 &#x27;Los 204 meses de 1981–1997 están fuera de la cobertura utilizada, no son datos perdidos. &#x27;
+                 &#x27;ERA5-Land dispone de los 504 meses de 1981–2022, sin faltantes mensuales. &#x27;
+                 &#x27;Se comprueban fechas mensuales únicas y valores finitos; para precipitación se exige además un valor no negativo. &#x27;
+                 &#x27;Una temperatura negativa en °C no se clasifica como inválida por su signo. &#x27;
+                 &#x27;Esta revisión verifica la presencia y validez del resultado mensual disponible: no demuestra completitud diaria &#x27;
+                 &#x27;de los productos mensuales ni reemplaza la comprobación espacial de IMERG documentada en el punto 1.2. &#x27;
+                 &#x27;Las comparaciones conjuntas conservan solo los 285 meses válidos en todas las variables.&#x27;)
+    html=DOC/&#x27;informe_interactivo.html&#x27;
+    text=html.read_text(encoding=&#x27;utf-8&#x27;)
+    a,b=&#x27;&lt;!-- DISPONIBILIDAD_FUENTES_INICIO --&gt;&#x27;,&#x27;&lt;!-- DISPONIBILIDAD_FUENTES_FIN --&gt;&#x27;
+    original=re.sub(re.escape(a)+&#x27;.*?&#x27;+re.escape(b),&#x27;&#x27;,text,flags=re.S)
+    block=a+&#x27;&lt;section class=&quot;panel&quot; id=&quot;disponibilidad-imerg-temperatura&quot;&gt;&lt;h2&gt;Disponibilidad mensual de IMERG y temperatura&lt;/h2&gt;&lt;p&gt;&#x27;+explanation+&#x27;&lt;/p&gt;&#x27;
+    block+=&#x27;&lt;div style=&quot;overflow:auto&quot;&gt;&#x27;+totals.to_html(index=False)+&#x27;&lt;/div&gt;&#x27;
+    block+=chart.to_html(full_html=False,include_plotlyjs=False,div_id=&#x27;mapa-disponibilidad-fuentes&#x27;,config={&#x27;responsive&#x27;:True,&#x27;displaylogo&#x27;:False})
+    block+=&#x27;&lt;details&gt;&lt;summary&gt;Conteos por fuente y año&lt;/summary&gt;&lt;div style=&quot;overflow:auto&quot;&gt;&#x27;+annual.to_html(index=False)+&#x27;&lt;/div&gt;&lt;/details&gt;&lt;/section&gt;&#x27;+b
+    assert &#x27;&lt;footer&gt;&#x27; in original
+    html.write_text(original.replace(&#x27;&lt;footer&gt;&#x27;,block+&#x27;&lt;footer&gt;&#x27;,1),encoding=&#x27;utf-8&#x27;)
+    tex=explanation.replace(&#x27;–&#x27;,&#x27;--&#x27;).replace(&#x27;°&#x27;,r&#x27;$^\circ$&#x27;)
+    source=&#x27;\\subsubsection*{Disponibilidad mensual de IMERG y temperatura}\n&#x27;+tex+&#x27;\n&#x27;
+    source+=&#x27;\\begin{center}{\\small\n&#x27;+totals.to_latex(index=False,escape=True)+&#x27;}\\end{center}\n&#x27;
+    source+=&#x27;\\begin{figure}[H]\\centering\\includegraphics[width=\\linewidth]{figuras/disponibilidad_imerg_era5.pdf}\\caption{Cobertura temporal mensual. Gris: fuera de cobertura; verde: meses válidos. No hay faltantes dentro de los periodos utilizados. El detalle por año y mes se conserva en los archivos de disponibilidad.}\\end{figure}\n&#x27;
+    (OUT/&#x27;disponibilidad_fuentes.tex&#x27;).write_text(source,encoding=&#x27;utf-8&#x27;)
+    print(totals.to_string(index=False))
+
+
+if __name__==&#x27;__main__&#x27;: main()
+</code></pre></details></section><section id="codigo-actual-45"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/crear_excel.py</h3><p>SHA256: <code>3292b333580e70feeb259b9ebac0155d039a692779a8cc8d041ae38c7a91ad67</code></p><details><summary>Ver código completo de crear_excel.py</summary><pre><code>from pathlib import Path
 import pandas as pd
 from openpyxl.styles import Font, PatternFill, Alignment
 
@@ -10144,7 +11014,7 @@ with pd.ExcelWriter(out, engine=&#x27;openpyxl&#x27;) as writer:
         row[1].alignment=Alignment(wrap_text=True,vertical=&#x27;top&#x27;)
         intro.row_dimensions[row[0].row].height=34
 print(out)
-</code></pre></details></section><section id="codigo-actual-44"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/descargar_camels.py</h3><p>SHA256: <code>db6aeab048235db92eb3dcd8b65fac682532d7ebc653acaa3617323eb397b200</code></p><details><summary>Ver código completo de descargar_camels.py</summary><pre><code>import concurrent.futures
+</code></pre></details></section><section id="codigo-actual-46"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/descargar_camels.py</h3><p>SHA256: <code>db6aeab048235db92eb3dcd8b65fac682532d7ebc653acaa3617323eb397b200</code></p><details><summary>Ver código completo de descargar_camels.py</summary><pre><code>import concurrent.futures
 import json
 from pathlib import Path
 import urllib.request
@@ -10170,7 +11040,7 @@ if __name__ == &#x27;__main__&#x27;:
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         for result in pool.map(download, [f for f in metadata[&#x27;files&#x27;] if f[&#x27;key&#x27;].startswith(prefixes)]):
             print(result, flush=True)
-</code></pre></details></section><section id="codigo-actual-45"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/graficar_disponibilidad.py</h3><p>SHA256: <code>726c554cb5948949d4f3420bc5b743bd719b168ecb52d62375eba1699539e585</code></p><details><summary>Ver código completo de graficar_disponibilidad.py</summary><pre><code>from pathlib import Path
+</code></pre></details></section><section id="codigo-actual-47"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/graficar_disponibilidad.py</h3><p>SHA256: <code>726c554cb5948949d4f3420bc5b743bd719b168ecb52d62375eba1699539e585</code></p><details><summary>Ver código completo de graficar_disponibilidad.py</summary><pre><code>from pathlib import Path
 import matplotlib
 matplotlib.use(&#x27;Agg&#x27;)
 import matplotlib.pyplot as plt
@@ -10192,7 +11062,7 @@ axes[-1].set_xlabel(&#x27;Año&#x27;)
 fig.colorbar(im,ax=axes,label=&#x27;Días con caudal disponible por mes (%)&#x27;,shrink=.8)
 fig.suptitle(&#x27;Disponibilidad diaria dentro de cada mes · CAMELS-COL\nCalendario reconstruido; sin relleno de datos&#x27;)
 fig.savefig(O/&#x27;disponibilidad_candidatas.png&#x27;,dpi=180)
-</code></pre></details></section><section id="codigo-actual-46"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/revisar_series.py</h3><p>SHA256: <code>c68f8bd11231653d626c7f70b7605d445430df48a065bce1a29c0f8d0fadf1f2</code></p><details><summary>Ver código completo de revisar_series.py</summary><pre><code>&quot;&quot;&quot;Cribado reproducible; no rellena faltantes ni certifica calidad hidrologica.&quot;&quot;&quot;
+</code></pre></details></section><section id="codigo-actual-48"><h3>HIDROLOGÍA 2.0/seleccion_cuenca/scripts/revisar_series.py</h3><p>SHA256: <code>c68f8bd11231653d626c7f70b7605d445430df48a065bce1a29c0f8d0fadf1f2</code></p><details><summary>Ver código completo de revisar_series.py</summary><pre><code>&quot;&quot;&quot;Cribado reproducible; no rellena faltantes ni certifica calidad hidrologica.&quot;&quot;&quot;
 from pathlib import Path
 import io
 import json
@@ -10259,7 +11129,7 @@ valid=result[(result.periodo==&#x27;1981_2022&#x27;) &amp; result.cumple_filtro]
 valid.to_csv(O/&#x27;candidatas_42_anos.csv&#x27;,index=False,encoding=&#x27;utf-8-sig&#x27;)
 print(&#x27;Cuencas evaluadas:&#x27;,result.gauge_id.nunique(), &#x27;Cumplen en 1981-2022:&#x27;,len(valid))
 print(result[(result.periodo==&#x27;1981_2022&#x27;) &amp; result.gauge_id.isin([12027050,22027020,26127040,23057140,21017020])][[&#x27;gauge_id&#x27;,&#x27;nombre&#x27;,&#x27;area&#x27;,&#x27;faltantes_P_pct&#x27;,&#x27;faltantes_Q_pct&#x27;,&#x27;meses_completos_PQ&#x27;,&#x27;negativos_P_Q&#x27;]].to_string(index=False))
-</code></pre></details></section><section id="codigo-actual-47"><h3>download_files_GPM_3IMERGM_07.original.py</h3><p>SHA256: <code>f7e15d08558229fbce0f627e613f1316249868524348d8c05525a68515398b7c</code></p><details><summary>Ver código completo de download_files_GPM_3IMERGM_07.original.py</summary><pre><code>#!/usr/bin/env python3
+</code></pre></details></section><section id="codigo-actual-49"><h3>download_files_GPM_3IMERGM_07.original.py</h3><p>SHA256: <code>f7e15d08558229fbce0f627e613f1316249868524348d8c05525a68515398b7c</code></p><details><summary>Ver código completo de download_files_GPM_3IMERGM_07.original.py</summary><pre><code>#!/usr/bin/env python3
 &quot;&quot;&quot;
 Python script for downloading data from the NASA CMR API
 
@@ -10463,7 +11333,7 @@ def main():
 
 if __name__ == &quot;__main__&quot;:
     main()
-</code></pre></details></section><section id="codigo-actual-48"><h3>download_files_GPM_3IMERGM_07.py</h3><p>SHA256: <code>bb12e7af9cfa6886fd2c82bec0d950e41237ba951223ac4b4f079b0dc9ccfec5</code></p><details><summary>Ver código completo de download_files_GPM_3IMERGM_07.py</summary><pre><code>#!/usr/bin/env python3
+</code></pre></details></section><section id="codigo-actual-50"><h3>download_files_GPM_3IMERGM_07.py</h3><p>SHA256: <code>bb12e7af9cfa6886fd2c82bec0d950e41237ba951223ac4b4f079b0dc9ccfec5</code></p><details><summary>Ver código completo de download_files_GPM_3IMERGM_07.py</summary><pre><code>#!/usr/bin/env python3
 &quot;&quot;&quot;
 Python script for downloading data from the NASA CMR API
 
