@@ -1,0 +1,178 @@
+{
+  "variables": {
+    "local": {
+      "label": "Precipitación local · estación Zaragoza-AUT",
+      "units": "mm/mes",
+      "source_period_start": "2018-01",
+      "source_period_end": "2019-11",
+      "source_months": 23,
+      "complete_months": 14,
+      "selected": {
+        "n": 7,
+        "start": "2018-08",
+        "end": "2019-02",
+        "df_cycles_per_month": 0.14285714285714285
+      },
+      "resolution_note": "El tramo completo más largo es menor que 12 meses; no permite resolver el ciclo anual ni estimar una climatología mensual estable."
+    },
+    "imerg": {
+      "label": "Precipitación IMERG sobre el polígono",
+      "units": "mm/mes",
+      "source_period_start": "1998-01",
+      "source_period_end": "2022-12",
+      "source_months": 300,
+      "complete_months": 300,
+      "selected": {
+        "n": 300,
+        "start": "1998-01",
+        "end": "2022-12",
+        "df_cycles_per_month": 0.0033333333333333335
+      },
+      "resolution_note": "Serie mensual continua; producto Final V07B ponderado por área de intersección del polígono."
+    },
+    "reference": {
+      "label": "Precipitación de referencia · CHIRPS",
+      "units": "mm/mes",
+      "source_period_start": "1981-01",
+      "source_period_end": "2022-12",
+      "source_months": 504,
+      "complete_months": 485,
+      "selected": {
+        "n": 109,
+        "start": "1981-01",
+        "end": "1990-01",
+        "df_cycles_per_month": 0.009174311926605505
+      },
+      "resolution_note": "Producto de referencia de larga duración; 19 vacíos en la secuencia mensual 1981–2022."
+    },
+    "q": {
+      "label": "Caudal observado · estación Cartago",
+      "units": "m³/s",
+      "source_period_start": "1981-01",
+      "source_period_end": "2022-12",
+      "source_months": 504,
+      "complete_months": 485,
+      "selected": {
+        "n": 109,
+        "start": "1981-01",
+        "end": "1990-01",
+        "df_cycles_per_month": 0.009174311926605505
+      },
+      "resolution_note": "19 meses faltantes dentro de 1981–2022; para la DFT primaria se usa el tramo continuo válido más largo, sin borrar las fechas faltantes del registro documentado."
+    },
+    "temperature": {
+      "label": "Temperatura media · ERA5-Land t2m",
+      "units": "°C",
+      "source_period_start": "1981-01",
+      "source_period_end": "2026-08",
+      "source_months": 548,
+      "complete_months": 548,
+      "selected": {
+        "n": 548,
+        "start": "1981-01",
+        "end": "2026-08",
+        "df_cycles_per_month": 0.0018248175182481751
+      },
+      "resolution_note": "Media mensual espacial ponderada; registro continuo, producto de reanálisis y no observación de estación."
+    }
+  },
+  "common": {
+    "start": "1998-01",
+    "end": "2022-12",
+    "possible_months": 300,
+    "complete_months": 285,
+    "selected": {
+      "n": 73,
+      "start": "1998-01",
+      "end": "2004-01",
+      "df_cycles_per_month": 0.0136986301369863
+    },
+    "local_complete_months": 14,
+    "all_four_selected": {
+      "n": 7,
+      "start": "2018-08",
+      "end": "2019-02",
+      "df_cycles_per_month": 0.14285714285714285
+    },
+    "reference_period": "1998-01 a 2022-12",
+    "reference_month_counts": {
+      "CHIRPS": [
+        24,
+        24,
+        24,
+        23,
+        24,
+        24,
+        25,
+        24,
+        24,
+        25,
+        22,
+        22
+      ],
+      "IMERG": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "Q": [
+        24,
+        24,
+        24,
+        23,
+        24,
+        24,
+        25,
+        24,
+        24,
+        25,
+        22,
+        22
+      ],
+      "ERA5-Land": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ]
+    },
+    "local_full_month_counts_by_calendar_month": [
+      2,
+      1,
+      0,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "calculation": {
+    "sampling_interval_months": 1,
+    "nyquist_cycles_per_month": 0.5,
+    "minimum_period_months": 2,
+    "primary_window": "Rectangular (sin taper), DFT del tramo completo seleccionado",
+    "normalization": "Periodograma unilateral conservador de varianza: |X_k|²/N², duplicado para frecuencias positivas salvo Nyquist; la suma de potencias reproduce la varianza poblacional de la señal centrada."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "headings": [
+    "Punto 5. Mapas de correlación con el clima global",
+    "5.1. Seleccionar los campos climáticos",
+    "5.2. Definir y calcular los mapas mensuales",
+    "5.3. Robustez y presentación de los patrones",
+    "5.4. Interpretación física e integración"
+  ],
+  "portada_centered": true,
+  "content_5_4_correctly_nested": true,
+  "conclusions_present": true,
+  "plots": {
+    "ciclo_y_respuesta54": {
+      "traces": 3,
+      "width": 1192
+    },
+    "indice_NOAA_contraste54": {
+      "traces": 6,
+      "width": 1192
+    },
+    "dependencia_y_escalas54": {
+      "traces": 3,
+      "width": 1192
+    }
+  },
+  "page_errors": []
+}

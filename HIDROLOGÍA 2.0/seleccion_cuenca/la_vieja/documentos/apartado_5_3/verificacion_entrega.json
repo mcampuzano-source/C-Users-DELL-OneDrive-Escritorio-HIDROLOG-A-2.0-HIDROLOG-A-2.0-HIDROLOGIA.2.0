@@ -1,0 +1,11 @@
+{
+  "all_script_syntax": "passed",
+  "twelve_months": "passed",
+  "exact_BY_masks_all_combinations": "passed",
+  "common_diverging_scale": "passed",
+  "subperiod_n": "passed",
+  "csv_export": "passed",
+  "browser_visual_test": "not performed",
+  "excel_values_checked": "All columns at first, middle and last rows of each table compared with CSV",
+  "statistical_scope": "Approximate AR(1) annual inference, globally adjusted BY; no causal attribution"
+}

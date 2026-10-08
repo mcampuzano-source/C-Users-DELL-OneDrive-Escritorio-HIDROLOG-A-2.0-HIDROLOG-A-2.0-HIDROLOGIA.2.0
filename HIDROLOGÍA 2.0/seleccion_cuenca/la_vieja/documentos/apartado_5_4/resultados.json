@@ -1,0 +1,106 @@
+{
+  "n_common": 285,
+  "period": "1998-2022",
+  "CHIRPS_climatological_annual_mm": 2056.364401864295,
+  "IMERG_climatological_annual_mm": 2604.5645889044918,
+  "Q_mean_m3_s": 109.82680760187456,
+  "T_mean_C": 16.26816113522435,
+  "peaks": {
+    "CHIRPS": {
+      "peak_month": 10,
+      "min_month": 7,
+      "peak_value": 258.50516,
+      "min_value": 92.15280000000001
+    },
+    "IMERG": {
+      "peak_month": 10,
+      "min_month": 1,
+      "peak_value": 286.9574543008156,
+      "min_value": 151.88107090537324
+    },
+    "Q": {
+      "peak_month": 11,
+      "min_month": 8,
+      "peak_value": 182.79111515151516,
+      "min_value": 51.75443951612903
+    }
+  },
+  "index_B_Y_months": [
+    {
+      "response": "IMERG",
+      "month": 1,
+      "r_detrended": -0.666700490179069,
+      "q_BY_36": 0.023368804429675462
+    },
+    {
+      "response": "IMERG",
+      "month": 2,
+      "r_detrended": -0.637956660580826,
+      "q_BY_36": 0.026126526489003647
+    },
+    {
+      "response": "Q",
+      "month": 1,
+      "r_detrended": -0.7884044772937682,
+      "q_BY_36": 0.00046109069411961714
+    },
+    {
+      "response": "Q",
+      "month": 2,
+      "r_detrended": -0.8818962552811778,
+      "q_BY_36": 4.017252159836067e-06
+    },
+    {
+      "response": "Q",
+      "month": 3,
+      "r_detrended": -0.8032685821563921,
+      "q_BY_36": 0.00029588516306872824
+    },
+    {
+      "response": "Q",
+      "month": 4,
+      "r_detrended": -0.6494478399988697,
+      "q_BY_36": 0.028017998477507324
+    },
+    {
+      "response": "Q",
+      "month": 7,
+      "r_detrended": -0.6155998733925773,
+      "q_BY_36": 0.03813291413075464
+    },
+    {
+      "response": "Q",
+      "month": 8,
+      "r_detrended": -0.6614175112005204,
+      "q_BY_36": 0.026126526489003647
+    },
+    {
+      "response": "Q",
+      "month": 9,
+      "r_detrended": -0.6299925531764814,
+      "q_BY_36": 0.026126526489003647
+    },
+    {
+      "response": "Q",
+      "month": 10,
+      "r_detrended": -0.6121132066343202,
+      "q_BY_36": 0.030552542132332036
+    },
+    {
+      "response": "Q",
+      "month": 11,
+      "r_detrended": -0.662533040398247,
+      "q_BY_36": 0.026126526489003647
+    }
+  ],
+  "hypothesis_scope": "No se encontró una formulación inicial explícita documentada; se declara la hipótesis operativa retrospectiva, sin atribuirla al grupo como prerregistro.",
+  "sha256": {
+    "climatologia_comun.csv": "62bf8918677af93ec616c94c3b26401f759fd5748b76020065b09d33a6aa9a5d",
+    "contraste_NOAA_Nino34.csv": "a5db7562e5f74b8012d3dc9b6e726dccabd4a1bfd3b033feeaf9dec05dee2f06",
+    "datos_contraste_indice.csv": "4bae5ae37c6be2cff5c4b6afa2b1998743f90ec3503c14850479722992a5b8ce",
+    "dependencias_campos.csv": "a9036453ed7fbdfe283beca13780fee8a3cbc89c5079dc8fd35076dcbfcad7bf",
+    "lluvia_caudal_rezagos.csv": "fd6286abc8b281057b3ad127dba82072084c61707dc1b3d24f41bfeda077a03a",
+    "regiones_coherentes.csv": "223f3e723a07a47bfc44485f3754eae12d5e1598260c600c6a34ff462ece4c80",
+    "sintesis_fourier.csv": "1b10186f21e319fe3e567985c6a6fb71654046af992519df242a91a77af944da"
+  }
+}

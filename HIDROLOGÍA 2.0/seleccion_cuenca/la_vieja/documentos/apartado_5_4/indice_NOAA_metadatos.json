@@ -1,0 +1,13 @@
+{
+  "url": "https://psl.noaa.gov/data/correlation/nina34.anom.data",
+  "source_description": "NOAA PSL Niño 3.4; ERSST V6; 5N-5S,170W-120W",
+  "original_reference": "1981-2010",
+  "analysis_reference": "mismos 285 meses de cuenca 1998-2022; OLS mensual retira tendencia",
+  "units": "degC",
+  "sentinel": -99.99,
+  "sha256": "879cf3cb31d71e576f639ea88af9498f622662bbcaf6c74e79ad5394614696dd",
+  "retrieved_at": "2026-10-07T20:47:14.079979-05:00",
+  "inferential_family": "36 contrastes complementarios: 3 respuestas x 12 meses; ell=0; BY; no se mezcla con la familia de mapas",
+  "no_ONI": "Índice mensual no suavizado; no se clasifican episodios oficiales con umbral ONI",
+  "version_difference": "Índice V6; campos 5.2-5.3 V5. No es una validación independiente ni una atribución causal."
+}

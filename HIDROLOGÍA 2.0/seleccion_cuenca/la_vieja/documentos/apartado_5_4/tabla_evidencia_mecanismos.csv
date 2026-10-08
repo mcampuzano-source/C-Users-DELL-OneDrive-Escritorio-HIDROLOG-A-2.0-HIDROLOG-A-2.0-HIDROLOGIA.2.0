@@ -1,0 +1,6 @@
+punto,resultado,evidencia,mecanismo_propuesto,fuente,limitacion
+1. Exploración,Bimodalidad de P; Q máximo en noviembre,"Climatología común: P abril/octubre; Q 182,79 m³/s en noviembre","Pluvial bimodal, con posible almacenamiento",POMCA La Vieja; datos comunes,Productos espaciales; lluvia local muy corta
+2. Modelos,Asociación P-Q y desempeño reservado,"r anomalías 0,542/0,636; NSE reservado 0,605/0,573","Respuesta de escorrentía, información adicional al ciclo",Apartados 2.1-2.3,No valida ENSO como predictor; errores persistentes
+3. Tendencias,Sin una pendiente común inequívoca,IC HAC de las cuatro variables incluyen cero en 285 meses,Variabilidad natural y cambios locales son alternativas,Tabla común del apartado 3.6,No atribuir cambio climático desde una pendiente
+4. Fourier,Dominio estacional en P; bajas frecuencias en Q,"Semianual 58,1/46,6%; interanual Q anomalías 65,3%",Dos temporadas; posible memoria e influencia climática,"Punto 4, ventana continua N=73",Un ciclo en pico interanual; sin coherencia ni ruido rojo
+5. Clima global,Q-SST febrero; apoyo atmosférico parcial,"244 celdas candidatas; NOAA Q-Feb r=-0,882",Modulación climática compatible con contexto ENSO,5.3; NOAA PSL; Poveda 2001/2011,Inferencia aproximada; campos dependientes; no causal

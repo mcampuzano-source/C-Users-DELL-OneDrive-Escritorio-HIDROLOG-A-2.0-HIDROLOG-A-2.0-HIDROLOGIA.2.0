@@ -1,0 +1,18 @@
+{
+  "desktop": {
+    "textAlign": "center",
+    "width": 1100,
+    "overflow": false,
+    "logoWidth": 148,
+    "logoOverflow": "hidden",
+    "imageLoaded": true
+  },
+  "movil": {
+    "textAlign": "center",
+    "width": 370,
+    "overflow": false,
+    "logoWidth": 148,
+    "logoOverflow": "hidden",
+    "imageLoaded": true
+  }
+}

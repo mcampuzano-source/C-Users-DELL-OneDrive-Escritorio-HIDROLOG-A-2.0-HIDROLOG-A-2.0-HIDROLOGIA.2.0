@@ -1246,7 +1246,57 @@ La base global combina ERSSTv5 y NCEP/NCAR Reanalysis 1, distribuidos por NOAA P
 
 \begin{figure}[H]\centering\includegraphics[width=\linewidth]{../apartado_5_1/campos_globales_control.pdf}\caption{Campos obtenidos y control vertical; no son mapas de correlación.}\end{figure}
 \subsection{Definir y calcular los mapas mensuales}
-Pendiente de desarrollar.
+\subsubsection*{Variabilidad interanual y definición de los mapas}
+La asociación entre la hidroclimatología de La Vieja y los campos globales se estima mediante correlaciones temporales en cada celda. Para un mes calendario j se comparan los valores de la respuesta de cuenca en todos los años disponibles con los del campo climático correspondientes a ese mismo mes o al mes antecedente definido por el rezago. Cada combinación presenta doce mapas, uno por mes de la respuesta. Las correlaciones no se calculan entre celdas ni a partir de un único mes observado.
+
+\subsubsection*{Respuestas de cuenca y fuentes}
+La precipitación de referencia corresponde a CHIRPS, promediada sobre la cuenca; el caudal se observa en Cartago. IMERG Final Run V07B permite contrastar la sensibilidad de los patrones a la fuente de precipitación. CHIRPS es un producto espacial combinado, no una medición puntual independiente. La lluvia de Zaragoza dispone de solo 14 meses completos y no permite estimar doce correlaciones interanuales; por ello, no se atribuyen los mapas a esa estación. Se emplean SST ERSSTv5, presión al nivel del mar y altura geopotencial a 500 hPa de NCEP/NCAR R1, manteniendo las rejillas y máscaras del 5.1.
+
+\subsubsection*{Anomalías, rezagos y tamaño efectivo}
+La referencia comprende las mismas 285 fechas completas de cuenca en 1998–2022. Para cada variable se resta la climatología de su mes calendario; los campos globales y las respuestas conservan sus unidades antes de calcular el coeficiente adimensional. La base tiene rezago cero. Para Q se añade un rezago de un mes como exploración de la persistencia climática y de una respuesta hidrológica con almacenamiento; no se interpreta como tiempo de concentración. Con la convención r\_j(lon,lat;ell) = corr[a\_X(t),a\_Y(lon,lat,t-ell)] para mes(t)=j, ell>0 significa que el campo climático antecede al caudal. Enero de 1998 se empareja con diciembre de 1997 para ell=1. El desplazamiento se hace en el calendario completo; no se usan valores futuros ni se comprimen los huecos.
+
+\subsubsection*{Criterios de cálculo y representación}
+Pearson es la referencia y Spearman contrasta la sensibilidad a extremos, asimetría y relaciones monotónicas no lineales. Spearman se calcula sobre rangos con promedio para empates y la misma máscara de pares válidos. Cada mapa informa el mínimo y máximo n de sus celdas representadas. Se exige n$\geq$20 y variación no nula en ambas variables; las celdas restantes se muestran grises. Las respuestas aportan entre 22 y 25 años por mes, no 285 observaciones para cada enero. Los campos globales están completos en el calendario seleccionado y el antecedente de diciembre de 1997 está disponible; solo las máscaras de cada celda pueden reducir sus pares. Esta muestra no es la de 274 fechas de los modelos de lluvia antecedente del punto 2, que además necesitaban precipitación de cuenca del mes previo.
+
+\subsubsection*{Lectura física y alcance}
+Un coeficiente negativo indica que anomalías positivas del campo coinciden con anomalías negativas de la respuesta; un coeficiente positivo indica desviaciones del mismo signo. La interpretación de SLP y Z500 corresponde a patrones de circulación de gran escala, no a mediciones directas de transporte de humedad. La concordancia entre Pearson y Spearman respalda una asociación menos dependiente de la escala o de unos pocos extremos, pero no demuestra causalidad ni constituye una prueba independiente. Los mapas de distintos meses, fuentes y métodos comparten años y forzamientos climáticos. No se eliminó tendencia ni se aplicaron pruebas de significancia: autocorrelación, pruebas múltiples y sensibilidad temporal se evaluarán en 5.3.
+
+\subsubsection*{Contraste regional del Pacífico tropical}
+Como apoyo a los mapas se construye un índice interno de anomalías SST en Niño 3.4 (5$^\circ$S–5$^\circ$N, 170$^\circ$W–120$^\circ$W), seleccionando centros de celda y ponderando por coseno de latitud. Es un promedio mensual sobre la referencia de este estudio, no el índice ONI ni su promedio móvil trimestral. Las correlaciones del índice con cada respuesta se calculan a través de los años de un mismo mes. Precipitación CHIRPS: r entre -0.58 y +0.04; negativo en 11/12 meses. Caudal Cartago: r entre -0.85 y -0.28; negativo en 12/12 meses. Precipitación IMERG: r entre -0.66 y -0.14; negativo en 12/12 meses. Estas cifras son descriptivas y no establecen significancia estadística; el detalle de los doce meses permite examinar la estacionalidad de la asociación sin seleccionar una sola celda extrema.
+
+\subsubsection*{Sensibilidad de la precipitación frente a SST ERSSTv5}
+La diferencia absoluta entre los mapas Pearson de CHIRPS e IMERG, promediada espacialmente con pesos de coseno de latitud, varía de 0.064 a 0.221 según el mes. Esta diferencia compara dos estimaciones de precipitación sobre las mismas fechas y rejillas; no mide precisión frente a una verdad observada ni es una correlación espacial de los datos. Los paneles permiten identificar si se conservan el signo y la extensión de los patrones, mientras que Spearman permite contrastar su sensibilidad a los rangos.
+
+\subsubsection*{Sensibilidad de la precipitación frente a SLP NCEP/NCAR R1}
+La diferencia absoluta entre los mapas Pearson de CHIRPS e IMERG, promediada espacialmente con pesos de coseno de latitud, varía de 0.062 a 0.191 según el mes. Esta diferencia compara dos estimaciones de precipitación sobre las mismas fechas y rejillas; no mide precisión frente a una verdad observada ni es una correlación espacial de los datos. Los paneles permiten identificar si se conservan el signo y la extensión de los patrones, mientras que Spearman permite contrastar su sensibilidad a los rangos.
+
+\subsubsection*{Sensibilidad de la precipitación frente a Z500 NCEP/NCAR R1}
+La diferencia absoluta entre los mapas Pearson de CHIRPS e IMERG, promediada espacialmente con pesos de coseno de latitud, varía de 0.080 a 0.273 según el mes. Esta diferencia compara dos estimaciones de precipitación sobre las mismas fechas y rejillas; no mide precisión frente a una verdad observada ni es una correlación espacial de los datos. Los paneles permiten identificar si se conservan el signo y la extensión de los patrones, mientras que Spearman permite contrastar su sensibilidad a los rangos.
+
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/CHIRPS_sst_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/CHIRPS_sst_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/CHIRPS_slp_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/CHIRPS_slp_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/CHIRPS_z500_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/CHIRPS_z500_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_sst_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_sst_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_sst_l1_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 1 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_sst_l1_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 1 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_slp_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_slp_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_slp_l1_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 1 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_slp_l1_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 1 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_z500_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_z500_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_z500_l1_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 1 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/Q_z500_l1_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 1 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/IMERG_sst_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/IMERG_sst_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/IMERG_slp_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/IMERG_slp_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/IMERG_z500_l0_pearson.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
+\begin{figure}[p]\centering\includegraphics[width=\linewidth]{../apartado_5_2/IMERG_z500_l0_spearman.pdf}\caption{Doce correlaciones temporales por mes calendario; rezago 0 mes(es).}\end{figure}
 \subsection{Robustez y presentación de los patrones}
 Pendiente de desarrollar.
 \subsection{Interpretación física e integración}

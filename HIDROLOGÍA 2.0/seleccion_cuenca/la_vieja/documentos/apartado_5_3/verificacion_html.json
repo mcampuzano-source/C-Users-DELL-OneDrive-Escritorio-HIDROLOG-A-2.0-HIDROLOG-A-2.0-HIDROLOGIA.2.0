@@ -1,0 +1,9 @@
+{
+  "all_script_syntax": "passed",
+  "twelve_months": "passed",
+  "exact_BY_masks_all_combinations": "passed",
+  "common_diverging_scale": "passed",
+  "subperiod_n": "passed",
+  "csv_export": "passed",
+  "browser_visual_test": "not performed"
+}

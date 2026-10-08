@@ -1,0 +1,46 @@
+{
+  "family_size": 2953237,
+  "n_months": 285,
+  "minimum_years": 20,
+  "subperiod_minimum_years": 10,
+  "fdr_level": 0.05,
+  "primary_fdr": "BY",
+  "inference_limitation": "p aproximados AR(1), no garantía exacta finita; BY no corrige p mal calibrados. Persistencia de orden superior no evaluada.",
+  "subperiods": [
+    "1998-2009",
+    "2010-2022"
+  ],
+  "outlier_check": "exclusión individual de cada año y conjunta de dos extremos absolutos de respuesta; OLS se reajusta",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "xarray": "2026.9.0",
+    "matplotlib": "3.11.2",
+    "reportlab": "5.0.1",
+    "pymupdf": "1.28.2",
+    "shapely": "2.1.2",
+    "netCDF4": "1.7.4"
+  },
+  "validation": {
+    "OLS_pairwise_missing_and_real_years": "passed",
+    "gap_autocorrelation": "passed",
+    "cyclic_longitude_components": "passed"
+  },
+  "by_cells_total": 918,
+  "candidate_cells_total": 918,
+  "sha256": {
+    "CHIRPS_slp_l0.nc": "abc2f141bdb45e001163054bcabfc797b4663afd2fb938b1c3a6de6cbb44259e",
+    "CHIRPS_sst_l0.nc": "145c9428452aa7d1a8b642eeb06e7329501b99bed6a6982776d52730623fa4be",
+    "CHIRPS_z500_l0.nc": "2790f3ff83d1150c11fc5d82420e7d34dec2eeacf13e66b856ebfe4640f38298",
+    "IMERG_slp_l0.nc": "af3dad1dd9b6abaeeb94464be72fedde8b714852dc556c9330735d4a112111fb",
+    "IMERG_sst_l0.nc": "4e091d151a2c473e77fca3a8d79033599d118a377e3213d39818a3a84b55275d",
+    "IMERG_z500_l0.nc": "18b9b974c339d275c53553f4ba105ae765bd52491a8753720921677dd2fbd2fb",
+    "Q_slp_l0.nc": "719bba8b6194018eee9777654f12658f5df28583c05df53ecb4f64218b58ea13",
+    "Q_slp_l1.nc": "b8a7a0b9aa995e904385ec25c58979033158013dd4c9d7778887e0638dcb6d3e",
+    "Q_sst_l0.nc": "70309e4821d4ef03b17d24201402c463076e9d74c2e0a6c16500a01a19a2ab04",
+    "Q_sst_l1.nc": "9c3975aa3889a9a30e3da674fdad366a5ed92d383992b7acb055bccb7006317b",
+    "Q_z500_l0.nc": "46eab566a3a0969e222c7a3d46210c0bf00e42b226ee9036c7e295ff92ce56f6",
+    "Q_z500_l1.nc": "27876730a6282b8859493c3b5a2545329845046d38ae60af702bc444b554c5d3"
+  }
+}

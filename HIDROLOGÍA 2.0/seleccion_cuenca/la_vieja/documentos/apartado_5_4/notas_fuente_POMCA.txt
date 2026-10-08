@@ -1,0 +1,475 @@
+Page 6
+El estudio climatológico tuvo como objetivo principal la determinación y recopilación
+y análisis de la información existente sobre la precipitación, brillo solar, temperatura,
+humedad relativa y evaporación mensual.
+Los aspectos climáticos permiten establecer los estados de tiempo recurrentes a
+través de largos periodos y el desarrollo de fenómenos físicos de la atmósfera y sus
+efectos sobre la superficie terrestre.
+El régimen climático de una región es de gran importancia para determinar la
+posibilidad de desarrollar cualquier tipo de actividad, de tal manera que sea la base
+para realizar cada labor de forma exitosa, teniendo en cuenta el efecto que el clima
+tiene sobre ella.
+Los objetivos específicos buscan presentar la serie de registros de las
+características consideradas en el análisis climatológico, así como su variación
+temporal y espacial a nivel mensual, con el propósito de evaluar las condiciones
+climáticas medías en la zona en la que se encuentra localizada la cuenca del río La
+Vieja.
+Información utilizada
+-
+La información secundaria utilizada se cita en el texto. Básicamente se trata de la
+información correspondiente a las estaciones meteorológicas existente al interior
+de la cuenca y en sus alrededores. En la sección 3.1, más adelante, se relacionan
+las estaciones utilizadas, pertenecientes a las redes del IDEAM, CVC y CRQ
+principalmente.
+-
+La información meteorológica disponible y recopilada fue luego procesada y
+analizada con la finalidad de elaborar los mapas de distribución de las principales
+variables climatológicas de la cuenca y efectuar el balance hídrico
+correspondiente.
+Metodología
+El clima regional de Colombia, está definido por las propiedades relevantes de los
+valores medios de los campos, que están forzados por las condiciones de frontera
+de la atmósfera, de la distribución de continente–océano y las variaciones de la
+radiación solar sobre la superficie, en el espacio y tiempo. Estos fenómenos
+atmosféricos son fuertemente influenciados por la distribución de la topografía y la
+vegetación en la superficie dentro del territorio colombiano (Guzmán D. 2014).
+La zona de convergencia Intertropical (ZCIT), marca la convergencia entre el aire
+del hemisferio Norte y el hemisferio Sur. En esta zona, los vientos alisios del
+Noreste que son originados por el aire que fluye alrededor del anticiclón del Atlántico
+Norte encuentran a los alisios del Sureste que a su vez son originados por los
+anticiclones del Pacífico y el Atlántico Sur. Debido al flujo convergente, La ZCIT es
+la región de mayor nubosidad y lluvias. La convección y la precipitación asociada se
+2
+
+
+Page 19
+El análisis de identificación de puntos anómalos (outliers) se realizó mediante la
+utilización de diagramas de cajas y bigotes con el objeto de identificar datos atípicos
+y atípicos extremos superiores o inferiores en la serie de caudales, identificando
+posibles errores en la toma de datos o la comprobación de la ocurrencia de los
+mismos.
+Los diagramas de cajas y bigotes es un tipo de gráfico estadístico que permite
+resumir información utilizando como mínimo cinco medidas estadísticas (valor
+mínimo y máximo, la mediana, primer - Q25 y tercer cuartil – Q75), además de
+proporcionar una idea de la tendencia central del conjunto de datos, la dispersión de
+los mismos y la posible presencia de datos atípicos. En las gráficas los datos
+anómalos o atípicos se representan por fuera de las patillas del diagrama de cajas y
+se muestra si es un valor atípico (alejado 1,5 desviaciones estándar) o si son
+Valores atípicos extremos (alejado 3 desviaciones estándar). La longitud de las
+patillas permite evidenciar la homogeneidad de los datos suministrados en la
+estación.
+En la figura 3.6 se muestra el comportamiento del ciclo anual de la precipitación,
+mediante la aplicación de diagramas de caja y bigotes a nivel mensual y con la
+representación de los respectivos mínimos y máximos. Este diagrama permite
+visualizar a nivel de la media de la precipitación mensual los cuartiles 25, 50 y 75 de
+la serie analizada. En la estación Cumbarco, la precipitación presenta un
+comportamiento bimodal, comportamiento general de la zona e influenciado por el
+paso de la Zona de Convergencia Intertropical (ZCIT). La primera temporada de
+lluvia se presenta, según el ciclo anual, hacia los meses de marzo, abril y mayo, la
+segunda hacia septiembre, octubre y noviembre. Los meses de julio y agosto, así
+como los de diciembre y enero, corresponden a los meses más secos. Del análisis
+de los datos de precipitación después de realizar el control gráfico de calidad de la
+serie de tiempo se puede concluir que la serie es consistente y sin errores de
+importancia en el registro. 
+En la figura 3.7 se desarrolla el mismo análisis para la estación La Española que se
+elaboró para la estación Cumbarco, en la identificación de datos anómalos. Cada
+uno de estos valores puede ser consultado en el Anexo 2 para las demás
+estaciones.
+15
+
+
+Page 24
+Para el caso particular de Colombia, la variabilidad climática está condicionada por
+procesos geofísicos desde la escala horaria hasta la escala interanual, entre ellos el
+ciclo diurno de temperaturas, las ondas tropicales del este, el ciclo semianual debido
+al paso de la ZCIT, El Niño‐Oscilación del Sur (ENSO), y la Oscilación Inter Decadal
+del Pacífico (Poveda, 2004). Para la cuenca del río la Vieja, se encuentra
+influenciada por la presencia de ciclos a escala anual e interanual, definiendo la
+presencia de temporadas secas y lluviosas cuya intensidad y duración se
+encuentran a su vez determinadas por el paso de la ZCIT. 
+Adicionalmente, el océano Pacífico influye en la climatología colombiana,
+especialmente en la del occidente, donde se encuentra ubicada la cuenca del río La
+Vieja y el centro del país. La costa Pacífica de Colombia es una de las regiones más
+lluviosas del planeta, con precipitaciones sobre tierra entre 8.000 y 13.000 mm
+promedio anual (Poveda y Mesa, 1999). 
+Según Poveda (2004), a la escala interanual del ENSO, la variabilidad climática
+global está fuertemente controlada por la ocurrencia del evento El Niño/Oscilación
+del Sur. El ENSO tiene una variabilidad estacional asociada con su enfasamiento
+con el ciclo anual, ya que comienza durante la primavera de hemisferio Norte
+(marzo – mayo), y alcanza su máximo desarrollo durante el tiempo de diciembre, y
+de allí el nombre de El Niño. El Niño es la fase cálida del ENSO, en la que se
+presenta un aumento de las temperaturas superficiales del mar, en particular sobre
+el centro y el oriente del Pacífico tropical, lo cual conduce a alteraciones en los
+patrones de circulación de vientos, de presiones atmosféricas superficiales y de
+precipitación sobre todo el océano Pacífico. La Niña es la fase fría del ENSO.
+El ciclo anual de la hidroclimatología de Colombia está dominado por fenómenos
+físicos como la migración latitudinal  de la Zona de Convergencia Intertropical,
+asociada con la dinámica transecuatorial de advección de humedad por los vientos
+alisios del este, la actividad del chorro del Chocó y de los sistemas convectivos  de
+mesoescala (Poveda, 2004).
+Como se puede observar en lo anterior expuesto, la oscilación meridional de la Zona
+de Convergencia Intertropical (ZCIT) se da como resultado del ciclo anual de
+temperaturas superficiales por efecto de la insolación, que constituye el mecanismo
+físico de mayor importancia para explicar el ciclo anual de la  hidroclimatología de
+Colombia. Sobre el centro de Colombia se presentan dos temporadas lluviosas
+(abril-mayo y octubre-noviembre), y dos temporadas secas (diciembre-febrero y
+junio-agosto), como resultado del doble paso de la ZCIT sobre el territorio.
+Precipitación y Oscilación del Sur (ENSO)
+Con los registros de precipitación de las estaciones meteorológicas consultadas, se
+pudo determinar que la cuenca del río La Vieja posee un ciclo de precipitación de
+régimen bimodal, es decir, las dinámicas de esta variable se encuentran asociadas
+por la presencia de dos temporadas de lluvias y dos temporadas secas
+influenciadas por el paso de la Zona de Convergencia Intertropical (ZCIT).
+20
+
+
+Page 25
+Adicionalmente la intensidad de estos períodos de lluvia, así como los secos, se
+encuentra fuertemente relacionada con la presencia del fenómeno ENSO. 
+Poveda (2004) indica que Los mecanismos físicos por los cuales se presentan
+déficits hidrológicos en Colombia durante El Niño se pueden resumir como: 1) el
+debilitamiento del chorro del Chocó; 2) el debilitamiento de la corriente de chorro
+ecuatorial de los 700hPa; 3) la reducción en número e intensidad de las ondas
+tropicales del este sobre el Atlántico tropical norte; 4) el desplazamiento de la ZCIT
+hacia el sur‐oeste de su posición normal, como consecuencia del establecimiento de
+una celda de Hadley anómala sobre el trópico americano; 5) alteración del balance
+de humedad atmosférica, en particular en los niveles más bajos de la atmósfera; 6)
+retro‐alimentación positiva entre procesos tierra‐atmósfera, ya que se presentan
+déficits de humedad del suelo, de evapotranspiración y de actividad vegetal durante
+El Niño en Colombia, y por tanto la precipitación reciclada de origen local tiende a
+disminuir como resultado de una menor disponibilidad de agua en el suelo y en la
+atmósfera.
+Con el análisis de la serie del ONI se pueden obtener varias conclusiones que
+deben considerarse en el ordenamiento del territorio, principalmente en el marco de
+escenarios de cambio climático. Es evidente que la cantidad de eventos El Niño es
+mayor que los eventos La Niña presentados. Lo más importante a nivel de análisis
+de la figura 3.9 es que en la condición normal el clima en Colombia se encuentra
+bajo condiciones Neutras, no bajo condiciones ENSO, ya que ellas representan el
+52% del tiempo, mientras los eventos ENSO representan el 48%. Esto indica que la
+consideración de series cortas de tiempo no representa la variabilidad interanual
+asociada a este fenómeno del comportamiento del clima.
+Figura 3-9. Anomalías de temperatura de superficie del mar (°Celsius) registradas
+en el Pacifico tropical – Región Niño 3. IDEAM, 2014.
+Según en el IDEAM (2014), se presenta una clasificación de los fenómenos El Niño
+ocurridos en los últimos 65 años, con su respectiva intensidad y duración
+identificadas por las anomalías de la Temperatura Superficial del Mar - TSM en el
+océano Pacífico central (Región Niño3), la cual se puede observar en la figura 3.10.
+21
+
+
+Page 27
+Para el estudio de la variabilidad climática del POMCA de la cuenca del río La vieja,
+se consideraron las fases del ENSO según Índice Oceánico de El Niño (Oceanic
+Niño Index‐ONI), presentado por la National Oceanic and Atmospheric
+Administration‐NOAA, de los Estados Unidos, desde el año 1950 hasta el año 2014,
+cuyos valores se grafican en la figura 3.9  y se pueden observar también en la
+figura 3.10 y figura 3.11, en la cual los segmentos en rojo indican los eventos El
+Niño y los segmentos los azules corresponden a eventos La Niña.
+En la figura 3.12 se presenta la comparación de la serie de precipitación de la
+estación Alcalá (26120150) con respecto al comportamiento del ONI. Se observa la
+dinámica de la serie frente a la presencia de eventos El Niño y La Niña, mediante el
+análisis de las series de tiempo, que permite detectar, a través de los años,
+importantes fluctuaciones en el comportamiento de las temporadas secas o
+lluviosas, donde la media en la serie de precipitación disminuye en períodos con
+influencia del primero y aumenta para el segundo.
+Figura 3-12. Comportamiento precipitación frente a fenómeno ENSO en la estación
+Alcalá 26120150. Este estudio, 2017.
+En la figura 3.13 se presenta el comportamiento del ciclo anual de la precipitación
+para períodos El Niño, La Niña y Neutro de seis (6) estaciones de lluvias disponibles
+dentro de la cuenca del río La Vieja, donde se puede observar que los trimestres
+marzo a
+‐ bril m
+‐
+ayo y septiembre‐octubre‐noviembre, son los períodos de mayor
+pluviometría en la cuenca y los meses de diciembre e
+‐ nero f‐ ebrero y junio j‐ ulio‐
+agosto, son los trimestres de menor precipitación. Teniendo en cuenta que la
+precipitación anual para las estaciones es muy diferente, el comportamiento bimodal
+es común a ellas. Para las demás estaciones se puede consultar el Anexo 2.
+23
+
+
+Page 32
+Análisis temporal de precipitación total
+Con la verificación realizada en el análisis de consistencia y validez de los registros
+mensuales de las estaciones seleccionadas, se pudo comprobar la calidad de los
+datos, por lo cual se puede llegar a determinar la precipitación media para cada
+estación.
+A manera de ejemplo de una estación en la cuenca del río La Vieja, la precipitación
+media mensual en la estación Salento varía entre 64,80 mm y 411,8 mm. El
+comportamiento a través del año es de tipo bimodal, siendo los meses más lluviosos
+el segundo período octubre y noviembre y en el primer periodo marzo y abril. En la
+figura 3.14 se presenta la variación de la precipitación para los diferentes meses del
+año. La precipitación total multianual es de 2.549,50 mm. 
+Figura 3-14. Precipitación total mensual Estación Salento. Este estudio, 2017.
+A continuación se presenta la precipitación total mensual para cada una de las
+estaciones meteorológicas consultadas (Tabla 3.7).
+28
+
+
+Page 40
+Tabla 3.8. Valores máximos, medios y mínimos de la precipitación a escala anual y
+mensual para la toda cuenca. Este estudio, 2017.
+Mes
+Precipitación mm
+Mínimo
+Medio
+Máximo
+Enero
+43.6
+127.3
+235.8
+Febrero
+60.1
+128.9
+227.7
+Marzo
+90.1
+185.7
+286.9
+Abril
+112.5
+219.2
+295.3
+Mayo
+115.1
+197.0
+296.3
+Junio
+60.1
+121.5
+178.3
+Julio
+45.2
+91.2
+124.3
+Agosto
+39.0
+91.6
+129.3
+Septiembre
+67.6
+143.9
+204.5
+Octubre
+135.7
+249.5
+407.2
+Noviembre
+101.7
+248.5
+422.2
+Diciembre
+61.7
+173.1
+322.6
+Anual
+39.0
+1977.5
+422.2
+Para comprender el presente análisis de precipitaciones, es importante señalar que
+este se hace a partir de los datos que registraron durante los años en a los que se
+hace referencia de las estaciones que integran la red hidrometeorológica del
+IDEAM, CRQ y CVC, encontrando características predominantes de la distribución
+de la precipitación durante el año se encuentran régimen bimodal para la cuenca.
+Los meses que presentan mayores cantidades de precipitaciones, tras el análisis
+hecho en base a los promedios mensuales, son se presentan durante los meses de
+mayo y noviembre con valores de 296.3 y 422.2 mm respectivamente, sobre los
+municipios de Pereira, Salento, Filandia y Circasia; sin embargo, los meses que
+muestran tendencia a la disminución de las lluvias corresponde a enero con valores
+inferiores a los 43.6 mm a lo largo de la cuenca sobre todo el costado occidental,
+esto hace pensar que los aumentos y disminuciones de lluvias podrían ser parte de
+procesos naturales como el paso de la Zona de Convergencia Intertropical (ZCIT),
+que se repiten cada cierto tiempo y no necesariamente son parte de un cambio
+climático.
+A partir del mapa de isoyetas anuales (figura 3.15) se establece una gran
+variabilidad en el comportamiento de la lluvia, con valores de precipitación oscilando
+entre los 4000 mm en la parte alta de la cuenca, que disminuyen gradualmente
+hacia el norte y oriente a mínimos de 1000 mm. El promedio anual de precipitación
+estimado para la cuenca hidrográfica del río La Vieja es de 1977.5 mm.
+36
+
+
+Page 64
+3.4.5
+Velocidad y dirección del viento
+Del análisis de la escasa información sobre este elemento, con apenas registros de
+velocidad y dirección del viento en las estaciones Aeropuerto El Edén (26125060) y
+Matecaña (26135040) localizadas en la parte alta y baja de la cuenca del río La
+Vieja, se establecen valores de velocidad del viento relativamente bajos en el
+Aeropuerto El Edén (0.80 m/s), que se incrementan sustancialmente en la estación
+Aeropuerto Matecaña a 1.60 m/s, con una distribución bimodal a lo largo del año,
+coincidiendo con el desplazamiento de La zona de convergencia intertropical - ZCIT.
+Tabla 3.21. Valores medios mensuales de velocidad del viento (m/s) – Estación
+Aeropuerto  El Edén (26125060). Este estudio, 2017.
+Mes
+Ene
+Feb
+Mar
+Abr
+May
+Jun
+Jul
+Ago
+Sep
+Oct
+Nov
+Dic
+Anua
+l
+MEDIOS
+0.8
+0.8
+0.8
+0.7
+0.7
+0.6
+0.8
+0.8
+0.8
+0.8
+0.8
+0.7
+0.8
+MAXIMOS
+1.3
+1.4
+1.5
+1.5
+1.4
+1.3
+1.6
+1.4
+1.4
+1.5
+1.4
+1.3
+1.6
+MINIMOS
+0.1
+0.1
+0.2
+0.1
+0.1
+0.1
+0.1
+0.1
+0.2
+0.2
+0.1
+0.1
+0.1
+Tabla 3.22. Valores medios mensuales de velocidad del viento (m/s) – Estación
+Aeropuerto  Matecaña (26135040). Este estudio, 2017.
+Mes
+Ene
+Feb
+Mar
+Abr
+May
+Jun
+Jul
+Ago
+Sep
+Oct
+Nov
+Dic
+Anua
+l
+MEDIOS
+1.8
+1.7
+1.7
+1.7
+1.6
+1.5
+1.6
+1.6
+1.6
+1.6
+1.6
+1.6
+1.6
+MAXIMOS
+2.2
+2.2
+2.1
+2.2
+2.1
+1.9
+2.1
+2.0
+2.0
+2.0
+2.0
+2.3
+2.3
+MINIMOS
+1.4
+0.9
+0.9
+1.1
+1.0
+0.8
+0.8
+1.0
+0.9
+0.8
+1.0
+0.8
+0.8
+Figura 3-31. Valores medios mensuales de velocidad del viento (m/s) – Estación
+Aeropuerto El Edén (26125060). Este estudio, 2017.
+60
+
+
+Page 94
+Para evaluar la variabilidad climática se realizó el análisis de la serie del ONI
+(Oceanic Niño Index‐ONI)), mediante el cual se pueden obtener varias conclusiones
+que deben considerarse en el ordenamiento del territorio, principalmente en el
+marco de escenarios de cambio climático. Es evidente que la cantidad de eventos El
+Niño es mayor que los eventos La Niña presentados. Lo más importante a nivel de
+análisis es que en la condición normal el clima en Colombia se encuentra bajo
+condiciones Neutras, no bajo condiciones ENSO, ya que ellas representan el 52%
+del tiempo, mientras los eventos ENSO representan el 48%. Esto indica que la
+consideración de series cortas de tiempo no representa la variabilidad interanual
+asociada a este fenómeno del comportamiento del clima.
+La comparación de la serie de precipitación de la estación Alcalá (26120150) con
+respecto al comportamiento del ONI permite observar la dinámica de la serie frente
+a la presencia de eventos El Niño y La Niña, en la cual se detecta, a través de los
+años, importantes fluctuaciones en el comportamiento de las temporadas secas o
+lluviosas, donde la media en la serie de precipitación disminuye en períodos con
+influencia del primero y aumenta para el segundo.
+El comportamiento del ciclo anual de la precipitación para períodos El Niño, La Niña
+y Neutro permite observar asimismo que los trimestres marzo a
+‐ bril m
+‐
+ayo y
+septiembre‐octubre‐noviembre, son los períodos de mayor pluviometría en la
+cuenca y los meses de diciembre e
+‐ nero f‐ ebrero y junio j‐ ulio a
+‐ gosto, son los
+trimestres de menor precipitación. Teniendo en cuenta que la precipitación anual
+para las estaciones es muy diferente, el comportamiento bimodal es común a ellas. 
+3.9.2
+Identificación de necesidades de información y conocimiento
+En este numeral se ha realizado una descripción completa de varios componentes
+del clima en la cuenca del Río La Vieja, tales como lluvia, evapotranspiración real y
+potencial, temperatura, radiación, diferentes mapas de índices climáticos, mapa de
+balance de largo plazo. A continuación, se hace una descripción por cada proceso,
+sobre las falencias de información para cada variable.
+Lluvia: Los campos de lluvia en la cuenca del río La Vieja se construyeron con
+información de estaciones que se encuentran dentro de la cuenca y con información
+por fuera de esta. En este sentido los campos de precipitación se construyeron con
+información de 33 estaciones de las cuales solo 27 estaciones se encuentran dentro
+de la cuenca y 6 en su frontera. Es importante tener en cuenta que la cuenca del río
+La Vieja tiene un área total de 2849,7 km2 y su topografía hace que la precipitación
+sea altamente variable en la cuenca y, por tanto, la información con que se cuenta
+dentro de la cuenca es insuficiente y hace que se eleve la incertidumbre en la
+estimación de esta variable. Se recomienda mejorar la red de estaciones de
+medición de precipitación en toda la cuenca del río La Vieja.
+Evapotranspiración: No se cuenta con información de evapotranspiración potencial
+en la zona. Esta fue estimada con ecuaciones o métodos indirectos que han dado
+buenos ajustes en para la región andina en Colombia. Se recomienda medir mejor y
+con una red espacial de estaciones más densa, variables tales como temperatura y
+90
