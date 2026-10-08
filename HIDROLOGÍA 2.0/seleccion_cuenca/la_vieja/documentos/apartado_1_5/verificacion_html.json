@@ -1,0 +1,21 @@
+{
+  "months": 12,
+  "variables": 5,
+  "commonMonths": 285,
+  "tables": 5,
+  "figures": 5,
+  "oldPlaceholder": false,
+  "imagesReady": true,
+  "styles": {
+    "font": "HydroDocumento, serif",
+    "body": "16px",
+    "table": "14px"
+  },
+  "otherSections": [
+    29595,
+    26022,
+    9660,
+    42945
+  ],
+  "errors": []
+}

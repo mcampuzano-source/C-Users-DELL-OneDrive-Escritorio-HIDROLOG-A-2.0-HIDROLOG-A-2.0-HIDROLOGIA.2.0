@@ -1,0 +1,44 @@
+{
+  "tables": 53,
+  "point1FormatUpdated": true,
+  "font": "HydroDocumento",
+  "title": 24,
+  "subtitle": 20,
+  "heading": 17,
+  "body": 16,
+  "table": 14,
+  "point1Tables": 12,
+  "styles": [
+    {
+      "point": 1,
+      "font": "HydroDocumento, serif",
+      "body": "16px",
+      "subtitle": "20px"
+    },
+    {
+      "point": 2,
+      "font": "HydroDocumento, serif",
+      "body": "16px",
+      "subtitle": "20px"
+    },
+    {
+      "point": 3,
+      "font": "HydroDocumento, serif",
+      "body": "16px",
+      "subtitle": "20px"
+    },
+    {
+      "point": 4,
+      "font": "HydroDocumento, serif",
+      "body": "16px",
+      "subtitle": "20px"
+    },
+    {
+      "point": 5,
+      "font": "HydroDocumento, serif",
+      "body": "16px",
+      "subtitle": "20px"
+    }
+  ],
+  "errors": []
+}

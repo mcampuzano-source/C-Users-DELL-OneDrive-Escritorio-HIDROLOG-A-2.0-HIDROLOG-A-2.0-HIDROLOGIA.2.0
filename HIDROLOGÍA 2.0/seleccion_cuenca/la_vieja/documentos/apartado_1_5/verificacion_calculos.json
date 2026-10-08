@@ -1,0 +1,26 @@
+{
+  "n_meses_comunes": 285,
+  "periodo": "1998-01 a 2022-12",
+  "n_por_mes": {
+    "1": 24,
+    "2": 24,
+    "3": 24,
+    "4": 23,
+    "5": 24,
+    "6": 24,
+    "7": 25,
+    "8": 24,
+    "9": 24,
+    "10": 25,
+    "11": 22,
+    "12": 22
+  },
+  "cuantiles": "Interpolación lineal, Hyndman-Fan tipo 7",
+  "desviacion_estandar": "Muestral, ddof=1",
+  "medias_coinciden_con_5_4": true,
+  "fuentes": [
+    "C:\\HIDROLOGÍA 2.0\\HIDROLOGÍA 2.0\\seleccion_cuenca\\la_vieja\\punto_1\\series_mensuales.csv",
+    "C:\\HIDROLOGÍA 2.0\\HIDROLOGÍA 2.0\\seleccion_cuenca\\la_vieja\\documentos\\imerg_poligono\\IMERG_mensual_poligono_1998_2022.csv",
+    "C:\\HIDROLOGÍA 2.0\\HIDROLOGÍA 2.0\\seleccion_cuenca\\la_vieja\\documentos\\temperatura_media_ERA5_Land_mensual.csv"
+  ]
+}

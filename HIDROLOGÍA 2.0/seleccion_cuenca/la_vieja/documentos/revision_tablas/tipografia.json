@@ -1,0 +1,3376 @@
+[
+  {
+    "page": 3,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Introducción"
+  },
+  {
+    "page": 3,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La variabilidad de la precipitación y del caudal condiciona la disponibilidad de agua y la ocurrenci"
+  },
+  {
+    "page": 3,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Este informe analiza la cuenca del río La Vieja hasta la estación Cartago mediante series mensuales "
+  },
+  {
+    "page": 3,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Metodología"
+  },
+  {
+    "page": 3,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La delimitación de la cuenca y las series hidrológicas de referencia proceden de CAMELS-COL. La prec"
+  },
+  {
+    "page": 3,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El registro hidrológico abarca 19812022. Los acumulados de lluvia y las medias de caudal se calculan"
+  },
+  {
+    "page": 4,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Área de estudio: cuenca del río La Vieja"
+  },
+  {
+    "page": 4,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "tada en CAMELS-COL, con una superficie de 2.797,19 km2. Esta delimitación define el área sobre la qu"
+  },
+  {
+    "page": 4,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 1: Localización de la cuenca hasta Cartago y estaciones de lluvia inventariadas. Base: © Open"
+  },
+  {
+    "page": 5,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Mapas de la cuenca y topografía"
+  },
+  {
+    "page": 5,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Delimitación y red terrestre inventariada"
+  },
+  {
+    "page": 5,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se utiliza el polígono CAMELS transformado a WGS84 y la ubicación de Cartago del catálogo IDEAM. Los"
+  },
+  {
+    "page": 5,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Modelo de elevación descargado"
+  },
+  {
+    "page": 5,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se descargó Copernicus DEM GLO-30 público, mosaico N04/W076, y se recortó al polígono. Se conserva e"
+  },
+  {
+    "page": 6,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El recorte presenta mínimo 908.5 m, media de píxeles 1799.0 m y máximo 4774.2 m. CAMELS reporta 940,"
+  },
+  {
+    "page": 6,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Fuente: Copernicus DEM y distribución pública COG."
+  },
+  {
+    "page": 6,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-"
+  },
+  {
+    "page": 7,
+    "kind": "title",
+    "size": 16,
+    "font": "HydroBold",
+    "text": "1. Series mensuales: exploración y validación"
+  },
+  {
+    "page": 7,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "1.1. Variabilidad temporal de la precipitación y del caudal"
+  },
+  {
+    "page": 7,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Series de precipitación y caudal"
+  },
+  {
+    "page": 7,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se analiza la cuenca del río La Vieja hasta la estación Cartago (IDEAM 26127040), con un área CAMELS"
+  },
+  {
+    "page": 7,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Agregación y tratamiento de faltantes"
+  },
+  {
+    "page": 7,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se conserva únicamente un mes con el 100 % de sus días válidos. El calendario contiene 15 340 días e"
+  },
+  {
+    "page": 7,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 4: Precipitación acumulada y caudal medio mensuales de La Vieja–Cartago. Los paneles comparte"
+  },
+  {
+    "page": 8,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Lectura inicial y alcance"
+  },
+  {
+    "page": 8,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se observan oscilaciones estacionales y diferencias entre años (figura 4). El máximo de precipitació"
+  },
+  {
+    "page": 8,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Meses extremos y contraste cronológico"
+  },
+  {
+    "page": 8,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los extremos que deben localizarse en la figura 4 son: agosto de 1982, mínimo de P (24,89 mm); octub"
+  },
+  {
+    "page": 8,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Que el máximo de P y el de Q ocurran en meses distintos no indica por sí solo un error: el caudal in"
+  },
+  {
+    "page": 8,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Referencias del contraste climático"
+  },
+  {
+    "page": 8,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "IDEAM (2010). Boletín diciembre de 2010. Disponible en https://www.ideam.gov.co/file-download/downlo"
+  },
+  {
+    "page": 8,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "IDEAM (2006). La sequía en Colombia, nota técnica NT_IDEAM-2006-004."
+  },
+  {
+    "page": 8,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Esta primera sección presenta las series históricas y la comparación IMERG disponible desde 1998. La"
+  },
+  {
+    "page": 8,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Temperatura mensual"
+  },
+  {
+    "page": 9,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Temperatura media mensual directa: ERA5-Land"
+  },
+  {
+    "page": 9,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 6: Temperatura media mensual del aire a 2 m de ERA5-Land, promedio ponderado sobre la cuenca "
+  },
+  {
+    "page": 9,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Agregación mensual, escorrentía y temperatura"
+  },
+  {
+    "page": 10,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La serie R del informe ya se calculó con esa expresión; por tanto no es una observación independient"
+  },
+  {
+    "page": 10,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 7: IMERG, escorrentía mensual R y temperatura media mensual estimada, para los 285 meses comp"
+  },
+  {
+    "page": 10,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "1.2. Precipitación satelital y comparación de fuentes"
+  },
+  {
+    "page": 10,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "IMERG: promedio exacto de cuenca y validación (V07B)"
+  },
+  {
+    "page": 11,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Acceso: GES DISC mediante el script de descarga conservado y sesión Earthdata. Reproducción: scripts"
+  },
+  {
+    "page": 11,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "DOI: https://doi.org/10.5067/GPM/IMERG/3B-MONTH/07."
+  },
+  {
+    "page": 11,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Antecedentes conservados: IMERG promedio de caja"
+  },
+  {
+    "page": 11,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El máximo mensual de IMERG es noviembre de 2008 (431,15 mm/mes), pero Q no está disponible ese mes; "
+  },
+  {
+    "page": 12,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "meses, media 98,86 mm/mes), mientras el húmedo más persistente es febrero–junio de 2022 (cinco meses"
+  },
+  {
+    "page": 12,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los años con mayor precipitación media IMERG son 2008, 2011 y 2022, y 2015 es el más seco; son contr"
+  },
+  {
+    "page": 12,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "1.3. Distribución de las variables hidroclimáticas"
+  },
+  {
+    "page": 12,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Distribuciones actualizadas: IMERG de cuenca y ERA5-Land"
+  },
+  {
+    "page": 12,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Desviación estándar muestral (n-1); percentiles lineales tipo 7. Histogramas Freedman–Diaconis; CHIR"
+  },
+  {
+    "page": 12,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Registros disponibles por fuente"
+  },
+  {
+    "page": 12,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Mismos 285 meses completos"
+  },
+  {
+    "page": 14,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Interpretación inicial"
+  },
+  {
+    "page": 14,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En los mismos 285 meses, IMERG de polígono tiene media 216.55 y mediana 216.25 mm/mes; CHIRPS tiene "
+  },
+  {
+    "page": 14,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Descripción ampliada: asimetría, dispersión, colas y ceros"
+  },
+  {
+    "page": 14,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En los 285 meses comunes de 1998–2022, CHIRPS, IMERG y temperatura presentan poca asimetría hacia va"
+  },
+  {
+    "page": 15,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Meses extremos y contraste con las series cronológicas"
+  },
+  {
+    "page": 15,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se identifican los mínimos y máximos de los mismos 285 meses completos de 1998–2022 y se contrastan "
+  },
+  {
+    "page": 15,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Noviembre de 2010. Coinciden los máximos de IMERG, Q y R; CHIRPS también registra lluvia muy alta (3"
+  },
+  {
+    "page": 16,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Ambas precipitaciones son elevadas en esos meses. La secuencia es compatible con un episodio húmedo "
+  },
+  {
+    "page": 16,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Noviembre de 1999. CHIRPS e IMERG registran 277,91 y 319,05 mm/mes, respectivamente. Q alcanza 328,4"
+  },
+  {
+    "page": 16,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Octubre de 2022. El máximo CHIRPS coincide con IMERG elevado (358,75 mm/mes). Q aumenta de 73,93 m3/"
+  },
+  {
+    "page": 16,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Conclusión y alcance. Los extremos presentan coherencia general con sus meses vecinos; esta revisión"
+  },
+  {
+    "page": 16,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Extremos del registro completo anteriores a 1998"
+  },
+  {
+    "page": 16,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Este contraste utiliza el registro completo por fuente, separado de los 285 meses comunes con IMERG."
+  },
+  {
+    "page": 16,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Agosto de 1982: CHIRPS alcanza 24,89 mm/mes, tras 87,29 en junio y 53,49 en julio. Q desciende de 77"
+  },
+  {
+    "page": 16,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Julio de 1992: Q y R alcanzan sus mínimos históricos (18,37 m3/s y 17,59 mm/mes). CHIRPS registra 75"
+  },
+  {
+    "page": 17,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "entre 98,77 y 127,13 m3/s. El mínimo está integrado en una secuencia de temperaturas bajas y lluvia "
+  },
+  {
+    "page": 17,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "300 1982-08: CHIRPS (mm/mes)"
+  },
+  {
+    "page": 17,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "160 1992-07: CHIRPS (mm/mes)"
+  },
+  {
+    "page": 17,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 11: Extremos históricos y meses vecinos. La línea discontinua señala el mes extremo; los cort"
+  },
+  {
+    "page": 17,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Conclusión del contraste de extremos"
+  },
+  {
+    "page": 17,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "£Son coherentes entre variables? Sí, en general: los meses lluviosos coinciden con caudales altos o "
+  },
+  {
+    "page": 17,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "£Son episodios plausibles o problemas de datos? Las secuencias son físicamente plausibles y no encon"
+  },
+  {
+    "page": 17,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Interpretación visual: condición típica, extremos y fuentes"
+  },
+  {
+    "page": 17,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La primera figura compara media y mediana con sus valores reales y unidades propias, en paneles sepa"
+  },
+  {
+    "page": 18,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "mediana no demuestra normalidad. Las distribuciones mezclan meses calendario; no representan la clim"
+  },
+  {
+    "page": 18,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 12: Centro: media frente a mediana. Mismos 285 meses comunes; paneles con unidades propias."
+  },
+  {
+    "page": 18,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 13: Lluvia: percentiles compartidos. Mismos 285 meses comunes; paneles con unidades propias."
+  },
+  {
+    "page": 19,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Media original Tope P95 0"
+  },
+  {
+    "page": 19,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Media original Tope P95 0"
+  },
+  {
+    "page": 19,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 14: Sensibilidad de la media a la cola alta. Mismos 285 meses comunes; paneles con unidades p"
+  },
+  {
+    "page": 19,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Interpretación de las cifras"
+  },
+  {
+    "page": 19,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "£Qué valores describen mejor un mes típico? En lluvia y temperatura, el promedio y la mediana son ca"
+  },
+  {
+    "page": 19,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "£Cuánto influyen los meses extremos? Influyen más en caudal y escorrentía. Como prueba, si limitamos"
+  },
+  {
+    "page": 19,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "£En qué se diferencian CHIRPS e IMERG? Al comparar los mismos 285 meses, IMERG registra 46,05 mm/mes"
+  },
+  {
+    "page": 19,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Esta condición típica reúne meses de todas las estaciones del año; no describe un mes calendario esp"
+  },
+  {
+    "page": 19,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Antecedentes conservados: fuentes y muestras anteriores"
+  },
+  {
+    "page": 19,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Periodo de datos y estadística descriptiva"
+  },
+  {
+    "page": 19,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los registros originales son diarios y se agregaron a escala mensual. El periodo comprende enero de "
+  },
+  {
+    "page": 20,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Periodo completo: 1981–2022"
+  },
+  {
+    "page": 20,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los mínimos y máximos son extremos de valores mensuales. En Q, la media superior a la mediana reflej"
+  },
+  {
+    "page": 20,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Descripción por año"
+  },
+  {
+    "page": 20,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se indica el número de meses válidos en cada año. Si es menor de 12, las cifras describen únicamente"
+  },
+  {
+    "page": 21,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Histogramas y estadísticos completos"
+  },
+  {
+    "page": 21,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Periodo: enero de 1981–diciembre de 2022. Se utilizan 485 meses completos por variable; se excluyen "
+  },
+  {
+    "page": 22,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Diagramas de caja"
+  },
+  {
+    "page": 22,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "P presenta media y mediana muy próximas (168,20 y 168,47 mm), pero un rango amplio. Q y R muestran m"
+  },
+  {
+    "page": 23,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 16: Diagramas de caja de meses válidos. La línea central es la mediana; la caja representa Q1"
+  },
+  {
+    "page": 23,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Cuadrículas comparables: IMERG, Q, R y temperatura"
+  },
+  {
+    "page": 23,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Esta sección reproduce la estructura de seis paneles de CHIRPS para permitir la comparación visual s"
+  },
+  {
+    "page": 23,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El bloque anterior de IMERG con 300 meses sigue siendo útil para comprobar disponibilidad total, per"
+  },
+  {
+    "page": 24,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 17: Histogramas comparables del periodo común: IMERG, Q, R, Tmin, Tmax y Tmedia estimada (n=2"
+  },
+  {
+    "page": 25,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "P (mm/mes), Q (m3/s) y R (mm/mes)"
+  },
+  {
+    "page": 25,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Precipitación in situ: existencia y alcance"
+  },
+  {
+    "page": 25,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Sí existen mediciones terrestres distintas de CHIRPS. El POMCA La Vieja, capítulo 3, tabla 3.7, docu"
+  },
+  {
+    "page": 25,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las climatologías publicadas no sustituyen una serie cronológica de 25 años. No se han incorporado r"
+  },
+  {
+    "page": 25,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "IMERG: distribución y control descriptivo"
+  },
+  {
+    "page": 25,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En este apartado se presentan únicamente serie, distribución, caja y estadísticos de IMERG; no se su"
+  },
+  {
+    "page": 26,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 19: IMERG incorporado al análisis: serie cronológica, distribución, diagrama de caja y resume"
+  },
+  {
+    "page": 26,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "1.4. Calidad y completitud de las series"
+  },
+  {
+    "page": 26,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Control de datos faltantes"
+  },
+  {
+    "page": 26,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se reconstruyó el calendario diario completo de 1981–2022, incluidos los años bisiestos. De 15 340 d"
+  },
+  {
+    "page": 26,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Criterio de completitud"
+  },
+  {
+    "page": 26,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se exige el 100 % de días válidos para que la lluvia acumulada y el caudal medio representen el mes "
+  },
+  {
+    "page": 26,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se retiene únicamente un mes con el 100 % de sus días válidos. De 504 meses, se conservan 485 (96,23"
+  },
+  {
+    "page": 27,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 20: Disponibilidad diaria dentro de cada mes. P y Q tienen la misma cobertura en el archivo C"
+  },
+  {
+    "page": 27,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Consecuencias para la interpretación"
+  },
+  {
+    "page": 27,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los vacíos continuos más largos son diciembre de 2007–enero de 2008 (62 días), agosto–septiembre de "
+  },
+  {
+    "page": 27,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Como sensibilidad, aceptar meses de Q con al menos 90 % de días elevaría la muestra a 494 meses y la"
+  },
+  {
+    "page": 27,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Este control describe el archivo CAMELS ensamblado, no la disponibilidad original de CHIRPS, IMERG n"
+  },
+  {
+    "page": 27,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Disponibilidad mensual de IMERG y temperatura"
+  },
+  {
+    "page": 28,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 21: Cobertura temporal mensual. Gris: fuera de cobertura; verde: meses válidos. No hay faltan"
+  },
+  {
+    "page": 28,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Conclusión de la comprobación de datos"
+  },
+  {
+    "page": 28,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Durante la comprobación de las series revisadas no se encontraron inconsistencias en las fechas, dup"
+  },
+  {
+    "page": 28,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Conclusión sobre reconstrucciones y estimaciones"
+  },
+  {
+    "page": 28,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Reconstrucción del calendario y ajuste de la geometría de las celdas: se completaron las fechas y se"
+  },
+  {
+    "page": 28,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Estimaciones de modelos y escenario hipotético P95: se generaron valores para evaluar los modelos de"
+  },
+  {
+    "page": 28,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Revisión manual de agregación y conversión"
+  },
+  {
+    "page": 28,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Pendiente de documentar la revisión manual de enero de 1998: archivo utilizado, comprobación de los "
+  },
+  {
+    "page": 28,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "1.5. Climatología, variabilidad y explicación física"
+  },
+  {
+    "page": 28,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Lectura temporal con IMERG"
+  },
+  {
+    "page": 28,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "IMERG muestra dos máximos estacionales: abril–mayo (medias de 273,27 y 257,47 mm/mes) y octubre– nov"
+  },
+  {
+    "page": 28,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "por sí solo. Apartado pendiente de completar según la guía; esta reorganización no incorpora resulta"
+  },
+  {
+    "page": 28,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "1.5.a. Construir la climatología de doce meses"
+  },
+  {
+    "page": 28,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Pendiente de completar e integrar."
+  },
+  {
+    "page": 29,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "1.5.b. Describir y contrastar el ciclo anual"
+  },
+  {
+    "page": 29,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Pendiente de completar e integrar."
+  },
+  {
+    "page": 29,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "1.5.c. Explicar los procesos regionales y de la cuenca"
+  },
+  {
+    "page": 29,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Pendiente de completar e integrar."
+  },
+  {
+    "page": 30,
+    "kind": "title",
+    "size": 16,
+    "font": "HydroBold",
+    "text": "2. Relaciones entre series y modelos estadísticos"
+  },
+  {
+    "page": 30,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "2.1. Diagramas de dispersión e interpretación"
+  },
+  {
+    "page": 30,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los diagramas de dispersión nos permiten explorar cómo se relaciona la lluvia con la respuesta del r"
+  },
+  {
+    "page": 30,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Para hacerlo, comparamos tres parejas: precipitación satelital y lluvia local, lluvia local y caudal"
+  },
+  {
+    "page": 30,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Al recorrer las gráficas, interesa tanto la dirección de la nube como su amplitud. Una tendencia asc"
+  },
+  {
+    "page": 30,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La comparación se construye con IMERG Final V07B y CHIRPS promediados sobre la cuenca, mientras que "
+  },
+  {
+    "page": 31,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Los mismos diagramas para CHIRPS"
+  },
+  {
+    "page": 31,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Dirección, forma, dispersión y agrupamientos"
+  },
+  {
+    "page": 31,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las tres nubes muestran asociación positiva; IMERG–lluvia local es la más fuerte en la muestra peque"
+  },
+  {
+    "page": 31,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Sesgo, MAE y RMSE frente a la referencia local"
+  },
+  {
+    "page": 31,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El sesgo medio es +109,80 mm/mes, MAE 109,80 mm/mes y RMSE 119,61 mm/mes (n=14). El sesgo indica la "
+  },
+  {
+    "page": 32,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Pearson, Spearman y valores influyentes"
+  },
+  {
+    "page": 32,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Pearson resume asociación lineal y es sensible a magnitudes extremas; Spearman correlaciona rangos y"
+  },
+  {
+    "page": 32,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Rezagos mensuales y apoyo con láminas"
+  },
+  {
+    "page": 32,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Un rezago de un mes significa que se utiliza la lluvia del mes anterior. Se preserva el calendario m"
+  },
+  {
+    "page": 33,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Anomalías y persistencia al retirar el ciclo anual"
+  },
+  {
+    "page": 33,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "CHIRPS e IMERG: comparación del apartado 2.1"
+  },
+  {
+    "page": 33,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "CHIRPS: los mismos diagramas y criterios"
+  },
+  {
+    "page": 33,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los diagramas comparan CHIRPS con la lluvia local y el caudal, bajo las mismas unidades y colores po"
+  },
+  {
+    "page": 33,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Dirección, forma, dispersión y puntos influyentes en CHIRPS"
+  },
+  {
+    "page": 33,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "CHIRPS–lluvia local y CHIRPS–Q muestran asociación positiva. La primera nube es relativamente alinea"
+  },
+  {
+    "page": 34,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "£Cuál tiene menor error frente a Zaragoza?"
+  },
+  {
+    "page": 34,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En los mismos 14 meses, CHIRPS tiene sesgo +86,74, MAE 86,74 y RMSE 104,14 mm/mes; IMERG tiene sesgo"
+  },
+  {
+    "page": 34,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "£Cuál es más disperso? Depende de la comparación"
+  },
+  {
+    "page": 34,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La dispersión se cuantifica con unidades y muestras iguales. Frente a la recta 1:1 con Zaragoza, la "
+  },
+  {
+    "page": 34,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Anomalías, rezagos y apoyo con escorrentía para CHIRPS"
+  },
+  {
+    "page": 34,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se resta la climatología de cada mes calendario construida con los mismos 285 meses de 1998–2022 par"
+  },
+  {
+    "page": 35,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Conclusión comparativa del 2.1"
+  },
+  {
+    "page": 35,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "CHIRPS se acerca más a Zaragoza en error medio y RMSE durante los 14 meses completos disponibles; IM"
+  },
+  {
+    "page": 35,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Correlaciones originales y anomalías: muestras comunes"
+  },
+  {
+    "page": 36,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Sensibilidad CHIRPS: retirar un mes"
+  },
+  {
+    "page": 36,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Rezagos CHIRPS: calendario continuo"
+  },
+  {
+    "page": 36,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "original."
+  },
+  {
+    "page": 36,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "anomalía."
+  },
+  {
+    "page": 36,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "2.2. Modelos estadísticos de lluvia y caudal"
+  },
+  {
+    "page": 36,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Después de explorar las relaciones entre lluvia y caudal en los diagramas del apartado 2.1, buscamos"
+  },
+  {
+    "page": 36,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En estos modelos, P(t) representa la precipitación de cuenca del mes t y L(t) la lluvia local, ambas"
+  },
+  {
+    "page": 37,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Esta comparación requiere que estén disponibles, simultáneamente, el caudal y la lluvia de IMERG y C"
+  },
+  {
+    "page": 37,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Relaciones candidatas y criterio de selección"
+  },
+  {
+    "page": 37,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Resultado para caudal: modelos con lluvia actual y antecedente"
+  },
+  {
+    "page": 37,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El modelo con P(t) y P(t-1) es el candidato seleccionado para ambas fuentes: mejora la recta contemp"
+  },
+  {
+    "page": 38,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Lluvia local: calibración sencilla y evidencia limitada"
+  },
+  {
+    "page": 38,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se conserva solo la cobertura 100 %: 14 meses completos. Para cada producto se comparan media, recta"
+  },
+  {
+    "page": 39,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Caudal a partir de lluvia local: no recomendar todavía"
+  },
+  {
+    "page": 39,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La recta local–Q con 14 pares da RMSE de ajuste 51,13 m3/s. En el diagnóstico temporal de siete mese"
+  },
+  {
+    "page": 39,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Supuestos, rangos, ceros y transformaciones"
+  },
+  {
+    "page": 39,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El modelo supone una relación aproximadamente estable en el periodo y ámbito de calibración; cambios"
+  },
+  {
+    "page": 40,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Rango de Q en desarrollo: 21,34–508,77 m3/s."
+  },
+  {
+    "page": 40,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Interpretación de parámetros y conservación de masa"
+  },
+  {
+    "page": 40,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En lluvia local, el intercepto tiene unidades mm/mes y la pendiente es adimensional. En caudal, el i"
+  },
+  {
+    "page": 40,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Comparación y decisión del apartado 2.2"
+  },
+  {
+    "page": 40,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Para lluvia local, la recta CHIRPS tiene mejor desempeño en el diagnóstico disponible, pero la muest"
+  },
+  {
+    "page": 40,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "2.3. Desempeño de los modelos en la reserva temporal"
+  },
+  {
+    "page": 40,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Partición temporal y prueba sin reajuste"
+  },
+  {
+    "page": 40,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se mantienen las decisiones del 2.2: modelos de caudal con lluvia del mismo mes y del mes anterior, "
+  },
+  {
+    "page": 40,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Ecuaciones congeladas y referencia"
+  },
+  {
+    "page": 41,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Q está en m3/s y P en mm/mes. La referencia principal es la climatología mensual de Q estimada exclu"
+  },
+  {
+    "page": 41,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Resultados fuera del ajuste"
+  },
+  {
+    "page": 41,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En los mismos 68 meses, CHIRPS obtiene RMSE 42,14 m3/s, MAE 30,23, sesgo 2,47 y NSE 0,60; IMERG obti"
+  },
+  {
+    "page": 41,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Este indicador compara el error con la media del periodo evaluado; no sustituye la comparación explí"
+  },
+  {
+    "page": 41,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Estabilidad entre periodos y diferencia entre productos"
+  },
+  {
+    "page": 41,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El orden de desempeño se invierte respecto del desarrollo: IMERG tenía RMSE 56,43 frente a 63,87 de "
+  },
+  {
+    "page": 42,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "2020 y 2022; IMERG en 2019 y 2021. En 2020 el NSE es negativo para ambos (-0,59 y -0,17), lo que adv"
+  },
+  {
+    "page": 42,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Residuos frente al tiempo, al estimado y al mes calendario"
+  },
+  {
+    "page": 42,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se presentan errores estimado-observado frente al tiempo y al valor estimado, además del sesgo y RMS"
+  },
+  {
+    "page": 44,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Caudales altos, plausibilidad física y extrapolación"
+  },
+  {
+    "page": 44,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Para definir caudal alto se usa el percentil 75 del ajuste, 141,54 m3/s, sin elegir el umbral con la"
+  },
+  {
+    "page": 44,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Q bajo-medio."
+  },
+  {
+    "page": 45,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Comparación de estimaciones de lluvia local"
+  },
+  {
+    "page": 45,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La tabla compara IMERG y CHIRPS sin corrección con sus rectas de calibración para estimar la lluvia "
+  },
+  {
+    "page": 45,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Fuentes compartidas y alcance de la independencia"
+  },
+  {
+    "page": 45,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La separación temporal evita usar el caudal de prueba para ajustar la regresión, pero no garantiza i"
+  },
+  {
+    "page": 45,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Conclusión del 2.3"
+  },
+  {
+    "page": 45,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Existe una relación aprovechable para estimar caudal mensual a partir de lluvia contemporánea y ante"
+  },
+  {
+    "page": 46,
+    "kind": "title",
+    "size": 16,
+    "font": "HydroBold",
+    "text": "3. Tendencias hidroclimáticas y sus posibles causas"
+  },
+  {
+    "page": 46,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "3.1. Temperatura y periodos de análisis"
+  },
+  {
+    "page": 46,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Temperatura: producto, variable y descarga"
+  },
+  {
+    "page": 46,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Para complementar los registros de la cuenca se usa la temperatura del aire a 2 m, variable t2m, del"
+  },
+  {
+    "page": 46,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Copernicus. Es un reanálisis con forzamientos de ERA5, no una observación de una estación de la cuen"
+  },
+  {
+    "page": 46,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Promedio temporal y espacial de ERA5-Land"
+  },
+  {
+    "page": 46,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El archivo ya contiene medias mensuales de medias diarias: no se suman ni se vuelve a calcular una m"
+  },
+  {
+    "page": 46,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se utilizan todos los 28, 29, 30 o 31 días del mes. Los 548 meses de la serie de cuenca están válido"
+  },
+  {
+    "page": 46,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las celdas cubren el 100 % del polígono de cuenca."
+  },
+  {
+    "page": 46,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "IMERG utilizado para el análisis de precipitación"
+  },
+  {
+    "page": 46,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Registros completos y periodo común"
+  },
+  {
+    "page": 46,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "en ceros y no se prorratean."
+  },
+  {
+    "page": 48,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las procedencias se mantienen separadas: CHIRPS es la precipitación de referencia e IMERG es una est"
+  },
+  {
+    "page": 48,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 24: Cobertura de cada registro mensual. Verde: mes válido; naranja: faltante dentro del regis"
+  },
+  {
+    "page": 48,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "3.2. Series originales, anomalías y anomalías estandarizadas"
+  },
+  {
+    "page": 48,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Variable y periodo. Se analiza únicamente la precipitación mensual de IMERG promediada sobre el polí"
+  },
+  {
+    "page": 48,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Para cada mes calendario j, la climatología se calculó sobre todos los años disponibles del periodo "
+  },
+  {
+    "page": 48,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El mismo periodo de referencia se aplica a los doce meses, de modo que las anomalías comparan cada o"
+  },
+  {
+    "page": 48,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "faltantes se conservan en la_vieja/documentos/disponibilidad_mensual/."
+  },
+  {
+    "page": 48,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Serie original. Conserva los valores y unidades de precipitación y muestra conjuntamente el ciclo es"
+  },
+  {
+    "page": 49,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Anomalía. La diferencia respecto a la media del mismo mes conserva las unidades mm/mes. Centra cada "
+  },
+  {
+    "page": 49,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Anomalía estandarizada. Divide la anomalía por la desviación estándar de ese mes. Es adimensional, p"
+  },
+  {
+    "page": 50,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En las tres representaciones se mantiene la misma secuencia temporal de 300 meses. La serie original"
+  },
+  {
+    "page": 50,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "3.3. Dos escalas de evaluación temporal"
+  },
+  {
+    "page": 50,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La misma especificación se aplicó a la serie original, la anomalía y la anomalía estandarizada. Como"
+  },
+  {
+    "page": 50,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Subseries por mes calendario. Se ajustó una recta OLS separada a todos los eneros, a todos los febre"
+  },
+  {
+    "page": 52,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "3.4. Métodos y comparación de resultados"
+  },
+  {
+    "page": 52,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Muestra y planteamiento. Se analizó IMERG Final V07B mensual sobre el polígono de la cuenca, enero d"
+  },
+  {
+    "page": 52,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "y sus equivalentes en at y zt. En la serie original se contrastó ese OLS simple con una regresión qu"
+  },
+  {
+    "page": 53,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Diagnóstico residual del OLS con efectos mensuales."
+  },
+  {
+    "page": 54,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "3. Evolución no lineal exploratoria con LOESS. Se usó regresión local lineal con pesos tricúbicos. E"
+  },
+  {
+    "page": 54,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La sensibilidad a extremos se examinó winsorizando el componente temporal a los percentiles 5 y 95 y"
+  },
+  {
+    "page": 54,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Intervalos y sensibilidad de la curva global. Los tramos son cambios sostenidos de la curva suavizad"
+  },
+  {
+    "page": 54,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Resultados por mes calendario. Cada subserie tiene 25 observaciones (1998–2022). La tabla presenta p"
+  },
+  {
+    "page": 54,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Sensibilidad mensual LOESS. Para cada subserie y representación se compararon los cambios netos al v"
+  },
+  {
+    "page": 55,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Referencias metodológicas. Newey y West (1987), HAC, DOI: 10.2307/1913610; Hirsch, Slack y Smith (19"
+  },
+  {
+    "page": 55,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "en rangos, DOI: 10.1080/01621459.1968.10480934."
+  },
+  {
+    "page": 55,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "3.5. Incertidumbre, robustez y presentación"
+  },
+  {
+    "page": 55,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "3.5. Incertidumbre, robustez y presentación"
+  },
+  {
+    "page": 55,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Alcance y decisión inferencial. Se analiza precipitación IMERG Final Run V07B como acumulado mensual"
+  },
+  {
+    "page": 55,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Consistencia entre métodos y representaciones. En el registro completo, OLS estacional y Sen estiman"
+  },
+  {
+    "page": 56,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Sensibilidad a persistencia. Como en el artículo de referencia, la dependencia temporal se considera"
+  },
+  {
+    "page": 56,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Sensibilidad a fechas y duración. Se repitió OLS estacional en el registro completo, suprimiendo dos"
+  },
+  {
+    "page": 56,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El año más seco fue 2015 (1731.5 mm) y el más húmedo 2008 (3239.6 mm). Al omitir uno por vez, la pen"
+  },
+  {
+    "page": 56,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Tendencia gradual y posible cambio de nivel. Para separar ambos patrones, se aplicó Pettitt a residu"
+  },
+  {
+    "page": 56,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Pettitt ubicó el corte candidato después de 2012-01 (diferencia mediana posterior-anterior -18.05 mm"
+  },
+  {
+    "page": 56,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Homogeneidad y límites. Los 300 archivos de la serie analizada pertenecen a IMERG Final Run V07B; no"
+  },
+  {
+    "page": 56,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Referencia metodológica. Amirthanathan, G. E. et al. (2023). Regional significance of historical tre"
+  },
+  {
+    "page": 57,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Muestra y criterio de lectura. Se contrastan las series mensuales de precipitación de referencia CHI"
+  },
+  {
+    "page": 57,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las pendientes de la tabla son ajustes OLS con efectos de mes calendario y errores HAC con ventana d"
+  },
+  {
+    "page": 57,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Contexto de la cuenca y evidencia de cambios de uso. El POMCA de La Vieja (2018) reporta, para su ma"
+  },
+  {
+    "page": 58,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Clima, variabilidad y observación. El periodo común de 25 años puede cubrir fases multianuales disti"
+  },
+  {
+    "page": 58,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Análisis integrado de los resultados. En los 25 años comparables, los intervalos de confianza incluy"
+  },
+  {
+    "page": 58,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Fuentes de contexto. Corporación Autónoma Regional del Valle del Cauca (CVC) y Corporación Autónoma "
+  },
+  {
+    "page": 58,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Environment Institute, Modelación del recurso hídrico en la cuenca del río La Vieja en Colombia, fic"
+  },
+  {
+    "page": 59,
+    "kind": "title",
+    "size": 16,
+    "font": "HydroBold",
+    "text": "4. Análisis de frecuencias mediante Fourier"
+  },
+  {
+    "page": 59,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "4.1. Preparar las series y documentar el cálculo"
+  },
+  {
+    "page": 59,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El caudal tiene 19 meses faltantes en el calendario 1981–2022. Su tramo sin vacíos más extenso, ener"
+  },
+  {
+    "page": 59,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Para construir las anomalías comparables de CHIRPS, IMERG, caudal y temperatura se fija el periodo c"
+  },
+  {
+    "page": 59,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Transformada, ventana y normalización. En cada tramo continuo de N meses se calcula la transformada "
+  },
+  {
+    "page": 59,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Esta potencia se duplica en las frecuencias positivas, excepto en Nyquist cuando N es par. La suma d"
+  },
+  {
+    "page": 60,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La preparación y los conteos se reproducen con scripts/43_preparar_fourier_punto_4_1.py; el resumen "
+  },
+  {
+    "page": 60,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "4.2. Construir e interpretar los espectros"
+  },
+  {
+    "page": 60,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Convención y lectura. Se presentan periodogramas unilaterales de densidad espectral. Para una frecue"
+  },
+  {
+    "page": 60,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se duplican los bins positivos, salvo Nyquist. La densidad tiene unidades de variable al cuadrado po"
+  },
+  {
+    "page": 60,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La potencia por bin tiene unidades de variable al cuadrado. Las curvas normalizadas permiten compara"
+  },
+  {
+    "page": 60,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La frecuencia se grafica en ciclos/mes y se acompaña con el periodo equivalente en meses. Los gráfic"
+  },
+  {
+    "page": 61,
+    "kind": "caption",
+    "size": 9.5,
+    "font": "Hydro",
+    "text": "Figura 25: Periodogramas unilaterales de cada tramo completo individual. Se muestran porcentajes de "
+  },
+  {
+    "page": 61,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Lectura de bandas. En las precipitaciones de referencia CHIRPS e IMERG, el original concentra una fr"
+  },
+  {
+    "page": 62,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "grande de potencia en la banda semianual, coherente con la climatología bimodal de la cuenca; al ret"
+  },
+  {
+    "page": 62,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En la ventana común, el caudal y la temperatura asignan más varianza relativa a periodos de 24 meses"
+  },
+  {
+    "page": 62,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Estabilidad y límites. La posición de los máximos anuales y semianuales es más estable que la de los"
+  },
+  {
+    "page": 62,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La lluvia puntual de Zaragoza no se fuerza dentro de la comparación: solo hay 14 meses con cobertura"
+  },
+  {
+    "page": 63,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El cálculo, los periodogramas, las tablas de picos y el análisis de sensibilidad se reproducen con s"
+  },
+  {
+    "page": 64,
+    "kind": "title",
+    "size": 16,
+    "font": "HydroBold",
+    "text": "5. Mapas de correlación con el clima global"
+  },
+  {
+    "page": 64,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "5.1. Seleccionar los campos climáticos"
+  },
+  {
+    "page": 64,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Selección y justificación física"
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se obtuvo una base pública de campos globales mensuales: SST NOAA ERSSTv5, presión al nivel del mar "
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Campo Resolución, unidad y nivel Justificación"
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "SST (ERSSTv5) 2° · °C · superficie marina Estado térmico de Pacífico y Atlántico; permite explorar E"
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "SLP (NCEP/NCAR R1) 2,5° · hPa · nivel del mar Gradientes de presión y circulación tropical de gran e"
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Z500 (NCEP/NCAR R1) 2,5° · m · 500 hPa Estructura de la troposfera media y patrones remotos de circu"
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Presión superficial 2,5° · hPa · superficie Variable auxiliar para excluir Z500 cuando 500 hPa queda"
+  },
+  {
+    "page": 64,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Mecanismos relevantes y alcance"
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Para el occidente y los Andes colombianos, la literatura describe conexiones de la lluvia con SST de"
+  },
+  {
+    "page": 64,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Productos atmosféricos y alternativas"
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se consideraron los productos mensuales ERA5 en superficie y en niveles de presión, distribuidos por"
+  },
+  {
+    "page": 64,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Periodo, cobertura y correspondencia con la cuenca"
+  },
+  {
+    "page": 64,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Cada campo descargado contiene 504 meses consecutivos entre enero de 1981 y diciembre de 2022. CHIRP"
+  },
+  {
+    "page": 65,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Unidades, máscaras y transformaciones"
+  },
+  {
+    "page": 65,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las medias mensuales no se suman. SLP y presión superficial vienen en las unidades declaradas en el "
+  },
+  {
+    "page": 65,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Control vertical y máscara para los mapas"
+  },
+  {
+    "page": 65,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se comparó cada celda y mes de presión superficial con 500 hPa: se enmascaran 24 valores celda-mes d"
+  },
+  {
+    "page": 65,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Anomalías y muestra de análisis"
+  },
+  {
+    "page": 65,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las anomalías de cada campo se definen como la diferencia entre el valor mensual y la media de su me"
+  },
+  {
+    "page": 65,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Procedencia y alcance de los productos"
+  },
+  {
+    "page": 65,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La base global combina ERSSTv5 y NCEP/NCAR Reanalysis 1, distribuidos por NOAA PSL. ERSSTv5 es una r"
+  },
+  {
+    "page": 66,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Inspección de los campos obtenidos"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las figuras muestran campos medios y el control vertical; no corresponden a correlaciones. Se mantie"
+  },
+  {
+    "page": 66,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Inventario verificado"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "SST: 89 × 180 centros de rejilla, 504 meses; unidad fuente degC. Rango global temporal: -1.80 a 34.0"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Presión al nivel del mar: 73 × 144 centros de rejilla, 504 meses; unidad fuente millibars. Rango glo"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Altura geopotencial a 500 hPa: 73 × 144 centros de rejilla, 504 meses; unidad fuente m. Rango global"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Presión de superficie (auxiliar): 73 × 144 centros de rejilla, 504 meses; unidad fuente millibars. R"
+  },
+  {
+    "page": 66,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Fuentes"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "NOAA PSL: catálogo de SST"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "NOAA PSL: NCEP/NCAR Reanalysis 1"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "CDS: ERA5 mensual en superficie"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "CDS: ERA5 mensual en niveles de presión"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Poveda y Mesa (1997), Journal of Climate"
+  },
+  {
+    "page": 66,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Poveda et al. (2014), Water Resources Research"
+  },
+  {
+    "page": 67,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "5.2. Correlaciones mensuales con el clima global"
+  },
+  {
+    "page": 67,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Variabilidad interanual y definición de los mapas"
+  },
+  {
+    "page": 67,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La asociación entre la hidroclimatología de La Vieja y los campos globales se estima mediante correl"
+  },
+  {
+    "page": 67,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Respuestas de cuenca y fuentes"
+  },
+  {
+    "page": 67,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La precipitación de referencia corresponde a CHIRPS, promediada sobre la cuenca; el caudal se observ"
+  },
+  {
+    "page": 67,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Anomalías, rezagos y tamaño efectivo"
+  },
+  {
+    "page": 67,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La referencia comprende las mismas 285 fechas completas de cuenca en 1998–2022. Para cada variable s"
+  },
+  {
+    "page": 67,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "ell>0 significa que el campo climático antecede al caudal. Enero de 1998 se empareja con diciembre d"
+  },
+  {
+    "page": 67,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Criterios de cálculo y representación"
+  },
+  {
+    "page": 67,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Pearson es la referencia y Spearman contrasta la sensibilidad a extremos, asimetría y relaciones mon"
+  },
+  {
+    "page": 67,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Lectura física y alcance"
+  },
+  {
+    "page": 67,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Un coeficiente negativo indica que anomalías positivas del campo coinciden con anomalías negativas d"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "eliminó tendencia ni se aplicaron pruebas de significancia: autocorrelación, pruebas múltiples y sen"
+  },
+  {
+    "page": 68,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Contraste regional del Pacífico tropical"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Como apoyo a los mapas se construye un índice interno de anomalías SST en Niño 3.4 (5°S–5°N, 170°W–1"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Mes n CHIRPS ell=0 Q ell=0 IMERG ell=0 Q ell=1"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Ene 24 -0.58 / -0.54 -0.78 / -0.78 -0.66 / -0.63 -0.79 / -0.81"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Feb 24 -0.41 / -0.47 -0.85 / -0.95 -0.63 / -0.69 -0.86 / -0.92"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Mar 24 -0.03 / -0.10 -0.76 / -0.84 -0.40 / -0.36 -0.77 / -0.86"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Abr 23 -0.02 / -0.07 -0.61 / -0.65 -0.14 / -0.10 -0.65 / -0.67"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "May 24 +0.04 / +0.11 -0.28 / -0.25 -0.25 / -0.02 -0.47 / -0.50"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Jun 24 -0.53 / -0.40 -0.45 / -0.42 -0.62 / -0.50 -0.59 / -0.54"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Jul 25 -0.44 / -0.42 -0.52 / -0.46 -0.49 / -0.47 -0.57 / -0.54"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Ago 24 -0.42 / -0.57 -0.53 / -0.52 -0.38 / -0.42 -0.54 / -0.54"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Sep 24 -0.25 / -0.14 -0.57 / -0.52 -0.32 / -0.23 -0.59 / -0.56"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Oct 25 -0.25 / -0.29 -0.57 / -0.51 -0.26 / -0.30 -0.60 / -0.52"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Nov 22 -0.41 / -0.44 -0.62 / -0.64 -0.58 / -0.55 -0.64 / -0.58"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Dic 22 -0.42 / -0.43 -0.58 / -0.54 -0.58 / -0.41 -0.58 / -0.54"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Cada casilla presenta Pearson / Spearman frente al índice SST Niño 3.4 interno. El n corresponde al "
+  },
+  {
+    "page": 68,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Sensibilidad de la precipitación frente a SST ERSSTv5"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La diferencia absoluta entre los mapas Pearson de CHIRPS e IMERG, promediada espacialmente con pesos"
+  },
+  {
+    "page": 68,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Sensibilidad de la precipitación frente a SLP NCEP/NCAR R1"
+  },
+  {
+    "page": 68,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La diferencia absoluta entre los mapas Pearson de CHIRPS e IMERG, promediada espacialmente con pesos"
+  },
+  {
+    "page": 69,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Sensibilidad de la precipitación frente a Z500 NCEP/NCAR R1"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La diferencia absoluta entre los mapas Pearson de CHIRPS e IMERG, promediada espacialmente con pesos"
+  },
+  {
+    "page": 69,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Diagnóstico Pearson–Spearman"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Respuesta Campo ell Media |r-rho| n celdas válidas"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Precipitación CHIRPS SST ERSSTv5 0 0.065 22–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Precipitación CHIRPS SLP NCEP/NCAR R1 0 0.064 22–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Precipitación CHIRPS Z500 NCEP/NCAR R1 0 0.063 20–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Caudal Cartago SST ERSSTv5 0 0.070 22–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Caudal Cartago SST ERSSTv5 1 0.069 22–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Caudal Cartago SLP NCEP/NCAR R1 0 0.076 22–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Caudal Cartago SLP NCEP/NCAR R1 1 0.074 22–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Caudal Cartago Z500 NCEP/NCAR R1 0 0.071 20–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Caudal Cartago Z500 NCEP/NCAR R1 1 0.076 20–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Precipitación IMERG SST ERSSTv5 0 0.062 22–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Precipitación IMERG SLP NCEP/NCAR R1 0 0.069 22–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Precipitación IMERG Z500 NCEP/NCAR R1 0 0.066 20–25"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La diferencia combina promedios espaciales ponderados por coseno de latitud de cada mes y luego prom"
+  },
+  {
+    "page": 69,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Atlas de mapas mensuales"
+  },
+  {
+    "page": 69,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se presentan nueve láminas Pearson de rezago cero y sus nueve equivalentes Spearman. Las seis lámina"
+  },
+  {
+    "page": 94,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "5.3. Robustez y presentación de los patrones"
+  },
+  {
+    "page": 94,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Presentación, calendario y máscaras"
+  },
+  {
+    "page": 94,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se conservan las doce combinaciones del 5.2: CHIRPS, IMERG y Q frente a SST, SLP y Z500 con rezago c"
+  },
+  {
+    "page": 94,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Retiro de tendencias en ambas variables"
+  },
+  {
+    "page": 94,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Para cada mes calendario y celda se ajustan dos regresiones OLS, una para la respuesta de cuenca y o"
+  },
+  {
+    "page": 94,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Persistencia interanual e inferencia aproximada"
+  },
+  {
+    "page": 94,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La dependencia relevante se estima entre años consecutivos del mismo mes. No se trata enero y febrer"
+  },
+  {
+    "page": 94,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Limitada al intervalo indicado y basada en el tamaño efectivo para correlaciones de Bretherton et al"
+  },
+  {
+    "page": 94,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Con un grado de libertad o menos no se emite p. Los p son aproximados: n corto, no normalidad, incer"
+  },
+  {
+    "page": 95,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Una familia de pruebas y control FDR"
+  },
+  {
+    "page": 95,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La familia se fija antes de interpretar máximos: todas las celdas con p admisible, doce meses, doce "
+  },
+  {
+    "page": 95,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Subperiodos, años extremos y regiones coherentes"
+  },
+  {
+    "page": 95,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los subperiodos se fijan en 1998-2009 y 2010-2022, sin elegir el corte por los resultados. Exigen al"
+  },
+  {
+    "page": 96,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "IMERG sobre iguales fechas y rejillas. Zaragoza tiene 14 meses completos, insuficientes para este co"
+  },
+  {
+    "page": 96,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Criterio descriptivo de estabilidad"
+  },
+  {
+    "page": 96,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se denomina estable una celda con |r sin tendencia|>=0,30, igual signo en ambos subperiodos y en tod"
+  },
+  {
+    "page": 96,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Diagnóstico agregado por combinación"
+  },
+  {
+    "page": 96,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Promedio de los doce diagnósticos mensuales. Las fracciones son áreas del dominio válido ponderadas "
+  },
+  {
+    "page": 96,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Resultados de la muestra y alcance"
+  },
+  {
+    "page": 96,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La mediana espacial de n efectivo por mapa varía entre 21.1 y 25.0 años; el mínimo de una celda admi"
+  },
+  {
+    "page": 96,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Sensibilidad a la fuente y límites de interpretación"
+  },
+  {
+    "page": 96,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La correlación espacial ponderada entre los mapas CHIRPS e IMERG sin tendencia varía de 0.44 a 0.98;"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "AR(1). La conclusión física no se extrae de unos pocos coeficientes altos."
+  },
+  {
+    "page": 97,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Reproducibilidad y controles"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El script 48 reproduce los cálculos y el 49 las figuras y documentos. Se conservan NetCDF con n, n e"
+  },
+  {
+    "page": 97,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Regiones candidatas de mayor extensión"
+  },
+  {
+    "page": 97,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Fuentes metodológicas"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Bretherton et al. (1999). The Effective Number of Spatial Degrees of Freedom of a Time-Varying Field"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://journals.ametsoc.org/abstract/journals/clim/12/7/1520-0442_1999_012_1990_tenosd_2.0.co_2.xml"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Benjamini y Yekutieli (2001). The control of the false discovery rate in multiple testing under depe"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://www.math.tau.ac.il/~ybenja/depApr27.pdf"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Wilks (2016). The Stippling Shows Statistically Significant Grid Points: How Research Results are Ro"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://doi.org/10.1175/BAMS-D-15-00267.1"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "SciPy. false_discovery_control: implementaciones BH y BY."
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.false_discovery_control.html"
+  },
+  {
+    "page": 97,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Lectura del atlas"
+  },
+  {
+    "page": 97,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Por combinación se muestran cuatro láminas: correlación sin tendencia (puntos negros: BY; círculos v"
+  },
+  {
+    "page": 146,
+    "kind": "subtitle",
+    "size": 13,
+    "font": "HydroBold",
+    "text": "5.4. Interpretación física e integración"
+  },
+  {
+    "page": 146,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Criterio de lectura y clasificación hidroclimática"
+  },
+  {
+    "page": 146,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La cuenca del río La Vieja hasta Cartago se caracteriza, a escala mensual, como una cuenca andina de"
+  },
+  {
+    "page": 146,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Ciclo anual: lluvia, almacenamiento y respuesta de cuenca"
+  },
+  {
+    "page": 146,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "CHIRPS e IMERG presentan temporadas lluviosas en abril-mayo y octubre-noviembre. En la muestra común"
+  },
+  {
+    "page": 146,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "La relación lluvia-caudal limita la interpretación del rezago"
+  },
+  {
+    "page": 146,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Tras retirar la climatología mensual, la asociación contemporánea P-Q es r=0,542 para CHIRPS y 0,636"
+  },
+  {
+    "page": 146,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Regiones coherentes, signos y meses de mayor evidencia"
+  },
+  {
+    "page": 146,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los patrones más extensos que reúnen el criterio BY y estabilidad del 5.3 corresponden a Q-SST en fe"
+  },
+  {
+    "page": 147,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Estacionalidad y cambios de ubicación o signo"
+  },
+  {
+    "page": 147,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En Niño 3.4, la media de los coeficientes Q-SST sin tendencia es negativa durante todos los meses, p"
+  },
+  {
+    "page": 147,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "¿Los campos atmosféricos apoyan la explicación de SST?"
+  },
+  {
+    "page": 147,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El apoyo es parcial. En el entorno amplio de Colombia (-5 a 15°N; 85 a 65°W), la media de Q-Z500 sin"
+  },
+  {
+    "page": 147,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Mecanismo físico propuesto y contraste con bibliografía regional"
+  },
+  {
+    "page": 147,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La hipótesis físicamente plausible conecta calentamiento del Pacífico tropical con reorganización de"
+  },
+  {
+    "page": 147,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Dependencia entre campos: la evidencia no se suma como efectos independientes"
+  },
+  {
+    "page": 147,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los campos globales pueden responder al mismo forzamiento oceánico-atmosférico. Como diagnóstico, se"
+  },
+  {
+    "page": 148,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Contraste complementario con un índice NOAA PSL documentado"
+  },
+  {
+    "page": 148,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se descargó el índice mensual Niño 3.4 de NOAA PSL, cuyo archivo identifica ERSST v6 y anomalías res"
+  },
+  {
+    "page": 148,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Un rezago no demuestra pronóstico"
+  },
+  {
+    "page": 148,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El ell=1 del 5.2-5.3 conserva la convención de campo climático del mes anterior a la respuesta. La p"
+  },
+  {
+    "page": 148,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Síntesis de los puntos 4 y 5: escalas, procesos y límites"
+  },
+  {
+    "page": 148,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "En la ventana común continua 1998-01 a 2004-01 (73 meses), Fourier asigna 58,1% y 46,6% de la potenc"
+  },
+  {
+    "page": 148,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Balance de las hipótesis de trabajo"
+  },
+  {
+    "page": 148,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "No se recuperó del informe local una formulación inicial formal de hipótesis; no se inventa un prerr"
+  },
+  {
+    "page": 148,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Síntesis sustentada de los cinco puntos"
+  },
+  {
+    "page": 148,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La tabla conecta resultados, mecanismo propuesto, evidencia, fuente y limitación. Los mecanismos no "
+  },
+  {
+    "page": 149,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Cierre de la caracterización hidroclimática"
+  },
+  {
+    "page": 149,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La cuenca presenta un régimen pluvial bimodal en la muestra común 1998-2022, con lluvias altas en ab"
+  },
+  {
+    "page": 149,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "CHIRPS e IMERG son productos espaciales distintos. La suma de las doce medias climatológicas es 2056"
+  },
+  {
+    "page": 149,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las relaciones lluvia-Q conservan evidencia después de retirar el ciclo anual, y los modelos del pun"
+  },
+  {
+    "page": 149,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las pendientes del contraste común de 285 meses del punto 3 incluyen cero en sus intervalos HAC para"
+  },
+  {
+    "page": 149,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La banda semianual domina las precipitaciones originales en la ventana Fourier común; la variabilida"
+  },
+  {
+    "page": 149,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La evidencia climática más extensa y estable del análisis global se concentra en Q-SST de febrero. P"
+  },
+  {
+    "page": 150,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Referencias de la interpretación física"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Poveda et al. (2001). Poveda, G., Jaramillo, A., Gil, M. M., Quiceno, N. y Mantilla, R. I. Seasonali"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://doi.org/10.1029/2000WR900395"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Poveda et al. (2011). Poveda, G., Álvarez, D. M. y Rueda, O. A. Hydro-climatic variability over the "
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://doi.org/10.1007/s00382-010-0931-y"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Poveda et al. (2014). Poveda, G., Jaramillo, L. y Vallejo, L. F. Seasonal precipitation patterns alo"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://doi.org/10.1002/2013WR014087"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "POMCA La Vieja, capítulo 3. CVC/CARDER/CRQ. Diagnóstico climático de la cuenca del río La Vieja, cap"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://www.cvc.gov.co/sites/default/files/Planes_y_Programas/Planes_de_Ordenacion_y_Manejo_de_Cuenc"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "NOAA PSL, Niño 3.4. NOAA Physical Sciences Laboratory. Serie mensual Niño 3.4 descargada: ERSST v6, "
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "https://psl.noaa.gov/data/correlation/nina34.anom.data"
+  },
+  {
+    "page": 150,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Reproducción, alcance y verificación"
+  },
+  {
+    "page": 150,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "El script 56 calcula tablas e índice, el 57 genera figuras y discusión, y el 58 integra los document"
+  },
+  {
+    "page": 155,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Procedencia, alcance y reproducibilidad"
+  },
+  {
+    "page": 155,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Procedencia y alcance"
+  },
+  {
+    "page": 155,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Procedencia de los datos"
+  },
+  {
+    "page": 155,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se utiliza CAMELS-COL, depósito del 26 de febrero de 2026, DOI 10.5281/zenodo.18794895, consultado e"
+  },
+  {
+    "page": 155,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Precipitación: CHIRPS v2, datos diarios promediados sobre la cuenca por los autores de CAMELS-COL, e"
+  },
+  {
+    "page": 155,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Caudal: valores diarios reportados como observados en la estación hidrométrica IDEAM, distribuidos m"
+  },
+  {
+    "page": 155,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Área y delimitación: atributos y polígono CAMELS-COL; área reportada de 2797,19 km2. Nombre y ubicac"
+  },
+  {
+    "page": 155,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Alcance temporal y procesamiento"
+  },
+  {
+    "page": 155,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Se analiza enero de 1981 a diciembre de 2022 (42 años). Se reconstruyó el calendario diario y se con"
+  },
+  {
+    "page": 155,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las estadísticas globales y por año describen valores mensuales válidos. Mínimo y máximo no son extr"
+  },
+  {
+    "page": 155,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Temperatura: MSWX Tmin/Tmax se conserva como antecedente. Los análisis actualizados usan temperatura"
+  },
+  {
+    "page": 156,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Limitaciones y trabajo pendiente"
+  },
+  {
+    "page": 156,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Este documento es una exploración descriptiva inicial. La cartografía de relieve utiliza Copernicus "
+  },
+  {
+    "page": 156,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Reproducibilidad y apoyo de IA"
+  },
+  {
+    "page": 156,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Los scripts numerados se conservan en seleccion_cuenca/scripts/. La tabla común a las gráficas es da"
+  },
+  {
+    "page": 156,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "PDF y HTML representan los mismos datos. El HTML incluye Plotly y las series y funciona sin servidor"
+  },
+  {
+    "page": 156,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Uso de IA"
+  },
+  {
+    "page": 156,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "La declaración existente se conserva en el apartado anterior; falta completar la declaración final d"
+  },
+  {
+    "page": 156,
+    "kind": "heading",
+    "size": 11.5,
+    "font": "HydroBold",
+    "text": "Referencias y anexos"
+  },
+  {
+    "page": 156,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "Las referencias y fuentes existentes se conservan junto a sus análisis; falta consolidar el listado "
+  },
+  {
+    "page": 156,
+    "kind": "body",
+    "size": 10.5,
+    "font": "Hydro",
+    "text": "IMERG Final V07B se incorpora como promedio ponderado sobre el polígono exacto de la cuenca: 300 mes"
+  }
+]

@@ -1,0 +1,570 @@
+{
+  "pages": 208,
+  "tables": 64,
+  "text_blocks": 482,
+  "point1_format_updated": true,
+  "cover_unchanged": true,
+  "fonts": {
+    "body": "Latin Modern Roman 10.5 pt",
+    "title": "Latin Modern Roman Bold 16 pt",
+    "subtitle": "Latin Modern Roman Bold 13 pt",
+    "heading": "Latin Modern Roman Bold 11.5 pt",
+    "table": "Latin Modern Roman 8.5 pt"
+  },
+  "toc": [
+    [
+      1,
+      "Series mensuales: exploración y validación",
+      9
+    ],
+    [
+      2,
+      "Variabilidad temporal de la precipitación y del caudal",
+      9
+    ],
+    [
+      2,
+      "Precipitación satelital y comparación de fuentes",
+      14
+    ],
+    [
+      2,
+      "Distribución de las variables hidroclimáticas",
+      18
+    ],
+    [
+      2,
+      "Calidad y completitud de las series",
+      44
+    ],
+    [
+      2,
+      "Climatología, variabilidad y explicación física",
+      48
+    ],
+    [
+      1,
+      "Relaciones entre series y modelos estadísticos",
+      50
+    ],
+    [
+      2,
+      "Diagramas de dispersión e interpretación",
+      50
+    ],
+    [
+      2,
+      "Modelos estadísticos de lluvia y caudal",
+      61
+    ],
+    [
+      2,
+      "Desempeño de los modelos en la reserva temporal",
+      69
+    ],
+    [
+      1,
+      "Tendencias hidroclimáticas y sus posibles causas",
+      78
+    ],
+    [
+      2,
+      "Temperatura y periodos de análisis",
+      78
+    ],
+    [
+      2,
+      "Series originales, anomalías y anomalías estandarizadas",
+      81
+    ],
+    [
+      2,
+      "Dos escalas de evaluación temporal",
+      84
+    ],
+    [
+      2,
+      "Métodos y comparación de resultados",
+      86
+    ],
+    [
+      2,
+      "Incertidumbre, robustez y presentación",
+      95
+    ],
+    [
+      2,
+      "Interpretación física de la variabilidad hidroclimática",
+      97
+    ],
+    [
+      1,
+      "Análisis de frecuencias mediante Fourier",
+      100
+    ],
+    [
+      2,
+      "Preparar las series y documentar el cálculo",
+      100
+    ],
+    [
+      2,
+      "Construir e interpretar los espectros",
+      102
+    ],
+    [
+      1,
+      "Mapas de correlación con el clima global",
+      109
+    ],
+    [
+      2,
+      "Seleccionar los campos climáticos",
+      109
+    ],
+    [
+      2,
+      "Definir y calcular los mapas mensuales",
+      114
+    ],
+    [
+      3,
+      "Precipitación CHIRPS · SST ERSSTv5 · pearson · ell=0",
+      119
+    ],
+    [
+      3,
+      "Precipitación CHIRPS · SLP NCEP/NCAR R1 · pearson · ell=0",
+      120
+    ],
+    [
+      3,
+      "Precipitación CHIRPS · Z500 NCEP/NCAR R1 · pearson · ell=0",
+      121
+    ],
+    [
+      3,
+      "Caudal Cartago · SST ERSSTv5 · pearson · ell=0",
+      122
+    ],
+    [
+      3,
+      "Caudal Cartago · SLP NCEP/NCAR R1 · pearson · ell=0",
+      123
+    ],
+    [
+      3,
+      "Caudal Cartago · Z500 NCEP/NCAR R1 · pearson · ell=0",
+      124
+    ],
+    [
+      3,
+      "Precipitación IMERG · SST ERSSTv5 · pearson · ell=0",
+      125
+    ],
+    [
+      3,
+      "Precipitación IMERG · SLP NCEP/NCAR R1 · pearson · ell=0",
+      126
+    ],
+    [
+      3,
+      "Precipitación IMERG · Z500 NCEP/NCAR R1 · pearson · ell=0",
+      127
+    ],
+    [
+      3,
+      "Precipitación CHIRPS · SST ERSSTv5 · spearman · ell=0",
+      128
+    ],
+    [
+      3,
+      "Precipitación CHIRPS · SLP NCEP/NCAR R1 · spearman · ell=0",
+      129
+    ],
+    [
+      3,
+      "Precipitación CHIRPS · Z500 NCEP/NCAR R1 · spearman · ell=0",
+      130
+    ],
+    [
+      3,
+      "Caudal Cartago · SST ERSSTv5 · spearman · ell=0",
+      131
+    ],
+    [
+      3,
+      "Caudal Cartago · SLP NCEP/NCAR R1 · spearman · ell=0",
+      132
+    ],
+    [
+      3,
+      "Caudal Cartago · Z500 NCEP/NCAR R1 · spearman · ell=0",
+      133
+    ],
+    [
+      3,
+      "Precipitación IMERG · SST ERSSTv5 · spearman · ell=0",
+      134
+    ],
+    [
+      3,
+      "Precipitación IMERG · SLP NCEP/NCAR R1 · spearman · ell=0",
+      135
+    ],
+    [
+      3,
+      "Precipitación IMERG · Z500 NCEP/NCAR R1 · spearman · ell=0",
+      136
+    ],
+    [
+      3,
+      "Caudal Cartago · SST ERSSTv5 · pearson · ell=1",
+      137
+    ],
+    [
+      3,
+      "Caudal Cartago · SLP NCEP/NCAR R1 · pearson · ell=1",
+      138
+    ],
+    [
+      3,
+      "Caudal Cartago · Z500 NCEP/NCAR R1 · pearson · ell=1",
+      139
+    ],
+    [
+      3,
+      "Caudal Cartago · SST ERSSTv5 · spearman · ell=1",
+      140
+    ],
+    [
+      3,
+      "Caudal Cartago · SLP NCEP/NCAR R1 · spearman · ell=1",
+      141
+    ],
+    [
+      3,
+      "Caudal Cartago · Z500 NCEP/NCAR R1 · spearman · ell=1",
+      142
+    ],
+    [
+      2,
+      "Robustez y presentación de los patrones",
+      143
+    ],
+    [
+      3,
+      "CHIRPS_sst_l0 Pearson sin tendencia",
+      150
+    ],
+    [
+      3,
+      "CHIRPS_sst_l0 Pearson 1998-2009 sin tendencia",
+      151
+    ],
+    [
+      3,
+      "CHIRPS_sst_l0 Pearson 2010-2022 sin tendencia",
+      152
+    ],
+    [
+      3,
+      "CHIRPS_sst_l0 Tamaño efectivo anual AR(1)",
+      153
+    ],
+    [
+      3,
+      "CHIRPS_slp_l0 Pearson sin tendencia",
+      154
+    ],
+    [
+      3,
+      "CHIRPS_slp_l0 Pearson 1998-2009 sin tendencia",
+      155
+    ],
+    [
+      3,
+      "CHIRPS_slp_l0 Pearson 2010-2022 sin tendencia",
+      156
+    ],
+    [
+      3,
+      "CHIRPS_slp_l0 Tamaño efectivo anual AR(1)",
+      157
+    ],
+    [
+      3,
+      "CHIRPS_z500_l0 Pearson sin tendencia",
+      158
+    ],
+    [
+      3,
+      "CHIRPS_z500_l0 Pearson 1998-2009 sin tendencia",
+      159
+    ],
+    [
+      3,
+      "CHIRPS_z500_l0 Pearson 2010-2022 sin tendencia",
+      160
+    ],
+    [
+      3,
+      "CHIRPS_z500_l0 Tamaño efectivo anual AR(1)",
+      161
+    ],
+    [
+      3,
+      "Q_sst_l0 Pearson sin tendencia",
+      162
+    ],
+    [
+      3,
+      "Q_sst_l0 Pearson 1998-2009 sin tendencia",
+      163
+    ],
+    [
+      3,
+      "Q_sst_l0 Pearson 2010-2022 sin tendencia",
+      164
+    ],
+    [
+      3,
+      "Q_sst_l0 Tamaño efectivo anual AR(1)",
+      165
+    ],
+    [
+      3,
+      "Q_sst_l1 Pearson sin tendencia",
+      166
+    ],
+    [
+      3,
+      "Q_sst_l1 Pearson 1998-2009 sin tendencia",
+      167
+    ],
+    [
+      3,
+      "Q_sst_l1 Pearson 2010-2022 sin tendencia",
+      168
+    ],
+    [
+      3,
+      "Q_sst_l1 Tamaño efectivo anual AR(1)",
+      169
+    ],
+    [
+      3,
+      "Q_slp_l0 Pearson sin tendencia",
+      170
+    ],
+    [
+      3,
+      "Q_slp_l0 Pearson 1998-2009 sin tendencia",
+      171
+    ],
+    [
+      3,
+      "Q_slp_l0 Pearson 2010-2022 sin tendencia",
+      172
+    ],
+    [
+      3,
+      "Q_slp_l0 Tamaño efectivo anual AR(1)",
+      173
+    ],
+    [
+      3,
+      "Q_slp_l1 Pearson sin tendencia",
+      174
+    ],
+    [
+      3,
+      "Q_slp_l1 Pearson 1998-2009 sin tendencia",
+      175
+    ],
+    [
+      3,
+      "Q_slp_l1 Pearson 2010-2022 sin tendencia",
+      176
+    ],
+    [
+      3,
+      "Q_slp_l1 Tamaño efectivo anual AR(1)",
+      177
+    ],
+    [
+      3,
+      "Q_z500_l0 Pearson sin tendencia",
+      178
+    ],
+    [
+      3,
+      "Q_z500_l0 Pearson 1998-2009 sin tendencia",
+      179
+    ],
+    [
+      3,
+      "Q_z500_l0 Pearson 2010-2022 sin tendencia",
+      180
+    ],
+    [
+      3,
+      "Q_z500_l0 Tamaño efectivo anual AR(1)",
+      181
+    ],
+    [
+      3,
+      "Q_z500_l1 Pearson sin tendencia",
+      182
+    ],
+    [
+      3,
+      "Q_z500_l1 Pearson 1998-2009 sin tendencia",
+      183
+    ],
+    [
+      3,
+      "Q_z500_l1 Pearson 2010-2022 sin tendencia",
+      184
+    ],
+    [
+      3,
+      "Q_z500_l1 Tamaño efectivo anual AR(1)",
+      185
+    ],
+    [
+      3,
+      "IMERG_sst_l0 Pearson sin tendencia",
+      186
+    ],
+    [
+      3,
+      "IMERG_sst_l0 Pearson 1998-2009 sin tendencia",
+      187
+    ],
+    [
+      3,
+      "IMERG_sst_l0 Pearson 2010-2022 sin tendencia",
+      188
+    ],
+    [
+      3,
+      "IMERG_sst_l0 Tamaño efectivo anual AR(1)",
+      189
+    ],
+    [
+      3,
+      "IMERG_slp_l0 Pearson sin tendencia",
+      190
+    ],
+    [
+      3,
+      "IMERG_slp_l0 Pearson 1998-2009 sin tendencia",
+      191
+    ],
+    [
+      3,
+      "IMERG_slp_l0 Pearson 2010-2022 sin tendencia",
+      192
+    ],
+    [
+      3,
+      "IMERG_slp_l0 Tamaño efectivo anual AR(1)",
+      193
+    ],
+    [
+      3,
+      "IMERG_z500_l0 Pearson sin tendencia",
+      194
+    ],
+    [
+      3,
+      "IMERG_z500_l0 Pearson 1998-2009 sin tendencia",
+      195
+    ],
+    [
+      3,
+      "IMERG_z500_l0 Pearson 2010-2022 sin tendencia",
+      196
+    ],
+    [
+      3,
+      "IMERG_z500_l0 Tamaño efectivo anual AR(1)",
+      197
+    ],
+    [
+      2,
+      "Interpretación física e integración",
+      198
+    ],
+    [
+      3,
+      "Ciclo anual y respuesta de cuenca",
+      203
+    ],
+    [
+      3,
+      "Contraste mensual con Niño 3.4 NOAA PSL",
+      204
+    ],
+    [
+      3,
+      "Dependencia de campos y síntesis espectral",
+      205
+    ],
+    [
+      3,
+      "Esquema conceptual de evidencias e hipótesis",
+      206
+    ]
+  ],
+  "qa_pages": [
+    2,
+    18,
+    19,
+    20,
+    21,
+    22,
+    25,
+    27,
+    34,
+    35,
+    36,
+    37,
+    42,
+    45,
+    47,
+    53,
+    54,
+    55,
+    57,
+    60,
+    61,
+    63,
+    65,
+    67,
+    69,
+    71,
+    73,
+    75,
+    76,
+    77,
+    80,
+    82,
+    84,
+    85,
+    86,
+    88,
+    90,
+    91,
+    92,
+    93,
+    95,
+    97,
+    100,
+    104,
+    146,
+    148,
+    201
+  ]
+}

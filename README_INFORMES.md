@@ -1,12 +1,12 @@
 # Informes de Hidrología
 
-La versión integrada actual es `Informe_Hidrologia_actualizado_5_4.pdf`.
+La versión integrada actual es `Informe_Hidrologia_actualizado_1_5.pdf`.
 Conserva la portada, los puntos 1–3 y el apartado 5.1 e incorpora las cuatro
 páginas del punto 4 del commit `d367474dba5fbb1cc9f4ed2906076bbcb2558512`.
-Tiene 156 páginas e incorpora el apartado 5.2 y sus 24 láminas (288 mapas),
+Tiene 215 páginas e incorpora el apartado 5.2 y sus 24 láminas (288 mapas),
 y el apartado 5.3 con retiro de tendencias, persistencia anual AR(1), FDR BY
 global, subperiodos, exclusión de años y 48 láminas de diagnóstico.
-El 5.3 empieza en la página 94 del archivo. El 5.4 comienza en la página 146,
+El 5.3 empieza en la página 150 del archivo. El 5.4 comienza en la página 205,
 con interpretación física, contraste mensual con Niño 3.4 de NOAA PSL,
 integración con Fourier, bibliografía regional y síntesis de los cinco puntos.
 La inferencia estadística del 5.3 es aproximada y condicionada
@@ -39,7 +39,7 @@ Los scripts 40, 47 y 50 corresponden a integraciones anteriores y no deben
 usarse como último paso para generar la versión con 5.4.
 
 `Informe_Hidrologia_integrado_punto4.pdf` es la versión histórica de 63 páginas.
-Usar `Informe_Hidrologia_actualizado_5_4.pdf` para consultar todos los avances.
+Usar `Informe_Hidrologia_actualizado_1_5.pdf` para consultar todos los avances.
 
 La ruta `documentos/latex/informe_ordenado.pdf` contiene ahora el PDF integrado
 completo, sincronizado mediante el script 61. Conserva los puntos 1-3 de la
@@ -52,8 +52,34 @@ Para reproducirla: ejecutar 64, compilar `latex/informe_ordenado.tex`, ejecutar
 las ecuaciones en navegador. Este flujo sustituye al 61 como último paso.
 Los respaldos y las verificaciones están en `documentos/revision_formulas/`.
 
-Regla de edición indicada por la usuaria: no modificar el punto 1 ni sus
-incisos hasta recibir una instrucción específica que autorice ese cambio.
-Se verificó igualdad píxel por píxel de portada y páginas del punto 1 frente
-a la versión guardada antes de la edición de fórmulas. El índice se actualizó
-para reflejar la paginación nueva de los puntos posteriores.
+La usuaria autorizó expresamente el 8 de octubre de 2026 aplicar también al
+punto 1 los cambios de formato y restaurar la fuente original en todo el
+documento. Esta autorización corresponde a tipografía y tablas; se conserva
+el contenido científico. La portada del PDF se mantiene idéntica y el índice
+refleja la nueva paginación.
+
+La última edición unifica la tipografía y las tablas de los puntos 1–5.
+El PDF usa Latin Modern Roman, la familia original del punto 1: títulos 16 pt,
+subtítulos 13 pt, encabezados interiores 11,5 pt, texto 10,5 pt y tablas
+8,5 pt. Las tablas comparten encabezados azules, filas alternadas y alineación
+numérica. Las ecuaciones conservan su composición matemática independiente.
+El interactivo incorpora la misma familia y jerarquía, adaptadas a pantalla.
+
+Para reproducir este formato ejecutar el script 74, que prepara las fuentes
+originales y ejecuta 75, 76 y 77; el 78 verifica el PDF y el interactivo.
+Los respaldos, datos de tablas y verificaciones están en
+`HIDROLOGÍA 2.0/seleccion_cuenca/la_vieja/documentos/revision_tablas/`.
+Se verificaron 64 tablas del PDF y 53 del interactivo, incluidas las del
+punto 1. Una copia anterior de
+`documentos/informe_actualizado.pdf` estaba abierta y no pudo sobrescribirse;
+el archivo nuevo indicado al inicio contiene la edición completa.
+
+Se desarrolló 1.5.a con una climatología común de 285 meses de 1998–2022
+para CHIRPS, IMERG de cuenca, Q, R y temperatura media ERA5-Land. Incluye
+cinco tablas de doce meses con n, media, mediana, desviación estándar,
+cuartiles y percentiles 10–90; ciclos con bandas interanuales y mapas año–mes.
+Sus medias coinciden con las del apartado 5.4. Los incisos 1.5.b y 1.5.c
+permanecen pendientes de desarrollo. El nuevo apartado empieza en la
+página 48 del archivo y el punto 2 en la 57. Fuentes y verificaciones están
+en `documentos/apartado_1_5/`; el script 80 integra PDF y HTML y el 81 los
+verifica. Este paso debe ejecutarse después de la unificación del formato.
