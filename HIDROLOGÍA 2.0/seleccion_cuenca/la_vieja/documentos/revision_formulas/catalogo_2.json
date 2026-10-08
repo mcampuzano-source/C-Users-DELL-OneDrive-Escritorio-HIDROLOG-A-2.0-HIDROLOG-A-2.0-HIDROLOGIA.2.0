@@ -1,0 +1,87 @@
+[
+  {
+    "chapter": 2,
+    "number": "2.1",
+    "math": "e_t=P_{\\mathrm{IMERG},t}-L_t"
+  },
+  {
+    "chapter": 2,
+    "number": "2.2",
+    "math": "\\rho(k)=\\operatorname{corr}\\!\\left[P(t-k),Q(t)\\right],\\qquad k\\geq 0"
+  },
+  {
+    "chapter": 2,
+    "number": "2.3",
+    "math": "R_m=\\frac{86{,}4\\,d_m\\,Q_m}{2797{,}19}\\quad[\\mathrm{mm/mes}]"
+  },
+  {
+    "chapter": 2,
+    "number": "2.4",
+    "math": "X'(t)=X(t)-\\overline{X}_{j(t)}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.5",
+    "math": "Q_t=a+bP_t"
+  },
+  {
+    "chapter": 2,
+    "number": "2.6",
+    "math": "Q_t=a+bP_{t-1}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.7",
+    "math": "Q_t=a+bP_t+cP_{t-1}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.8",
+    "math": "Q_t=a+b\\sqrt{P_t}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.9",
+    "math": "\\widehat{Q}_t=\\max\\left(0,-87.2692+0.465439P_{IMERG,t}+0.433065P_{IMERG,t-1}\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.10",
+    "math": "\\widehat{Q}_t=\\max\\left(0,-35.8526+0.422155P_{CHIRPS,t}+0.434939P_{CHIRPS,t-1}\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.11",
+    "math": "\\widehat{L}_t=\\max\\left(0,-30.7549+0.596818P_{IMERG,t}\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.12",
+    "math": "\\widehat{L}_t=\\max\\left(0,-0.9713+0.504221P_{CHIRPS,t}\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.13",
+    "math": "\\widehat{Q}_t=\\max\\left(0,55.3322+0.654768L_t\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.14",
+    "math": "\\widehat{R}_m=\\frac{86{,}4\\,d_m\\,\\widehat{Q}_m}{2797{,}19}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.15",
+    "math": "\\widehat{Q}_{\\mathrm{IMERG},t}=\\max\\!\\left(0,-87{,}269198+0{,}465439P_t+0{,}433065P_{t-1}\\right)"
+  },
+  {
+    "chapter": 2,
+    "number": "2.16",
+    "math": "\\widehat{Q}_{\\mathrm{CHIRPS},t}=\\max\\!\\left(0,-35{,}852625+0{,}422155P_t+0{,}434939P_{t-1}\\right)"
+  },
+  {
+    "chapter": 2,
+    "number": "2.17",
+    "math": "\\mathrm{NSE}=1-\\frac{\\mathrm{SSE}}{\\mathrm{SST}}"
+  }
+]

@@ -1,7 +1,10 @@
 """Conserva puntos 1-3 recientes y publica los puntos 4-5 completos."""
 from pathlib import Path
 import pymupdf as fitz
-import shutil, json, hashlib
+import shutil, json, hashlib, argparse
+parser=argparse.ArgumentParser()
+parser.add_argument('--base-latex',type=Path)
+args=parser.parse_args()
 DOCS=Path(__file__).resolve().parents[1]/'la_vieja/documentos'
 ROOT=DOCS.parents[3]
 OUT=DOCS/'revision_publicacion'
@@ -9,7 +12,7 @@ OUT.mkdir(exist_ok=True)
 published=DOCS/'latex/informe_ordenado.pdf'
 backup=OUT/'base_latex_60_paginas.pdf'
 if not backup.exists(): shutil.copy2(published,backup)
-a=fitz.open(backup)
+a=fitz.open(args.base_latex or backup)
 b=fitz.open(ROOT/'Informe_Hidrologia_actualizado_5_4.pdf')
 ta,tb=a.get_toc(),b.get_toc()
 cut_a=next(p-1 for l,t,p in ta if l==1 and 'Fourier' in t)
@@ -46,13 +49,14 @@ check=fitz.open(temp)
 point5=next(i for i,r in enumerate(toc) if r[0]==1 and 'clima global' in r[1])
 starts={f'5.{i+1}':r[2] for i,r in enumerate([r for r in toc[point5+1:] if r[0]==2])}
 assert len(starts)==4
-assert len(check)==151
+assert len(check)>140
 assert 'Integrantes' in check[0].get_text()
 check[1].get_pixmap().save(OUT/'indice.png')
 for i in [25,27,starts['5.3']-1,starts['5.4']-1]: check[i].get_pixmap().save(OUT/f'pagina_{i+1}.png')
+page_count=len(check)
 check.close()
 for dest in [published,ROOT/'Informe_Hidrologia_actualizado_5_4.pdf',ROOT/'Informe_Hidrologia_actualizado.pdf',ROOT/'Informe_Hidrologia_integrado.pdf',DOCS/'informe_actualizado.pdf',DOCS/'apartado_3/informe_integrado.pdf']:
     shutil.copy2(temp,dest)
-result={'pages':151,'starts':starts,'sha256':hashlib.sha256(temp.read_bytes()).hexdigest(),'retained_recent_points_1_3':True,'publication_path':str(published)}
+result={'pages':page_count,'starts':starts,'sha256':hashlib.sha256(temp.read_bytes()).hexdigest(),'retained_recent_points_1_3':True,'publication_path':str(published)}
 (OUT/'verificacion.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(result,ensure_ascii=True))

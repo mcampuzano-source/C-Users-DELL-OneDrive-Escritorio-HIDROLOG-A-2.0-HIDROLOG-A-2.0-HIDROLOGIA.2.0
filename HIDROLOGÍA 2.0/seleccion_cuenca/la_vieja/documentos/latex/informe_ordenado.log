@@ -84,102 +84,149 @@ File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
+) (pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+ (ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count195
+\calc@Bcount=\count196
+\calc@Adimen=\dimen150
+\calc@Bdimen=\dimen151
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count197
+\calc@Cskip=\skip51
+) (eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen152
+\ESO@tempdimb=\dimen153
+ (xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+))
+\AM@pagewidth=\dimen154
+\AM@pageheight=\dimen155
+\AM@fboxrule=\dimen156
+ (ppxetex.def
+File: ppxetex.def 2022/01/29 v0.5u Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count198
+\AM@pagebox=\box50
+\AM@global@opts=\toks21
+\AM@pagecnt=\count199
+\AM@toc@title=\toks22
+\c@AM@survey=\count266
+\AM@templatesizebox=\box51
 ) (amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
-\@mathmargin=\skip49
-
+\@mathmargin=\skip52
 For additional information on amsmath, use the `?' option.
 (amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
  (amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks21
-\ex@=\dimen150
+\@emptytoks=\toks23
+\ex@=\dimen157
 )) (amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
+\pmbraise@=\dimen158
 ) (amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count195
+\inf@bad=\count267
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count196
-\leftroot@=\count197
+\uproot@=\count268
+\leftroot@=\count269
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count198
-\DOTSCASE@=\count199
+\classnum@=\count270
+\DOTSCASE@=\count271
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
-\big@size=\dimen152
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+\big@size=\dimen159
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count266
-\c@MaxMatrixCols=\count267
+\macc@depth=\count272
+\c@MaxMatrixCols=\count273
 \dotsspace@=\muskip16
-\c@parentequation=\count268
-\dspbrk@lvl=\count269
-\tag@help=\toks22
-\row@=\count270
-\column@=\count271
-\maxfields@=\count272
-\andhelp@=\toks23
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
-\@envbody=\toks24
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks25
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks24
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks25
+\eqnshift@=\dimen160
+\alignsep@=\dimen161
+\tagshift@=\dimen162
+\tagwidth@=\dimen163
+\totwidth@=\dimen164
+\lineht@=\dimen165
+\@envbody=\toks26
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 ) (float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count273
-\float@exts=\toks26
-\float@box=\box52
-\@float@everytoks=\toks27
-\@floatcapt=\box53
+\c@float@type=\count279
+\float@exts=\toks28
+\float@box=\box54
+\@float@everytoks=\toks29
+\@floatcapt=\box55
 )
 (longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip52
-\LTright=\skip53
-\LTpre=\skip54
-\LTpost=\skip55
-\LTchunksize=\count274
-\LTcapwidth=\dimen159
-\LT@head=\box54
-\LT@firsthead=\box55
-\LT@foot=\box56
-\LT@lastfoot=\box57
-\LT@gbox=\box58
-\LT@cols=\count275
-\LT@rows=\count276
-\c@LT@tables=\count277
-\c@LT@chunks=\count278
-\LT@p@ftn=\toks28
+\LTleft=\skip55
+\LTright=\skip56
+\LTpre=\skip57
+\LTpost=\skip58
+\LTchunksize=\count280
+\LTcapwidth=\dimen166
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@gbox=\box60
+\LT@cols=\count281
+\LT@rows=\count282
+\c@LT@tables=\count283
+\c@LT@chunks=\count284
+\LT@p@ftn=\toks30
 ) (microtype.sty
 Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
  (etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count279
+\etb@tempcnta=\count285
 )
-\MT@toks=\toks29
-\MT@tempbox=\box59
-\MT@count=\count280
+\MT@toks=\toks31
+\MT@tempbox=\box61
+\MT@count=\count286
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
 LaTeX Info: Redefining \leftprotrusion on input line 1028.
 LaTeX Info: Redefining \rightprotrusion on input line 1036.
 LaTeX Info: Redefining \textls on input line 1195.
-\MT@outer@kern=\dimen160
+\MT@outer@kern=\dimen167
 LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
-\MT@listname@count=\count281
+\MT@listname@count=\count287
  (microtype-xetex.def
 File: microtype-xetex.def 2022/03/14 v3.0d Definitions specific to xetex (RS)
 LaTeX Info: Redefining \lsstyle on input line 236.
@@ -218,9 +265,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ) (kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen161
-\Hy@linkcounter=\count282
-\Hy@pagecounter=\count283
+\@linkdim=\dimen168
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
  (pd1enc.def
 File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 ) (intcalc.sty
@@ -229,7 +276,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count284
+\Hy@SavedSpaceFactor=\count290
  (puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 )
@@ -241,22 +288,22 @@ Package hyperref Info: Plain pages OFF on input line 4152.
 Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count285
+\c@Hy@tempcnt=\count291
  (url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4749.
-\XeTeXLinkMargin=\dimen162
+\XeTeXLinkMargin=\dimen169
  (bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count286
-\Field@Width=\dimen163
-\Fld@charsize=\dimen164
+\Fld@menulength=\count292
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -271,9 +318,9 @@ LaTeX Info: Redefining \pageref on input line 6101.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count287
-\c@Item=\count288
-\c@Hfootnote=\count289
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (hxetex.def
@@ -282,11 +329,11 @@ File: hxetex.def 2022-02-21 v7.00n Hyperref driver for XeTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box60
-\c@Hy@AnnotLevel=\count290
-\HyField@AnnotCount=\count291
-\Fld@listcount=\count292
-\c@bookmark@seq@number=\count293
+\pdfm@box=\box62
+\c@Hy@AnnotLevel=\count296
+\HyField@AnnotCount=\count297
+\Fld@listcount=\count298
+\c@bookmark@seq@number=\count299
  (rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
@@ -300,17 +347,36 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip59
+) (booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count300
+\@cmidlb=\count301
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count302
+\@lastruleclass=\count303
+\@thisrulewidth=\dimen184
 ) (l3backend-xetex.def
 File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
-\c__kernel_sys_dvipdfmx_version_int=\count294
-\l__color_backend_stack_int=\count295
-\g__color_backend_stack_int=\count296
-\g__graphics_track_int=\count297
-\l__pdf_internal_box=\box61
-\g__pdf_backend_object_int=\count298
-\g__pdf_backend_annotation_int=\count299
-\g__pdf_backend_link_int=\count300
+\c__kernel_sys_dvipdfmx_version_int=\count304
+\l__color_backend_stack_int=\count305
+\g__color_backend_stack_int=\count306
+\g__graphics_track_int=\count307
+\l__pdf_internal_box=\box63
+\g__pdf_backend_object_int=\count308
+\g__pdf_backend_annotation_int=\count309
+\g__pdf_backend_link_int=\count310
 )
 (informe_ordenado.aux
 LaTeX Info: Redefining \. on input line 25.
@@ -318,33 +384,33 @@ LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `informe_ordenado.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-4.
+6.
  (ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Info: Redefining \. on input line 14.
-LaTeX Info: Redefining \% on input line 14.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -380,27 +446,29 @@ LaTeX Info: Redefining \% on input line 14.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 14.
-Package microtype Info: Applying patch `item' on input line 14.
-Package microtype Info: Applying patch `toc' on input line 14.
-Package microtype Info: Applying patch `eqnum' on input line 14.
-Package microtype Info: Applying patch `footnote' on input line 14.
+(pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+)
+LaTeX Info: Redefining \microtypecontext on input line 16.
+Package microtype Info: Applying patch `item' on input line 16.
+Package microtype Info: Applying patch `toc' on input line 16.
+Package microtype Info: Applying patch `eqnum' on input line 16.
+Package microtype Info: Applying patch `footnote' on input line 16.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of spacing.
 Package microtype Info: No adjustment of kerning.
-(mt-cmr.cfg
+ (mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-) (color.sty
-Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
- (color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 149.
-)
-Package hyperref Info: Link coloring ON on input line 14.
+Package hyperref Info: Link coloring ON on input line 16.
  (nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (refcount.sty
@@ -409,16 +477,20 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
  (informe_ordenado.out) (informe_ordenado.out)
 \@outlinefile=\write3
 \openout3 = `informe_ordenado.out'.
 
+File: figuras/escudos_unal_oficial.jpg Graphic file (type bmp)
+<figuras/escudos_unal_oficial.jpg>
+ [1
 
+]
 (informe_ordenado.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -426,28 +498,37 @@ LaTeX Info: Redefining \% on input line 1.
 \tf@toc=\write4
 \openout4 = `informe_ordenado.toc'.
 
- [1
+ [1]
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+[2
 
 ]
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
 File: figuras/mapa_cuenca_estaciones_geografico.pdf Graphic file (type pdf)
 <use figuras/mapa_cuenca_estaciones_geografico.pdf>
- [2
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+[3
 
 ]
 File: figuras/mapa_cuenca_estaciones.pdf Graphic file (type pdf)
 <use figuras/mapa_cuenca_estaciones.pdf>
 File: figuras/mapa_relieve.pdf Graphic file (type pdf)
 <use figuras/mapa_relieve.pdf>
- [3
+ [4
 
-] [4]
+] [5]
 File: figuras/series_mensuales.pdf Graphic file (type pdf)
 <use figuras/series_mensuales.pdf>
- [5
+ [6
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-06.
+35.
  (t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -456,7 +537,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (13.90298pt too wide) in paragraph at lines 106--107
+Overfull \hbox (13.90298pt too wide) in paragraph at lines 135--136
 []\T1/lmr/m/n/10 IDEAM (2010). \T1/lmr/m/it/10 Bo-le-tín di-ciem-bre de 2010\T1
 /lmr/m/n/10 . Dis-po-ni-ble en [][]$\T1/lmtt/m/n/10 https : / / www . ideam . g
 ov . co / file-[]download / download /
@@ -464,54 +545,248 @@ ov . co / file-[]download / download /
 
 File: figuras/temperaturas_mensuales.pdf Graphic file (type pdf)
 <use figuras/temperaturas_mensuales.pdf>
-[6]
+[7]
 File: figuras/era5_land_t2m_mensual.pdf Graphic file (type pdf)
 <use figuras/era5_land_t2m_mensual.pdf>
- [7]
+ [8]
 File: figuras/imerg_r_temperatura_comun.pdf Graphic file (type pdf)
 <use figuras/imerg_r_temperatura_comun.pdf>
- [8] [9] [10]
+
+Overfull \hbox (4.09286pt too wide) in paragraph at lines 190--191
+[]\T1/lmr/m/n/10 Actualización del 4 de oc-tu-bre de 2026. IMERG Fi-nal Run V07
+B (GPM_3IMERGM), va-ria-ble Grid/precipitation,
+ []
+
+[9]
+File: figuras/imerg_poligono_series.pdf Graphic file (type pdf)
+<use figuras/imerg_poligono_series.pdf>
+ [10] [11]
+File: figuras/imerg_poligono_histogramas.pdf Graphic file (type pdf)
+<use figuras/imerg_poligono_histogramas.pdf>
+File: figuras/imerg_poligono_cajas.pdf Graphic file (type pdf)
+<use figuras/imerg_poligono_cajas.pdf>
+ [12] [13] [14]
+File: figuras/extremos_historicos.pdf Graphic file (type pdf)
+<use figuras/extremos_historicos.pdf>
+ [15]
+File: figuras/interpretacion_centro.pdf Graphic file (type pdf)
+<use figuras/interpretacion_centro.pdf>
+ [16]
+File: figuras/interpretacion_percentiles.pdf Graphic file (type pdf)
+<use figuras/interpretacion_percentiles.pdf>
+File: figuras/interpretacion_cola_alta.pdf Graphic file (type pdf)
+<use figuras/interpretacion_cola_alta.pdf>
+ [17] [18] [19]
 File: figuras/histogramas_completos.pdf Graphic file (type pdf)
 <use figuras/histogramas_completos.pdf>
+ [20]
 File: figuras/diagramas_caja.pdf Graphic file (type pdf)
 <use figuras/diagramas_caja.pdf>
- [11]
+ [21]
 File: figuras/imerg_histogramas_comparables.pdf Graphic file (type pdf)
 <use figuras/imerg_histogramas_comparables.pdf>
- [12]
+ [22]
 File: figuras/imerg_cajas_comparables.pdf Graphic file (type pdf)
 <use figuras/imerg_cajas_comparables.pdf>
- [13]
+ [23]
 File: figuras/imerg_complemento.pdf Graphic file (type pdf)
 <use figuras/imerg_complemento.pdf>
- [14]
+
+[24]
 File: figuras/control_faltantes.pdf Graphic file (type pdf)
 <use figuras/control_faltantes.pdf>
- [15] [16] [17]
-File: figuras/dispersiones_requeridas.pdf Graphic file (type pdf)
-<use figuras/dispersiones_requeridas.pdf>
-File: figuras/dispersion_CHIRPS_caudal.pdf Graphic file (type pdf)
-<use figuras/dispersion_CHIRPS_caudal.pdf>
- [18
+ [25] [26]
+File: figuras/disponibilidad_imerg_era5.pdf Graphic file (type pdf)
+<use figuras/disponibilidad_imerg_era5.pdf>
+ [27] [28]
+File: ../apartado_2_1/dispersiones_21.pdf Graphic file (type pdf)
+<use ../apartado_2_1/dispersiones_21.pdf>
+File: ../apartado_2_1/dispersiones_CHIRPS_21.pdf Graphic file (type pdf)
+<use ../apartado_2_1/dispersiones_CHIRPS_21.pdf>
+ [29
 
 ]
-File: figuras/dispersion_CHIRPS_caudal.pdf Graphic file (type pdf)
-<use figuras/dispersion_CHIRPS_caudal.pdf>
- [19] [20]
-File: figuras/tendencias_mensuales.pdf Graphic file (type pdf)
-<use figuras/tendencias_mensuales.pdf>
- [21
+File: ../apartado_2_1/laminas_21.pdf Graphic file (type pdf)
+<use ../apartado_2_1/laminas_21.pdf>
+ [30] [31]
+File: ../apartado_2_1/anomalias_21.pdf Graphic file (type pdf)
+<use ../apartado_2_1/anomalias_21.pdf>
+ [32]
+File: ../apartado_2_1/anomalias_CHIRPS_21.pdf Graphic file (type pdf)
+<use ../apartado_2_1/anomalias_CHIRPS_21.pdf>
+File: ../apartado_2_1/laminas_CHIRPS_21.pdf Graphic file (type pdf)
+<use ../apartado_2_1/laminas_CHIRPS_21.pdf>
+ [33] [34] [35]
+File: ../apartado_2_2/modelos_Q_comparados.pdf Graphic file (type pdf)
+<use ../apartado_2_2/modelos_Q_comparados.pdf>
+File: ../apartado_2_2/residuos_Q.pdf Graphic file (type pdf)
+<use ../apartado_2_2/residuos_Q.pdf>
+ [36] [37]
+File: ../apartado_2_2/modelos_lluvia_local.pdf Graphic file (type pdf)
+<use ../apartado_2_2/modelos_lluvia_local.pdf>
+ [38]
+[39]
+Missing character: There is no – ("2013) in font ec-lmr10!
+File: ../apartado_2_3/reserva_series.pdf Graphic file (type pdf)
+<use ../apartado_2_3/reserva_series.pdf>
+[40]
+File: ../apartado_2_3/reserva_dispersion_residuos.pdf Graphic file (type pdf)
+<use ../apartado_2_3/reserva_dispersion_residuos.pdf>
+File: ../apartado_2_3/reserva_meses.pdf Graphic file (type pdf)
+<use ../apartado_2_3/reserva_meses.pdf>
+ [41] [42] [43] [44]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 1>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 1>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 1>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 1>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 1>
+ [45
 
 ]
-[22] [23] [24
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 2>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 2>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 2>
+ [46]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 3>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 3>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 3>
+ [47]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 4>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 4>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 4>
+ [48]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 5>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 5>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 5>
+ [49]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 6>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 6>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 6>
+ [50]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 7>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 7>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 7>
+ [51]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 8>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 8>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 8>
+ [52]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 9>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 9>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 9>
+ [53]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 10>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 10>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 10>
+ [54]
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 11>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 11>
+File: ../apartado_3/punto_3_commit_2d27402.pdf Graphic file (type pdf)
+<use ../apartado_3/punto_3_commit_2d27402.pdf, page 11>
 
-] [25
+[55] [56] [57
 
-] [26] (informe_ordenado.aux
+]
+File: ../apartado_5_1/campos_globales_control.pdf Graphic file (type pdf)
+<use ../apartado_5_1/campos_globales_control.pdf>
+ [58]
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+Missing character: There is no – ("2013) in font ec-lmr10!
+[59]
+File: ../apartado_5_2/CHIRPS_sst_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/CHIRPS_sst_l0_pearson.pdf>
+File: ../apartado_5_2/CHIRPS_sst_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/CHIRPS_sst_l0_spearman.pdf>
+File: ../apartado_5_2/CHIRPS_slp_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/CHIRPS_slp_l0_pearson.pdf>
+File: ../apartado_5_2/CHIRPS_slp_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/CHIRPS_slp_l0_spearman.pdf>
+File: ../apartado_5_2/CHIRPS_z500_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/CHIRPS_z500_l0_pearson.pdf>
+File: ../apartado_5_2/CHIRPS_z500_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/CHIRPS_z500_l0_spearman.pdf>
+File: ../apartado_5_2/Q_sst_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_sst_l0_pearson.pdf>
+File: ../apartado_5_2/Q_sst_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_sst_l0_spearman.pdf>
+File: ../apartado_5_2/Q_sst_l1_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_sst_l1_pearson.pdf>
+File: ../apartado_5_2/Q_sst_l1_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_sst_l1_spearman.pdf>
+File: ../apartado_5_2/Q_slp_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_slp_l0_pearson.pdf>
+File: ../apartado_5_2/Q_slp_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_slp_l0_spearman.pdf>
+File: ../apartado_5_2/Q_slp_l1_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_slp_l1_pearson.pdf>
+File: ../apartado_5_2/Q_slp_l1_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_slp_l1_spearman.pdf>
+File: ../apartado_5_2/Q_z500_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_z500_l0_pearson.pdf>
+File: ../apartado_5_2/Q_z500_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_z500_l0_spearman.pdf>
+File: ../apartado_5_2/Q_z500_l1_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_z500_l1_pearson.pdf>
+File: ../apartado_5_2/Q_z500_l1_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/Q_z500_l1_spearman.pdf>
+File: ../apartado_5_2/IMERG_sst_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/IMERG_sst_l0_pearson.pdf>
+File: ../apartado_5_2/IMERG_sst_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/IMERG_sst_l0_spearman.pdf>
+File: ../apartado_5_2/IMERG_slp_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/IMERG_slp_l0_pearson.pdf>
+File: ../apartado_5_2/IMERG_slp_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/IMERG_slp_l0_spearman.pdf>
+File: ../apartado_5_2/IMERG_z500_l0_pearson.pdf Graphic file (type pdf)
+<use ../apartado_5_2/IMERG_z500_l0_pearson.pdf>
+File: ../apartado_5_2/IMERG_z500_l0_spearman.pdf Graphic file (type pdf)
+<use ../apartado_5_2/IMERG_z500_l0_spearman.pdf>
+ [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
+[74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85]
+(informe_ordenado.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `informe_ordenado.out' has not changed.
-(rerunfilecheck)             Checksum: 307B6AF50170391DA4D8D5F034D0475C;6903.
+(rerunfilecheck)             Checksum: EB99BD5F214FCB2444FECA9C54447D3B;7056.
  )
-Output written on informe_ordenado.xdv (26 pages, 91052 bytes).
+Output written on informe_ordenado.xdv (86 pages, 233376 bytes).

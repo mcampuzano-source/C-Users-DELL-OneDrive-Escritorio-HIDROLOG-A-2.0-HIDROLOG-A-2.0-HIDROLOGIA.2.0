@@ -1,0 +1,222 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}\usepackage[T1]{fontenc}
+\usepackage[spanish,es-nodecimaldot]{babel}\usepackage{amsmath}
+\usepackage[paperwidth=485pt,paperheight=1800pt,margin=1pt]{geometry}
+\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\pagestyle{empty}
+\begin{document}
+La variable original está en kelvin y se convierte a grados Celsius mediante 
+\begin{equation}
+T[{}^\circ\mathrm{C}]=T[\mathrm{K}]-273{,}15\tag{3.1}
+\end{equation}
+ Para reproducir la descarga se seleccionan las medias mensuales (monthly averaged), la variable 2m temperature, todos los meses de 1981 a 2026 y formato NetCDF. La petición original no conservó el área; para repetirla se recomienda norte 4,85$^\circ$, oeste 75,95$^\circ$O, sur 4,05$^\circ$N y este 75,35$^\circ$O. El archivo disponible contiene 548 meses, enero de 1981--agosto de 2026, con una malla de 0,1$^\circ$(aproximadamente 11 km; resolución nativa cercana a 9 km).
+\newpage
+El archivo ya contiene medias mensuales de medias diarias: no se suman ni se vuelve a calcular una media temporal. Si se parte de datos diarios completos, la media mensual se calcula como
+\begin{equation}
+T_m=\frac{1}{N_m}\sum_{d=1}^{N_m}T_d\tag{3.2}
+\end{equation}
+Se utilizan todos los 28, 29, 30 o 31 días del mes. Los 548 meses de la serie de cuenca están válidos. Para representar la cuenca se ponderan 36 celdas según el área de intersección con el polígono:
+\begin{equation}
+T_m^B=\sum_i w_iT_{i,m},\qquad w_i=\frac{A(B\cap C_i)}{\sum_i A(B\cap C_i)}\tag{3.3}
+\end{equation}
+Las celdas cubren el 100 \% del polígono de cuenca.
+\newpage
+Para cada mes calendario j, la climatología se calculó sobre todos los años disponibles del periodo de referencia. Se usó la desviación estándar muestral (n -1) y las definiciones 
+\begin{equation}
+a_t=X_t-\mu_{j(t)},\qquad z_t=\frac{a_t}{s_{j(t)}}\tag{3.4}
+\end{equation}
+ El mismo periodo de referencia se aplica a los doce meses, de modo que las anomalías comparan cada observación con su estación del año y no eliminan una tendencia temporal mediante una climatología móvil.
+\newpage
+Secuencia cronológica completa. Para evitar atribuir al tiempo el ciclo anual, el modelo principal incluye efectos fijos para los doce meses calendario y una pendiente temporal común: 
+\begin{equation}
+Y_t=\alpha_{j(t)}+\beta t+\epsilon_t\tag{3.5}
+\end{equation}
+ La misma especificación se aplicó a la serie original, la anomalía y la anomalía estandarizada. Como contraste, se muestra también la pendiente OLS ingenua sin control estacional; en la precipitación original puede mezclar ciclo anual y evolución temporal.
+\newpage
+1. Tendencia lineal por OLS (paramétrica). Se ajustó 
+\begin{equation}
+Y_t=\beta_0+\beta_1t+\epsilon_t\tag{3.6}
+\end{equation}
+ y sus equivalentes en at y zt. En la serie original se contrastó ese OLS simple con una regresión que añade efectos fijos de mes calendario y una pendiente temporal común. El modelo estacional controla el ciclo anual; sus resultados son la comparación principal. Para los intervalos y pruebas se usaron errores HAC Newey--West con rezago 12 meses en la secuencia completa y 1 año en las subseries. El diagnóstico de residuos reporta autocorrelación de rezagos 1 y 12, Ljung-- Box hasta 12 meses, cambio temporal de varianza con efectos de mes y razón entre desviaciones estándar de las mitades del registro.
+\newpage
+Transformada, ventana y normalización. En cada tramo continuo de N meses se calcula la transformada discreta:
+\begin{equation}
+X_k=\sum_{t=0}^{N-1}x_t\exp\!\left(-\frac{2\pi\mathrm{i}kt}{N}\right)\tag{4.1}
+\end{equation}
+Se reportan las frecuencias positivas, los periodos equivalentes y el espaciamiento entre frecuencias:
+\begin{equation}
+f_k=\frac{k}{N\Delta t},\qquad T_k=\frac{1}{f_k},\qquad\Delta f=\frac{1}{N\Delta t}\tag{4.2}
+\end{equation}
+Se usa el periodograma unilateral con ventana rectangular (sin taper), cuya potencia de base se normaliza como
+\begin{equation}
+\mathcal{P}_k=\frac{|X_k|^2}{N^2}\tag{4.3}
+\end{equation}
+Esta potencia se duplica en las frecuencias positivas, excepto en Nyquist cuando N es par. La suma de potencias reproduce la varianza poblacional de la señal centrada y las unidades son el cuadrado de la variable. No se rellena con ceros ni se interpreta la frecuencia cero como un periodo finito.
+\newpage
+Convención y lectura. Se presentan periodogramas unilaterales de densidad espectral. Para una frecuencia de muestreo de una muestra por mes, la densidad de base se expresa como
+\begin{equation}
+S(f_k)=\frac{|X_k|^2}{f_s\sum_t w_t^2},\qquad f_s=1\ \mathrm{muestra/mes}\tag{4.4}
+\end{equation}
+Se duplican los bins positivos, salvo Nyquist. La densidad tiene unidades de variable al cuadrado por mes. La potencia integrada por bin y su normalización porcentual son
+\begin{equation}
+\mathcal{P}_k=S(f_k)\Delta f,\qquad p_k=100\,\frac{\mathcal{P}_k}{\sum_{j>0}\mathcal{P}_j}\tag{4.5}
+\end{equation}
+La potencia por bin tiene unidades de variable al cuadrado. Las curvas normalizadas permiten comparar formas, no variabilidad absoluta entre variables. La varianza original y su unidad se conservan en los archivos de resultados.
+\newpage
+Las medias mensuales no se suman. SLP y presión superficial vienen en las unidades declaradas en el NetCDF: se dividen por 100 solo si están en Pa; millibars equivale a hPa. NCEP hgt ya es altura geopotencial en metros: no se vuelve a dividir por g. En ERA5, geopotential es $\Phi$ en m$^2$/s$^2$ y se convertiría a 
+\begin{equation}
+Z=\frac{\Phi}{g},\qquad g=9{,}80665\ \mathrm{m/s^2}\tag{5.1}
+\end{equation}
+La altura resultante se expresa en metros.  Se conservan los faltantes oceánicos/terrestres de ERSST sin interpolarlos. Las longitudes se normalizan a [-180$^\circ$,180$^\circ$) sin duplicar la costura; cada campo mantiene su malla nativa.
+\newpage
+La referencia comprende las mismas 285 fechas completas de cuenca en 1998--2022. Para cada variable se resta la climatología de su mes calendario; los campos globales y las respuestas conservan sus unidades antes de calcular el coeficiente adimensional. La base tiene rezago cero. Para Q se añade un rezago de un mes como exploración de la persistencia climática y de una respuesta hidrológica con almacenamiento; no se interpreta como tiempo de concentración. Con la convención 
+\begin{equation}
+r_j(\lambda,\varphi;\ell)=\operatorname{corr}\!\left[a_X(t),a_Y(\lambda,\varphi,t-\ell)\right],\qquad j(t)=j\tag{5.2}
+\end{equation}
+ ell>0 significa que el campo climático antecede al caudal. Enero de 1998 se empareja con diciembre de 1997 para ell=1. El desplazamiento se hace en el calendario completo; no se usan valores futuros ni se comprimen los huecos.
+\newpage
+La dependencia relevante se estima entre años consecutivos del mismo mes. No se trata enero y febrero como observaciones consecutivas ni se conectan artificialmente años separados por huecos. Por celda, rhoX y rhoY son las autocorrelaciones anuales de orden uno de los mismos pares; se requieren al menos diez pares anuales adyacentes. Se adopta la aproximación AR(1) 
+\begin{equation}
+n_{\mathrm{ef}}=n\,\frac{1-\rho_X\rho_Y}{1+\rho_X\rho_Y},\qquad 3\leq n_{\mathrm{ef}}\leq n\tag{5.3}
+\end{equation}
+Limitada al intervalo indicado y  basada en el tamaño efectivo para correlaciones de Bretherton et al. (1999). El límite superior evita aumentar la información por autocorrelación estimada negativa. La prueba bilateral usa 
+\begin{equation}
+t=|r|\sqrt{\frac{\nu}{1-r^2}}\tag{5.4}
+\end{equation}
+Los grados de libertad utilizados son
+\begin{equation}
+\nu=\begin{cases}n_{\mathrm{ef}}-2,&\text{para anomalías},\\n_{\mathrm{ef}}-3,&\text{al controlar el año}.\end{cases}\tag{5.5}
+\end{equation}
+ Con un grado de libertad o menos no se emite p. Los p son aproximados: n corto, no normalidad, incertidumbre de rho y memoria de orden superior pueden afectar su calibración; no son una garantía exacta de cobertura o significancia.
+\newpage
+\begin{equation}
+e_t=P_{\mathrm{IMERG},t}-L_t\tag{2.1}
+\end{equation}
+\newpage
+\begin{equation}
+\rho(k)=\operatorname{corr}\!\left[P(t-k),Q(t)\right],\qquad k\geq 0\tag{2.2}
+\end{equation}
+\newpage
+\begin{equation}
+R_m=\frac{86{,}4\,d_m\,Q_m}{2797{,}19}\quad[\mathrm{mm/mes}]\tag{2.3}
+\end{equation}
+\newpage
+\begin{equation}
+X'(t)=X(t)-\overline{X}_{j(t)}\tag{2.4}
+\end{equation}
+\newpage
+\begin{equation}
+Q_t=a+bP_t\tag{2.5}
+\end{equation}
+\newpage
+\begin{equation}
+Q_t=a+bP_{t-1}\tag{2.6}
+\end{equation}
+\newpage
+\begin{equation}
+Q_t=a+bP_t+cP_{t-1}\tag{2.7}
+\end{equation}
+\newpage
+\begin{equation}
+Q_t=a+b\sqrt{P_t}\tag{2.8}
+\end{equation}
+\newpage
+\begin{equation}
+\widehat{Q}_t=\max\left(0,-87.2692+0.465439P_{IMERG,t}+0.433065P_{IMERG,t-1}\right).\tag{2.9}
+\end{equation}
+\newpage
+\begin{equation}
+\widehat{Q}_t=\max\left(0,-35.8526+0.422155P_{CHIRPS,t}+0.434939P_{CHIRPS,t-1}\right).\tag{2.10}
+\end{equation}
+\newpage
+\begin{equation}
+\widehat{L}_t=\max\left(0,-30.7549+0.596818P_{IMERG,t}\right).\tag{2.11}
+\end{equation}
+\newpage
+\begin{equation}
+\widehat{L}_t=\max\left(0,-0.9713+0.504221P_{CHIRPS,t}\right).\tag{2.12}
+\end{equation}
+\newpage
+\begin{equation}
+\widehat{Q}_t=\max\left(0,55.3322+0.654768L_t\right).\tag{2.13}
+\end{equation}
+\newpage
+\begin{equation}
+\widehat{R}_m=\frac{86{,}4\,d_m\,\widehat{Q}_m}{2797{,}19}\tag{2.14}
+\end{equation}
+\newpage
+\begin{equation}
+\widehat{Q}_{\mathrm{IMERG},t}=\max\!\left(0,-87{,}269198+0{,}465439P_t+0{,}433065P_{t-1}\right)\tag{2.15}
+\end{equation}
+\newpage
+\begin{equation}
+\widehat{Q}_{\mathrm{CHIRPS},t}=\max\!\left(0,-35{,}852625+0{,}422155P_t+0{,}434939P_{t-1}\right)\tag{2.16}
+\end{equation}
+\newpage
+\begin{equation}
+\mathrm{NSE}=1-\frac{\mathrm{SSE}}{\mathrm{SST}}\tag{2.17}
+\end{equation}
+\newpage
+\begin{equation}
+T[{}^\circ\mathrm{C}]=T[\mathrm{K}]-273{,}15\tag{3.1}
+\end{equation}
+\newpage
+\begin{equation}
+T_m=\frac{1}{N_m}\sum_{d=1}^{N_m}T_d\tag{3.2}
+\end{equation}
+\newpage
+\begin{equation}
+T_m^B=\sum_i w_iT_{i,m},\qquad w_i=\frac{A(B\cap C_i)}{\sum_i A(B\cap C_i)}\tag{3.3}
+\end{equation}
+\newpage
+\begin{equation}
+a_t=X_t-\mu_{j(t)},\qquad z_t=\frac{a_t}{s_{j(t)}}\tag{3.4}
+\end{equation}
+\newpage
+\begin{equation}
+Y_t=\alpha_{j(t)}+\beta t+\epsilon_t\tag{3.5}
+\end{equation}
+\newpage
+\begin{equation}
+Y_t=\beta_0+\beta_1t+\epsilon_t\tag{3.6}
+\end{equation}
+\newpage
+\begin{equation}
+X_k=\sum_{t=0}^{N-1}x_t\exp\!\left(-\frac{2\pi\mathrm{i}kt}{N}\right)\tag{4.1}
+\end{equation}
+\newpage
+\begin{equation}
+f_k=\frac{k}{N\Delta t},\qquad T_k=\frac{1}{f_k},\qquad\Delta f=\frac{1}{N\Delta t}\tag{4.2}
+\end{equation}
+\newpage
+\begin{equation}
+\mathcal{P}_k=\frac{|X_k|^2}{N^2}\tag{4.3}
+\end{equation}
+\newpage
+\begin{equation}
+S(f_k)=\frac{|X_k|^2}{f_s\sum_t w_t^2},\qquad f_s=1\ \mathrm{muestra/mes}\tag{4.4}
+\end{equation}
+\newpage
+\begin{equation}
+\mathcal{P}_k=S(f_k)\Delta f,\qquad p_k=100\,\frac{\mathcal{P}_k}{\sum_{j>0}\mathcal{P}_j}\tag{4.5}
+\end{equation}
+\newpage
+\begin{equation}
+Z=\frac{\Phi}{g},\qquad g=9{,}80665\ \mathrm{m/s^2}\tag{5.1}
+\end{equation}
+\newpage
+\begin{equation}
+r_j(\lambda,\varphi;\ell)=\operatorname{corr}\!\left[a_X(t),a_Y(\lambda,\varphi,t-\ell)\right],\qquad j(t)=j\tag{5.2}
+\end{equation}
+\newpage
+\begin{equation}
+n_{\mathrm{ef}}=n\,\frac{1-\rho_X\rho_Y}{1+\rho_X\rho_Y},\qquad 3\leq n_{\mathrm{ef}}\leq n\tag{5.3}
+\end{equation}
+\newpage
+\begin{equation}
+t=|r|\sqrt{\frac{\nu}{1-r^2}}\tag{5.4}
+\end{equation}
+\newpage
+\begin{equation}
+\nu=\begin{cases}n_{\mathrm{ef}}-2,&\text{para anomalías},\\n_{\mathrm{ef}}-3,&\text{al controlar el año}.\end{cases}\tag{5.5}
+\end{equation}
+\end{document}

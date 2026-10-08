@@ -1,0 +1,167 @@
+[
+  {
+    "chapter": 2,
+    "number": "2.1",
+    "math": "e_t=P_{\\mathrm{IMERG},t}-L_t"
+  },
+  {
+    "chapter": 2,
+    "number": "2.2",
+    "math": "\\rho(k)=\\operatorname{corr}\\!\\left[P(t-k),Q(t)\\right],\\qquad k\\geq 0"
+  },
+  {
+    "chapter": 2,
+    "number": "2.3",
+    "math": "R_m=\\frac{86{,}4\\,d_m\\,Q_m}{2797{,}19}\\quad[\\mathrm{mm/mes}]"
+  },
+  {
+    "chapter": 2,
+    "number": "2.4",
+    "math": "X'(t)=X(t)-\\overline{X}_{j(t)}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.5",
+    "math": "Q_t=a+bP_t"
+  },
+  {
+    "chapter": 2,
+    "number": "2.6",
+    "math": "Q_t=a+bP_{t-1}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.7",
+    "math": "Q_t=a+bP_t+cP_{t-1}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.8",
+    "math": "Q_t=a+b\\sqrt{P_t}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.9",
+    "math": "\\widehat{Q}_t=\\max\\left(0,-87.2692+0.465439P_{IMERG,t}+0.433065P_{IMERG,t-1}\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.10",
+    "math": "\\widehat{Q}_t=\\max\\left(0,-35.8526+0.422155P_{CHIRPS,t}+0.434939P_{CHIRPS,t-1}\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.11",
+    "math": "\\widehat{L}_t=\\max\\left(0,-30.7549+0.596818P_{IMERG,t}\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.12",
+    "math": "\\widehat{L}_t=\\max\\left(0,-0.9713+0.504221P_{CHIRPS,t}\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.13",
+    "math": "\\widehat{Q}_t=\\max\\left(0,55.3322+0.654768L_t\\right)."
+  },
+  {
+    "chapter": 2,
+    "number": "2.14",
+    "math": "\\widehat{R}_m=\\frac{86{,}4\\,d_m\\,\\widehat{Q}_m}{2797{,}19}"
+  },
+  {
+    "chapter": 2,
+    "number": "2.15",
+    "math": "\\widehat{Q}_{\\mathrm{IMERG},t}=\\max\\!\\left(0,-87{,}269198+0{,}465439P_t+0{,}433065P_{t-1}\\right)"
+  },
+  {
+    "chapter": 2,
+    "number": "2.16",
+    "math": "\\widehat{Q}_{\\mathrm{CHIRPS},t}=\\max\\!\\left(0,-35{,}852625+0{,}422155P_t+0{,}434939P_{t-1}\\right)"
+  },
+  {
+    "chapter": 2,
+    "number": "2.17",
+    "math": "\\mathrm{NSE}=1-\\frac{\\mathrm{SSE}}{\\mathrm{SST}}"
+  },
+  {
+    "chapter": 3,
+    "number": "3.1",
+    "math": "T[{}^\\circ\\mathrm{C}]=T[\\mathrm{K}]-273{,}15"
+  },
+  {
+    "chapter": 3,
+    "number": "3.2",
+    "math": "T_m=\\frac{1}{N_m}\\sum_{d=1}^{N_m}T_d"
+  },
+  {
+    "chapter": 3,
+    "number": "3.3",
+    "math": "T_m^B=\\sum_i w_iT_{i,m},\\qquad w_i=\\frac{A(B\\cap C_i)}{\\sum_i A(B\\cap C_i)}"
+  },
+  {
+    "chapter": 3,
+    "number": "3.4",
+    "math": "a_t=X_t-\\mu_{j(t)},\\qquad z_t=\\frac{a_t}{s_{j(t)}}"
+  },
+  {
+    "chapter": 3,
+    "number": "3.5",
+    "math": "Y_t=\\alpha_{j(t)}+\\beta t+\\epsilon_t"
+  },
+  {
+    "chapter": 3,
+    "number": "3.6",
+    "math": "Y_t=\\beta_0+\\beta_1t+\\epsilon_t"
+  },
+  {
+    "chapter": 4,
+    "number": "4.1",
+    "math": "X_k=\\sum_{t=0}^{N-1}x_t\\exp\\!\\left(-\\frac{2\\pi\\mathrm{i}kt}{N}\\right)"
+  },
+  {
+    "chapter": 4,
+    "number": "4.2",
+    "math": "f_k=\\frac{k}{N\\Delta t},\\qquad T_k=\\frac{1}{f_k},\\qquad\\Delta f=\\frac{1}{N\\Delta t}"
+  },
+  {
+    "chapter": 4,
+    "number": "4.3",
+    "math": "\\mathcal{P}_k=\\frac{|X_k|^2}{N^2}"
+  },
+  {
+    "chapter": 4,
+    "number": "4.4",
+    "math": "S(f_k)=\\frac{|X_k|^2}{f_s\\sum_t w_t^2},\\qquad f_s=1\\ \\mathrm{muestra/mes}"
+  },
+  {
+    "chapter": 4,
+    "number": "4.5",
+    "math": "\\mathcal{P}_k=S(f_k)\\Delta f,\\qquad p_k=100\\,\\frac{\\mathcal{P}_k}{\\sum_{j>0}\\mathcal{P}_j}"
+  },
+  {
+    "chapter": 5,
+    "number": "5.1",
+    "math": "Z=\\frac{\\Phi}{g},\\qquad g=9{,}80665\\ \\mathrm{m/s^2}"
+  },
+  {
+    "chapter": 5,
+    "number": "5.2",
+    "math": "r_j(\\lambda,\\varphi;\\ell)=\\operatorname{corr}\\!\\left[a_X(t),a_Y(\\lambda,\\varphi,t-\\ell)\\right],\\qquad j(t)=j"
+  },
+  {
+    "chapter": 5,
+    "number": "5.3",
+    "math": "n_{\\mathrm{ef}}=n\\,\\frac{1-\\rho_X\\rho_Y}{1+\\rho_X\\rho_Y},\\qquad 3\\leq n_{\\mathrm{ef}}\\leq n"
+  },
+  {
+    "chapter": 5,
+    "number": "5.4",
+    "math": "t=|r|\\sqrt{\\frac{\\nu}{1-r^2}}"
+  },
+  {
+    "chapter": 5,
+    "number": "5.5",
+    "math": "\\nu=\\begin{cases}n_{\\mathrm{ef}}-2,&\\text{para anomalías},\\\\n_{\\mathrm{ef}}-3,&\\text{al controlar el año}.\\end{cases}"
+  }
+]

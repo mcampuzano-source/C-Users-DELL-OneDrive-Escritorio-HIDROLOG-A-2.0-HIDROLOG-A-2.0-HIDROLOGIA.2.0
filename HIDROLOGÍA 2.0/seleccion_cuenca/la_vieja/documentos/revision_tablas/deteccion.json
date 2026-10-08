@@ -1,0 +1,415 @@
+{
+  "source": [
+    [
+      "Relación",
+      "n",
+      "Pearson",
+      "Spearman"
+    ],
+    [
+      "Relación",
+      "Mes influyente",
+      "r sin mes",
+      "r mínimo",
+      "r máximo"
+    ],
+    [
+      "Relación",
+      "k",
+      "n",
+      "Pearson",
+      "Spearman"
+    ],
+    [
+      "Relación",
+      "k",
+      "n",
+      "Pearson",
+      "Spearman"
+    ],
+    [
+      "Fuente",
+      "n",
+      "Sesgo",
+      "MAE",
+      "RMSE",
+      "SD error"
+    ],
+    [
+      "Fuente",
+      "Referencia",
+      "n",
+      "RMSE residual",
+      "Mediana abs."
+    ],
+    [
+      "Fuente",
+      "Referencia",
+      "Serie",
+      "n",
+      "Pearson",
+      "Spearman"
+    ],
+    [
+      "Relación",
+      "Mes",
+      "r sin mes",
+      "r mínimo",
+      "r máximo"
+    ],
+    [
+      "Referencia",
+      "k",
+      "n",
+      "Pearson",
+      "Spearman"
+    ],
+    [
+      "Referencia",
+      "k",
+      "n",
+      "Pearson",
+      "Spearman"
+    ],
+    [
+      "Fuente",
+      "Modelo",
+      "n",
+      "RMSE",
+      "MAE",
+      "Sesgo",
+      "R²"
+    ],
+    [
+      "Fuente",
+      "Modelo",
+      "a",
+      "b",
+      "c"
+    ],
+    [
+      "Fuente",
+      "Modelo",
+      "RMSE ajuste",
+      "RMSE temporal",
+      "MAE temporal",
+      "R² temporal"
+    ],
+    [
+      "Modelo",
+      "RMSE ajuste",
+      "RMSE temporal",
+      "Sesgo temporal",
+      "R² temporal"
+    ],
+    [
+      "Fuente",
+      "P mín. Q",
+      "P máx. Q",
+      "P mín. local",
+      "P máx. local"
+    ],
+    [
+      "Fuente",
+      "r error antecedente",
+      "RMSE Q alto",
+      "Sesgo Q alto"
+    ],
+    [
+      "Fuente",
+      "n",
+      "RMSE",
+      "MAE",
+      "Sesgo",
+      "NSE"
+    ],
+    [
+      "Fuente",
+      "Año",
+      "n",
+      "RMSE",
+      "MAE",
+      "Sesgo"
+    ],
+    [
+      "Bloque (meses)",
+      "Diferencia RMSE",
+      "Percentil 2,5",
+      "Percentil 97,5"
+    ],
+    [
+      "Fuente",
+      "Mes",
+      "n",
+      "RMSE",
+      "MAE",
+      "Sesgo"
+    ],
+    [
+      "Fuente",
+      "r error antecedente",
+      "Fracción subestimada"
+    ],
+    [
+      "Fuente",
+      "n",
+      "RMSE",
+      "MAE",
+      "Sesgo"
+    ],
+    [
+      "Fuente",
+      "n",
+      "RMSE",
+      "MAE",
+      "Sesgo"
+    ],
+    [
+      "Fuente",
+      "Mín. bruto",
+      "Máx. bruto",
+      "Negativos",
+      "Fuera rango P"
+    ],
+    [
+      "Fuente",
+      "Método",
+      "n",
+      "RMSE",
+      "MAE",
+      "Sesgo"
+    ]
+  ],
+  "detected": [
+    {
+      "page": 32,
+      "rect": [
+        190.6,
+        164.89,
+        404.6,
+        222.48
+      ],
+      "raw_header": "Relación\nn\nPearson\nSpearman\n"
+    },
+    {
+      "page": 32,
+      "rect": [
+        142.3,
+        236.82,
+        453.0,
+        294.41
+      ],
+      "raw_header": "Relación\nMes influyente\nr sin mes\nr mínimo\nr máximo\n"
+    },
+    {
+      "page": 32,
+      "rect": [
+        182.6,
+        597.26,
+        412.7,
+        742.52
+      ],
+      "raw_header": "Relación\nk\nn\nPearson\nSpearman\n"
+    },
+    {
+      "page": 33,
+      "rect": [
+        182.6,
+        55.89,
+        412.7,
+        157.32
+      ],
+      "raw_header": "Relación\nk\nn\nPearson\nSpearman\n"
+    },
+    {
+      "page": 34,
+      "rect": [
+        183.3,
+        176.84,
+        411.9,
+        212.52
+      ],
+      "raw_header": "Fuente\nn\nSesgo\nMAE\nRMSE\nSD error\n"
+    },
+    {
+      "page": 34,
+      "rect": [
+        159.4,
+        360.74,
+        435.9,
+        440.25
+      ],
+      "raw_header": "Fuente\nReferencia\nn\nRMSE residual\nMediana abs.\n"
+    },
+    {
+      "page": 35,
+      "rect": [
+        156.6,
+        625.09,
+        438.7,
+        748.43
+      ],
+      "raw_header": "Fuente\nReferencia\nSerie\nn\nPearson\nSpearman\n"
+    },
+    {
+      "page": 36,
+      "rect": [
+        149.9,
+        78.27,
+        445.3,
+        124.9
+      ],
+      "raw_header": "Relación\nMes\nr sin mes\nr mínimo\nr máximo\n"
+    },
+    {
+      "page": 36,
+      "rect": [
+        190.1,
+        189.44,
+        405.2,
+        290.86
+      ],
+      "raw_header": "Referencia\nk\nn\nPearson\nSpearman\n"
+    },
+    {
+      "page": 36,
+      "rect": [
+        190.1,
+        324.12,
+        405.2,
+        425.55
+      ],
+      "raw_header": "Referencia\nk\nn\nPearson\nSpearman\n"
+    },
+    {
+      "page": 37,
+      "rect": [
+        141.9,
+        449.87,
+        453.4,
+        595.13
+      ],
+      "raw_header": "Fuente\nModelo\nn\nRMSE\nMAE\nSesgo\nR2\n"
+    },
+    {
+      "page": 38,
+      "rect": [
+        189.7,
+        494.92,
+        405.6,
+        596.35
+      ],
+      "raw_header": "Fuente\nModelo\na\nb\nc\n"
+    },
+    {
+      "page": 39,
+      "rect": [
+        95.8,
+        127.34,
+        499.5,
+        206.85
+      ],
+      "raw_header": "Fuente\nModelo\nRMSE ajuste\nRMSE temporal\nMAE temporal\nR2 temporal\n"
+    },
+    {
+      "page": 40,
+      "rect": [
+        161.9,
+        55.89,
+        433.4,
+        91.57
+      ],
+      "raw_header": "Fuente\nP mín. Q\nP máx. Q\nP mín. local\nP máx. local\n"
+    },
+    {
+      "page": 40,
+      "rect": [
+        165.0,
+        455.79,
+        430.3,
+        491.46
+      ],
+      "raw_header": "Fuente\nr error antecedente\nRMSE Q alto\nSesgo Q alto\n"
+    },
+    {
+      "page": 41,
+      "rect": [
+        185.7,
+        268.84,
+        409.6,
+        326.43
+      ],
+      "raw_header": "Fuente\nn\nRMSE\nMAE\nSesgo\nNSE\n"
+    },
+    {
+      "page": 42,
+      "rect": [
+        186.2,
+        93.7,
+        409.1,
+        304.71
+      ],
+      "raw_header": "Fuente\nAño\nn\nRMSE\nMAE\nSesgo\n"
+    },
+    {
+      "page": 44,
+      "rect": [
+        197.4,
+        55.89,
+        397.8,
+        332.66
+      ],
+      "raw_header": "Fuente\nMes\nn\nRMSE\nMAE\nSesgo\n"
+    },
+    {
+      "page": 44,
+      "rect": [
+        180.5,
+        347.0,
+        414.8,
+        382.67
+      ],
+      "raw_header": "Fuente\nr error antecedente\nFracción subestimada\n"
+    },
+    {
+      "page": 44,
+      "rect": [
+        201.4,
+        567.32,
+        393.9,
+        624.91
+      ],
+      "raw_header": "Fuente\nn\nRMSE\nMAE\nSesgo\n"
+    },
+    {
+      "page": 44,
+      "rect": [
+        202.4,
+        660.1,
+        392.9,
+        717.69
+      ],
+      "raw_header": "Fuente\nn\nRMSE\nMAE\nSesgo\n"
+    },
+    {
+      "page": 44,
+      "rect": [
+        157.1,
+        732.03,
+        438.2,
+        767.71
+      ],
+      "raw_header": "Fuente\nMín. bruto\nMáx. bruto\nNegativos\nFuera rango P\n"
+    },
+    {
+      "page": 45,
+      "rect": [
+        164.5,
+        140.98,
+        430.8,
+        198.57
+      ],
+      "raw_header": "Fuente\nMétodo\nn\nRMSE\nMAE\nSesgo\n"
+    }
+  ]
+}

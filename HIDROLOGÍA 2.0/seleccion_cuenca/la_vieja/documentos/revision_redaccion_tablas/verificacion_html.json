@@ -1,0 +1,7 @@
+{
+  "result": {
+    "point1Unchanged": true,
+    "localTableContext": "La tabla compara IMERG y CHIRPS sin corrección con sus rectas de calibración para estimar la lluvia mensual de Zaragoza. Las rectas se ajustaron con siete meses completos de 2018 y se comprobaron con siete de 2019; RMSE, MAE y sesgo se expresan en mm/mes. Por su corta duración y su uso en la selección de los modelos, esta comparación es exploratoria y no constituye una validación final independiente."
+  },
+  "errors": []
+}

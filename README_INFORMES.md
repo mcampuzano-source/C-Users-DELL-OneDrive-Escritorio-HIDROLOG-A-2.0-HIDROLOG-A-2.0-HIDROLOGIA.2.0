@@ -3,10 +3,10 @@
 La versión integrada actual es `Informe_Hidrologia_actualizado_5_4.pdf`.
 Conserva la portada, los puntos 1–3 y el apartado 5.1 e incorpora las cuatro
 páginas del punto 4 del commit `d367474dba5fbb1cc9f4ed2906076bbcb2558512`.
-Tiene 151 páginas e incorpora el apartado 5.2 y sus 24 láminas (288 mapas),
+Tiene 156 páginas e incorpora el apartado 5.2 y sus 24 láminas (288 mapas),
 y el apartado 5.3 con retiro de tendencias, persistencia anual AR(1), FDR BY
 global, subperiodos, exclusión de años y 48 láminas de diagnóstico.
-El 5.3 empieza en la página 90 del archivo. El 5.4 comienza en la página 141,
+El 5.3 empieza en la página 94 del archivo. El 5.4 comienza en la página 146,
 con interpretación física, contraste mensual con Niño 3.4 de NOAA PSL,
 integración con Fourier, bibliografía regional y síntesis de los cinco puntos.
 La inferencia estadística del 5.3 es aproximada y condicionada
@@ -45,3 +45,15 @@ La ruta `documentos/latex/informe_ordenado.pdf` contiene ahora el PDF integrado
 completo, sincronizado mediante el script 61. Conserva los puntos 1-3 de la
 compilacion reciente y los puntos 4-5 del informe integrado. El archivo TEX
 por si solo no reproduce las laminas integradas: el paso 61 es necesario.
+
+La edición más reciente separa y numera 33 ecuaciones de los puntos 2–5.
+Para reproducirla: ejecutar 64, compilar `latex/informe_ordenado.tex`, ejecutar
+65, compilar `revision_formulas/bloques.tex`, ejecutar 66 y 67; 68 verifica
+las ecuaciones en navegador. Este flujo sustituye al 61 como último paso.
+Los respaldos y las verificaciones están en `documentos/revision_formulas/`.
+
+Regla de edición indicada por la usuaria: no modificar el punto 1 ni sus
+incisos hasta recibir una instrucción específica que autorice ese cambio.
+Se verificó igualdad píxel por píxel de portada y páginas del punto 1 frente
+a la versión guardada antes de la edición de fórmulas. El índice se actualizó
+para reflejar la paginación nueva de los puntos posteriores.
