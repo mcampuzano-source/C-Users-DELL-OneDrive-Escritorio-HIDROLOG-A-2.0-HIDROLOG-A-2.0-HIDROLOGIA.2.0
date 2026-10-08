@@ -3,10 +3,10 @@
 La versión integrada actual es `Informe_Hidrologia_actualizado_5_4.pdf`.
 Conserva la portada, los puntos 1–3 y el apartado 5.1 e incorpora las cuatro
 páginas del punto 4 del commit `d367474dba5fbb1cc9f4ed2906076bbcb2558512`.
-Tiene 150 páginas e incorpora el apartado 5.2 y sus 24 láminas (288 mapas),
+Tiene 151 páginas e incorpora el apartado 5.2 y sus 24 láminas (288 mapas),
 y el apartado 5.3 con retiro de tendencias, persistencia anual AR(1), FDR BY
 global, subperiodos, exclusión de años y 48 láminas de diagnóstico.
-El 5.3 empieza en la página 89 del archivo. El 5.4 comienza en la página 140,
+El 5.3 empieza en la página 90 del archivo. El 5.4 comienza en la página 141,
 con interpretación física, contraste mensual con Niño 3.4 de NOAA PSL,
 integración con Fourier, bibliografía regional y síntesis de los cinco puntos.
 La inferencia estadística del 5.3 es aproximada y condicionada
@@ -40,3 +40,8 @@ usarse como último paso para generar la versión con 5.4.
 
 `Informe_Hidrologia_integrado_punto4.pdf` es la versión histórica de 63 páginas.
 Usar `Informe_Hidrologia_actualizado_5_4.pdf` para consultar todos los avances.
+
+La ruta `documentos/latex/informe_ordenado.pdf` contiene ahora el PDF integrado
+completo, sincronizado mediante el script 61. Conserva los puntos 1-3 de la
+compilacion reciente y los puntos 4-5 del informe integrado. El archivo TEX
+por si solo no reproduce las laminas integradas: el paso 61 es necesario.
