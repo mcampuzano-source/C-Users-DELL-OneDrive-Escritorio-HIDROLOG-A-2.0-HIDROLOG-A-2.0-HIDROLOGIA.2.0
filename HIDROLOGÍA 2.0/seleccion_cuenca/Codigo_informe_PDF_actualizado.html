@@ -1,0 +1,332 @@
+<!doctype html><html lang="es"><meta charset="utf-8">
+<title>Código del informe PDF actualizado</title>
+<style>body{font-family:system-ui;max-width:1100px;margin:30px auto;padding:0 20px}
+pre{overflow:auto;background:#f1f4f8;padding:18px}section{margin:24px 0}</style>
+<h1>Código del informe PDF actualizado</h1>
+<p>Entrada principal: <code>Códigos python/Generar informe PDF.py</code>, dentro de HIDROLOGÍA 2.0.
+Ejecute ese archivo directamente con Python.
+Reconstruye la edición publicada completa de 486 páginas desde sus fuentes verificadas.
+No recalcula las series ni los modelos históricos.</p>
+<p><a href="EJECUTAR_INFORMES.md">Instrucciones de instalación y ejecución</a></p><section><h2>../Códigos python/Generar informe PDF.py</h2><p>SHA256: 3afc4b8fd97d596d12cf33ac09d45aaa082c485acdfb2db2cd1667b847dac1ae</p><details><summary>Ver código</summary><pre>&quot;&quot;&quot;Ejecuta este archivo para generar el PDF completo de 486 páginas.
+
+Necesita el proyecto completo descargado. Instala PyMuPDF automáticamente
+si falta. La salida se guarda en HIDROLOGÍA 2.0/seleccion_cuenca/salida_informes/.
+&quot;&quot;&quot;
+from pathlib import Path
+import importlib.util
+import subprocess
+import sys
+
+sys.dont_write_bytecode = True
+REPOSITORY = Path(__file__).resolve().parents[2]
+PROJECT = REPOSITORY / &quot;HIDROLOGÍA 2.0&quot; / &quot;seleccion_cuenca&quot;
+SCRIPTS = PROJECT / &quot;scripts&quot;
+if not (SCRIPTS / &quot;informes_actuales.py&quot;).is_file():
+    raise SystemExit(&quot;Descarga el proyecto completo: falta scripts/informes_actuales.py.&quot;)
+if importlib.util.find_spec(&quot;fitz&quot;) is None:
+    print(&quot;Instalando la dependencia PyMuPDF para generar el PDF...&quot;)
+    subprocess.run([sys.executable, &quot;-m&quot;, &quot;pip&quot;, &quot;install&quot;, &quot;-r&quot;,
+                    str(PROJECT / &quot;requirements_informes.txt&quot;)], check=True)
+sys.path.insert(0, str(SCRIPTS))
+from informes_actuales import main
+
+if __name__ == &quot;__main__&quot;:
+    main(default=&quot;pdf&quot;)
+</pre></details></section><section><h2>scripts/generar_informe_pdf.py</h2><p>SHA256: 98d70cd92bf9305ab1cfe18414bd8bcd0dc73b99e998e502d82494717c3d7c72</p><details><summary>Ver código</summary><pre>&quot;&quot;&quot;Genera el PDF completo actualizado, de 486 páginas.&quot;&quot;&quot;
+from informes_actuales import main
+
+if __name__ == &quot;__main__&quot;:
+    main(default=&quot;pdf&quot;)
+</pre></details></section><section><h2>scripts/informes_actuales.py</h2><p>SHA256: 394a082ee27dfd887339835d78b291beeb2769b5f5ddfed5ce0be82929af4a51</p><details><summary>Ver código</summary><pre>&quot;&quot;&quot;Reconstruye la edición publicada completa desde fuentes verificadas.
+
+No recalcula observaciones, modelos ni interpretaciones: los scripts históricos
+documentan esos análisis. Este módulo reproduce su edición final integrada.
+&quot;&quot;&quot;
+from pathlib import Path
+import argparse
+import hashlib
+import html
+import json
+import re
+import shutil
+import tempfile
+
+PROJECT = Path(__file__).resolve().parents[1]
+REPOSITORY = PROJECT.parents[1]
+SOURCES = PROJECT / &quot;fuentes_informes&quot;
+DOCUMENTS = PROJECT / &quot;la_vieja&quot; / &quot;documentos&quot;
+
+
+def digest(path):
+    h = hashlib.sha256()
+    with Path(path).open(&quot;rb&quot;) as stream:
+        for block in iter(lambda: stream.read(1024 * 1024), b&quot;&quot;):
+            h.update(block)
+    return h.hexdigest()
+
+
+def validate_sources():
+    manifest = json.loads((SOURCES / &quot;manifest.json&quot;).read_text(encoding=&quot;utf-8&quot;))
+    for name, expected in manifest[&quot;files&quot;].items():
+        path = SOURCES / name
+        if not path.is_file():
+            raise FileNotFoundError(f&quot;Falta la fuente {path}&quot;)
+        if digest(path) != expected[&quot;sha256&quot;]:
+            raise ValueError(f&quot;Fuente incompleta o distinta: {path}. Si usa Git LFS, ejecute git lfs pull.&quot;)
+    return manifest
+
+
+def build_html(output):
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    base = (SOURCES / &quot;informe_base.html&quot;).read_text(encoding=&quot;utf-8&quot;)
+    anchor = &quot;&lt;!-- CONTROL_FALTANTES_FIN --&gt;&quot;
+    if base.count(anchor) != 1:
+        raise ValueError(&quot;La fuente HTML no contiene una única ubicación para el control 1.4.&quot;)
+    blocks = [(SOURCES / name).read_text(encoding=&quot;utf-8&quot;)
+              for name in (&quot;contraste_1_4.html&quot;, &quot;registro_1_4.html&quot;)]
+    result = base.replace(anchor, anchor + &quot;&quot;.join(blocks), 1)
+    if result.replace(&quot;&quot;.join(blocks), &quot;&quot;, 1) != base:
+        raise ValueError(&quot;La integración cambió el contenido de la fuente original.&quot;)
+    for marker in (&quot;CONTRASTE_CAMBIOS_PRODUCTOS&quot;, &quot;REGISTRO_ANOMALIAS_1_4&quot;):
+        if result.count(f&quot;&lt;!-- {marker}_INICIO --&gt;&quot;) != 1:
+            raise ValueError(f&quot;Bloque duplicado: {marker}&quot;)
+    match = re.search(r&#x27;srcdoc=&quot;(.*?)&quot;&#x27;, blocks[0], re.S)
+    viewer = html.unescape(match.group(1)) if match else &quot;&quot;
+    if viewer.count(&#x27;&quot;method&quot;:&quot;update&quot;&#x27;) != 4:
+        raise ValueError(&quot;El visor no contiene los cuatro casos seleccionables.&quot;)
+    path = output / &quot;Informe_Hidrologia_interactivo.html&quot;
+    path.write_text(result, encoding=&quot;utf-8&quot;)
+    return {&quot;file&quot;: str(path), &quot;sha256&quot;: digest(path), &quot;cases&quot;: 4,
+            &quot;original_content_preserved&quot;: True}
+
+
+def scientific_words(page):
+    return [w[4] for w in page.get_text(&quot;words&quot;)
+            if 35 &lt; w[1] and w[3] &lt; page.rect.height - 42]
+
+
+def build_pdf(output, manifest):
+    try:
+        import fitz
+    except ImportError as error:
+        raise RuntimeError(&quot;Instale las dependencias: python -m pip install -r requirements_informes.txt&quot;) from error
+    output = Path(output)
+    output.mkdir(parents=True, exist_ok=True)
+    before = manifest[&quot;insert_before_page&quot;] - 1
+    with fitz.open(SOURCES / &quot;informe_base.pdf&quot;) as source:
+        if len(source) != manifest[&quot;base_pdf_pages&quot;]:
+            raise ValueError(&quot;La fuente PDF no tiene la paginación esperada.&quot;)
+        with fitz.open() as added, fitz.open() as result:
+            for name in (&quot;cuatro_casos_pdf.pdf&quot;, &quot;registro_anomalias_pdf.pdf&quot;):
+                with fitz.open(SOURCES / name) as document:
+                    added.insert_pdf(document)
+            shift = len(added)
+            if shift != 6:
+                raise ValueError(&quot;Los anexos deben contener cuatro casos y dos tablas.&quot;)
+            result.insert_pdf(source, to_page=before - 1)
+            result.insert_pdf(added)
+            result.insert_pdf(source, from_page=before)
+            toc = source.get_toc()
+            for row in toc:
+                if row[2] &gt;= before + 1:
+                    row[2] += shift
+            position = next(i for i, row in enumerate(toc) if &quot;Climatolog&quot; in row[1])
+            toc[position:position] = [
+                [3, &quot;Cambios documentados: contraste de productos&quot;, before + 1],
+                [3, &quot;Registro de anomalias y decisiones&quot;, before + 5]]
+            result.set_toc(toc)
+            index = result[1]
+            changes = [(fitz.Rect(w[:4]), str(int(w[4]) + shift))
+                       for w in index.get_text(&quot;words&quot;)
+                       if w[0] &gt; 520 and w[4].isdigit() and int(w[4]) &gt;= before]
+            for rect, value in changes:
+                index.add_redact_annot(rect, fill=(1, 1, 1))
+            index.apply_redactions(images=0, graphics=0)
+            for rect, value in changes:
+                index.insert_textbox(fitz.Rect(rect.x0 - 1, rect.y0 - 1, rect.x1 + 6, rect.y1 + 5),
+                                     value, fontname=&quot;tiro&quot;, fontsize=12, align=2)
+            for i in range(before, len(result)):
+                page = result[i]
+                rect = fitz.Rect(270, page.rect.height - 40, 330, page.rect.height - 15)
+                page.draw_rect(rect, color=None, fill=(1, 1, 1))
+                page.insert_textbox(rect, str(i), fontname=&quot;tiro&quot;, fontsize=9, align=1)
+            path = output / &quot;Informe_Hidrologia_actualizado_1_5.pdf&quot;
+            # Escribe primero a un archivo nuevo para admitir ejecuciones repetidas.
+            with tempfile.NamedTemporaryFile(dir=output, suffix=&quot;.pdf&quot;, delete=False) as temporary:
+                temporary_path = Path(temporary.name)
+            try:
+                result.save(temporary_path, garbage=1, deflate=False)
+                with fitz.open(temporary_path) as check:
+                    if len(check) != manifest[&quot;published_pdf_pages&quot;]:
+                        raise ValueError(&quot;Paginación final incorrecta.&quot;)
+                    for i in range(2, len(source)):
+                        destination = i if i &lt; before else i + shift
+                        if scientific_words(source[i]) != scientific_words(check[destination]):
+                            raise ValueError(f&quot;Cambió el contenido científico de la página {i + 1}.&quot;)
+                    if source[0].get_text() != check[0].get_text():
+                        raise ValueError(&quot;Cambió la portada.&quot;)
+                temporary_path.replace(path)
+            finally:
+                temporary_path.unlink(missing_ok=True)
+    return {&quot;file&quot;: str(path), &quot;pages&quot;: manifest[&quot;published_pdf_pages&quot;],
+            &quot;original_pages_verified&quot;: manifest[&quot;base_pdf_pages&quot;] - 2,
+            &quot;sha256&quot;: digest(path), &quot;original_content_preserved&quot;: True}
+
+
+def publish(results):
+    &quot;&quot;&quot;Actualiza las copias visibles; preserva versiones previas fuera del repositorio.&quot;&quot;&quot;
+    backup = Path(tempfile.mkdtemp(prefix=&quot;hidrologia_antes_publicacion_&quot;))
+    for kind, info in results.items():
+        if kind == &quot;html&quot;:
+            targets = [REPOSITORY / &quot;Informe_Hidrologia_interactivo.html&quot;,
+                       DOCUMENTS / &quot;informe_interactivo.html&quot;]
+        else:
+            targets = [REPOSITORY / name for name in (
+                &quot;Informe_Hidrologia_actualizado_1_5.pdf&quot;, &quot;Informe_Hidrologia_actualizado.pdf&quot;,
+                &quot;Informe_Hidrologia_actualizado_5_4.pdf&quot;, &quot;Informe_Hidrologia_integrado.pdf&quot;)]
+            targets += [DOCUMENTS / &quot;informe_actualizado.pdf&quot;, DOCUMENTS / &quot;informe_actualizado_1_5.pdf&quot;,
+                        DOCUMENTS / &quot;latex&quot; / &quot;informe_ordenado.pdf&quot;]
+        for index, target in enumerate(targets):
+            if target.exists():
+                shutil.copy2(target, backup / f&quot;{kind}_{index}_{target.name}&quot;)
+            shutil.copy2(info[&quot;file&quot;], target)
+    return str(backup)
+
+
+def main(default=&quot;ambos&quot;):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(&quot;--tipo&quot;, choices=(&quot;html&quot;, &quot;pdf&quot;, &quot;ambos&quot;), default=default)
+    parser.add_argument(&quot;--salida&quot;, type=Path, default=PROJECT / &quot;salida_informes&quot;)
+    parser.add_argument(&quot;--publicar&quot;, action=&quot;store_true&quot;, help=&quot;Actualizar también las copias principales.&quot;)
+    args = parser.parse_args()
+    manifest = validate_sources()
+    results = {}
+    if args.tipo in (&quot;html&quot;, &quot;ambos&quot;):
+        results[&quot;html&quot;] = build_html(args.salida)
+    if args.tipo in (&quot;pdf&quot;, &quot;ambos&quot;):
+        results[&quot;pdf&quot;] = build_pdf(args.salida, manifest)
+    if args.publicar:
+        backup = publish(results)
+        print(f&quot;Copias principales actualizadas. Respaldo: {backup}&quot;)
+    args.salida.mkdir(parents=True, exist_ok=True)
+    (args.salida / &quot;verificacion_generacion.json&quot;).write_text(
+        json.dumps(results, ensure_ascii=False, indent=2), encoding=&quot;utf-8&quot;)
+    print(json.dumps(results, ensure_ascii=False, indent=2))
+
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</pre></details></section><section><h2>scripts/ejecutar_informes.py</h2><p>SHA256: 62f4df1153d66b177cc8c05f1b80a82666ea427d67c8e1f02c3fba046fa78351</p><details><summary>Ver código</summary><pre>&quot;&quot;&quot;Genera y verifica ambos informes completos.&quot;&quot;&quot;
+from informes_actuales import main
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</pre></details></section><section><h2>requirements_informes.txt</h2><p>SHA256: d113f6a16548a1dca5e9a346fa331ea8edc12f5fdde746b2f1d6520a820c5578</p><details><summary>Ver código</summary><pre>PyMuPDF==1.27.2.3
+</pre></details></section><section><h2>fuentes_informes/manifest.json</h2><p>SHA256: 369fce848d0d9d69a4c19f5b4d10b60dad050571a6f961b9b7e7e86dce181340</p><details><summary>Ver código</summary><pre>{
+  &quot;base_commit&quot;: &quot;34d523e&quot;,
+  &quot;base_pdf_pages&quot;: 480,
+  &quot;published_pdf_pages&quot;: 486,
+  &quot;insert_before_page&quot;: 48,
+  &quot;files&quot;: {
+    &quot;contraste_1_4.html&quot;: {
+      &quot;sha256&quot;: &quot;95d995762bbd84476beb2231e63102f841c66766bec9b6b4cde51486f8e0f46d&quot;,
+      &quot;bytes&quot;: 5586530
+    },
+    &quot;cuatro_casos_pdf.pdf&quot;: {
+      &quot;sha256&quot;: &quot;d077e14e8f00f33056ab45c462c7973827e12fe97a85d9f2ed04098c52091e9d&quot;,
+      &quot;bytes&quot;: 80350
+    },
+    &quot;informe_base.html&quot;: {
+      &quot;sha256&quot;: &quot;9b80d7e068dff53ca87dd4d28cf9385a29c2542ba7a77e8c97d864253b75b92b&quot;,
+      &quot;bytes&quot;: 94439184
+    },
+    &quot;informe_base.pdf&quot;: {
+      &quot;sha256&quot;: &quot;cbbdb7f2e7e9e7c7a9ddb9d32f30a7004df0b6d86f23d148907d30209bbc06fc&quot;,
+      &quot;bytes&quot;: 175397649
+    },
+    &quot;registro_1_4.html&quot;: {
+      &quot;sha256&quot;: &quot;f5ad4c95318e49ece3224d864f86e1e6507060fce9dc97c9fe9bd68a0791fdc0&quot;,
+      &quot;bytes&quot;: 3536
+    },
+    &quot;registro_anomalias_pdf.pdf&quot;: {
+      &quot;sha256&quot;: &quot;f964e7f7e8281462af260f5a03645466429576dd341d955e0347afbac90b0c4b&quot;,
+      &quot;bytes&quot;: 248031
+    }
+  },
+  &quot;scope&quot;: &quot;Reconstruccion de la edicion publicada a partir de fuentes completas; no recalculo de series ni modelos.&quot;
+}</pre></details></section><section><h2>EJECUTAR_INFORMES.md</h2><p>SHA256: 9ee125489a7b3994c74772a373c980827160f3ddc37796a1e1df81e6699b37e8</p><details><summary>Ver código</summary><pre># Ejecutar los informes completos
+
+Las entradas principales, fáciles de localizar, son los dos archivos de la carpeta
+**HIDROLOGÍA 2.0/Códigos python**. Cada uno genera directamente su
+informe; no es necesario recorrer los scripts numerados. La entrada PDF instala
+PyMuPDF automáticamente si falta.
+
+`Codigo_desde_el_inicio.html` es una vista de las fuentes, no un programa Python.
+Las entradas ejecutables están en `scripts/`:
+
+- `ejecutar_informes.py`: reconstruye ambos informes.
+- `generar_informe_interactivo.py`: reconstruye el HTML con todo su contenido y el selector de los cuatro casos.
+- `generar_informe_pdf.py`: reconstruye el PDF publicado completo, de 486 páginas.
+
+Desde esta carpeta, ejecutar:
+
+```powershell
+python -m pip install -r requirements_informes.txt
+python scripts/ejecutar_informes.py
+```
+
+También se puede ejecutar un script por su ruta absoluta desde otra carpeta.
+Las rutas de entrada se resuelven a partir del código, no del directorio de la terminal.
+La salida predeterminada es `salida_informes/`, con HTML, PDF y un JSON de verificación.
+
+Para generar solo un informe:
+
+```powershell
+python scripts/generar_informe_interactivo.py
+python scripts/generar_informe_pdf.py
+```
+
+Para escoger una carpeta de salida o actualizar las copias principales:
+
+```powershell
+python scripts/ejecutar_informes.py --salida &quot;C:\Users\Marcos\Documents\Informes_generados&quot;
+python scripts/ejecutar_informes.py --publicar
+```
+
+Sin `--publicar` no se modifican los informes principales. Con esa opción se guardan
+copias previas en una carpeta temporal y se actualizan las versiones principales.
+Los resultados generados no necesitan subirse como duplicados a GitHub.
+
+## Fuentes y alcance
+
+`fuentes_informes/` contiene el HTML completo de la edición base, su PDF de 480 páginas,
+los dos bloques HTML del control 1.4, cuatro páginas de contraste y dos páginas del
+registro de anomalías. El manifiesto identifica la edición y las huellas SHA-256.
+Estas fuentes son necesarias: no son los respaldos temporales excluidos anteriormente.
+
+Al descargar o clonar el repositorio, ejecutar `git lfs pull` para obtener el PDF base
+completo. Un archivo de texto de Git LFS no es un PDF; el programa lo detecta por su huella.
+
+Este código **reconstruye la edición publicada**, conservando los análisis y las
+interpretaciones recibidas. **No recalcula todo el estudio desde observaciones brutas**.
+Los scripts históricos incluyen los análisis científicos, requieren otras dependencias,
+datos y, en algunos casos, servicios externos. Ejecutarlos todos en orden numérico
+puede sustituir secciones por versiones anteriores. Los scripts 84 y 85 son históricos;
+la entrada 86 ahora remite al generador portable.
+
+Se verifica la integridad de las fuentes, la conservación del HTML original, los cuatro
+casos del selector, la portada y el texto científico de las 478 páginas originales
+posteriores al índice, además de la paginación final y los marcadores del PDF.
+
+El visor de los cuatro casos incluye Plotly. Otras secciones originales del informe
+pueden requerir sus bibliotecas o recursos externos; conservar el contenido no implica
+que todos los servicios externos estén disponibles sin conexión.
+
+Para renovar las vistas de código:
+
+```powershell
+python scripts/24_actualizar_codigo_completo.py
+python scripts/documentar_codigo_pdf.py
+```
+</pre></details></section></html>

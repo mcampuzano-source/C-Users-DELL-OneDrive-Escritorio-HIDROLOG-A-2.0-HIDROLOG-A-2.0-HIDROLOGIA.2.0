@@ -1,5 +1,19 @@
 # Informes de Hidrología
 
+<!-- GENERADORES_PORTABLES_INICIO -->
+La reconstruccion ejecutable de la edicion actual se documenta en
+`HIDROLOGÍA 2.0/seleccion_cuenca/EJECUTAR_INFORMES.md`.
+Ejecutar `scripts/ejecutar_informes.py` desde seleccion_cuenca para generar ambos
+informes; `generar_informe_interactivo.py` y `generar_informe_pdf.py` permiten
+hacerlo por separado. Las fuentes verificadas estan en `fuentes_informes/`.
+Este flujo reproduce la edicion publicada de 486 paginas, sin recalcular los
+analisis cientificos ni depender de rutas temporales. La opcion `--publicar`
+actualiza las copias principales; la ejecucion predeterminada crea resultados
+separados en `salida_informes/`. Los pasos numerados siguientes describen
+etapas anteriores y no deben ejecutarse todos para actualizar la edicion final.
+<!-- GENERADORES_PORTABLES_FIN -->
+
+
 La versión integrada actual es `Informe_Hidrologia_actualizado_1_5.pdf`.
 Conserva la portada, los puntos 1–3 y el apartado 5.1 e incorpora las cuatro
 páginas del punto 4 del commit `d367474dba5fbb1cc9f4ed2906076bbcb2558512`.

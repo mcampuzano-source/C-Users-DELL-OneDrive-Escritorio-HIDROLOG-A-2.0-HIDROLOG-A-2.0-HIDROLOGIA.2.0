@@ -1,0 +1,33 @@
+{
+  "base_commit": "34d523e",
+  "base_pdf_pages": 480,
+  "published_pdf_pages": 486,
+  "insert_before_page": 48,
+  "files": {
+    "contraste_1_4.html": {
+      "sha256": "95d995762bbd84476beb2231e63102f841c66766bec9b6b4cde51486f8e0f46d",
+      "bytes": 5586530
+    },
+    "cuatro_casos_pdf.pdf": {
+      "sha256": "d077e14e8f00f33056ab45c462c7973827e12fe97a85d9f2ed04098c52091e9d",
+      "bytes": 80350
+    },
+    "informe_base.html": {
+      "sha256": "9b80d7e068dff53ca87dd4d28cf9385a29c2542ba7a77e8c97d864253b75b92b",
+      "bytes": 94439184
+    },
+    "informe_base.pdf": {
+      "sha256": "cbbdb7f2e7e9e7c7a9ddb9d32f30a7004df0b6d86f23d148907d30209bbc06fc",
+      "bytes": 175397649
+    },
+    "registro_1_4.html": {
+      "sha256": "f5ad4c95318e49ece3224d864f86e1e6507060fce9dc97c9fe9bd68a0791fdc0",
+      "bytes": 3536
+    },
+    "registro_anomalias_pdf.pdf": {
+      "sha256": "f964e7f7e8281462af260f5a03645466429576dd341d955e0347afbac90b0c4b",
+      "bytes": 248031
+    }
+  },
+  "scope": "Reconstruccion de la edicion publicada a partir de fuentes completas; no recalculo de series ni modelos."
+}

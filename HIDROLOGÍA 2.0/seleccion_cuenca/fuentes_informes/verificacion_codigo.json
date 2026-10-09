@@ -1,0 +1,20 @@
+{
+  "html_identico_al_publicado": true,
+  "pdf_paginas": 486,
+  "texto_comparado_paginas": 486,
+  "paginas_render_identico": [
+    1,
+    48,
+    50,
+    52,
+    53,
+    236,
+    486
+  ],
+  "marcadores_identicos": true,
+  "ejecucion_fuera_del_repositorio": true,
+  "fuentes_temporales_necesarias": false,
+  "pdf_ejecutado_individualmente": true,
+  "pdf_ejecucion_repetida": true,
+  "fuente_alterada_rechazada": true
+}
