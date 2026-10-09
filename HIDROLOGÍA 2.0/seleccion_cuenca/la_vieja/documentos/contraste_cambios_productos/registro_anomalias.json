@@ -1,0 +1,67 @@
+{
+  "columnas": [
+    "Hallazgo / periodo",
+    "Comprobacion realizada",
+    "Resultado",
+    "Decision",
+    "Efecto y estado"
+  ],
+  "filas": [
+    [
+      "Meses incompletos de P y Q (19 meses)",
+      "Conteo de dias validos frente al calendario; retencion con 100 % de completitud.",
+      "Cobertura insuficiente para agregados mensuales completos.",
+      "Excluir agregados incompletos; sin imputacion.",
+      "Reduce la muestra y evita sumas parciales. Tratamiento aplicado."
+    ],
+    [
+      "Extremos: noviembre 2010 y octubre 2022",
+      "Contraste cronologico de precipitaciones, Q y meses adyacentes.",
+      "Coherencia entre variables; episodios plausibles.",
+      "Retener observaciones.",
+      "Influyen en media, dispersion y modelos. La coherencia no certifica exactitud."
+    ],
+    [
+      "Discrepancia CHIRPS: marzo 2015",
+      "Comparacion con IMERG, Q y meses vecinos.",
+      "Pico sin incremento comparable en las otras series.",
+      "Retener y marcar para revision.",
+      "Incertidumbre en extremos y comparacion de fuentes; causa pendiente."
+    ],
+    [
+      "Q constante: 16-26 julio 2004",
+      "Deteccion de 11 dias consecutivos con 28,6 m3/s; busqueda de metadatos.",
+      "No se distingue entre estabilidad real, redondeo y procesamiento.",
+      "Retener, sin correccion numerica.",
+      "Limita la interpretacion diaria; contribuye al promedio mensual. Causa incierta."
+    ],
+    [
+      "IMERG: agosto 2001",
+      "Metadatos del cambio orbital de TRMM; diferencia IMERG-CHIRPS ajustada por mes calendario, tendencia y cambio de nivel; ventanas de dos y tres anos.",
+      "Senal debil y dependiente de la ventana.",
+      "Retener y documentar el antecedente.",
+      "No se atribuye el salto al cambio orbital; homogeneidad temporal incierta."
+    ],
+    [
+      "IMERG: junio 2014",
+      "Metadatos de la transicion TRMM-GPM y el mismo contraste temporal entre precipitaciones.",
+      "Sin cambio persistente claro en la diferencia entre fuentes.",
+      "Retener y documentar el antecedente.",
+      "No se confirma un efecto de la transicion; tampoco se descarta uno pequeno."
+    ],
+    [
+      "ERA5-Land: enero 2020",
+      "Metadatos del cambio de interpolacion; contraste con temperatura aproximada CAMELS en ventanas de dos y tres anos.",
+      "Cambio estimado de la diferencia: -0,28 a -0,16 grados C. Referencia aproximada y de origen compartido.",
+      "Retener y senalar limitaciones.",
+      "Discrepancia exploratoria; no se demuestra que la interpolacion la cause."
+    ],
+    [
+      "CHIRPS: septiembre-octubre 2022",
+      "Listas de estaciones disponibles y diferencias frente a IMERG.",
+      "Cambio en datos de entrada; diferencia temporal; solo tres meses de seguimiento desde octubre.",
+      "Retener y documentar; no clasificar como cambio de version.",
+      "Periodo insuficiente para evaluar una ruptura persistente; efecto no confirmado."
+    ]
+  ]
+}

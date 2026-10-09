@@ -3,10 +3,10 @@
 La versión integrada actual es `Informe_Hidrologia_actualizado_1_5.pdf`.
 Conserva la portada, los puntos 1–3 y el apartado 5.1 e incorpora las cuatro
 páginas del punto 4 del commit `d367474dba5fbb1cc9f4ed2906076bbcb2558512`.
-Tiene 215 páginas e incorpora el apartado 5.2 y sus 24 láminas (288 mapas),
+Tiene 486 páginas e incorpora el apartado 5.2 y sus 24 láminas (288 mapas),
 y el apartado 5.3 con retiro de tendencias, persistencia anual AR(1), FDR BY
 global, subperiodos, exclusión de años y 48 láminas de diagnóstico.
-El 5.3 empieza en la página 150 del archivo. El 5.4 comienza en la página 205,
+El 5.3 empieza en la página 170 del archivo. El 5.4 comienza en la página 225,
 con interpretación física, contraste mensual con Niño 3.4 de NOAA PSL,
 integración con Fourier, bibliografía regional y síntesis de los cinco puntos.
 La inferencia estadística del 5.3 es aproximada y condicionada
@@ -80,6 +80,12 @@ cinco tablas de doce meses con n, media, mediana, desviación estándar,
 cuartiles y percentiles 10–90; ciclos con bandas interanuales y mapas año–mes.
 Sus medias coinciden con las del apartado 5.4. Los incisos 1.5.b y 1.5.c
 permanecen pendientes de desarrollo. El nuevo apartado empieza en la
-página 48 del archivo y el punto 2 en la 57. Fuentes y verificaciones están
+página 54 del archivo; consultar el indice actualizado para el punto 2. Fuentes y verificaciones están
 en `documentos/apartado_1_5/`; el script 80 integra PDF y HTML y el 81 los
 verifica. Este paso debe ejecutarse después de la unificación del formato.
+
+El contraste de cambios documentados en productos se incorpora al punto 1.4: cuatro casos en las paginas fisicas 48-51. El script 84 conserva la base y reproduce la insercion; el visor HTML mantiene un selector de casos.
+
+El registro tecnico de ocho casos del punto 1.4 se presenta en las paginas fisicas 52-53. El script 85 reproduce esta incorporacion.
+
+Sincronizacion 34d523e: se descargaron los PDF completos mediante Git LFS (480 paginas) y se conservaron los seis folios locales del control 1.4. La version combinada tiene 486 paginas, incorpora las interpretaciones individuales recibidas y mantiene los cuatro contrastes y el registro de ocho casos. El script 86 reproduce esta integracion. Las versiones historicas se conservan.
